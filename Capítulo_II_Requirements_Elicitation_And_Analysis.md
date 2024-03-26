@@ -49,3 +49,15 @@ Google Maps se basa en la integración de diferentes servicios y datos para ofre
 </table>
 
 ### 2.1.2 Estrategias y tácticas frente a competidores
+
+**Innovación en Tecnología IoT:** Implementación de funciones basadas en IoT, como por ejemplo un sistema de monitoreo para los encargados
+de los buses en tiempo de real, que pueda alertar a estos sobre el estado del conductor.
+
+**Mejora de la Experiencia del Usuario:** Cada competidor tiene funciones que las demás no, por tanto podríamos
+tomar ventaja e incorporar y mejorar dichas funciones para nuestras aplicación.
+
+**Alianzas con empresas de Transporte Público:** Podemos aliarnos con empresas de transporte público para 
+tener sus rutas siempre actualizadas. 
+
+**Planes de subscripción Premium:** En un principio ofrecemos un modelo freemium con una plan de subscripción que incluya funciones
+avanzadas, como estimación offline de datos pertinetes del bus, información detallada del estado del conductor a través del tiempo, etc.
