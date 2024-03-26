@@ -4,7 +4,7 @@
 
 En esta sección se realiza la identificación y descripción de los principales competidores directos con modelos de negocio basados en productos digitales similares a ChapaTuBus, así como competidores indirectos con ofertas parcialmente similares.
 
-#### 1. Moovit
+**1.Moovit**
 
 **Descripción:**  
 Moovit es una aplicación de movilidad urbana que proporciona información en tiempo real sobre el transporte público, incluyendo rutas, horarios y aforo de buses y trenes. Además, ofrece opciones para planificar viajes y recibir alertas en tiempo real sobre incidencias y cambios en el servicio.
@@ -12,7 +12,7 @@ Moovit es una aplicación de movilidad urbana que proporciona información en ti
 **Modelo de Negocio:**  
 Moovit se basa en la recopilación de datos en tiempo real y la integración con diferentes sistemas de transporte público para ofrecer una experiencia de usuario mejorada y personalizada.
 
-#### 2. TuRuta
+**2. TuRuta**
 
 **Descripción:**  
 TuRuta es una aplicación de transporte público que ofrece información detallada sobre las rutas, horarios y paraderos de buses y trenes. Además, permite a los usuarios planificar sus viajes y recibir actualizaciones en tiempo real sobre el estado del servicio.
@@ -20,7 +20,7 @@ TuRuta es una aplicación de transporte público que ofrece información detalla
 **Modelo de Negocio:**  
 TuRuta se centra en proporcionar información precisa y actualizada sobre el transporte público para mejorar la experiencia de viaje de los usuarios y facilitar la planificación y optimización de sus trayectos diarios.
 
-#### 3. Google Maps
+**3. Google Maps:**
 
 **Descripción:**  
 Google Maps es una plataforma de mapas y navegación que ofrece información detallada sobre rutas, tráfico en tiempo real y opciones de transporte público, incluyendo horarios, paraderos y aforo de buses y trenes.
