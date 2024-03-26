@@ -28,7 +28,6 @@ Google Maps es una plataforma de mapas y navegación que ofrece información det
 **Modelo de Negocio:**  
 Google Maps se basa en la integración de diferentes servicios y datos para ofrecer una solución integral de navegación y movilidad que abarca una amplia variedad de opciones de transporte público y privado.
 
-
 ### 2.1.1 Análisis Competitivo
 
 <table><tr><th colspan="6" valign="top">Competitive Analysis Landscape</th></tr>
@@ -49,3 +48,49 @@ Google Maps se basa en la integración de diferentes servicios y datos para ofre
 </table>
 
 ### 2.1.2 Estrategias y tácticas frente a competidores
+
+## 2.2 Entrevistas
+
+Esta sección se enfoca en la investigación, utilizando los datos recopilados a través de las entrevistas con representantes de los segmentos objetivo como punto de partida.
+
+**Presentación**
+
+Buenos días/tardes/noches, mi nombre es ... estudiantes de la carrera de ingeniería de software en la UPC.
+
+### 2.2.1 Diseño de entrevistas
+
+**Preguntas generales**
+
+- ¿Cuál es su nombre completo?
+- ¿Qué edad tiene?
+- ¿A qué se dedica?
+- ¿Cuál es su estado civil?
+- ¿En qué distrito reside?
+- ¿Qué smartphone posee? ¿Android o IOS?
+
+**Preguntas para los pasajeros habituales de autobús**
+
+- ¿Con qué frecuencia utiliza el transporte público?
+- ¿Cuales son los principales desafíos que enfrenta al usar transporte público en su día a día?
+- ¿Ha utilizado algunas vez una aplicación móvil para ayudarse con la planificación de rutas u obtener información sobre el autobús?
+- ¿Consideras importante tener acceso a información actualizada sobre el estado del tráfico y los cambios en las rutas de autobús en tiempo real?
+- ¿Tener acceso en tiempo real sobre el aforo de los autobuses le ayudaría a planificar sus viajes?
+- ¿Qué otras características apreciaría en una aplicación para que le ayude a elegir o mejorar su experiencia con el transporte público?
+- ¿Estaría dispuesto/a a pagar por una aplicación premium con características adicionales o preferiría una aplicación gratuita con publicidad?
+- ¿Qué opinión tiene sobre la privacidad de sus datos al utilizar una aplicación móvil de este tipo?
+
+**Preguntas para los dueños de empresas de transporte**
+
+- ¿Cuál es el nombre de su empresa de transporte?
+- ¿Cuáles diría que son los mayores desafíos a los que se enfrenta su empresa en la actualidad?
+- ¿Cómo cree que la tecnología podría ayudar a abordar algunos de estos desafíos?
+- ¿Ha implementado previamente IoT en sus autobuses?
+- ¿Qué opinión tiene sobre la idea de implementar tecnología IoT, como sensores para monitorear el aforo de los autobuses, estado del chofer, y ubicacion en su flota de autobuses?
+- ¿Qué beneficios esperaría obtener al implementar dicha tecnología?
+- ¿Tiene alguna preocupación sobre la implementación de la misma en su empresa?
+- ¿Qué cree que serían los mayores beneficios para sus clientes si implementa esta tecnología en sus autobuses?
+- ¿Qué factores consideraría al tomar una decisión sobre la implementación de esta tecnología en su empresa?
+
+### 2.2.2 Registro de entrevistas
+
+### 2.2.3 Análisis de entrevistas
