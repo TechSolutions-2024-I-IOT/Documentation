@@ -67,13 +67,17 @@ El equipo ha decidido nombrar nuestra solución IoT como ChapaTuBus, la cual est
 
 <p align = "justify">Creemos que los pasajeros del transporte público, necesitan acceso a información detallada y precisa sobre los horarios, la disponibilidad de espacio en los buses y los tiempos de espera en los paraderos para mejorar su experiencia de viaje garantizando su seguridad:</p>
 
-	Los usuarios del transporte público valoran la puntualidad y la disponibilidad de información en tiempo real sobre los horarios de llegada de los buses.
-	Existe una demanda por parte de los pasajeros de tener acceso a datos precisos sobre la capacidad de los buses para evitar abordar vehículos llenos.
-	Los conductores de buses están dispuestos a utilizar herramientas de monitoreo para mejorar la seguridad y la eficiencia en sus rutas.
-	Los usuarios están dispuestos a pagar por un servicio premium que les ofrezca características adicionales, como la reserva de asientos o la recepción de alertas de bus lleno.
-	Los usuarios desean una aplicación móvil intuitiva y fácil de usar para acceder a la información del transporte público en Lima.
-	Los usuarios aprecian la transparencia y la comunicación proactiva por parte de las autoridades de transporte en caso de interrupciones del servicio o cambios en las rutas.
-	Existe una necesidad entre los usuarios de información en tiempo real sobre eventos o situaciones que puedan afectar el servicio de transporte, como manifestaciones o accidentes de tráfico.
+	#### 1.2.2.2 Lean UX Assumptions
+
+<p align = "justify">Creemos que los pasajeros del transporte público, necesitan acceso a información detallada y precisa sobre los horarios, la disponibilidad de espacio en los buses y los tiempos de espera en los paraderos para mejorar su experiencia de viaje garantizando su seguridad:</p>
+
+- Los usuarios del transporte público valoran la puntualidad y la disponibilidad de información en tiempo real sobre los horarios de llegada de los buses.
+- Existe una demanda por parte de los pasajeros de tener acceso a datos precisos sobre la capacidad de los buses para evitar abordar vehículos llenos.
+- Los conductores de buses están dispuestos a utilizar herramientas de monitoreo para mejorar la seguridad y la eficiencia en sus rutas.
+- Los usuarios están dispuestos a pagar por un servicio premium que les ofrezca características adicionales, como la reserva de asientos o la recepción de alertas de bus lleno.
+- Los usuarios desean una aplicación móvil intuitiva y fácil de usar para acceder a la información del transporte público en Lima.
+- Los usuarios aprecian la transparencia y la comunicación proactiva por parte de las autoridades de transporte en caso de interrupciones del servicio o cambios en las rutas.
+- Existe una necesidad entre los usuarios de información en tiempo real sobre eventos o situaciones que puedan afectar el servicio de transporte, como manifestaciones o accidentes de tráfico.
 
 Features:
 - Dueños de empresas de transporte:
