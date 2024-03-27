@@ -67,10 +67,6 @@ El equipo ha decidido nombrar nuestra solución IoT como ChapaTuBus, la cual est
 
 <p align = "justify">Creemos que los pasajeros del transporte público, necesitan acceso a información detallada y precisa sobre los horarios, la disponibilidad de espacio en los buses y los tiempos de espera en los paraderos para mejorar su experiencia de viaje garantizando su seguridad:</p>
 
-	#### 1.2.2.2 Lean UX Assumptions
-
-<p align = "justify">Creemos que los pasajeros del transporte público, necesitan acceso a información detallada y precisa sobre los horarios, la disponibilidad de espacio en los buses y los tiempos de espera en los paraderos para mejorar su experiencia de viaje garantizando su seguridad:</p>
-
 - Los usuarios del transporte público valoran la puntualidad y la disponibilidad de información en tiempo real sobre los horarios de llegada de los buses.
 - Existe una demanda por parte de los pasajeros de tener acceso a datos precisos sobre la capacidad de los buses para evitar abordar vehículos llenos.
 - Los conductores de buses están dispuestos a utilizar herramientas de monitoreo para mejorar la seguridad y la eficiencia en sus rutas.
