@@ -1,3 +1,18 @@
+## 1.1 Startup Profile
+
+### 1.1.1 Descripción de la Startup
+
+<p align="justify">Nuestra startup se llama "TechSolutions", donde estamos comprometidos a mejorar la experiencia de viaje en transporte público a través de soluciones tecnológicas innovadoras. Nos enfocamos en optimizar la comodidad de los usuarios y abordar los desafíos actuales del transporte público mediante la aplicación de la tecnología. Creemos en la innovación como motor para crear viajes más placenteros para todos.</p>
+
+<p align="justify">En el núcleo de TechSolutions, contamos con un equipo apasionado y diverso de habilidades dedicados a impulsar la innovación en la movilidad urbana. Trabajamos constantemente para explorar nuevas soluciones que logren que los viajes sean más cómodos y convenientes para todos.</p>
+
+#### Misión
+<p align="justify">En TechSolutions, nuestra misión es impulsar la innovación en la movilidad urbana mediante el desarrollo de soluciones tecnológicas que mejoren la experiencia de viaje en transporte público. Estamos comprometidos a promover la eficiencia, seguridad y comodidad de todos los usuarios.</p>
+
+##### Visión
+<p align="justify">En TechSolutions, aspiramos a liderar la transformación del transporte público hacia un futuro más inteligente y accesible a través de la innovación tecnológica. Visualizamos un escenario donde cada viaje en transporte público sea fluido, seguro y   cómodo para todos los usuarios.</p>
+
+
 
 ## 1.3 Segmentos Objetivos
 
