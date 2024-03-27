@@ -53,7 +53,161 @@ El equipo ha decidido nombrar nuestra solución IoT como ChapaTuBus, la cual est
 
 	<p align = "justify">El problema tiene repercusiones significativas tanto en el ámbito económico como en el social. Según datos recientes de la Encuesta Lima Cómo Vamos 2022, el 64.5% de los limeños se encuentra insatisfecho con el servicio de transporte público, mientras que el 72% considera que es inseguro. Esta insatisfacción se ve reflejada en el tiempo de viaje, donde el 32% de los limeños tarda más de una hora en llegar a su lugar de trabajo. Además, un estudio del Banco Mundial revela que la congestión vehicular en Lima tiene un costo anual de aproximadamente US$ 2.5 mil millones. Este costo se debe principalmente a la pérdida de productividad, el consumo de combustible y el impacto en la salud pública debido a la contaminación del aire. Estas cifras subrayan el impacto negativo que el transporte público tiene en la calidad de vida, la productividad laboral y el medio ambiente de la ciudad.</p>
 
+### 1.2.2 Lean UX Process
 
+#### 1.2.2.1 Lean UX Problem Statement
+
+<p align = "justify">El transporte público en Lima, Perú, enfrenta deficiencias que afectan la calidad de vida de los ciudadanos, incluyendo largos tiempos de espera, congestión en los buses y falta de información sobre rutas y horarios. Además, los conductores trabajan en condiciones precarias, lo que contribuye a una experiencia deficiente para los pasajeros.</p>
+
+<p align = "justify">Hemos identificado un factor crítico que impacta la satisfacción del cliente: la carencia de acceso a información actualizada sobre el transporte público y la insuficiente supervisión del conductor. Esto limita la capacidad de los usuarios para planificar sus viajes y suscita inquietudes sobre la seguridad durante los trayectos.</p>
+
+<p align = "justify">¿Cómo podemos desarrollar sistemas efectivos de monitoreo y comunicación para proporcionar información actualizada y garantizar una supervisión adecuada del conductor, mejorando así la experiencia del transporte público en la ciudad de Lima, promoviendo una mayor satisfacción de los pasajeros?</p>
+
+#### 1.2.2.2 Lean UX Assumptions
+
+<p align = "justify">Creemos que los pasajeros del transporte público, necesitan acceso a información detallada y precisa sobre los horarios, la disponibilidad de espacio en los buses y los tiempos de espera en los paraderos para mejorar su experiencia de viaje garantizando su seguridad:</p>
+
+	Los usuarios del transporte público valoran la puntualidad y la disponibilidad de información en tiempo real sobre los horarios de llegada de los buses.
+	Existe una demanda por parte de los pasajeros de tener acceso a datos precisos sobre la capacidad de los buses para evitar abordar vehículos llenos.
+	Los conductores de buses están dispuestos a utilizar herramientas de monitoreo para mejorar la seguridad y la eficiencia en sus rutas.
+	Los usuarios están dispuestos a pagar por un servicio premium que les ofrezca características adicionales, como la reserva de asientos o la recepción de alertas de bus lleno.
+	Los usuarios desean una aplicación móvil intuitiva y fácil de usar para acceder a la información del transporte público en Lima.
+	Los usuarios aprecian la transparencia y la comunicación proactiva por parte de las autoridades de transporte en caso de interrupciones del servicio o cambios en las rutas.
+	Existe una necesidad entre los usuarios de información en tiempo real sobre eventos o situaciones que puedan afectar el servicio de transporte, como manifestaciones o accidentes de tráfico.
+
+Features:
+- Dueños de empresas de transporte:
+	- Registro y creación de perfiles de empresa de transporte.
+	- Monitoreo de actividad del conductor mediante sensores de pulso y acelerómetro.
+	- Monitoreo de velocidad de los buses para garantizar la seguridad y el cumplimiento de los horarios.
+	- Visualización de horarios de paraderos con mayor afluencia de pasajeros para una mejor planificación de rutas.
+
+- Pasajeros:
+	- Aplicación móvil con inicio de sesión para una experiencia personalizada.
+	- Visualización en tiempo real del tiempo estimado de llegada de los buses a los paraderos.
+	- Indicadores de aforo de los buses basados en sensores de peso para evitar vehículos congestionados.
+	- Función de Guardar Favoritos para destinos frecuentes, como casa o trabajo.
+	- Alertas de bus lleno para ayudar a los pasajeros a evitar buses con capacidad completa.
+	- Funcionalidad de trazar rutas y obtener direcciones para llegar a destinos específicos.
+	- Visualización de paraderos oficiales en un mapa interactivo para facilitar la navegación.
+	- Listado de líneas de transporte con información detallada sobre rutas y horarios.
+
+#### 1.2.2.3 Lean UX Hypothesis Statements
+
+- Hypothesis \#1
+
+	**Creemos** que si proporcionamos información en tiempo real sobre los horarios de llegada de los buses, los usuarios del transporte público en Lima podrán planificar sus viajes de manera más eficiente y estarán más satisfechos con el servicio.
+   **Sabremos** que estamos en lo correcto
+   **Cuando** observemos una disminución en las quejas sobre retrasos y tiempos de espera prolongados. 
+
+- Hypothesis \#2
+
+	**Creemos** que al ofrecer datos precisos sobre la capacidad de los buses, los pasajeros podrán evitar abordar vehículos llenos, lo que mejorará su experiencia de viaje y aumentará su satisfacción.
+   **Sabremos** que estamos en lo correcto
+   **Cuando** notemos una disminución en el número de usuarios que reportan buses congestionados y una mayor utilización de la funcionalidad de visualización de capacidad de los buses en la aplicación.
+
+- Hypothesis \#3
+
+	**Creemos** que si implementamos herramientas de monitoreo para los conductores de buses, podremos mejorar la seguridad y la eficiencia en las rutas de transporte público. 
+   **Sabremos** que estamos en lo correcto
+   **Cuando** observemos una reducción en los incidentes de seguridad reportados y un aumento en la puntualidad de los buses.
+
+- Hypothesis \#4 
+
+	**Creemos** que al ofrecer un servicio premium con características adicionales, como la reserva de asientos y alertas de bus lleno, podremos satisfacer las necesidades de los usuarios dispuestos a pagar por una experiencia mejorada.
+   **Sabremos** que estamos en lo correcto
+   **Cuando** observemos un aumento en el número de usuarios que optan por suscribirse al servicio premium y un aumento en los ingresos generados por estas suscripciones.
+
+- Hypothesis \#5
+
+	**Creemos** que si desarrollamos una aplicación móvil intuitiva y fácil de usar para acceder a la información del transporte público en Lima, podremos mejorar la experiencia del usuario y aumentar la adopción de la aplicación.
+   **Sabremos** que estamos en lo correcto
+   **Cuando** observemos un aumento en el número de descargas de la aplicación y una mayor retención de usuarios a largo plazo.
+
+#### 1.2.2.4 Lean UX Canvas
+
+<table border="2">
+  <tr>
+    <td>
+        <p style = "font-weight: bold">Business Problem:</p>
+        <p>¿Cómo podemos desarrollar sistemas efectivos de monitoreo y comunicación para proporcionar información actualizada y garantizar una supervisión adecuada del conductor, mejorando así la experiencia del transporte público en la ciudad de Lima, promoviendo una mayor satisfacción de los pasajeros?</p>
+    </td>
+    <td rowspan = 2>
+        <p style = "font-weight: bold">Solution Ideas</p>
+        <ul>
+            <li>Desarrollar una aplicación móvil y una plataforma web que brinde información en tiempo real sobre horarios de llegada de buses, capacidad de los vehículos y ubicación de paraderos.</li>
+            <li>Implementar herramientas de monitoreo para conductores de buses para mejorar la seguridad y la eficiencia en las rutas.</li>
+            <li>Ofrecer un servicio premium con características adicionales, como alertas de bus lleno.</li>
+        </ul>
+    </td>
+    <td>
+        <p style = "font-weight: bold">Business Outcomes</p>
+        <ul>
+            <li>Mejorar la experiencia del usuario del transporte público.</li>
+            <li>Incrementar la puntualidad y la eficiencia del servicio.</li>
+            <li>Aumentar la satisfacción del cliente y su lealtad hacia el servicio de transporte público.</li>
+            <li>Incrementar los ingresos a través de suscripciones premium y servicios adicionales.</li>
+        </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>
+        <p style = "font-weight: bold">Users & Customers</p>
+        <p style = "font-weight: bold">Pasajeros:</p> <p>Personas que utlizan el transporte público para trasladarse en la ciudad de Lima, incluyendo pasajeros regulares y ocasionales.</p>
+        <p style = "font-weight: bold">Dueños de las empresas de transporte:</p>
+        <p>Individuos o entidades responsables de la gestión y operación de los servicios de transporte público.</p>
+    </td>
+    <td>
+        <p style = "font-weight: bold">User Benefits</p>
+        <ul>
+            <li>Acceso a información en tiempo real sobre horarios y disponibilidad de buses.</li>
+            <li>Mejora en la seguridad y la eficiencia del viaje.</li>
+            <li>Opciones de pago flexibles y seguras.</li>
+            <li>Experiencia de usuario intuitiva y fácil de usar.</li>
+        </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>
+        <p style = "font-weight: bold">Hypothesis</p>
+        <p>Creemos que si proporcionamos información en             tiempo real sobre los horarios de llegada de             los buses, los usuarios del transporte público            en Lima podrán planificar sus viajes de manera            más eficiente y estarán más satisfechos con el            servicio.
+           Sabremos que estamos en lo correcto
+           Cuando observemos una disminución en las                 quejas sobre retrasos y tiempos de espera                prolongados.</p>
+        <p>Creemos que al ofrecer datos precisos sobre la            capacidad de los buses, los pasajeros podrán             evitar abordar vehículos llenos, lo que                  mejorará su experiencia de viaje y aumentará             su satisfacción.
+           Sabremos que estamos en lo correcto
+           Cuando notemos una disminución en el número de            usuarios que reportan buses congestionados y             una mayor utilización de la funcionalidad de             visualización de capacidad de los buses en la            aplicación.</p>
+        <p>Creemos que si implementamos herramientas de             monitoreo para los conductores de buses,                 podremos mejorar la seguridad y la eficiencia            en las rutas de transporte público. 
+           Sabremos que estamos en lo correcto
+           Cuando observemos una reducción en los                   incidentes de seguridad reportados y un                  aumento en la puntualidad de los buses.</p>
+        <p>Creemos que al ofrecer un servicio premium con            características adicionales, como la reserva             de asientos y alertas de bus lleno, podremos             satisfacer las necesidades de los usuarios               dispuestos a pagar por una experiencia                   mejorada.
+           Sabremos que estamos en lo correcto
+           Cuando observemos un aumento en el número de             usuarios que optan por suscribirse al servicio            premium y un aumento en los ingresos generados            por estas suscripciones.</p>
+        <p>Creemos que si desarrollamos una aplicación              móvil intuitiva y fácil de usar para acceder a            la información del transporte público en Lima,            podremos mejorar la experiencia del usuario y            aumentar la adopción de la aplicación.
+           Sabremos que estamos en lo correcto
+           Cuando observemos un aumento en el número de             descargas de la aplicación y una mayor                   retención de usuarios a largo plazo.</p>
+    </td>
+    <td>
+        <p style = "font-weight: bold">What's the most important thing we need to learn first?</p>
+        <lu>
+            <li>La aceptación del mercado hacia la nueva aplicación móvil para el transporte público.</li>
+            <li>Las principales necesidades y preferencias de los usuarios del transporte público en Lima.</li>
+            <li>La disposición de los conductores de buses para adoptar nuevas herramientas de monitoreo y mejorar la seguridad en las rutas.</li>
+            <li>La viabilidad de implementar un servicio premium y la disposición de los usuarios a pagar por características adicionales.</li>
+            <li>La eficacia de la aplicación móvil en mejorar la experiencia general del usuario del transporte público.</li>
+        </lu>
+    </td>
+    <td>
+        <p style = "font-weight: bold">What's the least amount of work we need to do to Learn the most important thing?</p>
+        <lu>
+            <li>Realizar encuestas rápidas a usuarios del transporte público para evaluar su disposición a utilizar una nueva aplicación móvil.</li>
+            <li>Organizar grupos focales con conductores de buses para discutir la implementación de herramientas de monitoreo y sus posibles preocupaciones.</li>
+            <li>Lanzar una versión piloto de la aplicación móvil con funcionalidades básicas para recopilar comentarios de los usuarios sobre su utilidad y usabilidad.</li>
+            <li>Realizar análisis de mercado para identificar la demanda potencial de un servicio premium y evaluar la disposición de los usuarios a pagar por características adicionales.</li>
+            <li>Observar el comportamiento de los usuarios del transporte público en cuanto a su interacción con las aplicaciones móviles existentes y analizar las áreas de mejora identificadas.</li>
+        </lu>
+    </td>
+  </tr>
+</table>
 
 ## 1.3 Segmentos Objetivos
 
