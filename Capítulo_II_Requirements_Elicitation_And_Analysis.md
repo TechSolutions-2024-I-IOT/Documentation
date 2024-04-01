@@ -108,7 +108,7 @@ Esta sección se enfoca en la investigación, utilizando los datos recopilados a
 - Edad: **45**
 - Distrito: **Jesús María**
 
-Imagen
+![Entrevista con dueño Juan](https://i.ibb.co/D99Y5y9/ENTREVISTA.png)
 
 - Enlace del video:
 - Timing:
