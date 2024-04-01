@@ -177,9 +177,9 @@ Yosef, un estudiante de ingeniería de software, compartió su experiencia diari
 **Entrevista N°6**
 
 - Segmento objetivo: **Pasajero**
-- Nombres y apellidos: Renzo Casafranca Carrascal
-- Edad: 22
-- Distrito: San Martin de Porres
+- Nombres y apellidos: **Renzo Casafranca Carrascal**
+- Edad: **22**
+- Distrito: **San Martin de Porres**
 
 Imagen
 
