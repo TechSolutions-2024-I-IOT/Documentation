@@ -211,3 +211,17 @@ Renzo Casafranca Carrascal, un estudiante de 22 años de edad, residente del dis
 ![Empresa de transporte público As-Is Scenario Mapping](https://raw.githubusercontent.com/TechSolutions-2024-I-IOT/upc-pre-202401-si572-WS71-techsolutions-report/feature/chapter-II/Resources/images/As-Is%20scenario%20empresas.jpg)
 
 ## 2.4 Ubiquitous Language
+
+
+**Dominio:** Transporte público
+
+**Términos:**
+
+- **ChapaTuBus:** Solución IoT para mejorar la experiencia del usuario en el transporte público.
+- **Sensor de aforo:** Dispositivo que detecta la cantidad de personas que hay dentro del bus en tiempo real.
+- **Tiempo de circulación:** Tiempo que tarda el bus en completar su recorrido.
+- **Tiempo de espera:** Tiempo que los pasajeros esperan en el paradero hasta que llega el bus.
+- **Aplicación móvil:** Aplicación que los pasajeros pueden usar para acceder a la información de ChapaTuBus.
+- **Pulsera inteligente:** Dispositivo que el conductor usa para monitorizar su estado de fatiga y estrés.
+- **Alerta de bus lleno:** Notificación que se envía a los pasajeros cuando un bus está a punto de llegar y ya no tiene capacidad para más personas.
+- **Ruta:** Camino que sigue el bus para llegar a su destino.
