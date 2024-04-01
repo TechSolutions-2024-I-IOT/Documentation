@@ -177,15 +177,17 @@ Yosef, un estudiante de ingeniería de software, compartió su experiencia diari
 **Entrevista N°6**
 
 - Segmento objetivo: **Pasajero**
-- Nombres y apellidos:
-- Edad:
-- Distrito:
+- Nombres y apellidos: Renzo Casafranca Carrascal
+- Edad: 22
+- Distrito: San Martin de Porres
 
 Imagen
 
 - Enlace del video:
-- Timing:
+- Timing: 
 - Resumen:
+
+Renzo Casafranca Carrascal, un estudiante de 22 años de edad, residente del distrito de San Martin de Porres en Lima, enfrenta diariamente los desafíos del transporte público mientras se dirige a su universidad para asistir a clases de Administración de Empresas en la Universidad Nacional Mayor de San Marcos. Como muchos otros usuarios, Renzo se encuentra frustrado por la falta de puntualidad y la imprevisibilidad en los horarios de llegada de los autobuses, lo que a menudo resulta en largas esperas en los paraderos. Aunque ha recurrido a aplicaciones móviles para ayudarse con la planificación de rutas, encuentra que la información proporcionada a veces es imprecisa o desactualizada, lo que dificulta aún más su viaje. Renzo considera que tener acceso en tiempo real a información sobre el tráfico, los cambios en las rutas de autobús y el aforo de los vehículos sería crucial para mejorar su experiencia de viaje y evitar aglomeraciones innecesarias. Además, valoraría características adicionales en una aplicación, como la visualización del recorrido completo de las rutas y la disponibilidad de opciones alternativas en caso de interrupciones en el servicio. A pesar de estar dispuesto a pagar por una aplicación premium que ofrezca estas características, Renzo enfatiza la importancia de que la privacidad de sus datos sea respetada.
 
 ### 2.2.3 Análisis de entrevistas
 
