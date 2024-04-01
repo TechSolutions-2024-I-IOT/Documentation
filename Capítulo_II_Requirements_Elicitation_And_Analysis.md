@@ -203,4 +203,8 @@ Renzo Casafranca Carrascal, un estudiante de 22 años de edad, residente del dis
 
 ### 2.3.5 As-Is Scenario Mapping
 
+#### 2.3.5.1 Pasajeros
+
+![Pasajeros As-Is Scenario Mapping](https://raw.githubusercontent.com/TechSolutions-2024-I-IOT/upc-pre-202401-si572-WS71-techsolutions-report/feature/chapter-II/Resources/images/As-Is%20scenario%20pasajeros.jpg)
+
 ## 2.4 Ubiquitous Language
