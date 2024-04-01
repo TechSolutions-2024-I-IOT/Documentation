@@ -20,7 +20,7 @@
 | <div class="container" style="text-align: center"><img src="" alt="Perfil Axel"></div> | Mi nombre es Axel |
 | <div class="container" style="text-align: center"><img src="URL_imagen3" alt="Perfil Diego"></div> | Mi nombre es Diego |
 | <div class="container" style="text-align: center"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-yQ2y7Y5u8LrnINRn_NY2TOHKrakO3G13Ri8IzNTvbgIcOZ5_d_EqpvdW89EAQRBb9NP1XIxb0tURPXQIMC-TJnfdE3aZHneOCAxCDm3WFrG_-7SAAEh4mYy68tmQx64vVyMXlghi6HeGKIwbPnwXqUhlaWcn0ZsrSxCJkonpqCyGog8oJ8QEKWHH9fs/s320/WhatsApp%20Image%202024-03-25%20at%2021.17.58.jpeg" alt="Perfil Rafael"></div> | Mi nombre es Rafael Primo Estrada y estudio la carrera de Ingeniería de Software, poseo un alto interés por el desarrollo móvil. Mis principales hobbies son los videojuegos y conocer nuevas tecnologías. Además, poseo un alto grado de responsabilidad y compromiso para el trabajo en equipo. |
-| <div class="container" style="text-align: center"><img src="" alt="Perfil Tania"></div> | Mi nombre es Tania |
+| <div class="container" style="text-align: center"><img src="https://i.postimg.cc/kMHTYkCG/Whats-App-Image-2024-01-11-at-3-19-06-PM.jpg" alt="Perfil Tania"></div> |  Mi nombre es Tania Sadith Vásquez Sal y Rosas, elegí la carrera de Ingeniería de Software porque me apasiona todo lo relacionado a los avances tecnológicos y el proceso que existe detrás del desarrollo de un software. Considero que poseo buenas habilidades cognitivas adecuadas para la programación. Soy una persona resiliente, además de comprometida y responsable con los proyectos en los que me involucro. |
 
 
 ## 1.2 Solution Profile
