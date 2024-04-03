@@ -2,7 +2,29 @@
 
 ## 4.1 Strategic-Level Domain-Driven Design
 
+Este apartado describe los enfoques fundamentales que se implementaron en el proceso de Domain Driven Design a nivel estratégico. Dichos enfoques fueron esenciales para establecer una base sólida para la definición y modelado de dominios complejos.
+
 ### 4.1.1 EventStorming
+
+Unstructured Exploration
+
+Pain points
+
+Timelines
+
+Pivotal points
+
+Commands
+
+Policies
+
+Read Models
+
+External Systems
+
+Aggregates
+
+Bounded Contexts
 
 #### 4.1.1.1 Candidate Context Discovery
 
