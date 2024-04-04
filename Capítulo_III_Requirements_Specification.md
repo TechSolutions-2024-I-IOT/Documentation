@@ -95,6 +95,66 @@
         </td>
         <td></td>
     </tr>
+    <tr>
+        <td>US06</td>
+        <td>Redirección de la landing Page a tiendas de aplicaciones</td>
+        <td>Como visitante del segmento pasajero, deseo ser redirigido a la aplicación móvil correspondiente para descargarla en mi dispositivo móvil</td>
+        <td>
+            <b>Scenario 1: Redirección a Google Play</b> <br>
+            <b>Dado</b> que el visitante del segmento pasajero se encuentra en la vista principal de la landing page<br>
+            <b>Cuando</b> el visitante haga click en el botón de acción de Google Play<br>
+            <b>Entonces</b> el visitante será redirigido a la página de descarga de la aplicación en Google Play<br><br>
+            <b>Scenario 2: Redirección a App Store</b> <br>
+            <b>Dado</b> que el visitante del segmento pasajero se encuentra en la vista principal de la landing page<br>
+            <b>Cuando</b> el visitante haga click en el botón de acción de App Store<br>
+            <b>Entonces</b> el visitante será redirigido a la página de descarga de la aplicación en la App Store de iOS
+        </td>
+        <td>
+            <b>Criterios de Aceptación:</b><br>
+            1. El botón de Google Play en la landing page debe ser funcional y redirigir al usuario a la página de descarga de la aplicación en Google Play Store.<br>
+            2. El botón de App Store en la landing page debe ser funcional y redirigir al usuario a la página de descarga de la aplicación en la App Store de iOS.<br>
+            3. La redirección debe ser inmediata y sin errores, proporcionando al usuario una experiencia fluida.<br>
+            4. Los botones de acción deben ser claramente visibles y distinguibles para el usuario.
+        </td>
+    </tr>
+    <tr>
+        <td>US07</td>
+        <td>Redirección de la landing Page a la aplicación web</td>
+        <td>Como visitante del segmento encargado de flota de autobuses, deseo ser redirigido a la aplicación web correspondiente para usarla en mi navegador favorito</td>
+        <td>
+            <b>Scenario: Redirección a la aplicación web de ChapaTuBus</b> <br>
+            <b>Dado</b> que el visitante del segmento encargado de la flota de autobuses se encuentra en la sección de empresa de la landing page<br>
+            <b>Cuando</b> el visitante haga click en el botón de redirección a la aplicación web<br>
+            <b>Entonces</b> el visitante será redirigido a la aplicación web de ChapaTuBus<br><br>
+        </td>
+        <td>
+            <b>Criterios de Aceptación:</b><br>
+            1. El botón de redirección en la sección de empresa de la landing page debe ser funcional y redirigir al usuario a la aplicación web de ChapaTuBus.<br>
+            2. La redirección debe ser inmediata y sin errores, proporcionando al usuario una experiencia fluida.<br>
+            3. El diseño y la estructura de la aplicación web deben ser coherentes con la marca y ofrecer una navegación intuitiva para el usuario.<br>
+            4. El botón de redirección debe ser claramente visible y distinguible para el usuario, utilizando un diseño que invite a hacer clic.
+        </td>
+    </tr>
+    <tr>
+        <td>US08</td>
+        <td>Envío de mensaje a través de un formulario de contacto</td>
+        <td>Como visitante del segmento pasajero, deseo enviar un mensaje a los desarrolladores para enviar sugerencias, quejas u mensajes con otro motivo que yo desee</td>
+        <td>
+            <b>Scenario: Envío del formulario exitoso</b> <br>
+            <b>Dado</b> que el visitante del segmento pasajero se encuentra en la sección de contacto de la landing page<br>
+            <b>Y</b> el visitante llena el formulario de contacto con la información solicitada<br>
+            <b>Cuando</b> el visitante haga click en el botón de envío de formulario<br>
+            <b>Entonces</b> la información será enviada al correo electrónico de ChapaTuBus<br><br>
+        </td>
+        <td>
+            <b>Criterios de Aceptación:</b><br>
+            1. El formulario de contacto debe contener campos claros y relevantes para capturar la información necesaria del visitante (nombre, correo electrónico, mensaje, etc.).<br>
+            2. Al enviar el formulario, el sistema debe realizar una validación para asegurarse de que todos los campos requeridos estén completos antes de enviar la información.<br>
+            3. Después de enviar el formulario con éxito, el visitante debe recibir una confirmación visual o mensaje de éxito en la página, indicando que su mensaje ha sido enviado correctamente.<br>
+            4. La información del formulario debe ser enviada de manera segura al correo electrónico de ChapaTuBus, garantizando la privacidad y seguridad de los datos del visitante.<br>
+        </td>
+    </tr>
+
 </table>
 
 ## 3.4 Impact Mapping
