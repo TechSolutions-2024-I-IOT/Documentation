@@ -33,7 +33,22 @@ Ciclo: 2024-1
 | Primo Estrada, Rafael Wimmer             | U202023137 |
 | Vasquez Sal Y Rosas, Tania Sadith        | U20181b530 |
 
+<!-- SECCION: REGISTRO DE VERSIONES
+AQUI VA LA TABLA DE VERSIONES:
+Versión|Fecha|Autor|Descripción de la modificación -->
+
+## Registro de Versiones del Informe
+
+| Versión | Fecha | Autor | Descripción de modificación |
+| ------- | ----- | ----- | --------------------------- |
+|         |       |       |                             |
+
+<!-- SECCION: Project Report Collaboration Insights -->
+
+## Project Report Collaboration Insights
+
 <div align="right"><Abril 2024></div>
+
 <p align="right">
-(<a href="https://github.com/TechSolutions-2024-I-IOT/upc-pre-202401-si572-WS71-techsolutions-report/blob/develop/%C3%8Dndice.md"> Índice</a>)
+(<a href="./Tabla_de_contenidos.md"> Tabla de contenidos</a>)
 </p>
