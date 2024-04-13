@@ -2,29 +2,73 @@
 
 ## 4.1 Strategic-Level Domain-Driven Design
 
-Este apartado describe los enfoques fundamentales que se implementaron en el proceso de Domain Driven Design a nivel estratégico. Dichos enfoques fueron esenciales para establecer una base sólida para la definición y modelado de dominios complejos.
+Este apartado se describe los enfoques fundamentales que se implementaron en el proceso de Domain Driven Design a nivel estratégico.
 
 ### 4.1.1 EventStorming
 
-Unstructured Exploration
+Se abordó un enfoque colaborativo y visual que permitió modelar el contexto del dominio. Se exploraron las etapas de Candidate Context Discovery, Domain Message Flows Modeling y la creación de Bounded Context Canvases.
 
-Pain points
+**Unstructured Exploration**
 
-Timelines
+<div align="center">
+    <img src="../Resources/event-storming/unstructured_exploration.jpg">
+</div>
 
-Pivotal points
+**Timelines**
 
-Commands
+<div align="center">
+    <img src="../Resources/event-storming/timeline.jpg">
+</div>
 
-Policies
+**Pain points**
 
-Read Models
+<div align="center">
+    <img src="../Resources/event-storming/pain_points.jpg">
+</div>
 
-External Systems
+**Pivotal points**
 
-Aggregates
+<div align="center">
+    <img src="../Resources/event-storming/pivotal_points.jpg">
+</div>
 
-Bounded Contexts
+**Commands**
+
+<div align="center">
+    <img src="../Resources/event-storming/Commands.jpg">
+</div>
+
+**Policies**
+
+<div align="center">
+    <img src="../Resources/event-storming/Policies.jpg">
+</div>
+
+**Read Models**
+
+<div align="center">
+    <img src="../Resources/event-storming/Read_models.jpg">
+</div>
+
+**External Systems**
+
+<div align="center">
+    <img src="../Resources/event-storming/External_systems.jpg">
+</div>
+
+**Aggregates**
+
+<div align="center">
+    <img src="../Resources/event-storming/Aggregates.jpg">
+</div>
+
+**Bounded Contexts**
+
+<div align="center">
+    <img src="../Resources/event-storming/Bounded Contexts.jpg">
+</div>
+
+Link de Event Storming: https://miro.com/app/board/uXjVKXmyt8I=/?share_link_id=548064409858
 
 #### 4.1.1.1 Candidate Context Discovery
 
