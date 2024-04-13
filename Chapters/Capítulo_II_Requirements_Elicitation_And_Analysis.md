@@ -491,7 +491,7 @@ Este User Task Matrix identifica y organiza las tareas esenciales que realizan n
     <td>Alta</td>
   </tr>
   <tr>
-    <td>Consultar horario de llegada del bus con facilitadores</td>
+    <td>Estimar el tiempo de llegada del bus en base a su experiencia</td>
     <td>-</td>
     <td>-</td>
     <td>Media</td>
@@ -512,15 +512,30 @@ Este User Task Matrix identifica y organiza las tareas esenciales que realizan n
 
 ### 2.3.3 User Journey Mapping
 
-### 2.3.4 Empathy Mapping
+El administrador de la flota de autobuses se enfrenta a desafíos significativos en la gestión eficiente de la operación. Desde la planificación del itinerario hasta la supervisión en tiempo real, debe garantizar la puntualidad y la seguridad de los pasajeros. Identificar problemas, como retrasos o problemas técnicos, y tomar decisiones rápidas es crucial para mantener la calidad del servicio. A través de herramientas de comunicación efectivas y análisis de datos, el administrador busca optimizar la operación y mejorar la experiencia del pasajero.
+
+Por otro lado, el viajero de transporte público experimenta un viaje marcado por la incertidumbre y la adaptación continua. Desde la planificación del viaje hasta la llegada a su destino, enfrenta desafíos como esperas prolongadas y la gestión de la sobrecarga en los autobuses. Con el apoyo de información en tiempo real y sistemas de abordaje eficientes, el pasajero busca una experiencia más predecible y cómoda en su viaje diario.
 
 **Administrador de flota de buses**
 
-![User Persona Bus Manager](../Resources/maps/Empathy-map_bus_manager.png)
+![Journey Mapping Bus Manager](../Resources/maps/Journey_Map_bus_manager.png)
 
 **Pasajero**
 
-![User Persona Passenger ](../Resources/maps/Empathy-map_passenger.png)
+![Journey Mapping Passenger ](../Resources/maps/Journey_Map_passenger.png)
+
+
+### 2.3.4 Empathy Mapping
+
+En esta sección, se presenta el resumen del proceso de elaboración de los Empathy Maps para cada uno de los User Personas identificados. Estos mapas fueron construidos con el objetivo de proporcionar una visión profunda de los pensamientos, sentimientos, entorno y comportamiento de los dueños de empresas de transporte y de los pasajeros. Los Empathy Maps son el resultado de un análisis detallado de las entrevistas con usuarios y reflejan las perspectivas únicas de cada segmento. 
+
+**Administrador de flota de buses**
+
+![Empathy Mapping Bus Manager](../Resources/maps/Empathy-map_bus_manager.png)
+
+**Pasajero**
+
+![Empathy Mapping Passenger ](../Resources/maps/Empathy-map_passenger.png)
 
 ### 2.3.5 As-Is Scenario Mapping
 
