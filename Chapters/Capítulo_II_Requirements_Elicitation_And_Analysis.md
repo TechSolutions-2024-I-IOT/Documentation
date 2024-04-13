@@ -56,7 +56,7 @@ Google Maps se basa en la integración de diferentes servicios y datos para ofre
       <td>
         <div align="center">
           ChapaTuBus
-          <img style="max-width: 50%; height: auto;" alt="logo de ChapaTuBus">
+          <img style="max-width: 8V0%; height: auto;" alt="logo de ChapaTuBus" src="../Resources/images/chapatubus-logo.png">
         </div>
       </td>
       <td>
@@ -343,8 +343,8 @@ Esta sección se enfoca en la investigación, utilizando los datos recopilados a
 
 ![Entrevista con dueño Juan](https://i.ibb.co/D99Y5y9/ENTREVISTA.png)
 
-- Enlace del video:
-- Timing:
+- Enlace del video: **https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/ETeZ8JWxY7pMoTAAXF6H_DsBKdeZc1_u2YrohdilZ2Obqg?e=G3EseB**
+- Timing: **00:06s-05:45s**
 - Resumen:
 
 Juan Pérez Sánchez, de 45 años y residente en el distrito de Jesús María en Lima, es el encargado de una flota de autobuses en la Empresa de Transporte Consorcio Vía. Casado y usuario de un smartphone Android, enfrenta desafíos como mejorar la eficiencia en las rutas, controlar el aforo de los autobuses y gestionar el mantenimiento adecuado de la flota, además de abordar quejas de pasajeros sobre el servicio. Aunque no tiene experiencia previa con la tecnología IoT, ve su implementación como una oportunidad para optimizar la planificación y gestión de rutas, mejorar el aforo de los vehículos y reducir costos. Sin embargo, tiene preocupaciones sobre el costo inicial de la implementación y la capacitación del personal. Cree que los mayores beneficios para sus clientes incluirían una experiencia de viaje más enriquecedora, información en tiempo real sobre tráfico y ubicación de los autobuses, y datos sobre el rendimiento de los choferes. Al considerar la implementación de esta tecnología, Juan evaluaría el retorno de inversión, la compatibilidad con los sistemas actuales, la facilidad de uso y mantenimiento, así como el impacto en la calidad del servicio y la satisfacción del cliente.
@@ -358,23 +358,28 @@ Juan Pérez Sánchez, de 45 años y residente en el distrito de Jesús María en
 
 <img src="../Resources/interviews/jorge_carrascal.png" alt="Captura de entrevistado">
 
-- Enlace del video:
-- Timing:
-- Resumen: Jorge Antonio Carrascal Casca, de 28 años, reside en Puente Piedra, es subgerente en la empresa de transporte Santa Rosa S.A., tiene actualmente desafíos como optimizar el mantenimiento de la flota de autobuses y la optimización del aforo de los vehículos. Aunque carece de experiencia previa en tecnología IoT, vislumbra su implementación como una oportunidad para mejorar la planificación y gestión de rutas, así como para aprovechar la capacidad de los autobuses y reducir costos operativos.
-  Sin embargo, le preocupa el costo inicial de la implementación y la capacitación requerida para el personal. Además, Jorge teme que la integración de la tecnología pueda afectar la privacidad de los datos de los pasajeros y la seguridad cibernética de la empresa. A pesar de estas inquietudes, reconoce el potencial de la tecnología IoT para ofrecer una experiencia de viaje más enriquecedora y satisfactoria para los clientes. Tambien consideraría la escalabilidad del sistema, la disponibilidad de soporte técnico y la posibilidad de interrupciones en el servicio durante la fase de implementación antes de tomar una decisión.
+- Enlace del video: **https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/ETeZ8JWxY7pMoTAAXF6H_DsBKdeZc1_u2YrohdilZ2Obqg?e=G3EseB**
+- Timing: **05:46s-09:01s**
+- Resumen:
+
+Jorge Antonio Carrascal Casca, de 28 años, reside en Puente Piedra, es subgerente en la empresa de transporte Santa Rosa S.A., tiene actualmente desafíos como optimizar el mantenimiento de la flota de autobuses y la optimización del aforo de los vehículos. Aunque carece de experiencia previa en tecnología IoT, vislumbra su implementación como una oportunidad para mejorar la planificación y gestión de rutas, así como para aprovechar la capacidad de los autobuses y reducir costos operativos.
+Sin embargo, le preocupa el costo inicial de la implementación y la capacitación requerida para el personal. Además, Jorge teme que la integración de la tecnología pueda afectar la privacidad de los datos de los pasajeros y la seguridad cibernética de la empresa. A pesar de estas inquietudes, reconoce el potencial de la tecnología IoT para ofrecer una experiencia de viaje más enriquecedora y satisfactoria para los clientes. Tambien consideraría la escalabilidad del sistema, la disponibilidad de soporte técnico y la posibilidad de interrupciones en el servicio durante la fase de implementación antes de tomar una decisión.
 
 **Entrevista N°3**
 
-- Segmento objetivo: **Administrador de flota de buses**
-- Nombres y apellidos:
-- Edad:
-- Distrito:
+- Segmento objetivo: **Encargado de flota de autobuses**
+- Nombres y apellidos: **Andy Casafranca Carrascal**
+- Edad: **24**
+- Distrito: **San Martin de Porres**
 
-Imagen
 
-- Enlace del video:
-- Timing:
+![Entrevista con Andy Casafranca](https://raw.githubusercontent.com/TechSolutions-2024-I-IOT/upc-pre-202401-si572-WS71-techsolutions-report/feature/2.2.interviews/Resources/interviews/andy-casafranca-interview.png)
+
+- Enlace del video: **https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/ETeZ8JWxY7pMoTAAXF6H_DsBKdeZc1_u2YrohdilZ2Obqg?e=G3EseB**
+- Timing: **09:02s-14:22s**
 - Resumen:
+
+Andy Casafranca Carrascal, de 24 años, reside en San Martin de Porres, es ayudante en la gestión de rutas y control de conductores de la empresa Transportes Rápido Corre Caminos SA y se enfrenta a desafíos como la falta de información en tiempo real sobre sus autobuses y la gestión manual de rutas y conductores. Consideran que la tecnología podría mejorar su situación proporcionando mayor control sobre la flota y automatizando tareas. Aunque no han implementado IoT previamente, ven con buenos ojos la idea de utilizar sensores para monitorear el aforo de los autobuses, el estado del conductor y la ubicación de la flota. Sin embargo, tienen preocupaciones sobre un posible mal uso de la tecnología. Esperan obtener beneficios como mayor satisfacción del cliente y, por ende, un aumento en la frecuencia de uso y las ganancias. Al tomar una decisión sobre la implementación, considerarán factores como costos, tiempo y facilidad de uso.
 
 **Entrevista N°4**
 
@@ -385,8 +390,8 @@ Imagen
 
 ![Entrevista con pasajero Wilver](https://blogger.googleusercontent.com/img/a/AVvXsEh2ohJkeaXKM5lluNJc3NVlcDOkGa5X_VHRvNPaH_hjvLN5DuWSp7OrcqYvEDOIah_fyCHBBtV7nyicBZbASJQt2MlP0d0_b3BsApAWOmfZblO5H3ViOvJrs49xBUIoTcNNcr3C3rssS0H1lQnKloffCrmcvEcuJItFhHz7F-8W8cdhH4JbqetOVV95VzI)
 
-- Enlace del video:
-- Timing:
+- Enlace del video: **https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/ETeZ8JWxY7pMoTAAXF6H_DsBKdeZc1_u2YrohdilZ2Obqg?e=G3EseB**
+- Timing: **14:23s-18:12s**
 - Resumen:
 
 Wilver Arana Ramos, de 23 años y residente en el distrito de Carabayllo en Lima, es un estudiante universitario. Soltero y usuario de un teléfono inteligente Android, enfrenta desafíos a diario en su trayecto de ir desde su casa a la universidad y viceversa. Entre estos desafíos, menciona que cuando tiene que trasladarse en horas punta suele experimentar el tráfico, lo que ocasiona que llegue tarde a sus clases o más tarde de lo previsto a su destino. También menciona que a esa hora suelen aparecer muchos buses llenos, lo que afecta el tiempo de espera para que llegue el siguiente. Además, comenta que a veces sale de su casa, pero como no sabe en cuánto tiempo llegará su bus, termina esperando mucho tiempo en el paradero. Anteriormente, usó una aplicación móvil de rutas que le ayudaba a saber qué bus tomar en cada paradero para llegar a su destino. Lo malo de esta aplicación era que no le avisaba en cuánto tiempo llegaría el bus a ese paradero, si iba lleno y el tiempo aproximado que le mencionaba no era exacto. Considera que le sería útil una aplicación en la que tenga información en tiempo real, ya que le podría ayudar a planificar sus viajes. Podría ver qué zonas hay tráfico, si el bus en el que subirá está lleno o no, si el bus cambiará de ruta para que pueda prever y no le afecte ese cambio, y así llegar a tiempo y cómodo a su destino. Él no estaría dispuesto a pagar una suscripción premium en una aplicación móvil; preferiría tener una aplicación gratuita con publicidad. Opina que es importante la privacidad de datos en una aplicación, ya que la información es privada, y considera que en este tipo de aplicaciones deberían solicitar información básica.
@@ -400,8 +405,8 @@ Wilver Arana Ramos, de 23 años y residente en el distrito de Carabayllo en Lima
 
 ![Entrevista con pasajero](../Resources/interviews/passenger_Yosef_Castillo.png)
 
-- Enlace del video:
-- Timing:
+- Enlace del video: **https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/ETeZ8JWxY7pMoTAAXF6H_DsBKdeZc1_u2YrohdilZ2Obqg?e=G3EseB**
+- Timing: **18:13s-27:43s**
 - Resumen:
 
 Yosef, un estudiante de ingeniería de software, compartió su experiencia diaria con el sistema de transporte público, marcada por los retos del tráfico y la alta ocupación de los buses. Utiliza aplicaciones móviles (TuRuta) principalmente para rutas no habituales, y valora significativamente el acceso a información actual en cuanto a horarios y aforo de los buses, lo que le facilita evitar aglomeraciones.Prefiere las aplicaciones que son gratuitas y funciones como la planificación de rutas y la recepción de notificaciones sobre demoras son cruciales. También muestra interés en una función que le permita guardar sus rutas más usadas. Es evidente su preferencia por una interfaz de usuario intuitiva y fácil de manejar, y subraya la necesidad de que la aplicación sea compatible con el sistema operativo Android, dada la diversidad de dispositivos entre los usuarios.
@@ -409,19 +414,55 @@ Yosef, un estudiante de ingeniería de software, compartió su experiencia diari
 **Entrevista N°6**
 
 - Segmento objetivo: **Pasajero**
-- Nombres y apellidos: **Renzo Casafranca Carrascal**
+- Nombres y apellidos: **Diego Perez Garcia**
 - Edad: **22**
 - Distrito: **San Martin de Porres**
 
-Imagen
+![Entrevista con pasajero](https://raw.githubusercontent.com/TechSolutions-2024-I-IOT/upc-pre-202401-si572-WS71-techsolutions-report/feature/2.2.interviews/Resources/interviews/diego-perez-garcia-interview.png)
 
-- Enlace del video:
-- Timing:
+- Enlace del video: **https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/ETeZ8JWxY7pMoTAAXF6H_DsBKdeZc1_u2YrohdilZ2Obqg?e=G3EseB**
+- Timing: **27:44s-35:54s**
 - Resumen:
 
-Renzo Casafranca Carrascal, un estudiante de 22 años de edad, residente del distrito de San Martin de Porres en Lima, enfrenta diariamente los desafíos del transporte público mientras se dirige a su universidad para asistir a clases de Administración de Empresas en la Universidad Nacional Mayor de San Marcos. Como muchos otros usuarios, Renzo se encuentra frustrado por la falta de puntualidad y la imprevisibilidad en los horarios de llegada de los autobuses, lo que a menudo resulta en largas esperas en los paraderos. Aunque ha recurrido a aplicaciones móviles para ayudarse con la planificación de rutas, encuentra que la información proporcionada a veces es imprecisa o desactualizada, lo que dificulta aún más su viaje. Renzo considera que tener acceso en tiempo real a información sobre el tráfico, los cambios en las rutas de autobús y el aforo de los vehículos sería crucial para mejorar su experiencia de viaje y evitar aglomeraciones innecesarias. Además, valoraría características adicionales en una aplicación, como la visualización del recorrido completo de las rutas y la disponibilidad de opciones alternativas en caso de interrupciones en el servicio. A pesar de estar dispuesto a pagar por una aplicación premium que ofrezca estas características, Renzo enfatiza la importancia de que la privacidad de sus datos sea respetada.
+Diego Perez Garcia, un estudiante de 22 años de edad, residente del distrito de San Martin de Porres en Lima, enfrenta diariamente los desafíos del transporte público mientras se dirige a su universidad para asistir a clases de Administración de Empresas en la Universidad Nacional Mayor de San Marcos. Como muchos otros usuarios, Diego se encuentra frustrado por la falta de puntualidad y la imprevisibilidad en los horarios de llegada de los autobuses, lo que a menudo resulta en largas esperas en los paraderos. Aunque ha recurrido a aplicaciones móviles para ayudarse con la planificación de rutas, encuentra que la información proporcionada a veces es imprecisa o desactualizada, lo que dificulta aún más su viaje. Diego considera que tener acceso en tiempo real a información sobre el tráfico, los cambios en las rutas de autobús y el aforo de los vehículos sería crucial para mejorar su experiencia de viaje y evitar aglomeraciones innecesarias. Además, valoraría características adicionales en una aplicación, como la visualización del recorrido completo de las rutas y la disponibilidad de opciones alternativas en caso de interrupciones en el servicio. A pesar de estar dispuesto a pagar por una aplicación premium que ofrezca estas características, Diego enfatiza la importancia de que la privacidad de sus datos sea respetada.
 
 ### 2.2.3 Análisis de entrevistas
+
+En la sección de análisis se identifica con sustento estadístico todas las características objetivas y subjetivas que representan los aspectos más comunes de cada segmento, para sacar las tendencias de los usuarios.
+
+En la sección de análisis se registra la información de las entrevistas de forma gráfica para sacar las tendencias de los usuarios.
+
+**Segmento Pasajeros:**
+
+- **¿Cuáles son los mayores desafíos que se enfrentan en el transporte público?**
+  El 100% de los entrevistas señalaron que son el tráfico y lo saturado del transporte durante las horas pico, ocasionando experiencias desagradables y retrasos.
+  Y un 66.7% menciono la falta de información sobre la llegada de los autobuses a los paraderos como el mayor problema,
+- **¿Cuáles son los principales motivos para usar una aplicación como la ofrecida?**
+  El 100% de los entrevistados indicaron como motivacion obtener informacion en tiempo real sobre horarios de los buses, el estado del tráfico, tambien si hay asientos disponibles.
+- **¿Cualés son los requisitos para confiar tus datos al utilizar la aplicación?**
+  La privación es una preocupación común entre los usuarios, con el 66.6% expresando un abierto interés en que respeten los protocolos de privacidad de datos.
+
+**Análisis general de las entrevistas al segmento objetivo**
+
+Tras analizar en detalle las entrevistas, se puede observar un consenso general respecto a los desafíos más prominentes que enfrentan al utilizar el transporte público en Lima. Todos los entrevistados coinciden en que el tráfico y la alta ocupación de los autobuses durante las horas pico son los principales obstáculos que impactan negativamente en su experiencia de viaje, generando retrasos y largas esperas en los paraderos. Este grupo demográfico, compuesto por jóvenes universitarios, principalmente solteros y residentes en distintos distritos de Lima, muestra una clara preferencia por el uso de aplicaciones móviles para obtener información en tiempo real sobre horarios de autobuses, con el fin de optimizar sus trayectos y llegar a tiempo a sus destinos. Además, la privacidad de los datos personales es una preocupación compartida entre los entrevistados, resaltando la importancia de garantizar la seguridad y confidencialidad de la información proporcionada por los usuarios. En términos de uso de tecnología, la mayoría de los entrevistados utiliza dispositivos Android y muestra interés en funciones como notificaciones sobre demoras y cambio de itinerarios de autobuses, así como en una interfaz de usuario intuitiva y fácil de manejar.
+
+**Segmento Encargado de la flota de autobuses:**
+
+- **¿Cuáles son los principales desafíos que enfrenta en su rol dentro de la empresa de transporte?**
+  El 100% de los entrevistados identificaron desafíos comunes relacionados con la gestión de la flota de autobuses, el control del aforo de los vehículos y la optimización de las rutas. Además, el 66.7% mencionó desafíos específicos como mejorar la eficiencia en las rutas y abordar quejas de pasajeros sobre el servicio.
+
+- **¿Qué beneficios espera obtener de la implementación de la tecnología IoT en su empresa?**
+  El 100% de los entrevistados expresó expectativas positivas sobre los beneficios potenciales de la implementación de la tecnología IoT, incluyendo una mejora en la planificación y gestión de rutas, la optimización del aforo de los autobuses, la reducción de costos operativos y una experiencia de viaje más enriquecedora para los clientes.
+
+- **¿Cuáles son sus preocupaciones principales respecto a la implementación de la tecnología IoT?**
+  El 66.7% de los entrevistados manifestó preocupaciones sobre el costo inicial de la implementación, la capacitación del personal y la posibilidad de interrupciones en el servicio durante la fase de implementación. Solo el 33.3% mencionó preocupaciones relacionadas con la privacidad de los datos de los pasajeros y la seguridad cibernética de la empresa.
+
+- **¿Qué factores consideraría al evaluar la implementación de la tecnología IoT en su empresa?**
+  Al considerar la implementación de la tecnología IoT, el 100% de los entrevistados mencionó factores como el retorno de inversión, la compatibilidad con los sistemas actuales, la facilidad de uso y mantenimiento, la escalabilidad del sistema y la disponibilidad de soporte técnico. Además, el 66.7% mencionó la posibilidad de interrupciones en el servicio durante la fase de implementación como un factor importante a considerar.
+
+**Análisis general de las entrevistas al segmento objetivo**
+
+Tras examinar en detalle las entrevistas, se puede observar un consenso general en relación en los desafíos comunes de optimizar la eficiencia en las rutas, controlar el aforo de los autobuses y gestionar el mantenimiento adecuado de la flota, así como abordar las quejas de los pasajeros sobre el servicio. Además, muestran una actitud positiva hacia la implementación de la tecnología IoT para mejorar la gestión y planificación de rutas, así como para mejorar la experiencia de los clientes. Sin embargo, existen preocupaciones compartidas respecto al costo inicial de la implementación, la capacitación del personal y la posibilidad de interrupciones en el servicio durante la fase de implementación. Además, algunas preocupaciones incluyen la privacidad y seguridad de los datos de la empresa.
 
 ## 2.3 Needfinding
 
