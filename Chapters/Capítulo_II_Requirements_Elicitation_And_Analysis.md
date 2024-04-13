@@ -56,7 +56,7 @@ Google Maps se basa en la integración de diferentes servicios y datos para ofre
       <td>
         <div align="center">
           ChapaTuBus
-          <img style="max-width: 50%; height: auto;" alt="logo de ChapaTuBus" src="../Resources/images/chapatubus-logo.png">
+          <img style="max-width: 8V0%; height: auto;" alt="logo de ChapaTuBus" src="../Resources/images/chapatubus-logo.png">
         </div>
       </td>
       <td>
@@ -343,7 +343,7 @@ Esta sección se enfoca en la investigación, utilizando los datos recopilados a
 
 ![Entrevista con dueño Juan](https://i.ibb.co/D99Y5y9/ENTREVISTA.png)
 
-- Enlace del video: **https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/ETeZ8JWxY7pMoTAAXF6H_DsBKdeZc1_u2YrohdilZ2Obqg?e=G3EseB** 
+- Enlace del video: **https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/ETeZ8JWxY7pMoTAAXF6H_DsBKdeZc1_u2YrohdilZ2Obqg?e=G3EseB**
 - Timing: **00:06s-05:45s**
 - Resumen:
 
@@ -363,7 +363,7 @@ Juan Pérez Sánchez, de 45 años y residente en el distrito de Jesús María en
 - Resumen:
 
 Jorge Antonio Carrascal Casca, de 28 años, reside en Puente Piedra, es subgerente en la empresa de transporte Santa Rosa S.A., tiene actualmente desafíos como optimizar el mantenimiento de la flota de autobuses y la optimización del aforo de los vehículos. Aunque carece de experiencia previa en tecnología IoT, vislumbra su implementación como una oportunidad para mejorar la planificación y gestión de rutas, así como para aprovechar la capacidad de los autobuses y reducir costos operativos.
-  Sin embargo, le preocupa el costo inicial de la implementación y la capacitación requerida para el personal. Además, Jorge teme que la integración de la tecnología pueda afectar la privacidad de los datos de los pasajeros y la seguridad cibernética de la empresa. A pesar de estas inquietudes, reconoce el potencial de la tecnología IoT para ofrecer una experiencia de viaje más enriquecedora y satisfactoria para los clientes. Tambien consideraría la escalabilidad del sistema, la disponibilidad de soporte técnico y la posibilidad de interrupciones en el servicio durante la fase de implementación antes de tomar una decisión.
+Sin embargo, le preocupa el costo inicial de la implementación y la capacitación requerida para el personal. Además, Jorge teme que la integración de la tecnología pueda afectar la privacidad de los datos de los pasajeros y la seguridad cibernética de la empresa. A pesar de estas inquietudes, reconoce el potencial de la tecnología IoT para ofrecer una experiencia de viaje más enriquecedora y satisfactoria para los clientes. Tambien consideraría la escalabilidad del sistema, la disponibilidad de soporte técnico y la posibilidad de interrupciones en el servicio durante la fase de implementación antes de tomar una decisión.
 
 **Entrevista N°3**
 
@@ -426,6 +426,42 @@ Yosef, un estudiante de ingeniería de software, compartió su experiencia diari
 Diego Perez Garcia, un estudiante de 22 años de edad, residente del distrito de San Martin de Porres en Lima, enfrenta diariamente los desafíos del transporte público mientras se dirige a su universidad para asistir a clases de Administración de Empresas en la Universidad Nacional Mayor de San Marcos. Como muchos otros usuarios, Diego se encuentra frustrado por la falta de puntualidad y la imprevisibilidad en los horarios de llegada de los autobuses, lo que a menudo resulta en largas esperas en los paraderos. Aunque ha recurrido a aplicaciones móviles para ayudarse con la planificación de rutas, encuentra que la información proporcionada a veces es imprecisa o desactualizada, lo que dificulta aún más su viaje. Diego considera que tener acceso en tiempo real a información sobre el tráfico, los cambios en las rutas de autobús y el aforo de los vehículos sería crucial para mejorar su experiencia de viaje y evitar aglomeraciones innecesarias. Además, valoraría características adicionales en una aplicación, como la visualización del recorrido completo de las rutas y la disponibilidad de opciones alternativas en caso de interrupciones en el servicio. A pesar de estar dispuesto a pagar por una aplicación premium que ofrezca estas características, Diego enfatiza la importancia de que la privacidad de sus datos sea respetada.
 
 ### 2.2.3 Análisis de entrevistas
+
+En la sección de análisis se identifica con sustento estadístico todas las características objetivas y subjetivas que representan los aspectos más comunes de cada segmento, para sacar las tendencias de los usuarios.
+
+En la sección de análisis se registra la información de las entrevistas de forma gráfica para sacar las tendencias de los usuarios.
+
+**Segmento Pasajeros:**
+
+- **¿Cuáles son los mayores desafíos que se enfrentan en el transporte público?**
+  El 100% de los entrevistas señalaron que son el tráfico y lo saturado del transporte durante las horas pico, ocasionando experiencias desagradables y retrasos.
+  Y un 66.7% menciono la falta de información sobre la llegada de los autobuses a los paraderos como el mayor problema,
+- **¿Cuáles son los principales motivos para usar una aplicación como la ofrecida?**
+  El 100% de los entrevistados indicaron como motivacion obtener informacion en tiempo real sobre horarios de los buses, el estado del tráfico, tambien si hay asientos disponibles.
+- **¿Cualés son los requisitos para confiar tus datos al utilizar la aplicación?**
+  La privación es una preocupación común entre los usuarios, con el 66.6% expresando un abierto interés en que respeten los protocolos de privacidad de datos.
+
+**Análisis general de las entrevistas al segmento objetivo**
+
+Tras analizar en detalle las entrevistas, se puede observar un consenso general respecto a los desafíos más prominentes que enfrentan al utilizar el transporte público en Lima. Todos los entrevistados coinciden en que el tráfico y la alta ocupación de los autobuses durante las horas pico son los principales obstáculos que impactan negativamente en su experiencia de viaje, generando retrasos y largas esperas en los paraderos. Este grupo demográfico, compuesto por jóvenes universitarios, principalmente solteros y residentes en distintos distritos de Lima, muestra una clara preferencia por el uso de aplicaciones móviles para obtener información en tiempo real sobre horarios de autobuses, con el fin de optimizar sus trayectos y llegar a tiempo a sus destinos. Además, la privacidad de los datos personales es una preocupación compartida entre los entrevistados, resaltando la importancia de garantizar la seguridad y confidencialidad de la información proporcionada por los usuarios. En términos de uso de tecnología, la mayoría de los entrevistados utiliza dispositivos Android y muestra interés en funciones como notificaciones sobre demoras y cambio de itinerarios de autobuses, así como en una interfaz de usuario intuitiva y fácil de manejar.
+
+**Segmento Encargado de la flota de autobuses:**
+
+- **¿Cuáles son los principales desafíos que enfrenta en su rol dentro de la empresa de transporte?**
+  El 100% de los entrevistados identificaron desafíos comunes relacionados con la gestión de la flota de autobuses, el control del aforo de los vehículos y la optimización de las rutas. Además, el 66.7% mencionó desafíos específicos como mejorar la eficiencia en las rutas y abordar quejas de pasajeros sobre el servicio.
+
+- **¿Qué beneficios espera obtener de la implementación de la tecnología IoT en su empresa?**
+  El 100% de los entrevistados expresó expectativas positivas sobre los beneficios potenciales de la implementación de la tecnología IoT, incluyendo una mejora en la planificación y gestión de rutas, la optimización del aforo de los autobuses, la reducción de costos operativos y una experiencia de viaje más enriquecedora para los clientes.
+
+- **¿Cuáles son sus preocupaciones principales respecto a la implementación de la tecnología IoT?**
+  El 66.7% de los entrevistados manifestó preocupaciones sobre el costo inicial de la implementación, la capacitación del personal y la posibilidad de interrupciones en el servicio durante la fase de implementación. Solo el 33.3% mencionó preocupaciones relacionadas con la privacidad de los datos de los pasajeros y la seguridad cibernética de la empresa.
+
+- **¿Qué factores consideraría al evaluar la implementación de la tecnología IoT en su empresa?**
+  Al considerar la implementación de la tecnología IoT, el 100% de los entrevistados mencionó factores como el retorno de inversión, la compatibilidad con los sistemas actuales, la facilidad de uso y mantenimiento, la escalabilidad del sistema y la disponibilidad de soporte técnico. Además, el 66.7% mencionó la posibilidad de interrupciones en el servicio durante la fase de implementación como un factor importante a considerar.
+
+**Análisis general de las entrevistas al segmento objetivo**
+
+Tras examinar en detalle las entrevistas, se puede observar un consenso general en relación en los desafíos comunes de optimizar la eficiencia en las rutas, controlar el aforo de los autobuses y gestionar el mantenimiento adecuado de la flota, así como abordar las quejas de los pasajeros sobre el servicio. Además, muestran una actitud positiva hacia la implementación de la tecnología IoT para mejorar la gestión y planificación de rutas, así como para mejorar la experiencia de los clientes. Sin embargo, existen preocupaciones compartidas respecto al costo inicial de la implementación, la capacitación del personal y la posibilidad de interrupciones en el servicio durante la fase de implementación. Además, algunas preocupaciones incluyen la privacidad y seguridad de los datos de la empresa.
 
 ## 2.3 Needfinding
 
