@@ -228,7 +228,7 @@ Features:
 
     Nuestra solución, ChapaTuBus, se enfocará principalmente hacia 2 segmentos objetivos claramente definidos.
 
-##### Dueños de empresas de transporte público :
+##### Administrador de flota de buses :
 
     Este segmento está compuesto por los propietarios y gestores de empresas de transporte público.
     Generalmente, se encuentran ubicados en áreas de oficinas y son responsables de la administración

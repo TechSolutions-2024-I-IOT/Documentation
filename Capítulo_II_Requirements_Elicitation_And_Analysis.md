@@ -30,254 +30,21 @@ Google Maps se basa en la integración de diferentes servicios y datos para ofre
 
 ### 2.1.1 Análisis Competitivo
 
-<table style="undefined;table-layout: fixed; width: 900px">
-  <colgroup>
-    <col style="width: 74px">
-    <col style="width: 150px">
-    <col style="width: 190px">
-    <col style="width: 190px">
-    <col style="width: 190px">
-    <col style="width: 190px">
-  </colgroup>
-  <thead>
-    <tr>
-      <th colspan="6">Competitive Analysis Landscape</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td colspan="2">¿Por qué llevar a cabo este análisis?</td>
-      <td colspan="4">Escriba en el recuadro la pregunta que busca responder o el objetivo de este análisis</td>
-    </tr>
-    <tr>
-      <td colspan="2"></td>
-        <!-- </tr><tr> -->
-        <!-- <td colspan="2" valign="top">(En la cabecera colocar por cada competidor nombre y logo)</td> -->
-      <td>
-        <div align="center">
-          ChapaTuBus
-          <img style="max-width: 50%; height: auto;" alt="logo de ChapaTuBus">
-        </div>
-      </td>
-      <td>
-        <div align="center">
-          Moovit
-          <img style="max-width: 100%; height: auto;" src="../Resources/images/Moovit_Logo-primary.png" alt="logo de Moovit">
-        </div>
-      </td>
-      <td>
-        <div align="center"> 
-          TuRuta
-          <img style="max-width: 80%; height:auto;" src="../Resources/images/turuta_logo.png" >
-        </div>
-      </td>
-      <td>
-        <div align="center">
-          Google Maps
-          <img style="max-width: 40%; height:auto;" src="../Resources/images/Google_maps_logo.png">
-        </div>
-      </td>
-    </tr>
-    <tr>
-      <td rowspan="2">
-        Perfil
-      </td>
-      <td>
-        Overview
-      </td>
-      <td>
-        Solución basada en tecnología IoT diseñada para mejorar la experiencia de usuario en el transporte público de Lima.
-      </td>
-      <td>
-        Aplicación que ayuda a viajar en el transporte público. Obtienes indicaciones, rutas y líneas
-      </td>
-      <td>
-        Aplicación que cuenta con información del transporte público en Lima.
-      </td>
-      <td>
-        Servicio de mapas en línea desarrollado por Google. Permite a los usuarios buscar ubicaciones, obtener direcciones para llegar a destinos y explorar lugares de interés.
-      </td>
-    </tr>
-    <tr>
-      <td>
-        Ventaja competitiva. ¿Qué valor ofrece a los clientes?
-      </td>
-      <td>
-        Ofrece herramientas avanzadas de monitoreo y gestión para los dueños de empresas de transporte y una experiencia de viaje mejorada para los pasajeros, contribuyendo a un servicio más eficiente, seguro y cómodo para todos los involucrados en el transporte público en Lima y Callao.
-      </td>
-      <td>
-        Incluye tarifas del viaje completo en transporte público, los tickets y costos adicionales. Además, incluye 3 tipos de transporte como: Autobús, Metro Y Ferry
-      </td>
-      <td>
-        Rutas actuales, cuenta con el 99% de información del transporte en Lima. Además, trabaja de la mano con empresas de transporte oficiales.
-      </td>
-      <td>
-        Proporciona una navegación precisa. Información en tiempo real sobre el tráfico, lugares de interés cercanos y una amplia base de datos.
-      </td>
-    </tr>
-    <tr>
-      <td rowspan="2">
-        Perfil de Marketing
-      </td>
-      <td>
-        Mercado Objetivo
-      </td>
-      <td>
-        Dueños o encargados de líneas de transporte público así también como personas comunes que usan el transporte público en Lima.
-      </td>
-      <td>
-        Usuarios que requieren movilidad, agencias y operadores de transporte público y ciudades y municipios.
-      </td>
-      <td>
-        Usuarios de Transporte Público en Lima y usuarios de servicios de taxi.
-      </td>
-      <td>
-        Usuarios que buscan herramientas de navegación, mapas e información en tiempo real.
-      </td>
-    </tr>
-    <tr>
-        <td>
-          Estrategias de marketing
-        </td>
-        <td>
-          Establecer alianzas con empresas nuevas de transporte público u autoridades locales, campañas de sensibilización y educación. Desarrollo de plataforma intuitiva y fácil de usar
-        </td>
-        <td>
-          Promoción de Testimonios positivos, colaboración con partners.
-        </td>
-        <td>
-          Testimonios y casos de éxito, información detallada de la aplicación, disponibilidad en múltiples plataformas, enfoque en solo Lima, alianzas estratégicas.
-        </td>
-        <td>
-          Promoción a través de dispositivos móviles, integración con otros servicios de Google, funcionalidades avanzadas.
-        </td>
-    </tr>
-    <tr>
-      <td rowspan="3">
-        Perfil de Producto
-      </td>
-      <td>
-        Productos & Servicios
-      </td>
-      <td>
-        Aplicación Movil ChapaTuBus, Aplicación Web orientado a dueños o encargados de líneas de transporte público: ChapaTuBus: Data
-      </td>
-      <td>
-        Aplicación Moovit, Moovit ads, Moovit Autonomous OnDemand.
-      </td>
-      <td>
-        Aplicación TuRuta, Información de Transporte Público en Tiempo Real, Servicio de Taxis.
-      </td>
-      <td>
-        Google Maps, Google Maps Platform, Google Street View, Google Earth. Como servicios temenos la información de tráfico en tiempo real
-      </td>
-    </tr>
-    <tr>
-      <td>
-        Precios y Costos
-      </td>
-      <td>
-        Gratis, con planes de subscripción
-      </td>
-      <td>
-        Aplicación principal gratuita, con posibilidades de subscripción premium.
-      </td>
-      <td>
-        Aplicación Gratuita, sin subscripciones de por medio.
-      </td>
-      <td>
-        Aplicación principal de uso gratuito.
-      </td>
-    </tr>
-    <tr>
-      <td>
-        Canales de distribución (Web y/Móvil)      
-      </td>
-      <td>
-        Web, Android/IOs
-      </td>
-      <td>
-        Web, Android y IOs
-      </td>
-      <td>
-        Android y IOS
-      </td>
-      <td>
-        Web,Android,Ios
-      </td>
-    </tr>
-    <tr>
-      <td rowspan="4">
-        Análisis SWOT
-      </td>
-      <td>
-        Fortalezas
-      </td>
-      <td>
-        Solución integral que aborda necesidades de los dueños de empresas de transporte como los pasajeros. Enfoque en el mercado Local de Lima. Uso de tecnología Avanzada e innovada con IoT
-      </td>
-      <td>
-        Amplia cobertura de información del transporte público, conexión en tiempo real con buses a través de GPS, Integración con empresas de taxi como Uber o Cabify
-      </td>
-      <td>
-        Información detallada y en tiempo real del transporte público. Amplia cobertura en el transporte público de la ciudad de Lima. Visualización e identificación de líneas de transporte con imágenes y aplicación gratuita.
-      </td>
-      <td>
-        Amplia cobertura geográfica a nivel mundial, navegación paso a paso detallada para todo tipo de vehículos y transporte a pie. Información en tiempo real del tráfico.
-      </td>
-      </tr>
-      <tr>
-      <td>
-        Debilidades
-      </td>
-      <td>
-        Adopción de la Tecnología por parte de los usuarios, inversión mayor y costos.
-      </td>
-      <td>
-        Dependencia de la información proporcionada por las agencias. Limitaciones en la cobertura geográfica en comparación con otros servicios. Necesidad de ampliar y mejorar las funcionalidades de la aplicación para ofrecer una experiencia de usuario más completa y personalizada. No permite visualizar imágenes del vehículo a tomar.
-      </td>
-      <td>
-        Limitación geográfica, ya que se centra en Lima principalmente, esto puede limitar su alcance a otros usuarios fuera del área. Posibles problemas de precisión y actualización en las rutas sugeridas que da, algunas ya no son posibles. Rutas sugeridas que llevan mas tiempo que otras que no son mencionadas en la aplicación.
-      </td>
-      <td>
-        Dependencia de la conectividad a Internet para acceder a funcionalidades completas e información en tiempo real. Posibles errores o imprecisiones en la información de navegación y tráfico que pueden llevar a tiempos estimados incorrectos.
-      </td>
-      </tr>
-      <tr>
-      <td>
-        Oportunidades
-      </td>
-      <td>
-        Mejora de funcionalidades ya existentes de la competencia o que aún no existen. Mejora de la seguridad frente a un sistema de monitoreo del conductor del vehículo, optimización del servicio dado.
-      </td>
-      <td>
-        Expansión Geográfica, integración con otras plataformas, desarrollo de nuevas funcionalidades, alianzas estratégicas, análisis de datos.
-      </td>
-      <td>
-        Expansión Geográfica, Monetización a través de publicidad y patrocinios, desarrollo de soluciones para empresas de transporte público que incorpore herramientas analíticas
-      </td>
-      <td>
-        Integración de Nuevas tecnologías como Realidad Aumentada, Monetización a través de publicidad, colaboración con empresas y sectores específicos, análisis de datos y tendencias de movilidad.
-      </td>
-      </tr>
-      <tr>
-      <td>
-        Amenazas
-      </td>
-      <td>
-        Ser absorbidos por la competencia que se tiene, cambios regulatorios en las políticas de transporte público en el Perú.
-      </td>
-      <td>
-        Competencia intensa, cambios en las políticas de Transporte Público, cambios en el comportamiento del Usuario, seguridad y privacidad de los datos.
-      </td>
-      <td>
-        Competencia en el Mercado, cambios en políticas de transporte público, desafíos de monetización. Deslinde de las empresas de transporte público.
-      </td>
-      <td>
-        Innovación y desarrollo de tecnologías emergentes, seguridad y privacidad de los datos de las personas. Cambios en preferencias o comportamientos de los usuarios, incluyendo la adopción de nuevas aplicaciones o servicios de navegación
-      </td>
-    </tr>
-  </tbody>
+<table><tr><th colspan="6" valign="top">Competitive Analysis Landscape</th></tr>
+<tr><td colspan="2" rowspan="2" valign="top">¿Por qué llevar a cabo este análisis?</td><td colspan="4" valign="top">Escriba en el recuadro la pregunta que busca responder o el objetivo de este análisis</td></tr>
+<tr><td colspan="4" valign="top"></td></tr>
+<tr><td colspan="2" valign="top">(En la cabecera colocar por cada competidor nombre y logo)</td><td valign="top">ChapaTuBus</td><td valign="top"><p>Moovit</p><p>![Moovit](https://upload.wikimedia.org/wikipedia/commons/e/eb/Moovit_Logo-primary.png)</p></td><td valign="top"><p>TuRuta</p><p>![TuRuta: Una app para transportarse en micro, taxi y más - Voz Actual](https://i0.wp.com/www.vozactual.com/wp-content/uploads/2017/09/unnamed.png?fit=300%2C300&ssl=1) </p></td><td valign="top">Google Maps<br>![GoogleMaps](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Google_Maps_Logo_2020.svg/512px-Google_Maps_Logo_2020.svg.png?20200329030310)</td></tr>
+<tr><td rowspan="2" valign="top">Perfil</td><td valign="top">Overview</td><td valign="top">Solución basada en tecnología IoT diseñada para mejorar la experiencia de usuario en el transporte público de Lima. </td><td valign="top">Aplicación que ayuda a viajar en el transporte público. Obtienes indicaciones, rutas y líneas  </td><td valign="top">Aplicación que cuenta con información del transporte público en Lima. </td><td valign="top">Servicio de mapas en línea desarrollado por Google. Permite a los usuarios buscar ubicaciones, obtener direcciones para llegar a destinos y explorar lugares de interés.</td></tr>
+<tr><td valign="top">Ventaja competitiva. ¿Qué valor ofrece a los clientes?</td><td valign="top">Ofrece herramientas avanzadas de monitoreo y gestión para los dueños de empresas de transporte y una experiencia de viaje mejorada para los pasajeros, contribuyendo a un servicio más eficiente, seguro y cómodo para todos los involucrados en el transporte público en Lima y Callao.</td><td valign="top"><p></p><p>Incluye tarifas del viaje completo en transporte público, los tickets y costos adicionales. Además, incluye 3 tipos de transporte como: Autobús, Metro Y Ferry</p><p></p></td><td valign="top"><p></p><p>Rutas actuales, cuenta con el 99% de información del transporte en Lima. Además, trabaja de la mano con empresas de transporte oficiales.</p></td><td valign="top"><p></p><p>Proporciona una navegación precisa. Información en tiempo real sobre el tráfico, lugares de interés cercanos y una amplia base de datos.</p></td></tr>
+<tr><td rowspan="2" valign="top">Perfil de Marketing</td><td valign="top">Mercado Objetivo</td><td valign="top">Dueños o encargados de líneas de transporte público así también como personas comunes que usan el transporte público en Lima.</td><td valign="top">Usuarios que requieren movilidad, agencias y operadores de transporte público y ciudades y municipios.</td><td valign="top">Usuarios de Transporte Público en Lima y usuarios de servicios de taxi </td><td valign="top">Usuarios que buscan herramientas de navegación, mapas e información en tiempo real.</td></tr>
+<tr><td valign="top">Estrategias de marketing</td><td valign="top">Establecer alianzas con empresas nuevas de transporte público u autoridades locales, campañas de sensibilización y educación. Desarrollo de plataforma intuitiva y fácil de usar</td><td valign="top"><p></p><p>Promoción de Testimonios positivos, colaboración con partners.</p></td><td valign="top"><p>Testimonios y casos de éxito, información detallada de la aplicación, disponibilidad en múltiples plataformas, enfoque en solo Lima, alianzas estratégicas.</p><p></p></td><td valign="top"><br>Promoción a través de dispositivos móviles, integración con otros servicios de Google, funcionalidades avanzadas. </td></tr>
+<tr><td rowspan="3" valign="top">Perfil de Producto</td><td valign="top">Productos y Servicios </td><td valign="top">Aplicación Movil ChapaTuBus, Aplicación Web orientado a dueños o encargados de líneas de transporte público:  ChapaTuBus: Data</td><td valign="top">Aplicación Moovit, Moovit ads, Moovit Autonomous OnDemand.</td><td valign="top">Aplicación TuRuta, Información de Transporte Público en Tiempo Real, Servicio de Taxis.</td><td valign="top">Google Maps, Google Maps Platform, Google Street View, Google Earth. Como servicios temenos la información de tráfico en tiempo real</td></tr>
+<tr><td valign="top">Precios y Costos</td><td valign="top">Gratis, con planes de subscripción</td><td valign="top">Aplicación principal gratuita, con posibilidades de subscripción premium.</td><td valign="top">Aplicación Gratuita, sin subscripciones de por medio</td><td valign="top">Aplicación principal de uso gratuito.</td></tr>
+<tr><td valign="top">Canales de distribución (Web y/Móvil)</td><td valign="top">Web, Android/IOs</td><td valign="top">Web, Android y IOs</td><td valign="top">Android y IOS</td><td valign="top">Web,Android,Ios</td></tr>
+<tr><td rowspan="4" valign="top">Análisis SWOT</td><td valign="top">Fortalezas</td><td valign="top">Solución integral que aborda necesidades de los dueños de empresas de transporte como los pasajeros. Enfoque en el mercado Local de Lima. Uso de tecnología Avanzada e innovada con IoT</td><td valign="top">Amplia cobertura de información del transporte público, conexión en tiempo real con buses a través de GPS, Integración con empresas de taxi como Uber o Cabify</td><td valign="top">Información detallada y en tiempo real del transporte público. Amplia cobertura en el transporte público de la ciudad de Lima. Visualización e identificación de líneas de transporte con imágenes y aplicación gratuita.</td><td valign="top">Amplia cobertura geográfica a nivel mundial, navegación paso a paso detallada para todo tipo de vehículos y transporte a pie. Información en tiempo real del tráfico.</td></tr>
+<tr><td valign="top">Debilidades</td><td valign="top">Adopción de la Tecnología por parte de los usuarios, inversión mayor y costos.</td><td valign="top">Dependencia de la información proporcionada por las agencias. Limitaciones en la cobertura geográfica en comparación con otros servicios. Necesidad de ampliar y mejorar las funcionalidades de la aplicación para ofrecer una experiencia de usuario más completa y personalizada. No permite visualizar imágenes del vehículo a tomar. </td><td valign="top">Limitación geográfica, ya que se centra en Lima principalmente, esto puede limitar su alcance a otros usuarios fuera del área. Posibles problemas de precisión y actualización en las rutas sugeridas que da, algunas ya no son posibles. Rutas sugeridas que llevan mas tiempo que otras que no son mencionadas en la aplicación. </td><td valign="top">Dependencia de la conectividad a Internet para acceder a funcionalidades completas e información en tiempo real. Posibles errores o imprecisiones en la información de navegación y tráfico que pueden llevar a tiempos estimados incorrectos.</td></tr>
+<tr><td valign="top">Oportunidades</td><td valign="top">Mejora de funcionalidades ya existentes de la competencia o que aún no existen. Mejora de la seguridad frente a un sistema de monitoreo del conductor del vehículo, optimización del servicio dado.</td><td valign="top">Expansión Geográfica, integración con otras plataformas, desarrollo de nuevas funcionalidades, alianzas estratégicas, análisis de datos.</td><td valign="top">Expansión Geográfica, Monetización a través de publicidad y patrocinios, desarrollo de soluciones para empresas de transporte público que incorpore herramientas analíticas</td><td valign="top">Integración de Nuevas tecnologías como Realidad Aumentada, Monetización a través de publicidad, colaboración con empresas y sectores específicos, análisis de datos y tendencias de movilidad.</td></tr>
+<tr><td valign="top">Amenazas</td><td valign="top">Ser absorbidos por la competencia que se tiene, cambios regulatorios en las políticas de transporte público en el Perú.</td><td valign="top">Competencia intensa, cambios en las políticas de Transporte Público, cambios en el comportamiento del Usuario, seguridad y privacidad de los datos.</td><td valign="top">Competencia en el Mercado, cambios en políticas de transporte público, desafíos de monetización. Deslinde de las empresas de transporte público.</td><td valign="top">Innovación y desarrollo de tecnologías emergentes, seguridad y privacidad de los datos de las personas. Cambios en preferencias o comportamientos de los usuarios, incluyendo la adopción de nuevas aplicaciones o servicios de navegación</td></tr>
 </table>
 
 ### 2.1.2 Estrategias y tácticas frente a competidores
@@ -320,7 +87,7 @@ Esta sección se enfoca en la investigación, utilizando los datos recopilados a
 - ¿Estaría dispuesto/a a pagar por una aplicación premium con características adicionales o preferiría una aplicación gratuita con publicidad?
 - ¿Qué opinión tiene sobre la privacidad de sus datos al utilizar una aplicación móvil de este tipo?
 
-**Preguntas para los administradores de flota de buses**
+**Preguntas para los dueños de empresas de transporte**
 
 - ¿Cuál es el nombre de su empresa de transporte?
 - ¿Cuáles diría que son los mayores desafíos a los que se enfrenta su empresa en la actualidad?
@@ -336,7 +103,7 @@ Esta sección se enfoca en la investigación, utilizando los datos recopilados a
 
 **Entrevista N°1**
 
-- Segmento objetivo: **Administrador de flota de buses**
+- Segmento objetivo: **Encargado de flota de autobuses**
 - Nombres y apellidos: **Juan Pérez Sánchez**
 - Edad: **45**
 - Distrito: **Jesús María**
@@ -351,12 +118,12 @@ Juan Pérez Sánchez, de 45 años y residente en el distrito de Jesús María en
 
 **Entrevista N°2**
 
-- Segmento objetivo: **Administrador de flota de buses**
+- Segmento objetivo: **Encargado de flota de autobuses**
 - Nombres y apellidos: Jorge Antonio Carrascal Casca
 - Edad: 28
 - Distrito: Puente piedra
 
-<img src="../Resources/interviews/jorge_carrascal.png" alt="Captura de entrevistado">
+<img src="./Resources/interviews/jorge_carrascal.png" alt="Captura de entrevistado">
 
 - Enlace del video:
 - Timing:
@@ -365,7 +132,7 @@ Juan Pérez Sánchez, de 45 años y residente en el distrito de Jesús María en
 
 **Entrevista N°3**
 
-- Segmento objetivo: **Administrador de flota de buses**
+- Segmento objetivo: **Dueño de empresa de transporte público**
 - Nombres y apellidos:
 - Edad:
 - Distrito:
@@ -398,7 +165,7 @@ Wilver Arana Ramos, de 23 años y residente en el distrito de Carabayllo en Lima
 - Edad: **18**
 - Distrito: **San Martín de Porres**
 
-![Entrevista con pasajero](../Resources/interviews/passenger_Yosef_Castillo.png)
+![Entrevista con pasajero](Resources/interviews/passenger_Yosef_Castillo.png)
 
 - Enlace del video:
 - Timing:
@@ -430,13 +197,9 @@ Renzo Casafranca Carrascal, un estudiante de 22 años de edad, residente del dis
 Las fichas de User Persona que siguen se han creado para ilustrar claramente quiénes son los usuarios de ChapaTuBus. Están basadas en lo que se aprendió de entrevistas con usuarios, además se han identificado y resumido las necesidades, preferencias y desafíos diarios tanto de los dueños de empresas de transporte como de los pasajeros.
 Estas fichas nos permiten enfocar nuestro desarrollo en características que realmente importan a nuestros usuarios, garantizando que ChapaTuBus responda a sus necesidades y se destaque en el mercado.
 
-**Administrador de flota de buses**
+**Pasajeros**
 
-![User Persona Bus Manager](../Resources/user_persona/bus_manager.png)
 
-**Pasajero**
-
-![User Persona Passenger ](../Resources/user_persona/passenger.png)
 
 ### 2.3.2 User Task Matrix
 
@@ -448,13 +211,14 @@ Estas fichas nos permiten enfocar nuestro desarrollo en características que rea
 
 #### 2.3.5.1 Pasajeros
 
-![Pasajeros As-Is Scenario Mapping](../Resources/maps/As-Is%20scenario%20pasajeros.jpg)
+![Pasajeros As-Is Scenario Mapping](https://raw.githubusercontent.com/TechSolutions-2024-I-IOT/upc-pre-202401-si572-WS71-techsolutions-report/feature/chapter-II/Resources/images/As-Is%20scenario%20pasajeros.jpg)
 
 #### 2.3.5.2 Empresa de transporte público
 
-![Empresa de transporte público As-Is Scenario Mapping](../Resources/maps/As-Is%20scenario%20empresas.jpg)
+![Empresa de transporte público As-Is Scenario Mapping](https://raw.githubusercontent.com/TechSolutions-2024-I-IOT/upc-pre-202401-si572-WS71-techsolutions-report/feature/chapter-II/Resources/images/As-Is%20scenario%20empresas.jpg)
 
 ## 2.4 Ubiquitous Language
+
 
 **Dominio:** Transporte público
 
