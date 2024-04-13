@@ -10,14 +10,12 @@
 
 ![To-Be Scenario Mapping de las Empresas de transporte público](../Resources/maps/To-be%20scenario%20empresas.jpg)
 
-## 3.2 Epics
-
-## 3.3 User Stories
+## 3.2 User Stories
 
 <table border="2">
     <tr>
         <td>
-           <p style = "font-weight: bold"><b>Story ID</b></p>
+           <p style = "font-weight: bold"><b>Epic/Story ID</b></p>
         </td>
         <td>
           <p style = "font-weight: bold"><b>Título</b></p>
@@ -31,6 +29,55 @@
         <td>
           <p style = "font-weight: bold"><b>Relacionado con (Epic ID)</b></p>
         </td>
+    </tr>
+    <tr>
+        <td>EP01</td>
+        <td>Gestión de cuenta</td>
+        <td>Como usuario, deseo acceder a mi cuenta para ingresar a la aplicación</td>
+        <td> - </td>
+        <td> - </td>
+    </tr>
+    <tr>
+        <td>EP02</td>
+        <td>Gestión de lineas de transporte</td>
+        <td>Como encargado de flota de autobuses, deseo administrar la información en tiempo real de mi flota</td>
+        <td> - </td>
+        <td> - </td>
+    </tr>
+    <tr>
+        <td>EP03</td>
+        <td>Información presentada en el sitio web estático</td>
+        <td>Como visitante, deseo encontrar información acerca de la aplicación para conocer si esta me resultará útil</td>
+        <td> - </td>
+        <td> - </td>
+    </tr>
+    <tr>
+        <td>EP04</td>
+        <td>Gestión de dispositivos IOT</td>
+        <td>Como desarrollador, quiero configurar los dispositivos IOT a mi sistema</td>
+        <td> - </td>
+        <td> - </td>
+    </tr>
+    <tr>
+        <td>EP05</td>
+        <td>Gestión de suscripciones</td>
+        <td>Como pasajero, quiero cambiar mi plan de suscripción</td>
+        <td> - </td>
+        <td> - </td>
+    </tr>
+    <tr>
+        <td>EP06</td>
+        <td>Gestión de servicios</td>
+        <td>Como desarrollador, quiero crear endpoints que me ayuden con el desarrollo de mi solución</td>
+        <td> - </td>
+        <td> - </td>
+    </tr>
+    <tr>
+        <td>EP07</td>
+        <td>Información de líneas de transportes</td>
+        <td>Como pasajero, quiero obtener información en tiempo real sobre líneas de transporte</td>
+        <td> - </td>
+        <td> - </td>
     </tr>
     <tr>
         <td>US01</td>
@@ -314,9 +361,9 @@
 </tr>
 </table>
 
-## 3.4 Impact Mapping
+## 3.3 Impact Mapping
 
-## 3.5 Product Backlog
+## 3.4 Product Backlog
 
 <table border="2">
     <tr>
