@@ -514,6 +514,14 @@ Este User Task Matrix identifica y organiza las tareas esenciales que realizan n
 
 ### 2.3.4 Empathy Mapping
 
+**Administrador de flota de buses**
+
+![User Persona Bus Manager](../Resources/maps/Empathy-map_bus_manager.png)
+
+**Pasajero**
+
+![User Persona Passenger ](../Resources/maps/Empathy-map_passenger.png)
+
 ### 2.3.5 As-Is Scenario Mapping
 
 #### 2.3.5.1 Pasajeros
