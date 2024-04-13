@@ -56,7 +56,7 @@ Google Maps se basa en la integración de diferentes servicios y datos para ofre
       <td>
         <div align="center">
           ChapaTuBus
-          <img style="max-width: 50%; height: auto;" alt="logo de ChapaTuBus">
+          <img style="max-width: 50%; height: auto;" alt="logo de ChapaTuBus" src="../Resources/images/chapatubus-logo.png">
         </div>
       </td>
       <td>
