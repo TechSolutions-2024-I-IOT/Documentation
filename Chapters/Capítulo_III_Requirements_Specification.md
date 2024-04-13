@@ -966,11 +966,166 @@
             <b>Y</b> si encuentra una suscripción activa, procesar la cancelación, lo que implica actualizar el estado de la suscripción a ""cancelada"" y desactivar el acceso a las funcionalidades premium
 
 </tr>
+<tr>
+            <td>TS15</td>
+            <td>Interconectar dispositivos Iot</td>
+            <td>Como desarrollador del sistema de gestión de transporte público, quiero interconectar los dispositivos IoT, como camaras y pulsómetros, para recopilar datos relevantes en tiempo real.
+            </td>
+            <td>
+                <b>Escenario 1: Conexión de Cámaras IoT</b><br>
+                <b>Dado</b> que las cámaras IoT están instaladas en los vehículos del transporte público.<br>
+                <b>Cuando</b> se establece una conexión utilizando el protocolo RTSP.<br>
+                <b>Entonces</b> la transmisión de video en tiempo real comienza y los datos se pueden visualizar en la plataforma de gestión.<br>
 
+<b>Escenario 2: Conexión de Cámaras IoT Fallida</b><br>
+<b>Dado</b> que una cámara  instaladas en los vehículos del transporte público no responde<br>
+<b>Cuando</b> se intenta establecer una conexión utilizando el protocolo RTSP.<br>
+<b>Entonces</b> se recibe un código de error 404 indicando que la cámara no está disponible.<br>
+
+<b>Escenario 3: Integración de Pulsómetros IoT</b><br>
+<b>Dado</b> que los pulsómetros IoT están instalados en los vehículos del transporte público.<br>
+<b>Cuando</b> los pulsómetros envían datos utilizando el protocolo MQTT.<br>
+<b>Entonces</b> los datos de ritmo cardíaco se reciben y se pueden procesar en tiempo real.<br>
+
+<b>Escenario 4: Pulsómetro deja de enviar datos</b><br>
+<b>Dado</b> que el pulsómetro deja de enviar datos.<br>
+<b>Cuando</b> se espera recibir datos del pulsómetro.<br>
+<b>Entonces</b> después de un tiempo de espera, se recibe un código de error 408 indicando un tiempo de espera excedido.<br>
+
+<b>Escenario 5: Integración con la Plataforma de Gestión IoT</b><br>
+<b>Dado</b> que todos los dispositivos IoT están instalados y operativos.<br>
+<b>Cuando</b> se establece una conexión utilizando HTTP/REST con la plataforma de gestión IoT.<br>
+<b>Entonces</b> los datos de todos los dispositivos se envían y se integran correctamente en la plataforma.<br>
+
+<b>Escenario 6: Dispositivo no puede autenticarse con la plataforma</b><br>
+<b>Dado</b> que un dispositivo no puede autenticarse con la plataforma de gestión.<br>
+<b>Cuando</b> se intenta establecer una conexión con la plataforma.<br>
+<b>Entonces</b> se recibe un código de error 401 indicando que el acceso está prohibido.<br>
+            </td>
+</tr>
+<tr>
+<td>TS16</td>
+            <td>Conectar dispositivos IoT hacia el Gateway o el Hub</td><br>
+            <td>Como desarrollador del sistema de gestión de transporte público, necesito establecer la conexión de los dispositivos IoT, como cámaras y pulsómetros, con el Gateway o Hub correspondiente para facilitar la transmisión de datos hacia el sistema central.
+            </td><br>
+            <td>
+                <b>Escenario 1: Configuración de Cámaras IoT</b><br>
+<b>Dado</b> que se han instalado cámaras IoT en estaciones y vehículos del transporte público.<br>
+<b>Cuando</b> se asignan direcciones IP a las cámaras y se configuran para utilizar el protocolo RTSP.<br>
+<b>Entonces</b> las cámaras están listas para conectarse al Gateway y transmitir datos de video en tiempo real.<br>
+
+<b>Escenario 2: Conexión de Pulsómetros IoT</b><br>
+<b>Dado</b> que se han instalado pulsómetros IoT en los vehículos del transporte público.<br>
+<b>Cuando</b> se establece una conexión Wi-Fi entre los pulsómetros y el Gateway, utilizando el protocolo MQTT.<br>
+<b>Entonces</b> los pulsómetros están conectados y listos para enviar datos de ritmo cardíaco al sistema central.<br>
+
+<b>Escenario 3: Pruebas de Conexión</b><br>
+<b>Dado</b> que todos los dispositivos IoT están configurados y listos para conectarse al Gateway o Hub.<br>
+<b>Cuando</b> se envían datos de prueba desde los dispositivos IoT al Gateway.<br>
+<b>Entonces</b> se verifica la recepción de los datos en el sistema central, confirmando una conexión exitosa.<br>
+
+<b>Escenario 4: Gestión de Errores de Conexión</b><br>
+<b>Dado</b> que un dispositivo IoT no puede conectarse al Gateway debido a problemas de configuración.<br>
+<b>Cuando</b> se realiza un intento de conexión desde el dispositivo.<br>
+<b>Entonces</b> se registran los errores correspondientes y se notifica al administrador del sistema para resolver el problema.<br>
+            </td>
+            <td>
+            </td>
+</tr>
+<td>TS17</td>
+            <td>Enviar la información recopilada en los dispositivos IoT hacia el Gateway</td><br>
+    <td>Como desarrollador del sistema de gestión de transporte público, debo implementar la funcionalidad para enviar la información recopilada por los dispositivos IoT, como cámaras y pulsómetros, hacia el Gateway designado para su procesamiento y almacenamiento.</td><br>
+            <td>
+                <b>Escenario 1: Envío de Video desde Cámaras IoT al Gateway</b><br>
+<b>Dado</b> que se recopila video en tiempo real de cámaras IoT instaladas en estaciones y vehículos del transporte público.<br>
+      <b>Cuando</b> los datos de video se formatean en formato MPEG-4 y se envían al Gateway utilizando el protocolo RTSP.<br>
+      <b>Entonces</b> el Gateway recibe los datos de video y los procesa para su almacenamiento o visualización en el sistema central.
+
+<b>Escenario 2: Envío de Datos de Ritmo Cardíaco desde Pulsómetros IoT al Gateway</b><br>
+<b>Dado</b> que se recopila video en tiempo real de cámaras IoT instaladas en estaciones y vehículos del transporte público.<br>
+      <b>Cuando</b> los datos de video se formatean en formato MPEG-4 y se envían al Gateway utilizando el protocolo RTSP.<br>
+      <b>Entonces</b> el Gateway recibe los datos de video y los procesa para su almacenamiento o visualización en el sistema central.<br>
+<b>Escenario 3: Verificación de Recepción de Datos en el Gateway</b><br>
+<b>Dado</b> que se envían datos desde dispositivos IoT al Gateway utilizando el protocolo CoAP.<br>
+      <b>Cuando</b> los datos se envían correctamente desde un dispositivo IoT.<br>
+      <b>Entonces</b> el Gateway envía una confirmación de recepción al dispositivo emisor, junto con un código de estado 200 OK para indicar una recepción exitosa.<br>
+<b>Escenario 4: Gestión de Errores de Envío de Datos</b><br>
+<b>Dado</b> que un dispositivo IoT intenta enviar datos al Gateway, pero hay un problema de conexión.<br>
+      <b>Cuando</b> se realiza un intento de envío de datos desde el dispositivo.<br>
+      <b>Entonces</b> el Gateway devuelve un código de estado 503 Service Unavailable para indicar que el servicio no está disponible temporalmente, y el dispositivo IoT intenta enviar los datos nuevamente después de un intervalo de tiempo predeterminado.<br>
+            </td>
+            <td>
+            </td>
+</tr>
+<tr>
+    <td>TS18</td>
+    <td>Mandar la información recopilada en el Gateway hacia una plataforma Cloud</td>
+    <td>Como desarrollador del sistema de gestión de transporte público, debo desarrollar la funcionalidad para enviar la información recopilada en el Gateway hacia una plataforma Cloud, donde se realizará un procesamiento adicional y se almacenarán los datos de manera segura y accesible.</td><br>
+  <td>
+    <b>Escenario 1: Envío Exitoso de Datos desde el Gateway hacia la Plataforma en la Nube</b>
+    <b>Dado</b> que los datos recopilados en el Gateway están listos para ser enviados a la plataforma en la nube.<br>
+      <b>Cuando</b> se establece una conexión segura utilizando el protocolo HTTPS y se envían los datos desde el Gateway hacia la plataforma en la nube.<br>
+      <b>Entonces</b> la plataforma en la nube recibe los datos con éxito y envía una confirmación de recepción al Gateway junto con un código de estado HTTP 200 OK.
+
+<b>Escenario 2: Falla en el Envío de Datos debido a una Conexión Perdida</b>
+      <b>Dado</b> que se intenta enviar datos desde el Gateway hacia la plataforma en la nube.<br>
+      <b>Cuando</b> durante el proceso de envío, se pierde la conexión a Internet.<br>
+      <b>Entonces</b> el Gateway no puede establecer la conexión con la plataforma en la nube y recibe un código de error HTTP 503 Service Unavailable. Y el Gateway intentará reenviar los datos cuando la conexión se restablezca.<br>
+  <b>Escenario 3: Error de Autenticación con la Plataforma en la Nube</b>
+      <b>Dado</b> que se intenta enviar datos desde el Gateway hacia la plataforma en la nube.<br>
+      <b>Cuando</b> el Gateway intenta autenticarse con la plataforma en la nube, pero las credenciales proporcionadas son incorrectas.<br>
+      <b>Entonces</b> la plataforma en la nube rechaza la conexión y devuelve un código de estado HTTP 401 Unauthorized. Y el Gateway notifica al administrador del sistema sobre el error de autenticación para corregir las credenciales.
+    </td>
+  </tr>
+  <tr>
+    <td>TS19</td>
+    <td>Conectar la información con el backend</td>
+    <td>Como desarrollador del sistema de gestión de transporte público, necesito establecer una conexión entre la información recopilada desde los dispositivos IoT y almacenada en la plataforma Cloud con el backend del sistema, para permitir el procesamiento, análisis y gestión de los datos de manera efectiva.</td><br>
+  <td>
+    <b>Escenario 1: Obtención Exitosa de Datos desde la Plataforma en la Nube al Backend</b>
+      <b>Dado</b> que el backend del sistema necesita obtener datos almacenados en la plataforma en la nube.<br>
+      <b>Cuando</b> se establece una conexión con la plataforma en la nube utilizando el protocolo HTTPS y se envían solicitudes para obtener los datos requeridos.<br>
+      <b>Entonces</b> la plataforma en la nube responde con los datos solicitados, y el backend del sistema los recibe correctamente para su procesamiento. Se devuelve un código de estado HTTP 200 OK.<br>
+<b>Escenario 2: Falla en la Conexión con la Plataforma en la Nube</b>
+      <b>Dado</b> que el backend del sistema intenta obtener datos de la plataforma en la nube.<br>
+      <b>Cuando</b> durante el proceso de conexión, se produce un error de red o la plataforma en la nube no responde.<br>
+      <b>Entonces</b> el backend del sistema no puede establecer la conexión con la plataforma en la nube y recibe un código de error HTTP 503 Service Unavailable. Se notifica al administrador del sistema sobre el problema de conexión.
+<b>Escenario 3: Error en la Autorización para Acceder a los Datos</b>
+      <b>Dado</b> que el backend del sistema intenta acceder a datos protegidos en la plataforma en la nube.<br>
+      <b>Cuando</b> el backend envía una solicitud de acceso, pero las credenciales proporcionadas son incorrectas o insuficientes.<br>
+      <b>Entonces</b> la plataforma en la nube rechaza la solicitud y devuelve un código de estado HTTP 401 Unauthorized. El backend del sistema notifica al usuario sobre el error de autorización y solicita credenciales válidas.<br>
+    </td>
+  </tr>
+  <tr>
+    <td>TS20</td>
+    <td>Conectar dispositivos IoT hacia internet</td>
+    <td>Como desarrollador del sistema de gestión de transporte público, debo establecer la conexión de los dispositivos IoT, como cámaras y pulsómetros, a Internet para permitir la transmisión de datos en tiempo real y la comunicación con otros sistemas y servicios externos.</td><br>
+    <td>
+    <b>Escenario 1: Conexión Exitosa de una Cámara IoT a Internet</b>
+      <b>Dado</b> que una cámara IoT está configurada para conectarse a Internet.<br>
+      <b>Cuando</b> la cámara se conecta a una red Wi-Fi utilizando el protocolo de seguridad adecuado como WPA2.<br>
+      <b>Entonces</b> la cámara adquiere una dirección IP válida y establece una conexión a Internet. Se puede acceder a la cámara desde cualquier dispositivo conectado a la misma red.<br>
+<b>Escenario 2: Falla en la Conexión de un Pulsómetro IoT a Internet</b>
+      <b>Dado</b> que se intenta conectar un pulsómetro IoT a Internet.<br>
+      <b>Cuando</b> el pulsómetro no puede conectarse a la red Wi-Fi debido a una señal débil o una configuración incorrecta.<br>
+      <b>Entonces</b> el pulsómetro no adquiere una dirección IP válida y no puede establecer una conexión a Internet. Se genera un mensaje de error en el dispositivo indicando la falla en la conexión.<br>
+<b>Escenario 3: Transmisión Exitosa de Datos de una Cámara IoT a un Servidor en la Nube</b>
+      <b>Dado</b> que una cámara IoT está conectada a Internet y configurada para transmitir datos a un servidor en la nube.<br>
+      <b>Cuando</b> la cámara detecta un evento y comienza a transmitir datos de video al servidor utilizando el protocolo HTTP.<br>
+      <b>Entonces</b> el servidor en la nube recibe los datos de video de la cámara y devuelve un código de estado HTTP 200 OK para indicar una transmisión exitosa.<br>
+<b>Escenario 4: Error de Protocolo al Transmitir Datos de un Pulsómetro IoT</b>
+      <b>Dado</b> que un pulsómetro IoT está conectado a Internet y configurado para transmitir datos a un servidor en la nube.<br>
+      <b>Cuando</b> el pulsómetro intenta enviar datos al servidor utilizando un protocolo no compatible.<br>
+      <b>Entonces</b> el servidor en la nube rechaza la conexión y devuelve un código de estado HTTP 400 Bad Request para indicar un error de protocolo. El pulsómetro debe ser reconfigurado para utilizar un protocolo válido.
+    </td>
+  </tr>
 
 </table>
 
 ## 3.3 Impact Mapping
+
+<img src="./Resources/maps/impact_map.png" alt="Impact mapping"><br>
+[Link: Impact mapping](https://drive.google.com/file/d/1go_Aa0YjQsdT5iDzcisKCAy8dmJg3aCI/view?usp=sharing)
 
 ## 3.4 Product Backlog
 
