@@ -79,83 +79,148 @@
         <td> - </td>
         <td> - </td>
     </tr>
-    <tr>
+
+<tr>
         <td>US01</td>
-        <td>Visualizar del recorrido de una línea de transporte</td>
-        <td>Como pasajero, quiero ver un mapa con el recorrido de la línea, para saber por dónde va el bus
-        </td>
-        <td>
-            <b>Scenario:</b> <br>
-            <b>Dado</b> que el pasajero ha seleccionado una línea de transporte<br>
-            <b>Cuando</b> el pasajero selecciona la opción "Ver recorrido"<br>
-            <b>Entonces</b> se muestra un mapa que incluye la ruta completa de la línea y todas sus paradas
-        </td>
-    </tr>
-  <tr>
-        <td>US02</td>
-        <td>Buscar una línea de transporte</td>
-        <td>Como pasajero, quiero poder buscar una línea por nombre o por número, para encontrar la línea que necesito</td>
-        <td>
-            <b>Scenario:</b> <br>
-            <b>Dado</b> que el pasajero está en la pantalla principal de la aplicación<br>
-            <b>Cuando</b> el pasajero introduce el nombre o el número de una línea en el campo de búsqueda<br>
-            <b>Y</b> presiona el botón "Buscar"
-            <b>Entonces</b> se muestra una lista de las líneas que coinciden con la búsqueda del pasajero
-        </td>
-        <td></td>
-    </tr>
-  <tr>
-        <td>US03</td>
-        <td>Guardar líneas de transporte favoritas</td>
-        <td>Como pasajero, quiero poder guardar mis líneas favoritas, para tenerlas a mano y no tener que buscarlas cada vez</td>
-        <td>
-            <b>Scenario:</b> <br>
-            <b>Dado</b> que el pasajero está viendo la información de una línea<br>
-            <b>Cuando</b> el pasajero selecciona el botón "Favoritos"<br>
-            <b>Entonces</b> la línea se guarda en una lista de favoritos
-        </td>
-        <td></td>
-    </tr>
-  <tr>
-        <td>US04</td>
-        <td>Compartir información de una línea de transporte</td>
-        <td>Como pasajero, quiero poder compartir información sobre las líneas con mis amigos y familiares, para ayudarlos a planificar sus viajes</td>
-        <td>
-            <b>Scenario:</b> <br>
-            <b>Dado</b> que el pasajero está viendo la información de una línea<br>
-            <b>Cuando</b> el pasajero selecciona el botón "Compartir"<br>
-            <b>Y</b> el pasajero selecciona una aplicación para compartir la información<br>
-            <b>Entonces</b> la información de la línea se comparte con la aplicación seleccionada
-        </td>
-        <td></td>
-    </tr>
-  <tr>
-        <td>US05</td>
-        <td>Recibir notificaciones de líneas de transporte</td>
-        <td>Como pasajero, quiero recibir notificaciones cuando haya cambios en mis líneas favoritas, para estar al tanto de cualquier información importante</td>
-        <td>
-            <b>Scenario:</b> <br>
-            <b>Dado</b> que el pasajero ha guardado una línea como favorita<br>
-            <b>Y</b> el pasajero ha activado las notificaciones para las líneas favoritas<br>
-            <b>Cuando</b> hay un cambio en la línea favorita del pasajero, como un cambio en el recorrido, el tiempo de viaje o la frecuencia del servicio<br>
-            <b>Entonces</b> el pasajero recibe una notificación en su dispositivo
-        </td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>US06</td>
         <td>Redirección de la landing Page a tiendas de aplicaciones</td>
-        <td>Como visitante del segmento pasajero, deseo ser redirigido a la aplicación móvil correspondiente para descargarla en mi dispositivo móvil</td>
+        <td>Como visitante del segmento pasajero, deseo dirigirme a la aplicación móvil correspondiente para descargarla en mi dispositivo móvil
+        </td>
         <td>
             <b>Scenario 1: Redirección a Google Play</b> <br>
             <b>Dado</b> que el visitante del segmento pasajero se encuentra en la vista principal de la landing page<br>
-            <b>Cuando</b> el visitante haga click en el botón de acción de Google Play<br>
-            <b>Entonces</b> el visitante será redirigido a la página de descarga de la aplicación en Google Play<br><br>
+            <b>Cuando</b> el visitante selecciona descargar la aplicación para Android<br>
+            <b>Entonces</b> el visitante es redirigido a la página de descarga de la aplicación en Google Play<br><br> 
             <b>Scenario 2: Redirección a App Store</b> <br>
+             <b>Dado</b> que el visitante del segmento pasajero se encuentra en la vista principal de la landing page<br>
+             <b>Cuando</b> el visitante selecciona descargar la aplicación para iOS<br>
+             <b>Entonces</b> el visitante es redirigido a la página de descarga de la aplicación en la App Store de iOS<br><br>
+            <b>Scenario 3: Falla en la Redirección a Google Play</b> <br>
+             <b>Dado</b> que el visitante del segmento pasajero se encuentra en la vista principal de la landing page<br>
+             <b>Cuando</b> el visitante selecciona descargar la aplicación para Android<br>
+             <b>Entonces</b> no es redirigido a la página de descarga de la aplicación en Google Play<br>
+             <b>Y</b> recibe un mensaje de error o una página no encontrada<br><br>
+            <b>Scenario 4: Falla en la Redirección a App Store</b> <br>
+             <b>Dado</b> que el visitante del segmento pasajero se encuentra en la vista principal de la landing page<br>
+             <b>Cuando</b> el visitante selecciona descargar la aplicación para iOS<br>
+             <b>Entonces</b> no es redirigido a la página de descarga de la aplicación en la App Store de iOS<br>
+             <b>Y</b> recibe un mensaje de error o una página no encontrada<br><br>
+             <b>Scenario 5: No se encuentra la Aplicación en Google Play</b> <br>
             <b>Dado</b> que el visitante del segmento pasajero se encuentra en la vista principal de la landing page<br>
-            <b>Cuando</b> el visitante haga click en el botón de acción de App Store<br>
-            <b>Entonces</b> el visitante será redirigido a la página de descarga de la aplicación en la App Store de iOS
+            <b>Y</b> la aplicación no se encuentra subida en la Play Store<br>
+            <b>Cuando</b> el visitante selecciona descargar la aplicación para Android<br>
+            <b>Entonces</b> es redirigido a la página principal de Google Play<br><br>
+            <b>Scenario 6: No se Encuentra la Aplicación en App Store</b> <br>
+            <b>Dado</b> que el visitante del segmento pasajero se encuentra en la vista principal de la landing page<br>
+            <b>Y</b> la aplicación no se encuentra subida en la App Store<br>
+            <b>Cuando</b> el visitante selecciona descargar la aplicación para iOS<br>
+            <b>Entonces</b> es redirigido a la página principal de la App Store de iOS<br>
         </td>
+        <td></td>
+    </tr>
+<tr>
+    <td>US02</td>
+        <td>Redirección de la landing Page a la aplicación web</td>
+        <td>Como visitante del segmento encargado de flota de autobuses, deseo ingresar a la aplicación web mediante la landing page para usarla en mi navegador favorito</td>
+        <td>
+            <b>Scenario 1: Redirección a la aplicación web de ChapaTuBus</b> <br>
+            <b>Dado</b> que el visitante del segmento encargado de la flota de autobuses se encuentra en la sección de empresa de la landing page<br>
+            <b>Cuando</b> el visitante decide redirigirse a la aplicación web<br>
+            <b>Entonces</b> el visitante es redirigido a la aplicación web de ChapaTuBus<br><br>
+            <b>Scenario 2: Redirección fallida debido a la aplicación web caída</b> <br>
+            <b>Dado</b> que el visitante se encuentra en la sección de empresa de la landing page<br>
+            <b>Cuando</b> el visitante elige redirigirse a la aplicación web<br>
+            <b>Y</b> la aplicación web de ChapaTuBus se encuentra caída o no disponible<br>
+            <b>Entonces</b> el visitante no es redirigido y recibe un mensaje informando sobre la indisponibilidad temporal de la aplicación web<br><br>
+            <b>Scenario 3: Redirección interrumpida por un error en el sistema</b> <br>
+            <b>Dado</b> que el visitante se encuentra en la sección de empresa de la landing page<br>
+            <b>Cuando</b> el visitante elige redirigirse a la aplicación web<br>
+            <b>Y</b> el sistema experimenta un error interno<br>
+            <b>Entonces</b> el visitante no es redirigido y recibe un mensaje de error<br>
+        </td>
+        <td></td>
+    </tr>
+<tr>
+        <td>US03</td>
+        <td>Envío de mensaje a través de un formulario de contacto</td>
+        <td>Como visitante de cualquier segmento, deseo enviar un mensaje a los desarrolladores para enviar sugerencias, quejas u mensajes con otro motivo que yo desee</td>
+        <td>
+    <b>Scenario 1: Envío exitoso del formulario de contacto</b> <br>
+    <b>Dado</b> que el visitante de cualquier segmento se encuentra en la sección de contacto de la landing page<br>
+    <b>Cuando</b> el visitante completa todos los campos del formulario de contacto con la información solicitada<br>
+    <b>Y</b> ordena enviar el formulario<br>
+    <b>Entonces</b> la información proporcionada es enviada correctamente al correo electrónico de ChapaTuBus<br><br>
+    <b>Scenario 2: Envío fallido por campos incompletos en el formulario</b> <br>
+    <b>Dado</b> que el visitante de cualquier segmento se encuentra en la sección de contacto de la landing page<br>
+    <b>Cuando</b> el visitante completa parcialmente los campos requeridos en el formulario de contacto<br>
+    <b>Y</b> ordena enviar el formulario<br>
+    <b>Entonces</b> se muestra un mensaje de error indicando los campos que aún necesitan ser completados<br><br>
+    <b>Scenario 3: Envío del formulario con información inválida</b> <br>
+    <b>Dado</b> que el visitante de cualquier segmento se encuentra en la sección de contacto de la landing page<br>
+    <b>Cuando</b> el visitante proporciona información inválida en uno o más campos del formulario de contacto<br>
+    <b>Y</b> ordena enviar el formulario<br>
+    <b>Entonces</b> se muestra un mensaje de error indicando los campos con información incorrecta<br><br>
+    <b>Scenario 4: Cancelación del envío del formulario</b> <br>
+    <b>Dado</b> que el visitante de cualquier segmento se encuentra en la sección de contacto de la landing page<br>
+    <b>Cuando</b> el visitante ha llenado o parcialmente llenado el formulario de contacto<br>
+    <b>Y</b> decide cancelar el envío del formulario<br>
+    <b>Entonces</b> el formulario no es enviado y se mantiene la información ingresada por el usuario en los campos correspondientes<br><br>
+    <b>Scenario 5: Redirección a otra sección tras el envío exitoso</b> <br>
+    <b>Dado</b> que el visitante de cualquier segmento ha enviado con éxito el formulario de contacto<br>
+    <b>Cuando</b> el visitante recibe la confirmación del envío exitoso<br>
+    <b>Entonces</b> es redirigido automáticamente a una página de agradecimiento o a otra sección relevante de la landing page<br>
+</td>
+        <td></td>
+    </tr>
+<tr>
+        <td>US04</td>
+        <td>Conocimiento del Equipo desarrollador de la aplicación</td>
+        <td> Como visitante, deseo conocer al equipo que está desarrollando la aplicación para tener una mayor confianza en las personas detrás del proyecto.</td>
+        <td>
+    <b>Scenario 1: Navegación a la sección de Preguntas Frecuentes</b> <br>
+    <b>Dado</b> que el visitante se encuentra en la página principal de la Landing Page<br>
+    <b>Cuando</b> el visitante se desplaza hasta la sección de Preguntas Frecuentes<br>
+    <b>Entonces</b> el visitante encuentra la sección de Preguntas Frecuentes.<br><br>
+    <b>Scenario 2: Acceso a preguntas y respuestas específicas</b> <br>
+    <b>Dado</b> que el visitante se encuentra en la sección de Preguntas Frecuentes<br>
+    <b>Cuando</b> el visitante selecciona una pregunta de la lista<br>
+    <b>Entonces</b> se despliega la respuesta correspondiente de manera clara y concisa.<br>
+</td>
+        <td></td>
+    </tr>
+<tr>
+        <td>US05</td>
+        <td>Sección de Preguntas Frecuentes</td>
+        <td>Como visitante, deseo acceder a una sección de Preguntas Frecuentes para resolver mis inquietudes sobre el servicio ofrecido.</td>
+        <td>
+        <b>Scenario 1: Navegación a la sección de Preguntas Frecuentes</b> <br>
+        <b>Dado</b> que el visitante se encuentra en la página principal de la Landing Page<br>
+        <b>Cuando</b> el visitante se desplaza hasta la sección de Preguntas Frecuentes<br>
+        <b>Entonces</b> el visitante encuentra la sección de Preguntas Frecuentes.<br><br>
+        <b>Scenario 2: Acceso a preguntas y respuestas específicas</b> <br>
+        <b>Dado</b> que el visitante se encuentra en la sección de Preguntas Frecuentes<br>
+        <b>Cuando</b> el visitante selecciona una pregunta de la lista<br>
+        <b>Entonces</b> se despliega la respuesta correspondiente de manera clara y concisa.<br>
+</td>
+        <td></td>
+    </tr>
+<tr>
+        <td>US06</td>
+        <td>Navegación y Contenido Informativo en el Footer</td>
+        <td>Como visitante ,deseo tener acceso fácil y claro a información relevante y enlaces útiles en el footer para una navegación más eficiente e acceder rápidamente a secciones importantes del sitio.</td>
+        <td>
+    <b>Scenario 1: Acceso a información relevante en el footer</b> <br>
+    <b>Dado</b> que el visitante se encuentra en cualquier página del sitio web<br>
+    <b>Cuando</b> el visitante desplaza hacia abajo hasta el footer<br>
+    <b>Entonces</b> el visitante encuentra información relevante y enlaces útiles claramente organizados y visibles.<br><br>
+    <b>Scenario 2: Enlaces a secciones importantes en el footer</b> <br>
+    <b>Dado</b> que el visitante está en el footer <br>
+    <b>Cuando</b> el visitante busca enlaces a secciones importantes como "Inicio", "Nosotros", "Contacto", entre otros<br>
+    <b>Entonces</b> el visitante encuentra estos enlaces de forma clara y directa.<br><br>
+    <b>Scenario 3: Acceso rápido a redes sociales</b> <br>
+    <b>Dado</b> que el visitante está en el footer del sitio web<br>
+    <b>Cuando</b> el visitante elige algún ícono de las redes sociales disponibles<br>
+    <b>Entonces</b> el visitante es redirigido a la red social elegida<br>
+</td>
         <td>
         <!--
             <b>Criterios de Aceptación:</b><br>
@@ -165,16 +230,32 @@
             4. Los botones de acción deben ser claramente visibles y distinguibles para el usuario.-->
         </td>
     </tr>
-    <tr>
+<tr>
         <td>US07</td>
-        <td>Redirección de la landing Page a la aplicación web</td>
-        <td>Como visitante del segmento encargado de flota de autobuses, deseo ser redirigido a la aplicación web correspondiente para usarla en mi navegador favorito</td>
+        <td>Diseño Responsivo de la Landing Page</td>
+        <td>Como visitante, deseo que la página se adapte correctamente a diferentes dispositivos y tamaños de pantalla (como móviles, tablets y desktops), para una experiencia de usuario óptima y consistente en cualquier dispositivo que utilice.</td>
         <td>
-            <b>Scenario: Redirección a la aplicación web de ChapaTuBus</b> <br>
-            <b>Dado</b> que el visitante del segmento encargado de la flota de autobuses se encuentra en la sección de empresa de la landing page<br>
-            <b>Cuando</b> el visitante haga click en el botón de redirección a la aplicación web<br>
-            <b>Entonces</b> el visitante será redirigido a la aplicación web de ChapaTuBus<br><br>
-        </td>
+    <b>Scenario 1: Visualización adecuada en dispositivos móviles</b> <br>
+    <b>Dado</b> que el visitante accede a la landing page desde un dispositivo móvil<br>
+    <b>Cuando</b> el visitante visualiza la página<br>
+    <b>Entonces</b> la página se adapta correctamente al tamaño y resolución de pantalla del dispositivo móvil, manteniendo la legibilidad y la funcionalidad de todos los elementos.<br><br>
+    <b>Scenario 2: Visualización adecuada en tablets</b> <br>
+    <b>Dado</b> que el visitante accede a la landing page desde una tablet<br>
+    <b>Cuando</b> el visitante visualiza la página<br>
+    <b>Entonces</b> la página se adapta correctamente al tamaño y resolución de pantalla de la tablet, asegurando que todos los elementos y contenidos sean fácilmente accesibles y legibles.<br><br>
+    <b>Scenario 3: Visualización adecuada en desktops</b> <br>
+    <b>Dado</b> que el visitante accede a la landing page desde un ordenador de escritorio<br>
+    <b>Cuando</b> el visitante visualiza la página<br>
+    <b>Entonces</b> la página se presenta de forma óptima, aprovechando el espacio de la pantalla y manteniendo una distribución equilibrada de los elementos.<br><br>
+    <b>Scenario 4: Consistencia en la experiencia de usuario</b> <br>
+    <b>Dado</b> que el visitante navega por la landing page en diferentes dispositivos<br>
+    <b>Cuando</b> el visitante cambia entre dispositivos (móvil, tablet, desktop)<br>
+    <b>Entonces</b> la experiencia de usuario es consistente en todos ellos, con una navegación fluida y una presentación coherente de la información y diseño.<br><br>
+    <b>Scenario 5: Funcionalidad de los elementos interactivos en todos los dispositivos</b> <br>
+    <b>Dado</b> que el visitante interactúa con los elementos de la landing page<br>
+    <b>Cuando</b> el visitante realiza acciones como clics, desplazamientos o interacciones táctiles<br>
+    <b>Entonces</b> todos los elementos interactivos funcionan correctamente en todos los dispositivos, garantizando una experiencia de usuario sin errores ni fallos.<br>
+</td>
         <td>
         <!--
             <b>Criterios de Aceptación:</b><br>
@@ -184,16 +265,19 @@
             4. El botón de redirección debe ser claramente visible y distinguible para el usuario, utilizando un diseño que invite a hacer clic.-->
         </td>
     </tr>
-    <tr>
+<tr>
         <td>US08</td>
-        <td>Envío de mensaje a través de un formulario de contacto</td>
-        <td>Como visitante del segmento pasajero, deseo enviar un mensaje a los desarrolladores para enviar sugerencias, quejas u mensajes con otro motivo que yo desee</td>
+        <td>Incorporación de Testimonios en la Landing Page</td>
+        <td>Como visitante, deseo tener acceso a testimonios reales de usuarios o clientes para conocer experiencias positivas y comentarios sobre el servicio ofrecido.</td>
         <td>
-            <b>Scenario: Envío del formulario exitoso</b> <br>
-            <b>Dado</b> que el visitante del segmento pasajero se encuentra en la sección de contacto de la landing page<br>
-            <b>Y</b> el visitante llena el formulario de contacto con la información solicitada<br>
-            <b>Cuando</b> el visitante haga click en el botón de envío de formulario<br>
-            <b>Entonces</b> la información será enviada al correo electrónico de ChapaTuBus<br><br>
+        <b>Scenario 1: Visualización de testimonios en la landing page</b> <br>
+        <b>Dado</b> que el visitante accede a la landing page<br>
+        <b>Cuando</b> se desplaza hasta la sección de testimonios<br>
+        <b>Entonces</b> se muestran testimonios reales de usuarios o clientes, con nombres, fotos (si están disponibles) y comentarios sobre su experiencia positiva con el servicio.<br><br>
+        <b>Scenario 2: Navegación entre testimonios</b> <br>
+        <b>Dado</b> que el visitante visualiza múltiples testimonios en la sección de testimonios<br>
+        <b>Cuando</b> el visitante utiliza controles de navegación <br>
+        <b>Entonces</b> el visitante puede desplazarse fácilmente entre diferentes testimonios para leer las experiencias de distintos usuarios o clientes.<br>
         </td>
         <td>
         <!--
@@ -204,8 +288,43 @@
             4. La información del formulario debe ser enviada de manera segura al correo electrónico de ChapaTuBus, garantizando la privacidad y seguridad de los datos del visitante.<br>-->
         </td>
     </tr>
-    <tr>
-         <td>US09</td>
+<tr>
+        <td>US09</td>
+        <td>Sección de Características del producto</td>
+        <td>Como visitante, quiero tener una sección claramente definida que muestre las características principales del producto o servicio, para entender rápidamente sus funcionalidades y beneficios.</td>
+        <td>
+    <b>Scenario 1: Visualización de la sección de características</b> <br>
+    <b>Dado</b> que el visitante accede a la landing page<br>
+    <b>Cuando</b> el visitante busca la sección de características del producto<br>
+    <b>Entonces</b> se muestra una sección claramente definida con las características principales del producto o servicio, presentadas de forma organizada y fácil de leer.<br><br>
+    <b>Scenario 2: Detalle de las características</b> <br>
+    <b>Dado</b> que el visitante visualiza la sección de características del producto<br>
+    <b>Cuando</b> el visitante explora cada característica listada<br>
+    <b>Entonces</b> se proporciona una descripción detallada de cada característica, explicando sus funcionalidades y beneficios de manera comprensible.<br><br>
+    <b>Scenario 3: Iconografía y diseño</b> <br>
+    <b>Dado</b> que el visitante visualiza la sección de características del producto<br>
+    <b>Cuando</b> el visitante observa la presentación visual de las características (como iconos, imágenes o gráficos)<br>
+    <b>Entonces</b> la iconografía y el diseño utilizados son claros, coherentes y facilitan la comprensión rápida de las funcionalidades y beneficios del producto.<br>
+</td>
+    </tr>
+<tr>
+        <td>US10</td>
+        <td>Sección de Inicio de la Landing Page</td>
+        <td>Como visitante , deseo ser recibido con una Hero Section impactante y atractiva en la Landing Page, para que me proporcione una visión clara y concisa del valor y propósito del producto o servicio, capturando mi interés y motivándome a explorar más sobre lo que se ofrece.</td>
+        <td>
+    <b>Scenario 1: Visualización de la Hero Section</b> <br>
+    <b>Dado</b> que el visitante accede a la landing page<br>
+    <b>Cuando</b> el visitante carga la página inicial<br>
+    <b>Entonces</b> se muestra una Hero Section impactante y atractiva que ocupa un lugar prominente en la página.<br><br>
+    <b>Scenario 2: Contenido de la Hero Section</b> <br>
+    <b>Dado</b> que el visitante visualiza la Hero Section<br>
+    <b>Cuando</b> el visitante lee el contenido presentado<br>
+    <b>Entonces</b> el contenido comunica claramente el valor y propósito del producto o servicio, proporcionando una visión concisa y atractiva de lo que se ofrece.<br>
+</td>
+        <td></td>
+    </tr>
+<tr>
+         <td>US11</td>
         <td>Visualizar paraderos con mayor afluencia</td>
         <td>Como empresa de transporte público, quiero tener información sobre los paraderos donde se sube más gente durante el día, para poder identificar las rutas con mayor demanda
         </td>
@@ -224,7 +343,7 @@
         </td>
     </tr>
 <tr>
-         <td>US10</td>
+         <td>US12</td>
         <td>Visualizar horarios de mayor afluencia</td>
         <td>Como empresa de transporte público, quiero ver un gráfico estadístico con los horarios de mayor afluencia en cada paradero, para poder ajustar la frecuencia de los buses
         </td>
@@ -243,26 +362,7 @@
         </td>
 </tr>
 <tr>
-         <td>US11</td>
-        <td>Visualizar horarios de mayor afluencia</td>
-        <td>Como empresa de transporte público, quiero ver un gráfico estadístico con los horarios de mayor afluencia en cada paradero, para poder ajustar la frecuencia de los buses
-        </td>
-        <td>
-            <b>Scenario 1: Visualización correcta del gráfico</b> <br>
-            <b>Dado</b> que la empresa de transporte público ha iniciado sesión en la aplicación<br>
-            <b>Y</b> selecciona la opción “Visualizar afluencia según horarios”<br>
-            <b>Cuando</b> la aplicación carga la información del gráfico<br>
-            <b>Entonces</b> se muestra un gráfico con la afluencia de personas en cada paradero<br>
-            <b>Scenario 2: Descarga del gráfico</b> <br>
-            <b>Dado</b> que la empresa de transporte público desea compartir el gráfico con otros usuarios<br>
-            <b>Cuando</b> selecciona la opción de descargar el gráfico<br>
-            <b>Entonces</b> se le ofrece la opción de descargar el gráfico en diferentes formatos
-        </td>
-        <td>
-        </td>
-</tr>
-    <tr>
-         <td>US12</td>
+         <td>US13</td>
         <td>Visualizar aforo en buses</td>
         <td>Como empresa de transporte público, quiero tener información con la cantidad de personas en cada bus en tiempo real, para poder identificar los buses con mayor ocupación
         </td>
@@ -280,8 +380,8 @@
         <td>
         </td>
 </tr>
-    <tr>
-         <td>US13</td>
+<tr>
+         <td>US14</td>
         <td>Visualizar ubicación de la flota en tiempo real</td>
         <td>Como empresa de transporte público, quiero ver la ubicación de mi flota en tiempo real, para poder monitorizar el estado del servicio
         </td>
@@ -299,8 +399,8 @@
         <td>
         </td>
 </tr>
-    <tr>
-         <td>US14</td>
+<tr>
+         <td>US15</td>
         <td>Visualizar estado de los conductores</td>
         <td>Como empresa de transporte público, quiero ver el estado de mis conductores en tiempo real, para poder identificar a los que puedan estar cansados o estresados
         </td>
@@ -318,8 +418,8 @@
         <td>
         </td>
 </tr>
-        <tr>
-         <td>US15</td>
+<tr>
+         <td>US16</td>
         <td>Recibir notificaciones</td>
         <td>Como empresa de transporte público, quiero recibir notificaciones en tiempo real sobre eventos relevantes para estar al tanto de posibles incidentes
         </td>
@@ -338,8 +438,8 @@
         <td>
         </td>
 </tr>
-    <tr>
-         <td>US16</td>
+<tr>
+         <td>US17</td>
         <td>Cambiar rutas de la flota</td>
         <td>Como empresa de transporte público, quiero poder cambiar las rutas de mi flota en tiempo real, para poder ajustar el servicio a las condiciones del tráfico o a la demanda de pasajeros
         </td>
@@ -359,44 +459,178 @@
         <td>
         </td>
 </tr>
+<tr>
+         <td>US18</td>
+        <td> Visualizar gráfico de línea con el tiempo de pulso de los conductores</td>
+        <td>Como representante de una empresa de transporte, quiero ver un gráfico de línea con el tiempo de pulso de mis conductores en tiempo real, para poder identificar a los que puedan estar bajo estrés o con problemas de salud</td>
+        <td>
+    <b>Escenario 1: Visualización correcta del gráfico</b> <br>
+    <b>Dado</b> que un representante de la empresa de transporte ha iniciado sesión en la aplicación<br>
+    <b>Y</b> ha seleccionado la opción "Visualizar gráfico de línea de pulso de conductores"<br>
+    <b>Cuando</b> la aplicación carga la información del pulso de los conductores<br>
+    <b>Entonces</b> se muestra un gráfico de línea con el tiempo de pulso de cada conductor en tiempo real<br>
+    <b>Y</b> el gráfico se actualiza en tiempo real a medida que cambia el tiempo de pulso de los conductores.<br><br>
+    <b>Escenario 2: Error al visualizar el gráfico</b> <br>
+    <b>Dado</b> que un representante de la empresa intenta acceder a la información del tiempo de pulso con una conexión a internet deficiente<br>
+    <b>Cuando</b> la aplicación intenta cargar la información<br>
+    <b>Entonces</b> se muestra un mensaje informativo que indica la causa del problema (ej. "No se pudo conectar al servidor. Intente nuevamente más tarde").<br>
+    <b>Y</b> se ofrece al usuario la opción de volver a intentar cargar la información.<br><br>
+    <b>Escenario 3: Visualización de zonas de pulso</b> <br>
+    <b>Dado</b> que un representante de la empresa desea ver zonas de pulso que indiquen posibles estados de salud o estrés<br>
+    <b>Cuando</b> se selecciona la opción "Ver zonas de pulso"<br>
+    <b>Entonces</b> se superponen al gráfico de línea zonas de colores que indican diferentes estados de salud o estrés (ej. verde para normal, amarillo para elevado, rojo para alto).<br>
+</td>
+        <td>
+        </td>
+</tr>
+<tr>
+         <td>US19</td>
+        <td>Registrar empresa de transporte</td>
+        <td>Como representante de una empresa de transporte, quiero poder registrar mi empresa en el sistema</td>
+        <td>
+    <b>Escenario 1: Registro correcto de la empresa</b> <br>
+    <b>Dado</b> que un representante de la empresa de transporte ha accedido al portal de registro del sistema<br>
+    <b>Cuando</b> el representante introduce la información completa y válida de la empresa en el formulario de registro<br>
+    <b>Entonces</b> se valida la información de la empresa en tiempo real (ej. mediante consulta a bases de datos públicas)<br>
+    <b>Y</b> se crea una cuenta para la empresa en el sistema<br><br>
+    <b>Escenario 2: Error al registrar la empresa</b> <br>
+    <b>Dado</b> que un representante introduce información incompleta o inválida en el formulario de registro<br>
+    <b>Cuando</b> el sistema detecta un error en la información proporcionada<br>
+    <b>Entonces</b> se muestra un mensaje informativo al representante indicando el error y cómo corregirlo<br>
+    <b>Y</b> se ofrece al representante la opción de volver a intentar registrar la empresa<br>
+</td>
+        <td>
+        </td>    
+</tr>
+<tr>
+         <td>US20</td>
+        <td>Registrar línea de transporte</td>
+        <td>Como representante de una empresa de transporte, quiero poder registrar una línea de transporte en el sistema
+        </td>
+        <td>
+    <b>Escenario 1: Registro correcto de la línea de transporte</b> <br>
+    <b>Dado</b> que un representante de la empresa de transporte ha iniciado sesión en el sistema<br>
+    <b>Y</b> ha seleccionado la opción "Registrar línea de transporte"<br>
+    <b>Cuando</b> el representante introduce la información completa y válida de la línea de transporte en el formulario de registro<br>
+    <b>Entonces</b> se valida la información<br>
+    <b>Y</b> se crea una entrada para la línea de transporte en el sistema<br>
+    <b>Y</b> se informa al representante del éxito del registro<br><br>
+    <b>Escenario 2: Error al registrar la línea de transporte</b> <br>
+    <b>Dado</b> que un representante introduce información incompleta o inválida en el formulario de registro<br>
+    <b>Cuando</b> el sistema detecta un error en la información proporcionada<br>
+    <b>Entonces</b> se muestra un mensaje informativo al representante indicando el error y cómo corregirlo<br>
+    <b>Y</b> se ofrece al representante la opción de volver a intentar registrar la línea de transporte<br><br>
+    <b>Escenario 3: Validación de datos</b> <br>
+    <b>Dado</b> que el sistema necesita verificar la información de la línea de transporte<br>
+    <b>Cuando</b> el representante ingresa la información de la línea de transporte en el formulario de registro<br>
+    <b>Entonces</b> el sistema valida la información en tiempo real mediante solicitud de documentación adicional (ej. permisos de operación)<br>
+    <b>Y</b> se informa al representante el estado de la validación<br><br>
+    <b>Escenario 4: Configuración de la línea de transporte</b> <br>
+    <b>Dado</b> que la línea de transporte ha completado el registro<br>
+    <b>Cuando</b> el representante accede a la configuración de la línea de transporte<br>
+    <b>Entonces</b> la empresa puede configurar la información de la línea de transporte, como nombre de la línea, ruta, horario de servicio, tarifas y paradas<br>
+</td>
+<td>
+        </td>    
+</tr>
+<tr>
+         <td>US21</td>
+        <td>Visualizar recorrido de una línea de bus</td>
+        <td>Como usuario pasajero, quiero poder buscar y visualizar las rutas de las líneas de autobús, para tener una idea clara de su trayecto y poder planificar mis viajes de manera eficiente.</td>
+        <td>
+    <b>Scenario 1: Consulta de la línea del bus</b> <br>
+    <b>Dado</b> que el usuario quiere conocer la ruta del bus<br>
+    <b>Cuando</b> ingresé el nombre de una línea de autobús<br>
+    <b>Entonces</b> ve los detalles de la línea del bus, incluyendo paraderos y horario, considerando su ubicación y una dirección de ruta por defecto se mostrará el paradero del bus más cercano.<br><br>
+    <b>Scenario 2: Consulta de líneas cercanas</b> <br>
+    <b>Dado</b> que el usuario quiere ver las rutas de los buses cercanos sin tener un destino fijo<br>
+    <b>Cuando</b> quiera verlos, serán recomendados considerando su ubicación<br>
+    <b>Entonces</b> se mostrarán las rutas de los buses que pasen cerca de su posición actual<br><br>
+    <b>Scenario 3: Dirección equivocada</b> <br>
+    <b>Dado</b> que la aplicación asumió el sentido contrario al destino del usuario pasajero al mostrar los paraderos<br>
+    <b>Cuando</b> cambie la dirección de los paraderos<br>
+    <b>Entonces</b> la aplicación le mostrará el bus correspondiente a la dirección que desea<br>
+</td>
+        <td>
+        </td>
+</tr>
+<tr>
+         <td>US22</td>
+        <td>Distancia del bus</td>
+        <td>Como usuario pasajero, quiero conocer la distancia exacta y el tiempo estimado de llegada del próximo bus, para poder gestionar mi tiempo de espera y llegar a tiempo a mis destinos.</td>
+        <td>
+    <b>Scenario 1: Ubicación precisa del siguiente bus</b> <br>
+    <b>Dado</b> que el usuario pasajero observa la ubicación del bus sin precisión<br>
+    <b>Cuando</b> seleccione más detalles<br>
+    <b>Entonces</b> la aplicación muestra un mapa de la ubicación del bus, su aforo y su tiempo estimado de llegada a su ubicación.<br><br>
+    <b>Scenario 2: Bus fuera de servicio</b> <br>
+    <b>Dado</b> que el usuario eligió una línea que actualmente no se encuentra circulando<br>
+    <b>Cuando</b> quiera ver a detalle la ubicación del bus<br>
+    <b>Entonces</b> verá el horario de circulación de la línea<br><br>
+    <b>Scenario 3: Detalles de buses próximos</b> <br>
+    <b>Dado</b> que el usuario desea ver detalles de los siguientes buses, no solo el más cercano<br>
+    <b>Cuando</b> [acción del usuario]<br>
+    <b>Entonces</b> [resultado esperado]<br>
+</td>
+        <td>
+        </td>    
+</tr>
+<tr>
+         <td>US23</td>
+        <td>Lista de próximos autobuses</td>
+        <td>Como usuario pasajero, quiero tener acceso a información sobre los próximos buses de una misma línea, para poder tomar decisiones informadas y optimizar mi experiencia.</td>
+        <td>
+    <b>Scenario 1: Detalles de los próximos buses</b> <br>
+    <b>Dado</b> que un usuario premium ha seleccionado una línea de bus<br>
+    <b>Cuando</b> seleccione la opción para ver los siguientes buses,<br>
+    <b>Entonces</b> puede visualizar el aforo, el paradero más reciente y el tiempo de llegada aproximado a su posición de los próximos buses.<br><br>
+    <b>Scenario 2: Funcionalidad bloqueada</b> <br>
+    <b>Dado</b> que un usuario no premium ha seleccionado una línea de bus<br>
+    <b>Cuando</b> seleccione la opción para ver los siguientes buses<br>
+    <b>Entonces</b> será informado de que para utilizar dicha función necesita cambiar de plan.<br>
+</td>
+        <td>
+        </td>    
+</tr>
+<tr>
+         <td>US24</td>
+        <td>Guardar líneas de transporte favoritas</td>
+        <td>Como usuario pasajero, quiero guardar mís líneas favoritas para no buscarlas continuamente</td><td>
+    <b>Scenario 1: Añadir líneas de bus a favoritos</b> <br>
+    <b>Dado</b> que el usuario pasajero está viendo la información de una línea<br>
+    <b>Cuando</b> la agregue a favoritos<br>
+    <b>Entonces</b> esa línea de bus se guarda en su lista de favoritos.<br><br>
+    <b>Scenario 2: Acceso rápido a líneas de bus favoritas</b> <br>
+    <b>Dado</b> que el usuario pasajero quiere ver una línea de bus favorita<br>
+    <b>Cuando</b> seleccione sus favoritos<br>
+    <b>Entonces</b> verá una lista de todas las líneas de bus que ha añadido a favoritos y seleccionará cualquiera de ellas para ver su información detallada.<br>
+</td>
+        <td>
+        </td>    
+</tr>
+<tr>
+         <td>US25</td>
+        <td>Recibir notificaciones sobre líneas de bus favoritas</td>
+        <td>Como usuario pasajero, quiero recibir notificaciones sobre las líneas de bus que he añadido a mis favoritos, para estar al tanto de cualquier cambio o actualización importante. </td>
+        <td>
+    <b>Scenario 1: Notificaciones para líneas de bus favoritas</b> <br>
+    <b>Dado</b> que el usuario pasajero ha añadido líneas de bus a favoritos<br>
+    <b>Cuando</b> active las notificaciones para una línea de bus<br>
+    <b>Entonces</b> recibe notificaciones sobre cualquier cambio o actualización importante relacionada con esa línea de bus.<br><br>
+    <b>Scenario 2: Ver notificaciones de los favoritos</b> <br>
+    <b>Dado</b> que el usuario pasajero ha activado las notificaciones para varias líneas de bus en favoritos<br>
+    <b>Cuando</b> abre la sección de favoritos<br>
+    <b>Entonces</b> ve una lista de todas las notificaciones que ha recibido.<br>
+</td>
+        <td>
+        </td>    
+</tr>
 
-</tr>
-    <tr>
-         <td>US13</td>
-        <td>Registro de Línea de Bus</td>
-        <td>Como desarrollador, quiero implementar un endpoint /api/bus-lines/register que permita el registro de una nueva línea de bus, para que los administradores de flota o dueños de empresas puedan añadir nuevas líneas al sistema de manera eficiente.</td>
-        <td>
-            <b>Escenario 1: Registro exitoso de una nueva línea de bus</b> <br>
-            <b>Dado</b> que el administrador de flota tiene los datos necesarios para registrar una nueva línea de bus,<br>
-            <b>Cuando</b> envía una petición POST a /api/bus-lines/register con los detalles de la línea (nombre, ruta, horarios, información del bus, etc.),<br>
-            <b>Entonces</b> el sistema debe validar la información proporcionada,<br>
-            <b>Y</b> si la información es válida, registrar la nueva línea de bus en la base de datos,<br>
-            <b>Y</b> devolver un 201 Created con los detalles de la línea de bus registrada, incluyendo un identificador único asignado por el sistema.<br>
-            <b>Escenario 2: Manejar intento de registro con datos incompletos o inválidos</b> <br>
-            <b>Dado</b> que el administrador de flota envía una petición POST a /api/bus-lines/register con datos incompletos o inválidos para la línea de bus,<br>
-            <b>Cuando</b> el sistema intenta validar la información,<br>
-            <b>Entonces</b> el sistema debe identificar los campos que son inválidos o faltantes,<br>
-            <b>Y</b> devolver un 400 Bad Request con un mensaje que detalle los problemas encontrados en los datos proporcionados.<br>
-            <b>Escenario 3: Prevención de duplicados en el registro de líneas de bus</b> <br>
-            <b>Dado</b> que el administrador de flota intenta registrar una línea de bus que ya existe en el sistema,<br>
-            <b>Cuando</b> envía una petición POST a /api/bus-lines/register con datos que coinciden con una línea existente,<br>
-            <b>Entonces</b> el sistema debe verificar la base de datos para prevenir registros duplicados,<br>
-            <b>Y</b> si se encuentra un duplicado, devolver un 409 Conflict indicando que la línea de bus ya está registrada.<br>
-            <b>Escenario 4: Confirmación de registro a usuarios interesados</b> <br>
-            <b>Dado</b> que una nueva línea de bus ha sido registrada exitosamente,<br>
-            <b>Cuando</b> el registro se completa,<br>
-            <b>Entonces</b> el sistema debe notificar a los usuarios interesados (por ejemplo, mediante un servicio de mensajería o correo electrónico) sobre la nueva línea de bus disponible,<br>
-            <b>Y</b> incluir en la notificación los detalles básicos de la nueva línea para fomentar su utilización.<br>
-        </td>
-        <td>
-        </td>
-</tr>
-</tr>
-    <tr><td colspan="5"> <b>Technical Stories</b> <td></tr>
-</tr>
-</tr>
-    <tr>
-         <td>US01</td>
+<tr><td colspan="5"> <b>Technical Stories</b> <td></tr>
+
+
+<tr>
+         <td>TS01</td>
         <td>Listado de Líneas de Buses</td>
         <td>Como desarrollador, quiero implementar un endpoint que devuelva un listado de todas las líneas de buses, para que la aplicación móvil pueda mostrarlas en la sección de explorar.</td>
         <td>
@@ -416,9 +650,8 @@
         <td>
         </td>
 </tr>
-</tr>
-    <tr>
-         <td>US02</td>
+<tr>
+         <td>TS02</td>
         <td>Búsqueda de Líneas de Bus</td>
         <td>Como desarrollador, quiero crear un endpoint para buscar líneas de bus por nombre, para que los usuarios puedan encontrar rápidamente las rutas que necesitan.</td>
         <td>
@@ -438,9 +671,8 @@
         <td>
         </td>
 </tr>
-</tr>
-    <tr>
-         <td>US03</td>
+<tr>
+         <td>TS03</td>
         <td>Gestión de Favoritos</td>
         <td>Como desarrollador, quiero crear un endpoint que permita a los usuarios marcar una línea de bus como favorita, para que puedan acceder rápidamente a sus líneas preferidas desde la sección de favoritos.</td>
         <td>
@@ -456,9 +688,8 @@
         <td>
         </td>
 </tr>
-</tr>
-    <tr>
-         <td>US04</td>
+<tr>
+         <td>TS04</td>
         <td>Listado de Paraderos de una Línea de Bus</td>
         <td>Como desarrollador, quiero crear un endpoint que devuelva la lista de paraderos de una línea de bus específica, para que los usuarios puedan ver todos los paraderos disponibles para esa línea en la aplicación móvil.</td>
         <td>
@@ -478,9 +709,8 @@
         <td>
         </td>
 </tr>
-</tr>
-    <tr>
-         <td>US05</td>
+<tr>
+    <td>TS05</td>
         <td>Datos de Paraderos y Buses en Tiempo Real</td>
         <td>Como desarrollador, quiero implementar un endpoint /api/real-time/{lineId} que devuelva datos en tiempo real de paraderos y buses para una línea específica, para que los usuarios puedan ver la ubicación del bus en el mapa, el nombre del paradero, y el tiempo estimado de llegada.</td>
         <td>
@@ -502,9 +732,8 @@
         <td>
         </td>
 </tr>
-</tr>
-    <tr>
-         <td>US06</td>
+<tr>
+         <td>TS06</td>
         <td>Aforo en Tiempo Real de Buses</td>
         <td>Como desarrollador, quiero implementar un endpoint que devuelva el aforo en tiempo real de un bus específico, para que los usuarios puedan saber cuántas personas hay en el bus antes de que llegue al paradero.</td>
         <td>
@@ -527,9 +756,8 @@
         <td>
         </td>
 </tr>
-</tr>
-    <tr>
-         <td>US07</td>
+<tr>
+         <td>TS07</td>
         <td>Datos Históricos de Paraderos por Fecha</td>
         <td>Como desarrollador, quiero implementar un endpoint /api/historical/stops/{date} que devuelva los datos históricos de los paraderos para una fecha específica, para que el dashboard de la aplicación web pueda mostrar un listado de paraderos ordenados según la cantidad de personas que subieron en cada uno en dicha fecha.</td>
         <td>
@@ -550,9 +778,8 @@
         <td>
         </td>
 </tr>
-</tr>
-    <tr>
-         <td>US08</td>
+<tr>
+         <td>TS08</td>
         <td>Histograma de Afluencia por Paradero</td>
         <td>Como desarrollador, quiero implementar un endpoint /api/stops/{stopId}/passenger-flow que devuelva los datos de afluencia de pasajeros para un paradero específico, para que el dashboard de la aplicación web pueda mostrar un histograma de la hora más concurrida en dicho paradero.</td>
         <td>
@@ -573,9 +800,8 @@
         <td>
         </td>
 </tr>
-</tr>
-    <tr>
-         <td>US09</td>
+<tr>
+         <td>TS09</td>
         <td>Visualización de Datos de Conductores y Buses</td>
         <td>Como desarrollador, quiero implementar un endpoint /api/drivers-info que devuelva una lista de todos los conductores con sus datos personales y detalles del bus que manejan, para que la aplicación web pueda mostrar esta información en el dashboard y permita a los administradores de flota o dueños de empresas monitorear y gestionar su personal y vehículos de manera efectiva.</td>
         <td>
@@ -595,9 +821,8 @@
         <td>
         </td>
 </tr>
-</tr>
-    <tr>
-         <td>US10</td>
+<tr>
+         <td>TS10</td>
         <td>Pulsaciones de Corazón del Conductor</td>
         <td>Como desarrollador, quiero implementar un endpoint /api/drivers/{driverId}/heart-rate que devuelva el rango de pulsaciones de corazón de un conductor específico durante un rango horario dado, para que el dashboard de la aplicación web pueda mostrar estos datos, permitiendo a los administradores de flota monitorear el bienestar de los conductores durante sus turnos.</td>
         <td>
@@ -617,9 +842,8 @@
         <td>
         </td>
 </tr>
-</tr>
-    <tr>
-         <td>US11</td>
+<tr>
+         <td>TS11</td>
         <td>Alertas de Pulsaciones del Conductor</td>
         <td>Como desarrollador, quiero implementar un endpoint /api/drivers/alerts que monitoree las pulsaciones del corazón de los conductores y genere alertas cuando estas pulsaciones caigan por debajo de un mínimo o superen un máximo predeterminado, para que el sistema de notificaciones pueda informar a los administradores de flota sobre posibles situaciones de riesgo para la salud del conductor.</td>
         <td>
@@ -639,9 +863,8 @@
         <td>
         </td>
 </tr>
-</tr>
-    <tr>
-         <td>US12</td>
+<tr>
+         <td>TS12</td>
         <td>Autenticación de Usuarios</td>
         <td>Como desarrollador, quiero implementar un sistema de inicio de sesión que permita a los usuarios autenticarse utilizando su correo y contraseña o su cuenta de Google, para que puedan acceder de manera segura a la aplicación.</td>
         <td>
@@ -684,9 +907,8 @@
         <td>
         </td>
 </tr>
-</tr>
-    <tr>
-         <td>US13</td>
+<tr>
+         <td>TS13</td>
         <td>Registro de Línea de Bus</td>
         <td>Como desarrollador, quiero implementar un endpoint /api/bus-lines/register que permita el registro de una nueva línea de bus, para que los administradores de flota o dueños de empresas puedan añadir nuevas líneas al sistema de manera eficiente.</td>
         <td>
@@ -715,8 +937,8 @@
         <td>
         </td>
 </tr>
-    <tr>
-         <td>US14</td>
+<tr>
+         <td>TS14</td>
         <td>Suscripción Premium</td>
         <td>Como desarrollador, quiero implementar un endpoint /api/subscriptions/premium/purchase que gestione la compra de suscripciones premium por parte de los usuarios, para que los usuarios puedan acceder a funcionalidades avanzadas y mejorar su experiencia con la aplicación.</td>
         <td>
@@ -744,9 +966,6 @@
             <b>Y</b> si encuentra una suscripción activa, procesar la cancelación, lo que implica actualizar el estado de la suscripción a ""cancelada"" y desactivar el acceso a las funcionalidades premium
 
 </tr>
-
-
-
 
 
 </table>
