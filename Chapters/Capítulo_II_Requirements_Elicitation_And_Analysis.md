@@ -343,8 +343,8 @@ Esta sección se enfoca en la investigación, utilizando los datos recopilados a
 
 ![Entrevista con dueño Juan](https://i.ibb.co/D99Y5y9/ENTREVISTA.png)
 
-- Enlace del video:
-- Timing:
+- Enlace del video: **https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/ETeZ8JWxY7pMoTAAXF6H_DsBKdeZc1_u2YrohdilZ2Obqg?e=G3EseB** 
+- Timing: **00:06s-05:45s**
 - Resumen:
 
 Juan Pérez Sánchez, de 45 años y residente en el distrito de Jesús María en Lima, es el encargado de una flota de autobuses en la Empresa de Transporte Consorcio Vía. Casado y usuario de un smartphone Android, enfrenta desafíos como mejorar la eficiencia en las rutas, controlar el aforo de los autobuses y gestionar el mantenimiento adecuado de la flota, además de abordar quejas de pasajeros sobre el servicio. Aunque no tiene experiencia previa con la tecnología IoT, ve su implementación como una oportunidad para optimizar la planificación y gestión de rutas, mejorar el aforo de los vehículos y reducir costos. Sin embargo, tiene preocupaciones sobre el costo inicial de la implementación y la capacitación del personal. Cree que los mayores beneficios para sus clientes incluirían una experiencia de viaje más enriquecedora, información en tiempo real sobre tráfico y ubicación de los autobuses, y datos sobre el rendimiento de los choferes. Al considerar la implementación de esta tecnología, Juan evaluaría el retorno de inversión, la compatibilidad con los sistemas actuales, la facilidad de uso y mantenimiento, así como el impacto en la calidad del servicio y la satisfacción del cliente.
@@ -352,29 +352,33 @@ Juan Pérez Sánchez, de 45 años y residente en el distrito de Jesús María en
 **Entrevista N°2**
 
 - Segmento objetivo: **Encargado de flota de autobuses**
-- Nombres y apellidos: Jorge Antonio Carrascal Casca
-- Edad: 28
-- Distrito: Puente piedra
+- Nombres y apellidos: **Jorge Antonio Carrascal Casca**
+- Edad: **28**
+- Distrito: **Puente piedra**
 
 <img src="../Resources/interviews/jorge_carrascal.png" alt="Captura de entrevistado">
 
-- Enlace del video:
-- Timing:
-- Resumen: Jorge Antonio Carrascal Casca, de 28 años, reside en Puente Piedra, es subgerente en la empresa de transporte Santa Rosa S.A., tiene actualmente desafíos como optimizar el mantenimiento de la flota de autobuses y la optimización del aforo de los vehículos. Aunque carece de experiencia previa en tecnología IoT, vislumbra su implementación como una oportunidad para mejorar la planificación y gestión de rutas, así como para aprovechar la capacidad de los autobuses y reducir costos operativos.
+- Enlace del video: **https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/ETeZ8JWxY7pMoTAAXF6H_DsBKdeZc1_u2YrohdilZ2Obqg?e=G3EseB**
+- Timing: **05:46s-09:01s**
+- Resumen:
+
+Jorge Antonio Carrascal Casca, de 28 años, reside en Puente Piedra, es subgerente en la empresa de transporte Santa Rosa S.A., tiene actualmente desafíos como optimizar el mantenimiento de la flota de autobuses y la optimización del aforo de los vehículos. Aunque carece de experiencia previa en tecnología IoT, vislumbra su implementación como una oportunidad para mejorar la planificación y gestión de rutas, así como para aprovechar la capacidad de los autobuses y reducir costos operativos.
   Sin embargo, le preocupa el costo inicial de la implementación y la capacitación requerida para el personal. Además, Jorge teme que la integración de la tecnología pueda afectar la privacidad de los datos de los pasajeros y la seguridad cibernética de la empresa. A pesar de estas inquietudes, reconoce el potencial de la tecnología IoT para ofrecer una experiencia de viaje más enriquecedora y satisfactoria para los clientes. Tambien consideraría la escalabilidad del sistema, la disponibilidad de soporte técnico y la posibilidad de interrupciones en el servicio durante la fase de implementación antes de tomar una decisión.
 
 **Entrevista N°3**
 
-- Segmento objetivo: **Dueño de empresa de transporte público**
-- Nombres y apellidos:
-- Edad:
-- Distrito:
+- Segmento objetivo: **Encargado de flota de autobuses**
+- Nombres y apellidos: **Andy Casafranca Carrascal**
+- Edad: **24**
+- Distrito: **San Martin de Porres**
 
 ![Entrevista con Andy Casafranca](https://raw.githubusercontent.com/TechSolutions-2024-I-IOT/upc-pre-202401-si572-WS71-techsolutions-report/feature/2.2.interviews/Resources/interviews/andy-casafranca-interview.png)
 
-- Enlace del video:
-- Timing:
+- Enlace del video: **https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/ETeZ8JWxY7pMoTAAXF6H_DsBKdeZc1_u2YrohdilZ2Obqg?e=G3EseB**
+- Timing: **09:02s-14:22s**
 - Resumen:
+
+Andy Casafranca Carrascal, de 24 años, reside en San Martin de Porres, es ayudante en la gestión de rutas y control de conductores de la empresa Transportes Rápido Corre Caminos SA y se enfrenta a desafíos como la falta de información en tiempo real sobre sus autobuses y la gestión manual de rutas y conductores. Consideran que la tecnología podría mejorar su situación proporcionando mayor control sobre la flota y automatizando tareas. Aunque no han implementado IoT previamente, ven con buenos ojos la idea de utilizar sensores para monitorear el aforo de los autobuses, el estado del conductor y la ubicación de la flota. Sin embargo, tienen preocupaciones sobre un posible mal uso de la tecnología. Esperan obtener beneficios como mayor satisfacción del cliente y, por ende, un aumento en la frecuencia de uso y las ganancias. Al tomar una decisión sobre la implementación, considerarán factores como costos, tiempo y facilidad de uso.
 
 **Entrevista N°4**
 
@@ -385,8 +389,8 @@ Juan Pérez Sánchez, de 45 años y residente en el distrito de Jesús María en
 
 ![Entrevista con pasajero Wilver](https://blogger.googleusercontent.com/img/a/AVvXsEh2ohJkeaXKM5lluNJc3NVlcDOkGa5X_VHRvNPaH_hjvLN5DuWSp7OrcqYvEDOIah_fyCHBBtV7nyicBZbASJQt2MlP0d0_b3BsApAWOmfZblO5H3ViOvJrs49xBUIoTcNNcr3C3rssS0H1lQnKloffCrmcvEcuJItFhHz7F-8W8cdhH4JbqetOVV95VzI)
 
-- Enlace del video:
-- Timing:
+- Enlace del video: **https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/ETeZ8JWxY7pMoTAAXF6H_DsBKdeZc1_u2YrohdilZ2Obqg?e=G3EseB**
+- Timing: **14:23s-18:12s**
 - Resumen:
 
 Wilver Arana Ramos, de 23 años y residente en el distrito de Carabayllo en Lima, es un estudiante universitario. Soltero y usuario de un teléfono inteligente Android, enfrenta desafíos a diario en su trayecto de ir desde su casa a la universidad y viceversa. Entre estos desafíos, menciona que cuando tiene que trasladarse en horas punta suele experimentar el tráfico, lo que ocasiona que llegue tarde a sus clases o más tarde de lo previsto a su destino. También menciona que a esa hora suelen aparecer muchos buses llenos, lo que afecta el tiempo de espera para que llegue el siguiente. Además, comenta que a veces sale de su casa, pero como no sabe en cuánto tiempo llegará su bus, termina esperando mucho tiempo en el paradero. Anteriormente, usó una aplicación móvil de rutas que le ayudaba a saber qué bus tomar en cada paradero para llegar a su destino. Lo malo de esta aplicación era que no le avisaba en cuánto tiempo llegaría el bus a ese paradero, si iba lleno y el tiempo aproximado que le mencionaba no era exacto. Considera que le sería útil una aplicación en la que tenga información en tiempo real, ya que le podría ayudar a planificar sus viajes. Podría ver qué zonas hay tráfico, si el bus en el que subirá está lleno o no, si el bus cambiará de ruta para que pueda prever y no le afecte ese cambio, y así llegar a tiempo y cómodo a su destino. Él no estaría dispuesto a pagar una suscripción premium en una aplicación móvil; preferiría tener una aplicación gratuita con publicidad. Opina que es importante la privacidad de datos en una aplicación, ya que la información es privada, y considera que en este tipo de aplicaciones deberían solicitar información básica.
@@ -400,8 +404,8 @@ Wilver Arana Ramos, de 23 años y residente en el distrito de Carabayllo en Lima
 
 ![Entrevista con pasajero](../Resources/interviews/passenger_Yosef_Castillo.png)
 
-- Enlace del video:
-- Timing:
+- Enlace del video: **https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/ETeZ8JWxY7pMoTAAXF6H_DsBKdeZc1_u2YrohdilZ2Obqg?e=G3EseB**
+- Timing: **18:13s-27:43s**
 - Resumen:
 
 Yosef, un estudiante de ingeniería de software, compartió su experiencia diaria con el sistema de transporte público, marcada por los retos del tráfico y la alta ocupación de los buses. Utiliza aplicaciones móviles (TuRuta) principalmente para rutas no habituales, y valora significativamente el acceso a información actual en cuanto a horarios y aforo de los buses, lo que le facilita evitar aglomeraciones.Prefiere las aplicaciones que son gratuitas y funciones como la planificación de rutas y la recepción de notificaciones sobre demoras son cruciales. También muestra interés en una función que le permita guardar sus rutas más usadas. Es evidente su preferencia por una interfaz de usuario intuitiva y fácil de manejar, y subraya la necesidad de que la aplicación sea compatible con el sistema operativo Android, dada la diversidad de dispositivos entre los usuarios.
@@ -415,11 +419,11 @@ Yosef, un estudiante de ingeniería de software, compartió su experiencia diari
 
 ![Entrevista con pasajero](https://raw.githubusercontent.com/TechSolutions-2024-I-IOT/upc-pre-202401-si572-WS71-techsolutions-report/feature/2.2.interviews/Resources/interviews/diego-perez-garcia-interview.png)
 
-- Enlace del video:
-- Timing:
+- Enlace del video: **https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/ETeZ8JWxY7pMoTAAXF6H_DsBKdeZc1_u2YrohdilZ2Obqg?e=G3EseB**
+- Timing: **27:44s-35:54s**
 - Resumen:
 
-Diego Perez Garcia, un estudiante de 22 años de edad, residente del distrito de San Martin de Porres en Lima, enfrenta diariamente los desafíos del transporte público mientras se dirige a su universidad para asistir a clases de Administración de Empresas en la Universidad Nacional Mayor de San Marcos. Como muchos otros usuarios, Renzo se encuentra frustrado por la falta de puntualidad y la imprevisibilidad en los horarios de llegada de los autobuses, lo que a menudo resulta en largas esperas en los paraderos. Aunque ha recurrido a aplicaciones móviles para ayudarse con la planificación de rutas, encuentra que la información proporcionada a veces es imprecisa o desactualizada, lo que dificulta aún más su viaje. Renzo considera que tener acceso en tiempo real a información sobre el tráfico, los cambios en las rutas de autobús y el aforo de los vehículos sería crucial para mejorar su experiencia de viaje y evitar aglomeraciones innecesarias. Además, valoraría características adicionales en una aplicación, como la visualización del recorrido completo de las rutas y la disponibilidad de opciones alternativas en caso de interrupciones en el servicio. A pesar de estar dispuesto a pagar por una aplicación premium que ofrezca estas características, Renzo enfatiza la importancia de que la privacidad de sus datos sea respetada.
+Diego Perez Garcia, un estudiante de 22 años de edad, residente del distrito de San Martin de Porres en Lima, enfrenta diariamente los desafíos del transporte público mientras se dirige a su universidad para asistir a clases de Administración de Empresas en la Universidad Nacional Mayor de San Marcos. Como muchos otros usuarios, Diego se encuentra frustrado por la falta de puntualidad y la imprevisibilidad en los horarios de llegada de los autobuses, lo que a menudo resulta en largas esperas en los paraderos. Aunque ha recurrido a aplicaciones móviles para ayudarse con la planificación de rutas, encuentra que la información proporcionada a veces es imprecisa o desactualizada, lo que dificulta aún más su viaje. Diego considera que tener acceso en tiempo real a información sobre el tráfico, los cambios en las rutas de autobús y el aforo de los vehículos sería crucial para mejorar su experiencia de viaje y evitar aglomeraciones innecesarias. Además, valoraría características adicionales en una aplicación, como la visualización del recorrido completo de las rutas y la disponibilidad de opciones alternativas en caso de interrupciones en el servicio. A pesar de estar dispuesto a pagar por una aplicación premium que ofrezca estas características, Diego enfatiza la importancia de que la privacidad de sus datos sea respetada.
 
 ### 2.2.3 Análisis de entrevistas
 
