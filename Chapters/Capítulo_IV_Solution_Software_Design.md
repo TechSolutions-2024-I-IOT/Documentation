@@ -128,11 +128,19 @@ Discusión y Selección de Alternativas: Se debatieron las diferentes opciones d
 
 #### 4.1.3.1. Software Architecture System Landscape Diagram.
 
+![landscape](../Resources/images/landscape.png)
+
 #### 4.1.3.2. Software Architecture Context Level Diagrams.
+
+![landscape](../Resources/images/context.jpg)
 
 #### 4.1.3.3. Software Architecture Container Level Diagrams.
 
+![landscape](../Resources/images/container.png)
+
 #### 4.1.3.4. Software Architecture Deployment Diagrams.
+
+![landscape](../Resources/images/deployment.png)
 
 ## 4.2. Tactical-Level Domain-Driven Design
 
