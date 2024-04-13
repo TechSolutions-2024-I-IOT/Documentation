@@ -320,7 +320,7 @@ Esta sección se enfoca en la investigación, utilizando los datos recopilados a
 - ¿Estaría dispuesto/a a pagar por una aplicación premium con características adicionales o preferiría una aplicación gratuita con publicidad?
 - ¿Qué opinión tiene sobre la privacidad de sus datos al utilizar una aplicación móvil de este tipo?
 
-**Preguntas para los dueños de empresas de transporte**
+**Preguntas para los administradores de flota de buses**
 
 - ¿Cuál es el nombre de su empresa de transporte?
 - ¿Cuáles diría que son los mayores desafíos a los que se enfrenta su empresa en la actualidad?
@@ -336,7 +336,7 @@ Esta sección se enfoca en la investigación, utilizando los datos recopilados a
 
 **Entrevista N°1**
 
-- Segmento objetivo: **Encargado de flota de autobuses**
+- Segmento objetivo: **Administrador de flota de buses**
 - Nombres y apellidos: **Juan Pérez Sánchez**
 - Edad: **45**
 - Distrito: **Jesús María**
@@ -351,7 +351,7 @@ Juan Pérez Sánchez, de 45 años y residente en el distrito de Jesús María en
 
 **Entrevista N°2**
 
-- Segmento objetivo: **Encargado de flota de autobuses**
+- Segmento objetivo: **Administrador de flota de buses**
 - Nombres y apellidos: Jorge Antonio Carrascal Casca
 - Edad: 28
 - Distrito: Puente piedra
@@ -365,7 +365,7 @@ Juan Pérez Sánchez, de 45 años y residente en el distrito de Jesús María en
 
 **Entrevista N°3**
 
-- Segmento objetivo: **Dueño de empresa de transporte público**
+- Segmento objetivo: **Administrador de flota de buses**
 - Nombres y apellidos:
 - Edad:
 - Distrito:
@@ -427,11 +427,115 @@ Renzo Casafranca Carrascal, un estudiante de 22 años de edad, residente del dis
 
 ### 2.3.1 User Personas
 
+Las fichas de User Persona que siguen se han creado para ilustrar claramente quiénes son los usuarios de ChapaTuBus. Están basadas en lo que se aprendió de entrevistas con usuarios, además se han identificado y resumido las necesidades, preferencias y desafíos diarios tanto de los dueños de empresas de transporte como de los pasajeros.
+Estas fichas nos permiten enfocar nuestro desarrollo en características que realmente importan a nuestros usuarios, garantizando que ChapaTuBus responda a sus necesidades y se destaque en el mercado.
+
+**Administrador de flota de buses**
+
+![User Persona Bus Manager](../Resources/user_persona/bus_manager.png)
+
+**Pasajero**
+
+![User Persona Passenger ](../Resources/user_persona/passenger.png)
+
 ### 2.3.2 User Task Matrix
+
+Este User Task Matrix identifica y organiza las tareas esenciales que realizan nuestros dos segmentos principales: los dueños de empresas de transporte y los pasajeros. Cada tarea listada es una acción que los segmentos necesitan llevar a cabo regularmente para alcanzar sus objetivos diarios, independientemente de las herramientas tecnológicas que utilicen. En las siguientes columnas, asignamos una frecuencia y una importancia a estas tareas para cada User Persona, lo que nos ayuda a entender mejor sus prioridades y cómo nuestro servicio puede facilitar estas actividades cotidianas.
+
+<table>
+  <tr>
+    <th>Tarea</th>
+    <th colspan="2">Administrador de flota de buses</th>
+    <th colspan="2">Pasajero</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Frecuencia</td>
+    <td>Importancia</td>
+    <td>Frecuencia</td>
+    <td>Importancia</td>
+  </tr>
+  <tr>
+    <td>Registrar flota de buses y personal</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Asignar un conductor a un bus</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Registrar los horarios de salida de los buses un día posterior</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Conductor consulta el aforo del bus anterior con facilitadores que se encuentran en cada paradero</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Esperar bus en paradero</td>
+    <td>-</td>
+    <td>-</td>
+    <td>Alta</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Estimar el tiempo de llegada del bus en base a su experiencia</td>
+    <td>-</td>
+    <td>-</td>
+    <td>Media</td>
+    <td>Alta</td>
+  </tr>
+</table>
+
+**Leyenda:**
+
+***Frecuencia:***
+- Alta: Tarea realizada diaria o en cada uso del servicio.
+- Media: Tarea realizada con frecuencia, pero no necesariamente cada día.
+- Baja: Tarea realizada ocasionalmente o a demanda.
+
+***Importancia:***
+- Alta: Tarea crucial que impacta directamente en la operatividad y experiencia del usuario.
+- Media: Tarea importante que tiene un impacto significativo en la eficiencia y satisfacción.
 
 ### 2.3.3 User Journey Mapping
 
+El administrador de la flota de autobuses se enfrenta a desafíos significativos en la gestión eficiente de la operación. Desde la planificación del itinerario hasta la supervisión en tiempo real, debe garantizar la puntualidad y la seguridad de los pasajeros. Identificar problemas, como retrasos o problemas técnicos, y tomar decisiones rápidas es crucial para mantener la calidad del servicio. A través de herramientas de comunicación efectivas y análisis de datos, el administrador busca optimizar la operación y mejorar la experiencia del pasajero.
+
+Por otro lado, el viajero de transporte público experimenta un viaje marcado por la incertidumbre y la adaptación continua. Desde la planificación del viaje hasta la llegada a su destino, enfrenta desafíos como esperas prolongadas y la gestión de la sobrecarga en los autobuses. Con el apoyo de información en tiempo real y sistemas de abordaje eficientes, el pasajero busca una experiencia más predecible y cómoda en su viaje diario.
+
+**Administrador de flota de buses**
+
+![Journey Mapping Bus Manager](../Resources/maps/Journey_Map_bus_manager.png)
+
+**Pasajero**
+
+![Journey Mapping Passenger ](../Resources/maps/Journey_Map_passenger.png)
+
+
 ### 2.3.4 Empathy Mapping
+
+En esta sección, se presenta el resumen del proceso de elaboración de los Empathy Maps para cada uno de los User Personas identificados. Estos mapas fueron construidos con el objetivo de proporcionar una visión profunda de los pensamientos, sentimientos, entorno y comportamiento de los dueños de empresas de transporte y de los pasajeros. Los Empathy Maps son el resultado de un análisis detallado de las entrevistas con usuarios y reflejan las perspectivas únicas de cada segmento. 
+
+**Administrador de flota de buses**
+
+![Empathy Mapping Bus Manager](../Resources/maps/Empathy-map_bus_manager.png)
+
+**Pasajero**
+
+![Empathy Mapping Passenger ](../Resources/maps/Empathy-map_passenger.png)
 
 ### 2.3.5 As-Is Scenario Mapping
 
