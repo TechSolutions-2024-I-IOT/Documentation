@@ -440,6 +440,76 @@ Estas fichas nos permiten enfocar nuestro desarrollo en características que rea
 
 ### 2.3.2 User Task Matrix
 
+Este User Task Matrix identifica y organiza las tareas esenciales que realizan nuestros dos segmentos principales: los dueños de empresas de transporte y los pasajeros. Cada tarea listada es una acción que los segmentos necesitan llevar a cabo regularmente para alcanzar sus objetivos diarios, independientemente de las herramientas tecnológicas que utilicen. En las siguientes columnas, asignamos una frecuencia y una importancia a estas tareas para cada User Persona, lo que nos ayuda a entender mejor sus prioridades y cómo nuestro servicio puede facilitar estas actividades cotidianas.
+
+<table>
+  <tr>
+    <th>Tarea</th>
+    <th colspan="2">Administrador de flota de buses</th>
+    <th colspan="2">Pasajero</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Frecuencia</td>
+    <td>Importancia</td>
+    <td>Frecuencia</td>
+    <td>Importancia</td>
+  </tr>
+  <tr>
+    <td>Registrar flota de buses y personal</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Asignar un conductor a un bus</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Registrar los horarios de salida de los buses un día posterior</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Conductor consulta el aforo del bus anterior con facilitadores que se encuentran en cada paradero</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Esperar bus en paradero</td>
+    <td>-</td>
+    <td>-</td>
+    <td>Alta</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Consultar horario de llegada del bus con facilitadores</td>
+    <td>-</td>
+    <td>-</td>
+    <td>Media</td>
+    <td>Alta</td>
+  </tr>
+</table>
+
+**Leyenda:**
+
+***Frecuencia:***
+- Alta: Tarea realizada diaria o en cada uso del servicio.
+- Media: Tarea realizada con frecuencia, pero no necesariamente cada día.
+- Baja: Tarea realizada ocasionalmente o a demanda.
+
+***Importancia:***
+- Alta: Tarea crucial que impacta directamente en la operatividad y experiencia del usuario.
+- Media: Tarea importante que tiene un impacto significativo en la eficiencia y satisfacción.
+
 ### 2.3.3 User Journey Mapping
 
 ### 2.3.4 Empathy Mapping
