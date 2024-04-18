@@ -45,6 +45,82 @@ Estos sistemas de etiquetado se implementan de manera coherente en toda nuestra 
 
 ### 5.2.3 SEO Tags and Meta Tags
 
+#### Para la Landing Page:
+
+- Title:
+
+```html
+<title>ChapaTuBus | Solución IoT para Monitoreo de Buses</title>
+```
+
+- Meta Tags Description:
+
+```html
+<meta
+  name="description"
+  content="Descubre cómo nuestra tecnología IoT revoluciona el transporte público. Monitoreo de posición de buses, conductore y aforo en tiempo real. ¡Optimiza tus rutas o mejora la gestion con nuestras aplicaciones móviles y web!"
+/>
+```
+
+- Meta Tags Keywords:
+
+```html
+<meta
+  name="keywords"
+  content="IoT, transporte público, monitoreo de buses, seguridad, aplicaciones móviles, aplicaciones web, aforo en tiempo real, dashboard, tecnología"
+/>
+```
+
+- Autor:
+
+```html
+<meta name="author" content="TechSolutions" />
+```
+
+- Copyright:
+
+```html
+<meta name="copyright" content="© TechSolutions, 2024" />
+```
+
+#### Para la Aplicación Web (Dashboard):
+
+- Title:
+
+```html
+<title>ChapaTuBus | BusMonitor</title>
+```
+
+- Meta Tags Description:
+
+```html
+<meta
+  name="description"
+  content="Optimiza tus rutas y mejora la seguridad con BusMonitor. Monitorea el pulso de los conductores, el aforo de los buses y recibe alertas en tiempo real. Planifica mejor tus servicios con nuestros análisis detallados y gráficos interactivos."
+/>
+```
+
+- Meta Tags Keywords:
+
+```html
+<meta
+  name="keywords"
+  content="IoT, transporte público, monitoreo, buses, seguridad, dashboard, pulso del conductor, aforo en tiempo real, análisis de datos"
+/>
+```
+
+- Author:
+
+```html
+<meta name="author" content="TechSolutions" />
+```
+
+- Copyright:
+
+```html
+<meta name="copyright" content="© TechSolutions, 2024" />
+```
+
 ### 5.2.4 Searching Systems.
 
 ### 5.2.5 Navigation Systems.
