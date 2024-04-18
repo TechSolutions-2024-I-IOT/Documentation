@@ -8,6 +8,25 @@ Durante este punto se abrodarán las directrices que nuestra startup utilizará 
 
 Para nuestra paleta de colores, hemos seleccionado tonos que evocan una sensación de confianza y profesionalismo. El color primario  transmite una sensación de seguridad y fiabilidad, mientras que el color secundario añade un toque de optimismo y claridad a nuestra interfaz. El color terciario aporta un elemento de calidez y vitalidad. Además de nuestra paleta de colores, hemos definido una tipografía clara y legible que refuerza la experiencia del usuario. Nuestro sistema de iconografía utiliza símbolos intuitivos y reconocibles para mejorar la navegación y comprensión de la interfaz. El sistema de cuadrícula garantiza una disposición ordenada y consistente de los elementos en la pantalla, mientras que el espaciado adecuado proporciona una experiencia visual equilibrada y agradable. Para los selectores, botones y elementos grandes y pequeños, hemos establecido estilos coherentes que aseguran una experiencia de usuario uniforme en toda la aplicación.
 
+<div align="center">
+    <img src="../Resources/style_guidelines/Colors.png" width=400>
+</div>
+<div align="center">
+<img src="../Resources/style_guidelines/Headings.png" width=500>
+<img src="../Resources/style_guidelines/Body.png" width=500>
+</div>
+<div align="center">
+    <img src="../Resources/style_guidelines/Iconography.png" width=500>
+    <img src="../Resources/style_guidelines/Grid system.png" width=500>
+</div>
+<div align="center">
+    <img src="../Resources/style_guidelines/Spacing.png" width=500>
+    <img src="../Resources/style_guidelines/Selectors.png" width=500>
+</div>
+<div align="center">
+    <img src="../Resources/style_guidelines/Buttons.png" width=500>
+    <img src="../Resources/style_guidelines/Elements.png" width=500>
+</div>
 
 ### 5.1.2 Web, Mobile and IoT Style Guidelines
 
