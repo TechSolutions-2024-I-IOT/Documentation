@@ -25,7 +25,7 @@ En esta sección, ofrecemos al usuario de la aplicación web la posibilidad de o
 
 - Según prioridad:</strong> Se muestran los perfiles de los trabajadores según el nivel de estres detectado o según el número de incidencias recibidas.
 
-### 5.2.2 Labeling Systems.
+### 5.2.2 Labeling Systems
 
 En nuestra interfaz de usuario, empleamos varios sistemas de etiquetado para mejorar la comprensión y la navegación del usuario:
 
@@ -121,6 +121,26 @@ Estos sistemas de etiquetado se implementan de manera coherente en toda nuestra 
 <meta name="copyright" content="© TechSolutions, 2024" />
 ```
 
-### 5.2.4 Searching Systems.
+### 5.2.4 Searching Systems
 
-### 5.2.5 Navigation Systems.
+En esta sección del informe, nos enfocamos en definir la arquitectura de la información para facilitar a los usuarios la búsqueda de datos dentro de nuestra aplicación móvil y dashboard. Después de un análisis exhaustivo, hemos observado que nuestro sistema alberga una gran cantidad de información. Por ejemplo, un usuario puede buscar ofertas de trabajo según diferentes criterios, como años de experiencia requeridos, rango salarial y habilidades necesarias.
+
+Para mejorar la experiencia de búsqueda, hemos implementado las siguientes características:
+
+**Aplicación móvil (para pasajeros):**
+
+- Barra de búsqueda: Permite a los usuarios buscar líneas de autobús específicas, lo que les facilita encontrar información relevante de manera rápida y sencilla.
+- Funcionalidad de búsqueda de paradas: Los usuarios pueden ubicar la parada de autobús más cercana utilizando su ubicación actual o seleccionando una parada específica. Además, hemos agregado la opción de cambiar la dirección del viaje con un simple botón, ofreciendo mayor flexibilidad a los usuarios en sus desplazamientos.
+
+**Dashboard (para empresas de autobuses):**
+
+- Selección por línea de autobús: Permite a las empresas acceder a estadísticas detalladas de una línea de autobús en particular, lo que les ayuda a comprender mejor el rendimiento y la eficiencia de sus servicios.
+- Filtrado por día: Capacidad de visualizar datos estadísticos basados en un día específico dentro de un plazo de doce meses, lo que les permite realizar análisis detallados y tomar decisiones informadas.
+- Vista por mayor aforo: Se mostrara por defecto la vista en la que se ordenara por una línea de buses, según la cantidad de personas que abordaron por paradero.
+- Selección por autobús y conductor: Ofrece la posibilidad de visualizar datos relacionados con un autobús específico y el conductor asignado.
+
+Nuestro enfoque en segmentar y categorizar la información tiene como objetivo principal garantizar una navegación fluida dentro de la aplicación. Nos esforzamos por proporcionar a nuestros usuarios las herramientas necesarias para encontrar fácilmente la información que están buscando, ya sea para planificar su viaje como pasajeros o para gestionar eficientemente su flota de autobuses como empresas de transporte.
+
+<!-- Mencionar a más detalle como buscaran y se mostraraon los datos del dashboard -->
+
+### 5.2.5 Navigation Systems
