@@ -185,6 +185,14 @@ A través de nuestras aplicaciones, hemos implementado sistemas de navegación q
 
 ### 5.3.1. Landing Page Wireframe
 
+Juntos, hemos trabajado en equipo utilizando la herramienta de diseño colaborativo Figma para crear las interfaces de usuario de nuestra landing page. Se consideraron nuestros dos segmentos objetivos para el planteamiento del diseño.
+
+<div align="center">
+    <img src="../Resources/design/landing-page-wireframes.png">
+</div>
+
+Enlace de Figma: https://www.figma.com/file/97DXUycS74gm7Bu99vor2j/IOT?type=design&node-id=124%3A3&mode=design&t=mj2qihRGU3ibILKb-1
+
 ### 5.3.2. Landing Page Mock-up
 
 ## 5.4. Applications UX/UI Design
