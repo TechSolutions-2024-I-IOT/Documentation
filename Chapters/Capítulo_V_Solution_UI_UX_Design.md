@@ -195,6 +195,12 @@ Enlace de Figma: https://www.figma.com/file/97DXUycS74gm7Bu99vor2j/IOT?type=desi
 
 ### 5.3.2. Landing Page Mock-up
 
+<div align="center">
+    <img src="../Resources/design/landing_page_mockup.png">
+</div>
+
+Enlace de Figma: https://www.figma.com/file/97DXUycS74gm7Bu99vor2j/IOT?type=design&node-id=124%3A3&mode=design&t=mj2qihRGU3ibILKb-1
+
 ## 5.4. Applications UX/UI Design
 
 ### 5.4.1. Applications Wireframes
