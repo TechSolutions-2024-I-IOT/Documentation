@@ -197,9 +197,48 @@ A través de nuestras aplicaciones, hemos implementado sistemas de navegación q
 
 ## 5.3. Landing Page UI Design
 
+Nuestra propuesta se basa en las decisiones de diseño y arquitectura de la información definidas previamente, asegurando una experiencia de usuario coherente y efectiva en todas las plataformas.
+
+Los principios de diseño aplicados son: 
+
+- **Simplicidad**: La interfaz se mantendrá simple y fácil de navegar, con elementos claros y concisos.
+- **Claridad**: El mensaje principal de la empresa se transmitirá de manera clara y directa.
+- **Consistencia**: Los elementos de diseño, la terminología y las interacciones serán consistentes en todas las plataformas.
+- **Accesibilidad**: La interfaz se diseñará para ser accesible para todos los usuarios, independientemente de sus habilidades o limitaciones.
+- **Estética**: El diseño será atractivo, profesional y acorde con la identidad de la marca.
+
+Los elementos de diseño aplicados son:
+
+- **Tipografía**: Se utilizará una tipografía legible y adaptable a diferentes tamaños de pantalla.
+- **Colores**: La paleta de colores se basará en los colores de la marca y se utilizará de manera consistente en toda la interfaz.
+- **Imágenes**: Se utilizarán imágenes de alta calidad que representen el valor y la propuesta de la empresa.
+- **Iconos**: Se utilizarán iconos para representar las características y beneficios de la empresa de manera visual.
+- **Botones**: Se utilizarán botones claros y fáciles de pulsar para realizar acciones.
+
+En relación a nuestra arquitectura de la información, se plantea:
+
+- **Jerarquía visual**: La información se organizará de forma jerárquica, utilizando diferentes tamaños de tipografía, colores y pesos para destacar los elementos más importantes.
+- **Agrupación lógica**: Los elementos relacionados se agruparán de manera lógica para facilitar la comprensión.
+- **Etiquetado claro**: Los elementos se etiquetarán de manera clara y concisa para que los usuarios puedan comprender su función fácilmente.
+
 ### 5.3.1. Landing Page Wireframe
 
-Juntos, hemos trabajado en equipo utilizando la herramienta de diseño colaborativo Figma para crear las interfaces de usuario de nuestra landing page. Se consideraron nuestros dos segmentos objetivos para el planteamiento del diseño.
+Juntos, hemos trabajado en equipo utilizando la herramienta de diseño colaborativo Figma para crear los wireframes de nuestra landing page. Se consideraron nuestros dos segmentos objetivos para el planteamiento del diseño.
+
+**Desktop Web Browser:**
+- Cabecera: Logotipo, menú de navegación y botón de llamada de acción.
+- Sección principal: Imagen de fondo, título principal, subtítulo y botón de llamada de acción.
+- Sección de características: Íconos o cuadros de texto con descripciones.
+- Sección de equipo: Equipo de desarrollo con nombres y fotos.
+- Sección de FAQ: Lista de preguntas y respuestas.
+- Pie de página: Información de contacto y redes sociales.
+
+**Mobile Web Browser:**
+- Cabecera: Logotipo y menú de hamburguesa.
+- Sección principal: Imagen de fondo, título principal, subtítulo y botón de llamada de acción.
+- Secciones de características y equipo: Acordeones (opcional).
+- Sección de FAQ: Lista de preguntas con enlaces a respuestas.
+- Pie de página: Información de contacto y redes sociales.
 
 <div align="center">
     <img src="../Resources/design/landing-page-wireframes.png">
@@ -208,6 +247,23 @@ Juntos, hemos trabajado en equipo utilizando la herramienta de diseño colaborat
 Enlace de Figma: https://www.figma.com/file/97DXUycS74gm7Bu99vor2j/IOT?type=design&node-id=124%3A3&mode=design&t=mj2qihRGU3ibILKb-1
 
 ### 5.3.2. Landing Page Mock-up
+
+Juntos, hemos trabajado en equipo utilizando la herramienta de diseño colaborativo Figma para crear el diseño Mock-up de nuestra landing page. Se consideraron nuestros dos segmentos objetivos para el planteamiento del diseño.
+
+**Desktop Web Browser:**
+- Cabecera: Logotipo ubicado en la esquina superior izquierda, con un tamaño y color que lo hagan destacar. Utilizamos una paleta de colores consistente con la marca de la empresa.
+- Sección principal: Una imagen de alta calidad que represente el valor principal de la empresa, transmitiendo una sensación de profesionalismo y confianza, un texto breve y conciso que resuma la propuesta de valor de la empresa, utilizando una tipografía grande y llamativa y botón de llamada de acción visible y accesible.
+- Sección de características: Diseños visuales que representen las características principales de la empresa, utilizando colores y formas que sean fácilmente reconocibles.
+- Sección de equipo: Imágenes de alta calidad de los miembros del equipo de desarrollo, mostrando una sonrisa natural y una actitud profesional.
+- Sección de FAQ: Listado de preguntas comunes sobre los servicios de la empresa, utilizando un lenguaje claro y conciso, utilizamos una tipografía legible y un tamaño de letra adecuado para una lectura cómoda.
+- Pie de página: Información de contacto y redes sociales, utilizar una tipografía legible y un tamaño de letra.
+
+**Mobile Web Browser:**
+- Cabecera: Logotipo ubicado en la esquina superior izquierda, con un tamaño y color que lo hagan destacar y menú de hamburguesa llamativo.
+- Sección principal: Una imagen de alta calidad que represente el valor principal de la empresa, transmitiendo una sensación de profesionalismo y confianza, un texto breve y conciso que resuma la propuesta de valor de la empresa, utilizando una tipografía grande y llamativa y botón de llamada de acción visible y accesible.
+- Secciones de características y equipo: Diseños visuales en forma de acordeon que representen las características principales de la empresa, utilizando colores y formas que sean fácilmente reconocibles.
+- Sección de FAQ: Lista de preguntas con enlaces a respuestas.
+- Pie de página: Información de contacto y redes sociales, utilizar una tipografía legible y un tamaño de letra.
 
 <div align="center">
     <img src="../Resources/design/landing_page_mockup.png">
