@@ -241,7 +241,7 @@ Juntos, hemos trabajado en equipo utilizando la herramienta de diseño colaborat
 - Pie de página: Información de contacto y redes sociales.
 
 <div align="center">
-    <img src="../Resources/design/landing-page-wireframes.png">
+    <img src="../Resources/design/landing-page-wireframe.png">
 </div>
 
 Enlace de Figma: https://www.figma.com/file/97DXUycS74gm7Bu99vor2j/IOT?type=design&node-id=124%3A3&mode=design&t=mj2qihRGU3ibILKb-1
@@ -266,7 +266,7 @@ Juntos, hemos trabajado en equipo utilizando la herramienta de diseño colaborat
 - Pie de página: Información de contacto y redes sociales, utilizar una tipografía legible y un tamaño de letra.
 
 <div align="center">
-    <img src="../Resources/design/landing_page_mockup.png">
+    <img src="../Resources/design/landing-page-mockup.png">
 </div>
 
 Enlace de Figma: https://www.figma.com/file/97DXUycS74gm7Bu99vor2j/IOT?type=design&node-id=124%3A3&mode=design&t=mj2qihRGU3ibILKb-1
