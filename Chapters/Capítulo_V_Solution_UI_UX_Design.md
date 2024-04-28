@@ -28,6 +28,20 @@ Para nuestra paleta de colores, hemos seleccionado tonos que evocan una sensaci�
 
 ### 5.1.2 Web, Mobile and IoT Style Guidelines
 
+En nuestras pautas de estilo para la web, nos centramos en adaptar el diseño para que funcione bien en diferentes dispositivos, desde computadoras de escritorio hasta tabletas. Utilizamos una barra lateral de navegación para organizar los menús y un botón de menú para facilitar la navegación en pantallas más pequeñas.
+
+<div align="center">
+    <img src="../Resources/design/web-style-guide.png" width=500>
+</div>
+
+Para la versión móvil, nos enfocamos en hacer que la interfaz sea eficiente y fácil de usar en dispositivos móviles, priorizando la disposición y el contenido relevante. Aseguramos que la aplicación funcione en una amplia gama de dispositivos y sistemas operativos.
+
+<div align="center">
+    <img src="../Resources/design/mobile-style-guide.png" width=200>
+</div>
+
+Para dispositivos IoT, el estilo de diseño se centra en proporcionar una interfaz de usuario intuitiva y clara. Esto implica presentar los datos recopilados de manera dinámica y fácilmente interpretable, ofreciendo retroalimentación visual instantánea sobre cambios en el peso, velocidad o aceleración. Además, se busca permitir la personalización de la visualización de datos y garantizar una navegación sencilla para acceder a diferentes funciones y ajustes. En resumen, el objetivo es brindar una experiencia de usuario informativa y personalizable para el monitoreo y control de los datos capturados por estos dispositivos.
+
 ## 5.2 Information Architecture
 
 ### 5.2.1 Organization Systems
