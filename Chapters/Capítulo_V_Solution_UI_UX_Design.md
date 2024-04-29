@@ -282,3 +282,44 @@ Enlace de Figma: https://www.figma.com/file/97DXUycS74gm7Bu99vor2j/IOT?type=desi
 ### 5.4.3. Applications User Flow Diagrams
 
 ## 5.5. Applications Prototyping
+
+Nuestros principales criterios para el sistema de navegación y los tipos de interacciones seleccionadas fueron:
+
+- Claridad: Interacciones intuitivas para una navegación sencilla y acciones comprensibles.
+- Consistencia: Interacciones uniformes en todo el sitio web para evitar confusiones.
+- Eficiencia: Interacciones que permiten completar tareas de forma rápida y sencilla.
+- Accesibilidad: Interacciones accesibles para todos los usuarios, independientemente de sus habilidades.
+- Atracción visual: Interacciones atractivas que generen una experiencia positiva.
+
+Relación con la arquitectura de información:
+
+- Sistema de navegación fácil de usar y con etiquetas claras para encontrar información rápidamente.
+- Tipos de interacciones adecuadas para el contenido y las acciones deseadas (botones para acciones, enlaces para navegación).
+
+Lo que se desarrolló en base a eso en nuestro diseño fue:
+
+- Botones de de llamada de acción estratégicamente ubicados para máxima visibilidad y fácil acceso por parte del usuario.
+- Menú de navegación desplegable en dispositivos móviles para optimizar el espacio en la pantalla.
+- Acordeones en secciones de características y equipo para organizar la información de forma compacta y accesible.
+- Descripciones emergentes al pasar el cursor sobre elementos para ofrecer información adicional sin saturar la interfaz.
+- Respuestas a preguntas frecuentes desplegables para ahorrar espacio y mejorar la legibilidad.
+
+**Web Application**
+
+Se describe el flujo que el encargado de la empresa de transporte hace en nuestra aplicación web. Desde el registro donde debe ingresar sus datos, información verídica de la empresa e información sobre su ruta, hasta el  acceso a la información detallada de sus buses y conductores.
+
+<div align="center">
+    <img src="../Resources/design/web-prototyping.png">
+</div>
+
+Enlace de video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/ETx1skpbruFLiLz3RD1zm0EByHqYI-5c63HsFg0MuOEHyw?e=U1Xqet
+
+**Mobile Application**
+
+Se describe el flujo que el pasajero realiza en nuestra aplicación móvil, desde registrarse donde debe ingresar sus datos, hasta ver la información detallada sobre los buses más cercanos a su ubicación, su aforo, el tiempo de llegada, entre otros.
+
+<div align="center">
+    <img src="../Resources/design/mobile-prototyping.png">
+</div>
+
+Enlace de video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/EQs2xh1eya5LuYON8-AIUFABmOJBd3_87TksVqxq6VU7ow?e=QFpv8Q
