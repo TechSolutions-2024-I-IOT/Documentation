@@ -108,8 +108,3 @@
 [Bibliografía](./Bibliografía.md)
 
 [Anexos](./Anexos.md)
-
-
-[Conclusiones](./Conclusiones.md)
-[Bibliografía](./Bibliografía.md)
-[Anexos](./Anexos.md)
