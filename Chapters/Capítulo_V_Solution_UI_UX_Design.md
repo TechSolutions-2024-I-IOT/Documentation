@@ -275,6 +275,24 @@ Enlace de Figma: https://www.figma.com/file/97DXUycS74gm7Bu99vor2j/IOT?type=desi
 
 ### 5.4.1. Applications Wireframes
 
+En esta sección, hemos colaborado para crear los wireframes que actúen como una representación visual detallada de la estructura y el diseño de nuestras interfaces de usuario. Trabajando en conjunto, hemos traducido los requisitos funcionales y las especificaciones del proyecto en diagramas gráficos claros y concisos que delinean cómo se organizarán y presentarán los diferentes componentes en la aplicación final. 
+
+**Web Application Wireframe**
+
+<div align="center">
+    <img src="../Resources/design/web_wireframes.png">
+</div>
+
+Enlace de Figma: https://www.figma.com/file/97DXUycS74gm7Bu99vor2j/IOT?type=design&node-id=389%3A5013&mode=design&t=eyxi1wemBfDX5pji-1
+
+**Mobile Application Wireframe**
+
+<div align="center">
+    <img src="../Resources/design/mobile-wireframes.png">
+</div>
+
+Enlace de Figma: https://www.figma.com/file/97DXUycS74gm7Bu99vor2j/IOT?type=design&node-id=0%3A1&mode=design&t=eyxi1wemBfDX5pji-1
+
 ### 5.4.2. Applications Wireflow Diagrams
 
 En esta sección, presentamos los diagramas de flujo de nuestra aplicación web, elaborados por nuestro equipo. Estos diagramas reflejan el comportamiento de la aplicación en función de las interacciones esperadas de nuestros usuarios. Hemos desarrollado un diagrama de flujo para cada objetivo del usuario, teniendo en cuenta los perfiles de usuario (empleador y empleado) para cada funcionalidad de la aplicación. Antes de crear los diagramas de flujo, realizamos flujos de tareas para establecer las rutas típicas que seguirá el usuario en la aplicación. En los diagramas de flujo, mostramos los cambios en la pantalla a medida que el usuario interactúa con la aplicación, añadiendo pasos con representaciones visuales del nuevo estado. Utilizamos la herramienta Figma para crear estos diagramas de flujo, y para cada uno de ellos hemos incluido el objetivo del usuario correspondiente y una explicación detallada del flujo.
@@ -405,6 +423,24 @@ Si los datos ingresados son correctos, el administrador es autenticado y dirigid
 **Enlace Lucidchart: https://lucid.app/lucidchart/461bbd3c-2e35-460e-8052-00e3969a6755/edit?viewport_loc=-4961%2C-4348%2C37337%2C16036%2C0_0&invitationId=inv_2728ed2a-389d-4c05-959e-571d48f86cd5**
 
 ### 5.4.2. Applications Mock-ups
+
+En esta sección, hemos trabajado para crear Mock-ups de nuestra solución que representen visualmente el aspecto y la sensación de nuestras interfaces de usuario. A través de este proceso, hemos transformado los conceptos y especificaciones del proyecto en representaciones visuales detalladas y realistas de cómo se verá la aplicación final. Estos mock-ups nos han permitido capturar la apariencia visual exacta de la aplicación, incluyendo detalles como el diseño de la interfaz de usuario, los colores, la tipografía y los elementos gráficos.
+
+**Web Application Mock-up**
+
+<div align="center">
+    <img src="../Resources/design/web_mockup.png">
+</div>
+
+Enlace de Figma: https://www.figma.com/file/97DXUycS74gm7Bu99vor2j/IOT?type=design&node-id=389%3A5013&mode=design&t=eyxi1wemBfDX5pji-1
+
+**Mobile Application Mock-up**
+
+<div align="center">
+    <img src="../Resources/design/mobile-mockup.png">
+</div>
+
+Enlace de Figma: https://www.figma.com/file/97DXUycS74gm7Bu99vor2j/IOT?type=design&node-id=0%3A1&mode=design&t=eyxi1wemBfDX5pji-1
 
 ### 5.4.3. Applications User Flow Diagrams
 
