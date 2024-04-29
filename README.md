@@ -1,11 +1,8 @@
-<div align="center">
-    <img src="./Resources/images/UPC.png" alt="UPC logo">
+![UPC logo](./Resources/images/UPC.png)
 
 **Universidad Peruana de Ciencias Aplicadas**
 
 **Ingeniería de Software**
-
-</div>
 
 Curso: Desarrollo de Soluciones IoT
 
@@ -17,13 +14,11 @@ Ciclo: 2024-1
 
 ---
 
-# TB1
+# TechSolutions
 
-## TechSolutions
+## ChapaTuBus
 
-### ChapaTuBus
-
-#### Team Members
+### Team Members
 
 | Integrante                               | Código     |
 | ---------------------------------------- | ---------- |
@@ -33,22 +28,14 @@ Ciclo: 2024-1
 | Primo Estrada, Rafael Wimmer             | U202023137 |
 | Vasquez Sal Y Rosas, Tania Sadith        | U20181b530 |
 
-<!-- SECCION: REGISTRO DE VERSIONES
-AQUI VA LA TABLA DE VERSIONES:
-Versión|Fecha|Autor|Descripción de la modificación -->
-
-## Registro de Versiones del Informe
+### Registro de Versiones del Informe
 
 | Versión | Fecha | Autor | Descripción de modificación |
 | ------- | ----- | ----- | --------------------------- |
 |         |       |       |                             |
 
-<!-- SECCION: Project Report Collaboration Insights -->
+### Project Report Collaboration Insights
 
-## Project Report Collaboration Insights
+Abril 2024
 
-<div align="right"><Abril 2024></div>
-
-<p align="right">
-(<a href="./Tabla_de_contenidos.md"> Tabla de contenidos</a>)
-</p>
+[Tabla de contenidos](./Tabla_de_contenidos.md)
