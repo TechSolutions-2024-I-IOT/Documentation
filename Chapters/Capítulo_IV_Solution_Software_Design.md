@@ -10,17 +10,23 @@ Se abordó un enfoque colaborativo y visual que permitió modelar el contexto de
 
 **Unstructured Exploration**
 
+En este primer paso, el equipo se reunió para compartir libremente ideas, eventos y conceptos relacionados con el dominio de nuestro problema que es la poca información en tiempo real del transporte público y cómo esto afecta tanto a pasajeros como a administradores de líneas de transporte. En dichas reuniones, no hubieron restricciones ni reglas específicas, lo que nos permitió una lluvia de ideas abierta y sin filtros.
+
 <div align="center">
     <img src="../Resources/event-storming/unstructured_exploration.jpg">
 </div>
 
 **Timelines**
 
+En este paso organizamos los eventos identificados en una línea de tiempo cronológica para comprender mejor el flujo de acciones y eventos en nuestro sistema. Esto nos ayudó a visualizar la secuencia temporal y las relaciones entre los diferentes eventos.
+ 
 <div align="center">
     <img src="../Resources/event-storming/timeline.jpg">
 </div>
 
 **Pain points**
+
+En este paso identificamos y discutimos los puntos de dolor, es decir, los problemas, obstáculos o desafíos que enfrentan nuestros usuarios y nuestro sistema en nuestro dominio del problema planteado. Esto nos ayudó a comprender las áreas problemáticas que deben abordarse.
 
 <div align="center">
     <img src="../Resources/event-storming/pain_points.jpg">
@@ -28,11 +34,15 @@ Se abordó un enfoque colaborativo y visual que permitió modelar el contexto de
 
 **Pivotal points**
 
+Se identificaron los eventos o momentos críticos que tienen un impacto significativo en nuestro sistema y en nuestro flujo de trabajo. Estos puntos pivote influyeron en nuestra toma de decisiones pues nos permitió identificar qué puntos deberíamos añadir o modificar.
+
 <div align="center">
     <img src="../Resources/event-storming/pivotal_points.jpg">
 </div>
 
 **Commands**
+
+Identificamos las acciones que los usuarios podrían realizar en respuesta a eventos relacionados a la problemática planteada. Estos comandos representan las acciones que desencadenan cambios en el sistema y son fundamentales para comprender el comportamiento del mismo.
 
 <div align="center">
     <img src="../Resources/event-storming/Commands.jpg">
@@ -40,11 +50,15 @@ Se abordó un enfoque colaborativo y visual que permitió modelar el contexto de
 
 **Policies**
 
+En este paso definimos las reglas, directrices o restricciones que rigen el comportamiento de nuestro sistema en ciertos contextos o situaciones. Estas políticas nos ayudaron a establecer límites y garantizar un comportamiento coherente y predecible del sistema.
+
 <div align="center">
     <img src="../Resources/event-storming/Policies.jpg">
 </div>
 
 **Read Models**
+
+Se identificaron y definieron los modelos de lectura que representan el estado actual o proyectado del sistema desde la perspectiva de nuestro usuario. Estos modelos los utilizamos para consultar y mostrar información al usuario de manera efectiva.
 
 <div align="center">
     <img src="../Resources/event-storming/Read_models.jpg">
@@ -52,17 +66,23 @@ Se abordó un enfoque colaborativo y visual que permitió modelar el contexto de
 
 **External Systems**
 
+En este paso, identificamos los sistemas externos o componentes con los que el sistema interactúa, así como los eventos y acciones relacionadas con estas interacciones.
+
 <div align="center">
     <img src="../Resources/event-storming/External_systems.jpg">
 </div>
 
 **Aggregates**
 
+Definimos los agregados, que son conjuntos cohesivos de entidades relacionadas que se tratan como una sola unidad dentro del sistema. Estos agregados nos ayudan a organizar y gestionar la complejidad del dominio del problema.
+
 <div align="center">
     <img src="../Resources/event-storming/Aggregates.jpg">
 </div>
 
 **Bounded Contexts**
+
+Finalmente, identificamos y delimitamos los contextos, que son límites conceptuales que definen el alcance y el significado de los modelos y eventos dentro de un determinado contexto en el dominio del problema. Esto nos ayudó a establecer límites claros y a garantizar una comprensión compartida del sistema entre los miembros de nuestro equipo.
 
 <div align="center">
     <img src="../Resources/event-storming/Bounded Contexts.jpg">
@@ -84,47 +104,87 @@ Al revisar nuestros eventos, también nos hemos percatado de que contamos con ev
 
 #### 4.1.1.2 Domain Message Flows Modeling
 
+Usamos esta técnica para visualizar cómo los componentes del sistema se comunican entre sí mediante mensajes. Utilizamos los siguientes diagramas para representar estas interacciones, lo que nos ayuda a entender cómo funcionan los diferentes elementos del sistema y cómo se coordinan para cumplir con los objetivos del negocio. Esto nos facilita la identificación de requisitos, la toma de decisiones de diseño y la detección de posibles problemas.
+
+- **Consultar información en tiempo real de un bus**
+
+  Describe el proceso mediante el cual los usuarios pueden obtener información actualizada sobre la ubicación y el estado de un autobús en tiempo real. Los usuarios envían una solicitud de consulta al sistema, que luego recupera los datos del autobús en cuestión y los presenta al usuario de manera clara y concisa.
+
 ![request-information](../Resources/event-storming/domain-message-flows-modeling/request-information.png)
+
+- **Solicitud de número mayor de personas en paraderos**
+
+  Describe cómo los usuarios pueden consultar la capacidad de los autobuses en paraderos específicos. Los usuarios envían una solicitud al sistema. El sistema evalúa la solicitud y, si es viable, brinda la información de la capacidad de los autobuses en ese paradero.
 
 ![dashboard](../Resources/event-storming/domain-message-flows-modeling/dashboard.png)
 
+- **Cambio de estado de usuario normal a premium**
+
+  Describe el proceso mediante el cual un usuario puede actualizar su estado de cuenta de normal a premium. Los usuarios realizan la solicitud de actualización a través del sistema, que luego procesa la solicitud y actualiza el estado de la cuenta del usuario, otorgándole acceso a funciones y privilegios adicionales.
+
 ![dashboard](../Resources/event-storming/domain-message-flows-modeling/change_to_premium.png)
+
+- **Inicio de itinerario de los buses de acuerdo a la agenda planificada en los buses**
+
+  Describe cómo se inicia el itinerario de los autobuses de acuerdo con la agenda planificada. El sistema recibe la agenda planificada de los autobuses, la procesa y configura los itinerarios correspondientes para cada autobús. Una vez que se activa el itinerario, los autobuses comienzan a seguir la ruta y los horarios establecidos en la agenda.
 
 ![alt text](../Resources/event-storming/domain-message-flows-modeling/start_itinerary.png)
 
 #### 4.1.1.3 Bounded Context Canvases
 
+Este lienzo nos proporciona un marco estructurado para definir y visualizar los límites del contexto del dominio en nuestro sistema de software, así como sus interacciones con otros contextos limitados. Nos permite identificar claramente los límites del contexto del dominio, definir los términos del lenguaje ubicuo y establecer las reglas de colaboración entre los diferentes contextos.
+
+- **Gestión de cuentas**
+
+  Se centra en la gestión de cuentas de usuario dentro del sistema, incluyendo la creación, modificación y eliminación de cuentas, así como la gestión de permisos y roles asociados.
+
 ![alt text](../Resources/event-storming/bounded-context-canvases/image1.png)
+
+- **Suscripciones**
+
+  Aborda el manejo de las suscripciones de usuarios al sistema, incluyendo la gestión de planes de suscripción, renovaciones automáticas, cancelaciones y pagos asociados.
 
 ![alt text](../Resources/event-storming/bounded-context-canvases/image2.png)
 
+- **Ejecución y monitoreo**
+
+   Se enfoca en la ejecución y el monitoreo de procesos y operaciones dentro del sistema.
+
 ![alt text](../Resources/event-storming/bounded-context-canvases/image3.png)
 
+- **Notificaciones**
+
+  Se dedica a la gestión y envío de notificaciones dentro del sistema, abarcando la configuración de reglas de notificación, la programación de envíos y la gestión de canales de comunicación.
+
 ![alt text](../Resources/event-storming/bounded-context-canvases/image4.png)
+
+- **Data Calculate**
+
+   Se concentra en la lógica y los cálculos de datos dentro del sistema, incluyendo la manipulación, transformación y procesamiento de datos para generar resultados y métricas específicas.
 
 ![alt text](../Resources/event-storming/bounded-context-canvases/image5.png)
 
 ### 4.1.2 Context Mapping
 
-Claro, aquí tienes una versión más directa y sin florituras:
-
 Proceso de Elaboración de Context Maps para el Proyecto "Gestión de Transporte Público"
 
-Identificación de Capabilities y Bounded Contexts: Se identificaron los capabilities clave relacionados con la gestión de transporte, como seguimiento de buses, gestión de suscripciones y monitoreo de conductores. Estos se agruparon en bounded contexts como "Subscriptions", "Execution & Monitoring" y "Notifications".
+**Identificación de Capabilities y Bounded Contexts:** Se identificaron los capabilities clave relacionados con la gestión de transporte, como seguimiento de buses, gestión de suscripciones y monitoreo de conductores. Estos se agruparon en bounded contexts como "Subscriptions", "Execution & Monitoring" y "Notifications".
 
-Análisis de Movimiento de Capabilities: Se evaluó la reubicación de ciertos capabilities entre bounded contexts para mejorar la cohesión funcional y la modularidad del sistema.
+**Análisis de Movimiento de Capabilities:** Se evaluó la reubicación de ciertos capabilities entre bounded contexts para mejorar la cohesión funcional y la modularidad del sistema.
 
-Exploración de Descomposición y Consolidación de Bounded Contexts: Se discutió la posibilidad de dividir o combinar bounded contexts para optimizar la estructura del sistema.
+**Exploración de Descomposición y Consolidación de Bounded Contexts:** Se discutió la posibilidad de dividir o combinar bounded contexts para optimizar la estructura del sistema.
 
-Evaluación de Patrones de Relaciones: Se aplicaron patrones como Anti-corruption Layer para gestionar la comunicación entre bounded contexts y mantener la integridad del modelo de dominio.
+**Evaluación de Patrones de Relaciones:** Se aplicaron patrones como Anti-corruption Layer para gestionar la comunicación entre bounded contexts y mantener la integridad del modelo de dominio.
 
-Discusión y Selección de Alternativas: Se debatieron las diferentes opciones de context mapping y se seleccionó la más adecuada para las necesidades del proyecto.
+**Discusión y Selección de Alternativas:** Se debatieron las diferentes opciones de context mapping y se seleccionó la más adecuada para las necesidades del proyecto.
 
 ![alt text](../Resources/context-mapping/image1.png)
 
 ![alt text](../Resources/context-mapping/image2.png)
 
 ### 4.1.3 Software Architecture.
+
+En este apartado definiremos la manera en que nuestro sistema estará organizado y cómo interactuarán sus diferentes partes para lograr los objetivos de funcionalidad, rendimiento, seguridad y otros requisitos no funcionales. Proporcionaremos un marco que guíe el desarrollo, la implementación y el mantenimiento del software a lo largo de su ciclo de vida.
 
 #### 4.1.3.1. Software Architecture System Landscape Diagram.
 
