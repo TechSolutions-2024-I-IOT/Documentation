@@ -277,6 +277,79 @@ Enlace de Figma: https://www.figma.com/file/97DXUycS74gm7Bu99vor2j/IOT?type=desi
 
 ### 5.4.2. Applications Wireflow Diagrams
 
+En esta sección, presentamos los diagramas de flujo de nuestra aplicación web, elaborados por nuestro equipo. Estos diagramas reflejan el comportamiento de la aplicación en función de las interacciones esperadas de nuestros usuarios. Hemos desarrollado un diagrama de flujo para cada objetivo del usuario, teniendo en cuenta los perfiles de usuario (empleador y empleado) para cada funcionalidad de la aplicación. Antes de crear los diagramas de flujo, realizamos flujos de tareas para establecer las rutas típicas que seguirá el usuario en la aplicación. En los diagramas de flujo, mostramos los cambios en la pantalla a medida que el usuario interactúa con la aplicación, añadiendo pasos con representaciones visuales del nuevo estado. Utilizamos la herramienta Figma para crear estos diagramas de flujo, y para cada uno de ellos hemos incluido el objetivo del usuario correspondiente y una explicación detallada del flujo.
+
+**TaskFlow**
+
+- Registrarse en la aplicación
+- Iniciar sesión
+- Registrar ruta de transporte
+- Ver reporte de paraderos con mayor afluencia de pasajeros
+- Ver reporte de horarios con mayor afluencia de pasajeros
+- Ver cantidad de pasajeros que abordaron en un paradero
+- Ver información de flota
+- Ver notificaciones de flota
+- Buscar información de una línea de transporte
+- Añadir ruta a favoritos
+- Ver rutas de líneas de transporte
+
+**Pasajero**
+
+- UG01: Registrarse en la aplicación
+  
+  El pasajero accede a la aplicación y selecciona la opción de registro, completa el formulario de registro proporcionando su información personal, como nombre, correo electrónico y contraseña, luego onfirma la creación de su cuenta al hacer clic en el botón de registro y recibe una notificación de confirmación de registro y es redirigido a la pantalla de inicio de sesión para iniciar sesión con sus nuevas credenciales.
+  
+- UG02: Iniciar sesión
+
+  El pasajero abre la aplicación y selecciona la opción de iniciar sesión, ingresa su correo electrónico y contraseña en los campos correspondientes, presiona el botón de inicio de sesión para verificar sus credenciales y si la información ingresada es correcta, el usuario es autenticado y dirigido a la pantalla principal de la aplicación.
+  
+- UG03: Buscar información de una línea de transporte
+
+  Después de iniciar sesión, el pasajero accede a la función de búsqueda en la pantalla principal de la aplicación, ingresa el nombre o número de la línea de transporte que desea buscar y selecciona la línea de transporte deseada de los resultados de búsqueda. Finalmente, visualiza la información detallada de la línea de transporte, como horarios, rutas y paradas disponibles.
+
+- UG04: Añadir ruta a favoritos
+
+  Mientras revisa la información de una línea de transporte, el pasajero encuentra una ruta que le interesa, selecciona la opción para añadir esa ruta a sus favoritos y la ruta seleccionada se guarda en la lista de favoritos del pasajero para un acceso rápido y fácil en el futuro.
+  
+- UG05: Ver rutas de líneas de transporte
+
+  Desde la pantalla principal de la aplicación, el pasajero accede a la sección de rutas de líneas de transporte, explora la lista de todas las rutas disponibles, organizadas por línea de transporte y selecciona una línea de transporte específica para ver las rutas asociadas y la información detallada de cada una.
+
+**Encargado de la empresa de transporte**
+
+- UG01: Registrarse en la aplicación
+
+  El encargado accede a la aplicación web y selecciona la opción de registro, completa el formulario de registro proporcionando la información solicitada, incluyendo los datos de la empresa y de la línea de transporte, adjunta la información requerida y confirma el registro de la empresa y la línea de transporte al hacer clic en el botón de registro. Finalmente, recibe una notificación de confirmación y es redirigido a la pantalla de inicio de sesión para acceder a su cuenta recién creada.
+  
+- UG02: Iniciar sesión
+
+  El encargado abre la aplicación web y selecciona la opción de iniciar sesión, ingresa su correo electrónico y contraseña en los campos correspondientes, presiona el botón de inicio de sesión para autenticarse.
+Si los datos ingresados son correctos, el administrador es autenticado y dirigido al panel de control (dashboard) de la aplicación.
+
+- UG03: Registrar ruta de transporte
+
+  Después de iniciar sesión, el encargado accede al panel de control y selecciona la opción de registrar ruta de transporte, completa el formulario de registro proporcionando los detalles de la nueva ruta, como el número de ruta, horarios y paraderos, adjunta la información adicional requerida, como fotos de los paraderos y horarios de inicio y fin, confirma el registro de la nueva ruta al hacer clic en el botón correspondiente. Finalmente, recibe una notificación de confirmación y la nueva ruta se agrega al sistema.
+  
+- UG04: Ver reporte de paraderos con mayor afluencia de pasajeros
+
+  Desde el panel de control, el encargado accede a la sección de informes y selecciona el reporte de paraderos con mayor afluencia de pasajeros, visualiza la lista de paraderos ordenados por la cantidad de pasajeros que abordaron en cada uno y puede explorar los detalles de cada paradero, incluyendo la cantidad de pasajeros y el horario de mayor afluencia.
+  
+- UG05: Ver reporte de horarios con mayor afluencia de pasajeros
+
+  Desde el panel de control, el encargado accede a la sección de informes y elige el reporte de horarios con mayor afluencia de pasajeros, visualiza la lista de horarios de salida ordenados por la cantidad de pasajeros que abordaron en cada uno y puede explora los detalles de cada horario, incluyendo la cantidad de pasajeros y los paraderos asociados.
+
+- UG06: Ver cantidad de pasajeros que abordaron en un paradero
+
+  Desde el panel de control, el encargado accede a la sección de informes y selecciona la opción de ver la cantidad de pasajeros que abordaron en un paradero específico, selecciona el paradero de interés de una lista desplegable, visualiza la cantidad de pasajeros que abordaron en ese paradero en un período de tiempo determinado.
+  
+- UG07: Ver información de flota
+
+  Desde el panel de control, el encargado accede a la sección de flota y selecciona la opción de ver información de la flota, visualiza la lista de conductores asociados a la empresa de transporte, junto con sus detalles personales y de contacto y explora la información detallada de cada conductor, incluyendo su historial de trabajo y evaluaciones.
+
+- UG08: Ver notificaciones de flota
+
+  Desde el panel de control, el encargado accede a la sección de notificaciones y selecciona la opción de ver notificaciones de flota, visualiza la lista de notificaciones recibidas relacionadas con la flota de conductores y explora cada notificación para obtener más detalles y tomar las acciones necesarias, como asignar nuevos horarios o realizar seguimientos.
+  
 ### 5.4.2. Applications Mock-ups
 
 ### 5.4.3. Applications User Flow Diagrams
