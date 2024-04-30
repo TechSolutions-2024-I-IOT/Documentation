@@ -86,33 +86,23 @@
         <td>Como visitante del segmento pasajero, deseo dirigirme a la aplicación móvil correspondiente para descargarla en mi dispositivo móvil
         </td>
         <td>
-            <b>Scenario 1: Redirección a Google Play</b> <br>
+            <b>Scenario 1: Aplicación publicada en Google Play</b> <br>
             <b>Dado</b> que el visitante del segmento pasajero se encuentra en la vista principal de la landing page<br>
             <b>Cuando</b> el visitante selecciona descargar la aplicación para Android<br>
             <b>Entonces</b> el visitante es redirigido a la página de descarga de la aplicación en Google Play<br><br> 
-            <b>Scenario 2: Redirección a App Store</b> <br>
+            <b>Scenario 2: Aplicación publicada en App Store</b> <br>
              <b>Dado</b> que el visitante del segmento pasajero se encuentra en la vista principal de la landing page<br>
              <b>Cuando</b> el visitante selecciona descargar la aplicación para iOS<br>
              <b>Entonces</b> el visitante es redirigido a la página de descarga de la aplicación en la App Store de iOS<br><br>
-            <b>Scenario 3: Falla en la Redirección a Google Play</b> <br>
-             <b>Dado</b> que el visitante del segmento pasajero se encuentra en la vista principal de la landing page<br>
-             <b>Cuando</b> el visitante selecciona descargar la aplicación para Android<br>
-             <b>Entonces</b> no es redirigido a la página de descarga de la aplicación en Google Play<br>
-             <b>Y</b> recibe un mensaje de error o una página no encontrada<br><br>
-            <b>Scenario 4: Falla en la Redirección a App Store</b> <br>
-             <b>Dado</b> que el visitante del segmento pasajero se encuentra en la vista principal de la landing page<br>
-             <b>Cuando</b> el visitante selecciona descargar la aplicación para iOS<br>
-             <b>Entonces</b> no es redirigido a la página de descarga de la aplicación en la App Store de iOS<br>
-             <b>Y</b> recibe un mensaje de error o una página no encontrada<br><br>
-             <b>Scenario 5: No se encuentra la Aplicación en Google Play</b> <br>
+             <b>Scenario 3: Aplicación no publicada en la Play Store</b> <br>
             <b>Dado</b> que el visitante del segmento pasajero se encuentra en la vista principal de la landing page<br>
-            <b>Y</b> la aplicación no se encuentra subida en la Play Store<br>
-            <b>Cuando</b> el visitante selecciona descargar la aplicación para Android<br>
+            <b>Y</b> la aplicación no se encuentra publicada en la Play Store<br>
+            <b>Cuando</b> el visitante selecciona descargar la aplicación a través de Play Store<br>
             <b>Entonces</b> es redirigido a la página principal de Google Play<br><br>
-            <b>Scenario 6: No se Encuentra la Aplicación en App Store</b> <br>
+            <b>Scenario 4: Aplicación no publicada en la App Store</b> <br>
             <b>Dado</b> que el visitante del segmento pasajero se encuentra en la vista principal de la landing page<br>
-            <b>Y</b> la aplicación no se encuentra subida en la App Store<br>
-            <b>Cuando</b> el visitante selecciona descargar la aplicación para iOS<br>
+            <b>Y</b> la aplicación no se encuentra publicada en la App Store<br>
+            <b>Cuando</b> el visitante selecciona descargar la aplicación a través de App Store<br>
             <b>Entonces</b> es redirigido a la página principal de la App Store de iOS<br>
         </td>
         <td></td>
@@ -120,77 +110,65 @@
 <tr>
     <td>US02</td>
         <td>Redirección de la landing Page a la aplicación web</td>
-        <td>Como visitante del segmento encargado de flota de autobuses, deseo ingresar a la aplicación web mediante la landing page para usarla en mi navegador favorito</td>
+        <td>Como visitante del segmento encargado de flota de autobuses, deseo ingresar a la aplicación web mediante la landing page para acceder a el contenido que ofrece la aplicación</td>
         <td>
-            <b>Scenario 1: Redirección a la aplicación web de ChapaTuBus</b> <br>
+            <b>Scenario 1: Redirección exitosa a la aplicación web de ChapaTuBus</b> <br>
             <b>Dado</b> que el visitante del segmento encargado de la flota de autobuses se encuentra en la sección de empresa de la landing page<br>
             <b>Cuando</b> el visitante decide redirigirse a la aplicación web<br>
             <b>Entonces</b> el visitante es redirigido a la aplicación web de ChapaTuBus<br><br>
-            <b>Scenario 2: Redirección fallida debido a la aplicación web caída</b> <br>
-            <b>Dado</b> que el visitante se encuentra en la sección de empresa de la landing page<br>
-            <b>Cuando</b> el visitante elige redirigirse a la aplicación web<br>
-            <b>Y</b> la aplicación web de ChapaTuBus se encuentra caída o no disponible<br>
-            <b>Entonces</b> el visitante no es redirigido y recibe un mensaje informando sobre la indisponibilidad temporal de la aplicación web<br><br>
-            <b>Scenario 3: Redirección interrumpida por un error en el sistema</b> <br>
-            <b>Dado</b> que el visitante se encuentra en la sección de empresa de la landing page<br>
-            <b>Cuando</b> el visitante elige redirigirse a la aplicación web<br>
-            <b>Y</b> el sistema experimenta un error interno<br>
-            <b>Entonces</b> el visitante no es redirigido y recibe un mensaje de error<br>
         </td>
         <td></td>
     </tr>
 <tr>
         <td>US03</td>
         <td>Envío de mensaje a través de un formulario de contacto</td>
-        <td>Como visitante de cualquier segmento, deseo enviar un mensaje a los desarrolladores para enviar sugerencias, quejas u mensajes con otro motivo que yo desee</td>
+        <td>Como visitante de cualquier segmento, deseo enviar un mensaje a los desarrolladores para enviar sugerencias, quejas ,mensajes u otro motivo que yo desee</td>
         <td>
-    <b>Scenario 1: Envío exitoso del formulario de contacto</b> <br>
-    <b>Dado</b> que el visitante de cualquier segmento se encuentra en la sección de contacto de la landing page<br>
-    <b>Cuando</b> el visitante completa todos los campos del formulario de contacto con la información solicitada<br>
-    <b>Y</b> ordena enviar el formulario<br>
-    <b>Entonces</b> la información proporcionada es enviada correctamente al correo electrónico de ChapaTuBus<br><br>
-    <b>Scenario 2: Envío fallido por campos incompletos en el formulario</b> <br>
-    <b>Dado</b> que el visitante de cualquier segmento se encuentra en la sección de contacto de la landing page<br>
-    <b>Cuando</b> el visitante completa parcialmente los campos requeridos en el formulario de contacto<br>
-    <b>Y</b> ordena enviar el formulario<br>
-    <b>Entonces</b> se muestra un mensaje de error indicando los campos que aún necesitan ser completados<br><br>
-    <b>Scenario 3: Envío del formulario con información inválida</b> <br>
-    <b>Dado</b> que el visitante de cualquier segmento se encuentra en la sección de contacto de la landing page<br>
-    <b>Cuando</b> el visitante proporciona información inválida en uno o más campos del formulario de contacto<br>
-    <b>Y</b> ordena enviar el formulario<br>
-    <b>Entonces</b> se muestra un mensaje de error indicando los campos con información incorrecta<br><br>
-    <b>Scenario 4: Cancelación del envío del formulario</b> <br>
-    <b>Dado</b> que el visitante de cualquier segmento se encuentra en la sección de contacto de la landing page<br>
-    <b>Cuando</b> el visitante ha llenado o parcialmente llenado el formulario de contacto<br>
-    <b>Y</b> decide cancelar el envío del formulario<br>
-    <b>Entonces</b> el formulario no es enviado y se mantiene la información ingresada por el usuario en los campos correspondientes<br><br>
-    <b>Scenario 5: Redirección a otra sección tras el envío exitoso</b> <br>
-    <b>Dado</b> que el visitante de cualquier segmento ha enviado con éxito el formulario de contacto<br>
-    <b>Cuando</b> el visitante recibe la confirmación del envío exitoso<br>
-    <b>Entonces</b> es redirigido automáticamente a una página de agradecimiento o a otra sección relevante de la landing page<br>
-</td>
+            <b>Scenario 1: Enviar el formulario con los campos correctamentes llenados</b> <br>
+            <b>Dado</b> que el visitante ha completado los campos de nombre,apellido,correo electrónico y mensaje correctamente<br>
+            <b>Cuando</b> los campos son validados<br>
+            <b>Y</b> el visitante ordena enviar el formulario<br>
+            <b>Entonces</b> el formulario es enviado correctamente al correo electrónico de ChapaTuBus<br><br>
+            <b>Scenario 2: Enviar el formulario con un correo electrónico no válido</b> <br>
+            <b>Dado</b> El visitante se encuentra en el formulario de contacto<br>
+            <b>Y</b> ingresa un formato de coreo electrónico no válido<br>
+            <b>Cuando</b> el correo electrónico es revisado<br>
+            <b>Y</b> el visitante ordena enviar el formulario<br>
+            <b>Entonces</b> el formulario no es enviado<br>
+            <b>Y</b> se le muestra un mensaje de error indicando que el correo electrónico no es válido<br><br>
+            <b>Scenario 3: Envío fallido por campos incompletos en el formulario</b> <br>
+            <b>Dado</b> que el visitante se encuentra en la sección de contacto de la landing page<br>
+            <b>Cuando</b> el visitante completa parcialmente los campos requeridos en el formulario de contacto<br>
+            <b>Y</b> ordena enviar el formulario<br>
+            <b>Entonces</b> se muestra un mensaje de error indicando los campos que aún necesitan ser completados<br><br>
+            <b>Scenario 4: Envío del formulario con información inválida</b> <br>
+            <b>Dado</b> que el visitante se encuentra en la sección de contacto de la landing page<br>
+            <b>Cuando</b> el visitante proporciona información inválida en uno o más campos del formulario de contacto<br>
+            <b>Y</b> ordena enviar el formulario<br>
+            <b>Entonces</b> se muestra un mensaje de error indicando los campos con información incorrecta<br><br>
+            <b>Scenario 5: Redirección a otra sección tras el envío exitoso</b> <br>
+            <b>Dado</b> que el visitante ha enviado con éxito el formulario de contacto<br>
+            <b>Cuando</b> el visitante recibe la confirmación del envío exitoso<br>
+            <b>Entonces</b> es redirigido automáticamente a una página de agradecimiento o a otra sección relevante de la landing page<br>
+        </td>
         <td></td>
     </tr>
 <tr>
         <td>US04</td>
         <td>Conocimiento del Equipo desarrollador de la aplicación</td>
-        <td> Como visitante, deseo conocer al equipo que está desarrollando la aplicación para tener una mayor confianza en las personas detrás del proyecto.</td>
+        <td> Como visitante, deseo visualizar al equipo que está desarrollando la aplicación para tener una mayor confianza en las personas detrás del proyecto.</td>
         <td>
-    <b>Scenario 1: Navegación a la sección de Preguntas Frecuentes</b> <br>
-    <b>Dado</b> que el visitante se encuentra en la página principal de la Landing Page<br>
-    <b>Cuando</b> el visitante se desplaza hasta la sección de Preguntas Frecuentes<br>
-    <b>Entonces</b> el visitante encuentra la sección de Preguntas Frecuentes.<br><br>
-    <b>Scenario 2: Acceso a preguntas y respuestas específicas</b> <br>
-    <b>Dado</b> que el visitante se encuentra en la sección de Preguntas Frecuentes<br>
-    <b>Cuando</b> el visitante selecciona una pregunta de la lista<br>
-    <b>Entonces</b> se despliega la respuesta correspondiente de manera clara y concisa.<br>
-</td>
+            <b>Scenario 1: Navegación a la sección de "Nuestro Equipo"</b> <br>
+            <b>Dado</b> que el visitante se encuentra en la página principal de la Landing Page<br>
+            <b>Cuando</b> el visitante se desplaza hasta la sección de "Nuestro Equipo" <br>
+            <b>Entonces</b> el visitante visualiza al equipo colaborador del proyecto.<br><br>
+        </td>
         <td></td>
     </tr>
 <tr>
         <td>US05</td>
         <td>Sección de Preguntas Frecuentes</td>
-        <td>Como visitante, deseo acceder a una sección de Preguntas Frecuentes para resolver mis inquietudes sobre el servicio ofrecido.</td>
+        <td>Como visitante, deseo acceder a la sección de Preguntas Frecuentes para resolver mis inquietudes sobre el servicio ofrecido.</td>
         <td>
         <b>Scenario 1: Navegación a la sección de Preguntas Frecuentes</b> <br>
         <b>Dado</b> que el visitante se encuentra en la página principal de la Landing Page<br>
@@ -206,7 +184,7 @@
 <tr>
         <td>US06</td>
         <td>Navegación y Contenido Informativo en el Footer</td>
-        <td>Como visitante ,deseo tener acceso fácil y claro a información relevante y enlaces útiles en el footer para una navegación más eficiente e acceder rápidamente a secciones importantes del sitio.</td>
+        <td>Como visitante ,deseo tener acceso fácil y claro a información relevante y enlaces útiles en el footer para acceder rápidamente a secciones importantes de la Landing Page.</td>
         <td>
     <b>Scenario 1: Acceso a información relevante en el footer</b> <br>
     <b>Dado</b> que el visitante se encuentra en cualquier página del sitio web<br>
@@ -214,21 +192,13 @@
     <b>Entonces</b> el visitante encuentra información relevante y enlaces útiles claramente organizados y visibles.<br><br>
     <b>Scenario 2: Enlaces a secciones importantes en el footer</b> <br>
     <b>Dado</b> que el visitante está en el footer <br>
-    <b>Cuando</b> el visitante busca enlaces a secciones importantes como "Inicio", "Nosotros", "Contacto", entre otros<br>
+    <b>Cuando</b> el visitante busca enlaces a secciones importantes como "Inicio", "Nosotros" y "Contacto"<br>
     <b>Entonces</b> el visitante encuentra estos enlaces de forma clara y directa.<br><br>
     <b>Scenario 3: Acceso rápido a redes sociales</b> <br>
     <b>Dado</b> que el visitante está en el footer del sitio web<br>
-    <b>Cuando</b> el visitante elige algún ícono de las redes sociales disponibles<br>
+    <b>Cuando</b> el visitante selecciona algún ícono de las redes sociales disponibles de ChapaTuBus<br>
     <b>Entonces</b> el visitante es redirigido a la red social elegida<br>
 </td>
-        <td>
-        <!--
-            <b>Criterios de Aceptación:</b><br>
-            1. El botón de Google Play en la landing page debe ser funcional y redirigir al usuario a la página de descarga de la aplicación en Google Play Store.<br>
-            2. El botón de App Store en la landing page debe ser funcional y redirigir al usuario a la página de descarga de la aplicación en la App Store de iOS.<br>
-            3. La redirección debe ser inmediata y sin errores, proporcionando al usuario una experiencia fluida.<br>
-            4. Los botones de acción deben ser claramente visibles y distinguibles para el usuario.-->
-        </td>
     </tr>
 <tr>
         <td>US07</td>
@@ -256,14 +226,6 @@
     <b>Cuando</b> el visitante realiza acciones como clics, desplazamientos o interacciones táctiles<br>
     <b>Entonces</b> todos los elementos interactivos funcionan correctamente en todos los dispositivos, garantizando una experiencia de usuario sin errores ni fallos.<br>
 </td>
-        <td>
-        <!--
-            <b>Criterios de Aceptación:</b><br>
-            1. El botón de redirección en la sección de empresa de la landing page debe ser funcional y redirigir al usuario a la aplicación web de ChapaTuBus.<br>
-            2. La redirección debe ser inmediata y sin errores, proporcionando al usuario una experiencia fluida.<br>
-            3. El diseño y la estructura de la aplicación web deben ser coherentes con la marca y ofrecer una navegación intuitiva para el usuario.<br>
-            4. El botón de redirección debe ser claramente visible y distinguible para el usuario, utilizando un diseño que invite a hacer clic.-->
-        </td>
     </tr>
 <tr>
         <td>US08</td>
@@ -278,14 +240,6 @@
         <b>Dado</b> que el visitante visualiza múltiples testimonios en la sección de testimonios<br>
         <b>Cuando</b> el visitante utiliza controles de navegación <br>
         <b>Entonces</b> el visitante puede desplazarse fácilmente entre diferentes testimonios para leer las experiencias de distintos usuarios o clientes.<br>
-        </td>
-        <td>
-        <!--
-            <b>Criterios de Aceptación:</b><br>
-            1. El formulario de contacto debe contener campos claros y relevantes para capturar la información necesaria del visitante (nombre, correo electrónico, mensaje, etc.).<br>
-            2. Al enviar el formulario, el sistema debe realizar una validación para asegurarse de que todos los campos requeridos estén completos antes de enviar la información.<br>
-            3. Después de enviar el formulario con éxito, el visitante debe recibir una confirmación visual o mensaje de éxito en la página, indicando que su mensaje ha sido enviado correctamente.<br>
-            4. La información del formulario debe ser enviada de manera segura al correo electrónico de ChapaTuBus, garantizando la privacidad y seguridad de los datos del visitante.<br>-->
         </td>
     </tr>
 <tr>
