@@ -118,7 +118,7 @@ Enlace de la organización: https://github.com/TechSolutions-2024-I-IOT
     </tr>
   <tr>
         <td>
-           <p>Backend Services</p>
+           <p>Web Services</p>
         </td>
         <td>
           <p>Backend</p>
@@ -234,7 +234,7 @@ Enlace de la organización: https://github.com/TechSolutions-2024-I-IOT
            <p>Sprint 1 Goal</p>
         </td>
         <td>
-          <p></p>
+          <p>Desarrollar la landing page y primera versión de la aplicación web del proyecto y lanzarlas a producción</p>
         </td>
     </tr>
   <tr>
@@ -256,6 +256,17 @@ Enlace de la organización: https://github.com/TechSolutions-2024-I-IOT
 </table>
 
 #### 6.2.1.2. Sprint Backlog 1.
+
+| Sprint #   | Sprint 1        |    |         |             |                    ||||
+|:-----------|:----------------|:---|:--------|:------------|:-------------------| :- | :- | :- |
+| User Story | Work-Item /Task |    |         |             |                    ||||
+| Id         | Title           | Id | Title   | Description | Estimation (Hours) |Assigned To|Status (To-do / In-Process/ To-Review / Done)||
+| 1          | Ejemplo         | 1  | Ejemplo | Ejemplo     | 2                  |User|To-Do||
+| 2          | Ejemplo         | 2  | Ejemplo | Ejemplo     | 2                  ||||
+|            |                 |    |         |             |                    ||||
+
+
+
 
 #### 6.2.1.3. Development Evidence for Sprint Review.
 
