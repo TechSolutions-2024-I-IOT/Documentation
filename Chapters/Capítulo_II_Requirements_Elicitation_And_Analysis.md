@@ -350,6 +350,9 @@ Esta sección se enfoca en la investigación, utilizando los datos recopilados a
 
 - Enlace del video: **https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/ETeZ8JWxY7pMoTAAXF6H_DsBKdeZc1_u2YrohdilZ2Obqg?e=G3EseB**
 - Timing: **00:06s-05:45s**
+- Aplicaciones usadas: Excel, WhatsApp, Google Maps
+- Dispositivos: Smartphone Android y computadora portátil
+- Browsers: Google
 - Resumen:
 
 Juan Pérez Sánchez, de 45 años y residente en el distrito de Jesús María en Lima, es el administrador de una flota de autobuses en la Empresa de Transporte Consorcio Vía. Casado y usuario de un smartphone Android y una computadora portátil para la administración de su flota, enfrenta desafíos diarios como mejorar la eficiencia en las rutas, controlar el aforo de los autobuses y gestionar el mantenimiento adecuado de la flota, además de abordar quejas de pasajeros sobre el servicio. Tiene un enfoque práctico y colaborativo para manejar crisis en la operación de su flota de autobuses. Cuando surge un problema, como una avería de un autobús, actúa rápidamente para minimizar las interrupciones. Su método incluye mantener la calma, recolectar toda la información relevante, y convocar reuniones con líderes del equipo para formular soluciones eficientes. Utiliza excel para la gestión de flotas y grupos de WhatsApp para la comunicación y coordinación,incluye Google Maps para la navegación y planificación de rutas. Prefiere Google como motor de búsqueda. Las redes sociales que más usa con frecuencia son Facebook e Instagram. Aunque no tiene experiencia previa con la tecnología IoT, ve su implementación como una oportunidad para optimizar la planificación y gestión de rutas, mejorar el aforo de los vehículos y reducir costos. Sus preocupaciones incluyen el costo inicial de la implementación y la capacitación del personal. Considera que los mayores beneficios de la tecnología serían una experiencia de viaje más enriquecedora para los clientes, con acceso a información en tiempo real sobre tráfico y ubicación de los autobuses, y datos sobre el rendimiento de los choferes. Evaluaría cuidadosamente el retorno de inversión, la compatibilidad con los sistemas actuales, la facilidad de uso y mantenimiento, así como el impacto en la calidad del servicio y la satisfacción del cliente antes de implementar nuevas tecnologías. 
@@ -365,6 +368,9 @@ Juan Pérez Sánchez, de 45 años y residente en el distrito de Jesús María en
 
 - Enlace del video: **https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/ETeZ8JWxY7pMoTAAXF6H_DsBKdeZc1_u2YrohdilZ2Obqg?e=G3EseB**
 - Timing: **05:46s-09:01s**
+- Aplicaciones usadas: Excel, WhatsApp, Facebook, Twitter, TikTok
+- Dispositivos: Smartphone Android y computadora portátil
+- Browsers: Google
 - Resumen:
 
 
@@ -384,6 +390,9 @@ Jorge Antonio Carrascal Casca, de 28 años y residente en Puente Piedra, es subg
 
 - Enlace del video: **https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/ETeZ8JWxY7pMoTAAXF6H_DsBKdeZc1_u2YrohdilZ2Obqg?e=G3EseB**
 - Timing: **09:02s-14:22s**
+- Aplicaciones usadas: Facebook, Instagram, TikTok
+- Dispositivos: Smartphone Android y computadora portátil
+- Browsers: Google
 - Resumen:
 
 Andy Casafranca Carrascal, de 24 años y residente en San Martín de Porres, trabaja como ayudante en la gestión de rutas y control de conductores en la empresa Transportes Rápido Corre Caminos SA. Enfrenta retos diarios como la falta de información en tiempo real sobre la ubicación y estado de sus autobuses, y la gestión manual de rutas y conductores. Para gestionar estas tareas, Andy utiliza una combinación de herramientas tradicionales y digitales, incluyendo una laptop para el seguimiento en terreno. Emplea Whatsapp mantenerse en contacto con los conductores y utiliza plataformas como Waze para ajustes de ruta en tiempo real. Las redes sociales que más usa con frecuencia son Facebook, Instagram y TikTok. Aunque es nuevo en la aplicación de tecnología IoT, está entusiasmado con la perspectiva de integrar sensores para monitorear el aforo de los autobuses, el estado del conductor y la ubicación precisa de los vehículos. Andy tiene ciertas reservas sobre el posible mal uso de la tecnología, especialmente en términos de privacidad y dependencia excesiva en soluciones automatizadas. No obstante, está convencido de que los beneficios, como una mayor satisfacción del cliente y un aumento en la frecuencia de uso y ganancias, justificarían la inversión. En su proceso de toma de decisiones, Andy prestará especial atención a los costos de implementación, el tiempo necesario para integrar las nuevas tecnologías y la facilidad de uso para asegurarse de que se adaptan bien al entorno operativo existente. Su enfoque proactivo y su disposición para adaptar soluciones tecnológicas podrían significar un gran avance en la eficiencia y el servicio al cliente en Transportes Rápido Corre Caminos SA.
@@ -399,6 +408,9 @@ Andy Casafranca Carrascal, de 24 años y residente en San Martín de Porres, tra
 
 - Enlace del video: **https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/ETeZ8JWxY7pMoTAAXF6H_DsBKdeZc1_u2YrohdilZ2Obqg?e=G3EseB**
 - Timing: **14:23s-18:12s**
+- Aplicaciones usadas: Google Maps, Moovit, WhatsApp, Spotify, Instagram, TikTok
+- Dispositivos: Smartphone Android
+- Browsers: Google
 - Resumen:
 
 Wilver Arana Ramos, de 23 años y residente en el distrito de Carabayllo en Lima, es un estudiante universitario que enfrenta retos diarios en su viaje a la universidad debido al tráfico en horas pico y autobuses llenos, lo que frecuentemente resulta en tardanzas. Utiliza su teléfono inteligente Android para planificar sus desplazamientos y confía en Google Maps para la navegación y Moovit para horarios, aunque estas plataformas no siempre proporcionan información en tiempo real sobre la disponibilidad de los autobuses o cambios de ruta. Además, Wilver utiliza WhatsApp para comunicaciones. Spotify, Instagram y Tik Tok para entretenimiento durante sus viajes. Recientemente, cuando un autobús llegó lleno y no pudo abordar, recurrió a Google, su motor de búsqueda favorito, para encontrar una ruta alternativa a pie hasta la siguiente parada, donde logró tomar un autobús menos congestionado. Prefiere aplicaciones gratuitas con publicidad sobre las de suscripción premium y valora la privacidad de los datos, prefiriendo aplicaciones que solo soliciten información básica. Wilver cree que una aplicación ideal debería proporcionar información en tiempo real sobre la congestión de tráfico, la ocupación de los buses, y alertas sobre cambios de ruta, lo que le permitiría optimizar su tiempo y mejorar su experiencia de viaje.
@@ -414,6 +426,9 @@ Wilver Arana Ramos, de 23 años y residente en el distrito de Carabayllo en Lima
 
 - Enlace del video: **https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/ETeZ8JWxY7pMoTAAXF6H_DsBKdeZc1_u2YrohdilZ2Obqg?e=G3EseB**
 - Timing: **18:13s-27:43s**
+- Aplicaciones usadas: WhatsApp, Spotify, Twitter, Facebook, TuRuta, Google Maps
+- Dispositivos: Smartphone Android
+- Browsers: Opera
 - Resumen:
 
 Yosef, un estudiante de ingeniería de software, compartió su experiencia diaria con el sistema de transporte público, enfrentando desafíos como el tráfico y la alta ocupación de los buses. Para gestionar sus viajes, utiliza su teléfono inteligente Android, confiando en aplicaciones como TuRuta principalmente para rutas no habituales. Además, utiliza WhatsApp para comunicaciones. Spotify, Twitter y Facebook para entretenimiento durante sus viajes.  Valora el acceso a información actualizada sobre horarios y aforo de los buses, lo que le facilita evitar aglomeraciones y optimizar su tiempo. Prefiere aplicaciones que son gratuitas y destaca la importancia de funciones como la planificación de rutas y la recepción de notificaciones sobre demoras. Yosef también expresa interés en una función que le permita guardar sus rutas más usadas, y es crucial para él que la aplicación tenga una interfaz de usuario intuitiva y fácil de manejar. Su motor de búsqueda favorito es Opera y utiliza otras plataformas digitales como WhatsApp para la comunicación y YouTube para entretenimiento durante sus viajes. Frente a problemas inesperados, como un bus lleno o una ruta bloqueada, Yosef busca alternativas utilizando su aplicación de transporte o consulta rápidamente otras opciones en Google Maps. Subraya la necesidad de que la aplicación de transporte sea compatible con Android para asegurar su funcionamiento en una amplia gama de dispositivos.
@@ -429,6 +444,9 @@ Yosef, un estudiante de ingeniería de software, compartió su experiencia diari
 
 - Enlace del video: **https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/ETeZ8JWxY7pMoTAAXF6H_DsBKdeZc1_u2YrohdilZ2Obqg?e=G3EseB**
 - Timing: **27:44s-35:54s**
+- Aplicaciones usadas: Google Maps, WhatsApp, Youtube, Instagram, TikTok
+- Dispositivos: Smartphone Android
+- Browsers: Google
 - Resumen:
 
 Diego Perez Garcia, un estudiante de 22 años de edad de Administración de Empresas en la Universidad Nacional Mayor de San Marcos y residente del distrito de San Martin de Porres en Lima, enfrenta diariamente los desafíos del transporte público. Diego se siente frustrado por la falta de puntualidad y la imprevisibilidad de los horarios de los autobuses, lo que a menudo resulta en largas esperas. Utiliza su smartphone Android y aplicaciones móviles para planificar sus rutas, pero encuentra que la información es a menudo imprecisa o desactualizada. Diego valora significativamente la posibilidad de tener acceso en tiempo real a información sobre el tráfico, los cambios en las rutas de autobús y el aforo de los vehículos, considerando que estas características son cruciales para mejorar su experiencia de viaje y evitar aglomeraciones. Además, le gustaría que las aplicaciones incluyeran la visualización del recorrido completo de las rutas y ofrecieran opciones alternativas en caso de interrupciones. Prefiere Google como su motor de búsqueda por su eficiencia y es usuario de plataformas digitales como WhatsApp para comunicaciones. Youtube, Instagram y Tik Tok para entretenimiento durante sus viajes. Frente a un problema inesperado, como una demora no anunciada, Diego busca rápidamente alternativas y se informa a través de su aplicación de transporte y Google Maps para encontrar la mejor opción. A pesar de estar dispuesto a pagar por una aplicación premium que ofrezca estas funcionalidades avanzadas, enfatiza la importancia de que la privacidad de sus datos sea respetada, esperando que la aplicación solo solicite información básica necesaria para su funcionamiento.
