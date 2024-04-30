@@ -282,17 +282,12 @@ Google Maps se basa en la integración de diferentes servicios y datos para ofre
 
 ### 2.1.2 Estrategias y tácticas frente a competidores
 
-**Innovación en Tecnología IoT:** Implementación de funciones basadas en IoT, como por ejemplo un sistema de monitoreo para los encargados
-de los buses en tiempo de real, que pueda alertar a estos sobre el estado del conductor.
+Basándonos en el análisis anterior, se propone la siguiente estrategia competitiva:
 
-**Mejora de la Experiencia del Usuario:** Cada competidor tiene funciones que las demás no, por tanto podríamos
-tomar ventaja e incorporar y mejorar dichas funciones para nuestras aplicación.
-
-**Alianzas con empresas de Transporte Público:** Podemos aliarnos con empresas de transporte público para
-tener sus rutas siempre actualizadas.
-
-**Planes de subscripción Premium:** En un principio ofrecemos un modelo freemium con una plan de subscripción que incluya funciones
-avanzadas, como estimación offline de datos pertinetes del bus, información detallada del estado del conductor a través del tiempo, etc.
+- Enfoque en la precisión y actualización de la información de buses y rutas, superando las limitaciones de TuRuta y Google Maps en este aspecto. Dado que Moovit y TuRuta enfrentan problemas de precisión y actualización en las rutas, centrarnos en garantizar información precisa y actualizada sobre la ubicación de los autobuses, los horarios de llegada y las rutas.
+- Ofrecer una mejor experiencia de usuario, implementando funciones como notificaciones según las rutas favoritas del usuario, avisando al mismo sobre cambios en la ruta o imprevistos, visualización de imágenes de los buses para facilitar la identificación del vehículo correcto, características que Moovit no ofrece.
+- Datos en caché para funcioens básicas offline. Dado que Google Maps depende de la conectividad a internet, ofrecer una función offline en la aplicación móvil para acceder a información básica sobre los buses y horarios que esten en favoritos.
+- Uso de los datos obtenidos para mejorar las rutas mediante análisis de datos. Además de ofrecer información a usuarios pasajeros, proporcionaremos análisis de datos avanzados para los administradores de flotas de autobuses. Incluyendo datos como los paraderos más populares según la hora, estado del chofer, y demás, lo que ayudaría a optimizar la operación de la flota y mejorar la experiencia general del usuario.
 
 ## 2.2 Entrevistas
 
