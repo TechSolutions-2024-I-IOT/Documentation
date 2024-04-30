@@ -634,6 +634,6 @@ En esta sección, se presenta el resumen del proceso de elaboración de los Empa
 **Términos:**
 
 - **Itinerary:** Ruta de viaje que presenta una empresa de transporte público, todos los buses que están bajo una empresa tienen esta ruta 
-- **Unit Bus:** Conformado por un conductor y un bus , es el equipo que sale a realizar su trabajo en la vía pública
-- **Departure Schedule:** Agenda que tiene los horarios de las unidades de buses, a través de esta agenda se determina cuales unidades salen a operar durante días determinados
-- **Stop:** Paradero formal de un bus  
+- **Unit Bus:**  Equipo conformado por un conductor y un autobús que sale a realizar su trabajo en la vía pública. Esta unidad representa la combinación operativa esencial para el servicio de transporte público. Se encarga de llevar a cabo los trayectos designados en una ruta específica durante un intervalo de tiempo determinado.
+- **Departure Schedule(Horario de salidas):** Agenda que tiene los horarios de las unidades de buses, a través de esta agenda se determina cuales unidades salen a operar durante días determinados
+- **Stop(Parada):** Paradero formal de un bus, en conjunto conforman el trayecto de una ruta.
