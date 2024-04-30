@@ -594,11 +594,7 @@ En esta sección, se presenta el resumen del proceso de elaboración de los Empa
 
 **Términos:**
 
-- **ChapaTuBus:** Solución IoT para mejorar la experiencia del usuario en el transporte público.
-- **Sensor de aforo:** Dispositivo que detecta la cantidad de personas que hay dentro del bus en tiempo real.
-- **Tiempo de circulación:** Tiempo que tarda el bus en completar su recorrido.
-- **Tiempo de espera:** Tiempo que los pasajeros esperan en el paradero hasta que llega el bus.
-- **Aplicación móvil:** Aplicación que los pasajeros pueden usar para acceder a la información de ChapaTuBus.
-- **Pulsera inteligente:** Dispositivo que el conductor usa para monitorizar su estado de fatiga y estrés.
-- **Alerta de bus lleno:** Notificación que se envía a los pasajeros cuando un bus está a punto de llegar y ya no tiene capacidad para más personas.
-- **Ruta:** Camino que sigue el bus para llegar a su destino.
+- **Itinerary:** Ruta de viaje que presenta una empresa de transporte público, todos los buses que están bajo una empresa tienen esta ruta 
+- **Unit Bus:** Conformado por un conductor y un bus , es el equipo que sale a realizar su trabajo en la vía pública
+- **Departure Schedule:** Agenda que tiene los horarios de las unidades de buses, a través de esta agenda se determina cuales unidades salen a operar durante días determinados
+- **Stop:** Paradero formal de un bus  
