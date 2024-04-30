@@ -41,8 +41,17 @@
   
 - **Software Testing**
 
-  En relación a Testing, hemos decidido usar
-  
+  En relación a Testing, se ha decidido usar las siguientes herramientas:
+
+  Para el testing de la aplicación web, se eligió **SELENIUM IDE**, puesto que es una herramienta de código abierto con la cual resulta sencillo realizar casos de prueba.
+
+  **Enlace**: https://chromewebstore.google.com/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd
+
+  Para el testing de nuestro backend se decidieron utilizar **JUnit** y **Mockito** debido a que son bibliotecas populares de SpringBoot que permiten realizar un testing rápido y eficiente.
+
+  **Enlace**:https://junit.org/junit5/
+  **Enlace**:https://site.mockito.org/
+
 - **Software Deployment**
 
   Para el deployment de nuestras soluciones hemos decidio usar:
@@ -61,7 +70,9 @@
   
 - **Software Documentation**
 
-  La documentación de nuestro software 
+  La documentación de nuestro software desde el punto de vista de desarrollador será realizada en **Github** a través de un readme (informe), se usará github puesto que es una plataforma de código gratuita y con gran uso en el mundo del software.
+
+  **Enlace:** https://github.com/
 
 ### 6.1.2. Source Code Management.
 
