@@ -242,7 +242,7 @@ Enlace de la organización: https://github.com/TechSolutions-2024-I-IOT
            <p>Sprint 1 Velocity</p>
         </td>
         <td>
-          <p></p>
+          <p>30</p>
         </td>
     </tr>
   <tr>
@@ -257,15 +257,34 @@ Enlace de la organización: https://github.com/TechSolutions-2024-I-IOT
 
 #### 6.2.1.2. Sprint Backlog 1.
 
-| Sprint #   | Sprint 1        |    |         |             |                    ||||
-|:-----------|:----------------|:---|:--------|:------------|:-------------------| :- | :- | :- |
-| User Story | Work-Item /Task |    |         |             |                    ||||
-| Id         | Title           | Id | Title   | Description | Estimation (Hours) |Assigned To|Status (To-do / In-Process/ To-Review / Done)||
-| 1          | Ejemplo         | 1  | Ejemplo | Ejemplo     | 2                  |User|To-Do||
-| 2          | Ejemplo         | 2  | Ejemplo | Ejemplo     | 2                  ||||
-|            |                 |    |         |             |                    ||||
+El objetivo principal del sprint 1 es tener la landing page finalizada y una primera versión
+de la aplicación web. Asimismo, tener ambos productos de software desplegados en la internet
+también forma parte del alcance del sprint 1, de manera que cualquier persona con acceso a 
+internet pueda acceder a la landing page y a la aplicación web.
 
+A continuación, se presenta un screenshot del sprint 1 en desarrollo realizado en Jira por
+el equipo:
 
+<div align="center">
+  <img src="../Resources/jira-sprints/JiraSprint1Screenshot.png" alt="Jira Sprint 1 Screenshot">
+</div>
+
+Asimismo, se presenta la tabla de nuestro primer sprint con las respectivas user stories a trabajar:
+
+| Sprint #   | Sprint 1                                                 |    |       |             |                    |             ||
+|:-----------|:---------------------------------------------------------|:---|:------|:------------|:-------------------|:------------| :- |
+| User Story | Work-Item /Task                                          |    |       |             |                    |             ||
+| Id         | Title                                                    | Id | Title | Description | Estimation (Hours) | Assigned To |Status (To-do / In-Process/ To-Review / Done)|
+| US01       | Redirección de la landing Page a tiendas de aplicaciones | 1  | Title | Descripción | 1                  | Persona     |To-Do|
+| US02       | Redirección de la landing Page a la aplicación web       | 1  | Title | Descripción | 1                  | Persona     |To-Do|
+| US03       | Envío de mensaje a través de un formulario de contacto   | 1  | Title | Descripción | 1                  | Persona     |To-Do|
+| US04       | Conocimiento del Equipo desarrollador de la aplicación   | 1  | Title | Descripción | 1                  | Persona     |To-Do|
+| US05       | Sección de Preguntas Frecuentes                          | 1  | Title | Descripción | 1                  | Persona     |To-Do|
+| US06       | Navegación y Contenido Informativo en el Footer          | 1  | Title | Descripción | 1                  | Persona     |To-Do|
+| US07       | Diseño Responsivo de la Landing Page                     | 1  | Title | Descripción | 1                  | Persona     |To-Do|
+| US08       | Incorporación de Testimonios en la Landing Page          | 1  | Title | Descripción | 1                  | Persona     |To-Do|
+| US09       | Sección de Características del producto                  | 1  | Title | Descripción | 1                  | Persona     |To-Do|
+| US10       | Sección de Inicio de la Landing Page                     | 1  | Title | Descripción | 1                  | Persona     |To-Do|
 
 
 #### 6.2.1.3. Development Evidence for Sprint Review.
