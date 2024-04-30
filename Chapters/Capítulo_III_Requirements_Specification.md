@@ -141,11 +141,11 @@
             <b>Cuando</b> el visitante completa parcialmente los campos requeridos en el formulario de contacto<br>
             <b>Y</b> ordena enviar el formulario<br>
             <b>Entonces</b> se muestra un mensaje de error indicando los campos que aún necesitan ser completados<br><br>
-            <b>Scenario 4: Envío del formulario con información inválida</b> <br>
+            <b>Scenario 4: Envío del formulario con información vacía</b> <br>
             <b>Dado</b> que el visitante se encuentra en la sección de contacto de la landing page<br>
-            <b>Cuando</b> el visitante proporciona información inválida en uno o más campos del formulario de contacto<br>
+            <b>Cuando</b> el visitante deja en blanco uno o más campos del formulario de contacto<br>
             <b>Y</b> ordena enviar el formulario<br>
-            <b>Entonces</b> se muestra un mensaje de error indicando los campos con información incorrecta<br><br>
+            <b>Entonces</b> se muestra un mensaje de error indicando que debe rellenar los campos vacíos<br><br>
             <b>Scenario 5: Redirección a otra sección tras el envío exitoso</b> <br>
             <b>Dado</b> que el visitante ha enviado con éxito el formulario de contacto<br>
             <b>Cuando</b> el visitante recibe la confirmación del envío exitoso<br>
