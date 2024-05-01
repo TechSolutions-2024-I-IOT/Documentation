@@ -586,12 +586,14 @@
 <tr>
          <td>TS01</td>
         <td>Listado de Líneas de Buses</td>
-        <td>Como desarrollador, quiero implementar un endpoint que devuelva un listado de todas las líneas de buses, para que la aplicación móvil pueda mostrarlas en la sección de explorar.</td>
+        <td>Como desarrollador, quiero obtener un listado de todas las líneas de buses mediante un API, para que la aplicación móvil pueda mostrarlas en la sección de explorar.</td>
         <td>
             <b>Scenario 1: Obtener el listado de líneas de buses exitosamente</b> <br>
             <b>Dado</b> que existen líneas de buses registradas en el sistema,<br>
-            <b>Cuando</b> el usuario hace una petición GET,<br>
-            <b>Entonces</b> el sistema debe devolver un 200 OK con un array de objetos con los detalles de cada línea.<br><br>
+            <b>Y</b> el EndPoint "/buses" está disponible
+            <b>Cuando</b> una petición GET es enviada,<br>
+            <b>Entonces</b> una respuesta es recibida con estado 200 OK <br>
+            <b>Y</b> un listado de recursos Buses es incluída en el ReponseBody.<br>
             <b>Escenario 2: Manejar la ausencia de líneas de buses</b> <br>
             <b>Dado</b> que no hay líneas de buses registradas en el sistema,<br>
             <b>Cuando</b> el usuario hace una petición GET,<br>
@@ -607,7 +609,7 @@
 <tr>
          <td>TS02</td>
         <td>Búsqueda de Líneas de Bus</td>
-        <td>Como desarrollador, quiero crear un endpoint para buscar líneas de bus por nombre, para que los usuarios puedan encontrar rápidamente las rutas que necesitan.</td>
+        <td>Como desarrollador, quiero buscar líneas de bus por nombre a través del API, para que para que pueda estar disponible para crear funciones para mi aplicación
         <td>
             <b>Escenario 1: Búsqueda exitosa con cadena válida</b> <br>
             <b>Dado</b> que el usuario envía una cadena de búsqueda válida,<br>
