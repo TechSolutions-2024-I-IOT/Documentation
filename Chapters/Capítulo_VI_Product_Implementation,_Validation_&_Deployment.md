@@ -142,6 +142,36 @@ Enlace de la organización: https://github.com/TechSolutions-2024-I-IOT
 
 **Gitflow**
 
+Para la implementación del flujo de trabajo Gitflow, usando la herramienta de control de versiones Git, se usó de referencia la entrada de blog “A successful Git branching model” de Vincent Driessen, que nos ayudó a detallar las siguientes convenciones que se usarán en el proyecto:
+
+- **Main  branch**
+La Main branch es la principal rama de desarrollo del proyecto. En esta rama se encontrará el código que se encuentra actualmente en producción. 
+**Notación:** main 
+
+- **Develop branch**
+La Develop branch será la rama que contendrá las últimas actualizaciones y cambios agregados que se entregarán en la siguiente versión del proyecto. 
+**Notación:** develop 
+**Creación:** git checkout -b develop main
+
+- **Feature branches**
+Las Feature branches se usarán para desarrollar nuevas características del producto que se agregarán en versiones futuras. Estas funcionalidades se deberán reunir o juntar eventualmente a la rama Develop. 
+  - Debe derivarse de la rama Develop. 
+  - Debe fusionarse de vuelta a la rama Develop. 
+**Notación:** feature/[name of feature] 
+**Creación:** git checkout -b feature/[name of feature] develop 
+
+- **Conventional Commits**
+Para la redacción de las siguientes convenciones de commits se utilizó de referencia el artículo Conventional Commits 1.0.0. 
+Se debe seguir la siguiente estructura para un commit:  
+git commit -m “<type>[optional scope]: <title>“ -m “<description”
+Types: 
+•	add: se usará para indicar que se añadieron archivos o carpetas. 
+•	fix: este tipo de commit se utilizará para la confirmación de una corrección de un error en el código. 
+•	feat: este tipo de commit se utilizará para la confirmación de que se ha añadido una nueva funcionalidad. 
+•	test: se usará para indicar que se añadieron archivos de test .
+•	BREAKING CHANGE: este tipo de commit se utilizará para confirmar la introducción de un cambio importante en el código.
+
+
 
 
 ### 6.1.3. Source Code Style Guide & Conventions.
@@ -240,15 +270,21 @@ Para las convenciones de codificación Java, nos adheriremos a las pautas descri
 
 - Ir a la configuración del repositorio
 
-<img src="./Resources/deployment/deployment-landing-1.png" alt="Landing page deployment">
+<div align="center">
+  <img src="../Resources/deployment/deployment-landing-1.png" width=500 alt="Landing page deployment">
+</div>
 
 - Seleccionar la opción "Pages"
 
-<img src="./Resources/deployment/deployment-landing-2.png" alt="Landing page deployment">
+<div align="center">
+<img src="../Resources/deployment/deployment-landing-2.png" width=500 alt="Landing page deployment">
+</div>
 
 - Elegir la rama que se desea desplegar y dar click en "Save"
 
-<img src="./Resources/deployment/deployment-landing-3.png" alt="Landing page deployment">
+<div align="center">
+<img src="../Resources/deployment/deployment-landing-3.png" width=500 alt="Landing page deployment">
+</div>
 
 - Luego de unos segundos se mostrará el enlace de la página en la parte superior 
   
@@ -256,25 +292,35 @@ Para las convenciones de codificación Java, nos adheriremos a las pautas descri
 
 - Elegimos la opción "Add new site"
 
-  <img src="./Resources/deployment/deployment-frontend-2.png" alt="Web app deployment">
+<div align="center">
+  <img src="../Resources/deployment/deployment-frontend-1.png" width=500 alt="Web app deployment">
+  </div>
   
 - Elegimos importar un projecto existente
 
-  <img src="./Resources/deployment/deployment-frontend-2.png" alt="Web app deployment">
+<div align="center">
+  <img src="../Resources/deployment/deployment-frontend-2.png" width=500 alt="Web app deployment">
+  </div>
   
 - Seleccionamos la opción "Deploy with github"
   
-  <img src="./Resources/deployment/deployment-frontend-3.png" alt="Web app deployment">
+<div align="center">
+  <img src="../Resources/deployment/deployment-frontend-3.png" width=500 alt="Web app deployment">
+  </div>
    
 - Elegimos el repositorio
 
-   <img src="./Resources/deployment/deployment-frontend-4.png" alt="Web app deployment">
+<div align="center">
+  <img src="../Resources/deployment/deployment-frontend-4.png" width=500 alt="Web app deployment">
+  </div>
   
 - Revisamos las configuraciones
 
-   <img src="./Resources/deployment/deployment-frontend-5.png" alt="Web app deployment">
+<div align="center">
+  <img src="../Resources/deployment/deployment-frontend-5.png" width=500 alt="Web app deployment">
+  </div>
    
-- Damos clic en deploy
+- Damos click en deploy
 
 **Despliegue de web service en railway**
 
@@ -282,27 +328,37 @@ Para las convenciones de codificación Java, nos adheriremos a las pautas descri
 
 - Seleccionar Start a New Project
 
-  <img src="./Resources/deployment/deployment-backend-1.png" alt="Web service deployment">
+<div align="center">
+  <img src="../Resources/deployment/deployment-backend-1.png" width=500  alt="Web service deployment">
+    </div>
   
 - Buscar MySql y seleccionarlo
 
-   <img src="./Resources/deployment/deployment-backend-2.png" alt="Web service deployment">
+<div align="center">
+  <img src="../Resources/deployment/deployment-backend-2.png" width=500  alt="Web service deployment">
+    </div>
    
 - Se crea la instancia y luego se selecciona en Connect, donde se encontrarán las variables para poder conectarnos a la base de datos.
 
-   <img src="./Resources/deployment/deployment-backend-3.png" alt="Web service deployment">
+<div align="center">
+  <img src="../Resources/deployment/deployment-backend-3.png" width=500  alt="Web service deployment">
+    </div>
 
 **Paso 2: Despliegue de la API**
 
 - En el mismo entorno con click derecho y seleccionamos GitHub Repo
 
-   <img src="./Resources/deployment/deployment-backend-4.png" alt="Web service deployment">
+<div align="center">
+  <img src="../Resources/deployment/deployment-backend-4.png" width=500  alt="Web service deployment">
+    </div>
    
 - Luego de ello nos abrirá una ventana pop-up y seleccionaremos el repositorio que queremos desplegar
   
 - Luego vamos Settings y generamos el dominio de nuestro servicio
 
-   <img src="./Resources/deployment/deployment-backend-5.png" alt="Web service deployment">
+<div align="center">
+  <img src="../Resources/deployment/deployment-backend-5.png" width=500  alt="Web service deployment">
+    </div>
   
 - En la sección Git Repository podemos elegir la rama desde donde queremos que se haga el deploy. Los cambios realizados en esta rama de GitHub se enviarán automáticamente a este entorno.
 
@@ -310,25 +366,35 @@ Para las convenciones de codificación Java, nos adheriremos a las pautas descri
 
 - Lo primero que debemos hacer es registrar nuestra aplicación en Firebase.
 
-  <img src="./Resources/deployment/deployment-mobile-1.png" alt="Mobile deployment">
+<div align="center">
+  <img src="../Resources/deployment/deployment-mobile-1.png" width=500 alt="Mobile deployment">
+   </div>
   
 - Seleccionamos el tipo de aplicación que deseamos desplegar.
 
-  <img src="./Resources/deployment/deployment-mobile-2.png" alt="Mobile deployment">
+<div align="center">
+  <img src="../Resources/deployment/deployment-mobile-2.png" width=500 alt="Mobile deployment">
+   </div>
 
 - Vamos a seleccionar la opción de Hosting en el menú lateral izquierdo.
 
-  <img src="./Resources/deployment/deployment-mobile-3.png" alt="Mobile deployment">
+<div align="center">
+  <img src="../Resources/deployment/deployment-mobile-3.png" width=500 alt="Mobile deployment">
+   </div>
 
 - Procedemos a instalar el CLI de Firebase
 
-  <img src="./Resources/deployment/deployment-mobile-4.png" alt="Mobile deployment">
+<div align="center">
+  <img src="../Resources/deployment/deployment-mobile-4.png" width=500 alt="Mobile deployment">
+   </div>
 
 - El siguiente paso será situarnos en la carpeta de nuestro proyecto, autenticarnos e inicializarlo.
   
 - Una vez hayamos inicializado firebase el siguiente paso será realizar el deploy. Para ello ejecutamos el siguiente comando.
 
-  <img src="./Resources/deployment/deployment-mobile-5.png" alt="Mobile deployment">
+<div align="center">
+  <img src="../Resources/deployment/deployment-mobile-5.png" width=500 alt="Mobile deployment">
+   </div>
   
 ## 6.2. Landing Page, Services & Applications Implementation.
 
