@@ -594,14 +594,15 @@
             <b>Cuando</b> una petición GET es enviada,<br>
             <b>Entonces</b> una respuesta es recibida con estado 200 OK <br>
             <b>Y</b> un listado de recursos Buses es incluída en el ReponseBody.<br>
-            <b>Escenario 2: Manejar la ausencia de líneas de buses</b> <br>
-            <b>Dado</b> que no hay líneas de buses registradas en el sistema,<br>
+            <b>Escenario 2: Obtener el listado de líneas de buses sin registros previos</b> <br>
+            <b>Dado</b> que el Endpoint "/buses" está disponible,<br>  
+            <b>Y</b> no hay líneas de buses registradas en el sistema <br>
             <b>Cuando</b> el usuario hace una petición GET,<br>
-            <b>Entonces</b> el sistema debe devolver un 200 OK con un array vacío para indicar que no hay líneas disponibles.<br><br>
-            <b>Escenario 3: Manejar errores en el listado de líneas de buses</b> <br>
-            <b>Dado</b> que ocurre un error en el backend mientras se intenta recuperar la lista de líneas de buses,<br>
+            <b>Entonces</b> el sistema debe devolver un 200 OK con un array vacío lo cual indica que no hay líneas disponibles.<br><br>
+            <b>Escenario 3: Obtener el listado de buses con el endpoint no disponible</b> <br>
+            <b>Dado</b> que el endpoint "/buses" no se encuentra disponible<br>
             <b>Cuando</b> el usuario hace una petición GET,<br>
-            <b>Entonces</b> el sistema debe devolver un 500 Internal Server Error para indicar que algo salió mal en el proceso de recuperación de datos.
+            <b>Entonces</b> una respuesta es recibida con un 500 Internal Server Error para indicar que algo salió mal en el proceso de recuperación de datos.
         </td>
         <td>
         </td>
@@ -609,12 +610,12 @@
 <tr>
          <td>TS02</td>
         <td>Búsqueda de Líneas de Bus</td>
-        <td>Como desarrollador, quiero buscar líneas de bus por nombre a través del API, para que para que pueda estar disponible para crear funciones para mi aplicación
+        <td>Como desarrollador, quiero buscar líneas de bus por nombre a través del API, para que esté disponible para crear funciones para mi aplicación
         <td>
-            <b>Escenario 1: Búsqueda exitosa con cadena válida</b> <br>
-            <b>Dado</b> que el usuario envía una cadena de búsqueda válida,<br>
-            <b>Cuando</b> el sistema procesa la solicitud,<br>
-            <b>Entonces</b> el sistema debe devolver un 200 OK con una lista de líneas que coincidan con esa cadena.<br><br>
+            <b>Escenario 1: Busqueda exitosa mediante el nombre</b> <br>
+            <b>Dado</b> que el endpoint "/itinerary" se encuentra disponible<br>
+            <b>Cuando</b> una solicitud GET es enviada con el valor del nombre a buscar,<br>
+            <b>Entonces</b> una respuesta lista de tipo Itinerary es recibida con un estado 200 OK de acuerdo a los nombres coincidientes<br>
             <b>Escenario 2: Búsqueda fallida con cadena de búsqueda vacía o inválida</b> <br>
             <b>Dado</b> que el usuario envía una cadena de búsqueda vacía o inválida,<br>
             <b>Cuando</b> el sistema procesa la solicitud,<br>
