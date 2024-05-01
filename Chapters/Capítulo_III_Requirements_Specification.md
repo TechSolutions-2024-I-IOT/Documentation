@@ -666,7 +666,7 @@
 </tr>
 <tr>
     <td>TS05</td>
-        <td>Datos de Paraderos y Buses en Tiempo Real</td>
+        <td>Datos de Paraderos y Buses en Tiempo Real a través de la Restful API</td>
         <td>Como desarrollador, quiero obtener datos en tiempo real de paraderos y buses para una línea específica para que los usuarios de la aplicación móvil puedan ver la ubicación del bus en el mapa, el nombre del paradero, y el tiempo estimado de llegada.</td>
         <td>
             <b>Escenario 1: Obtener información en tiempo real de paraderos para una línea de bus</b> <br>
@@ -691,7 +691,7 @@
 </tr>
 <tr>
          <td>TS06</td>
-        <td>Aforo en Tiempo Real de Buses</td>
+        <td>Información del aforo en Tiempo Real de Buses a través de la RestfulAPI</td>
         <td>Como desarrollador, quiero obtener el aforo en tiempo real de un bus específico, para que los usuarios puedan saber cuántas personas hay en el bus antes de que llegue al paradero.</td>
         <td>
             <b>Escenario 1: Obtener el aforo en tiempo real de un bus específico</b> <br>
@@ -719,7 +719,7 @@
 </tr>
 <tr>
          <td>TS07</td>
-        <td>Datos Históricos de Paraderos por Fecha</td>
+        <td>Datos Históricos de Paraderos por Fecha a través de la RestFull API</td>
         <td>Como desarrollador, quiero obtener los datos históricos de los paraderos para una fecha específica, para que el dashboard de la aplicación web pueda mostrar un listado de paraderos ordenados según la cantidad de personas que subieron en cada uno en dicha fecha.</td>
         <td>
             <b>Escenario 1: Obtener datos históricos de paraderos por fecha específica</b> <br>
@@ -807,7 +807,7 @@
             <b>Escenario 2: Manejo de solicitud de un conductor sin registros de pulsaciones</b> <br>
             <b>Dado</b> que el endpoint "/api/drivers/{driverId}/heart-rate" se encuentra disponible ,<br>
             <b>Y</b> que no existen registros de pulsaciones para el conductor en el rango horario solicitado,<br>
-            <b>Cuando</b> la petición GET es enviada ,<br>
+            <b>Cuando</b> la petición GET es enviada junto con parámetros de consulta para el rango horario,<br>
             <b>Entonces</b> se recibe una respuesta de tipo 204 No Content <br>
             <b>Y</b> un mensaje es incluído en el response body con el valor "No existen datos de pulsaciones disponibles para el conductor en el rango horario especificado." <br><br>
             <b>Escenario 3: Manejo de una solicitud con ID de conductor inválido o inexistente</b> <br>
@@ -823,20 +823,23 @@
 <tr>
          <td>TS11</td>
         <td>Alertas de Pulsaciones del Conductor</td>
-        <td>Como desarrollador, quiero implementar un endpoint /api/drivers/alerts que monitoree las pulsaciones del corazón de los conductores y genere alertas cuando estas pulsaciones caigan por debajo de un mínimo o superen un máximo predeterminado, para que el sistema de notificaciones pueda informar a los administradores de flota sobre posibles situaciones de riesgo para la salud del conductor.</td>
+        <td>Como desarrollador, quiero monitorear las pulsaciones del corazón de los conductores y generar alertas cuando estas pulsaciones caigan por debajo de un mínimo o superen un máximo predeterminado, para que el sistema de notificaciones pueda informar a los administradores de flota sobre posibles situaciones de riesgo para la salud del conductor.</td>
         <td>
             <b>Escenario 1: Generar alertas por pulsaciones bajas</b> <br>
-            <b>Dado</b> que el sistema recibe datos de pulsaciones de un conductor que caen por debajo del mínimo predeterminado,<br>
-            <b>Cuando</b> estos datos son procesados por el endpoint /api/drivers/alerts,<br>
-            <b>Entonces</b> el sistema debe generar una alerta y devolver un 200 OK con un mensaje de alerta, incluyendo el ID del conductor, la hora del evento y un mensaje indicando que las pulsaciones están anormalmente bajas.<br><br>
+            <b>Dado</b> que el endpoint  /api/drivers/alerts se encuentra disponible<br>
+            <b>Y</b> que el sistema recibe datos de pulsaciones de un conductor que caen por debajo del mínimo predeterminado,<br>
+            <b>Cuando</b> se procesan los datos <br>
+            <b>Entonces</b> una alerta es generada y un 200 OK es recibido con un mensaje de alerta, incluyendo el ID del conductor, la hora del evento y un mensaje indicando que las pulsaciones están anormalmente bajas.<br><br>
             <b>Escenario 2: Generar alertas por pulsaciones altas</b> <br>
-            <b>Dado</b> que el sistema recibe datos de pulsaciones de un conductor que superan el máximo predeterminado,<br>
-            <b>Cuando</b> estos datos son procesados por el endpoint /api/drivers/alerts,<br>
-            <b>Entonces</b> el sistema debe generar una alerta y devolver un 200 OK con un mensaje de alerta, incluyendo el ID del conductor, la hora del evento y un mensaje indicando que las pulsaciones están anormalmente altas.<br><br>
+            <b>Dado</b> que el endpoint  /api/drivers/alerts se encuentra disponible<br>
+            <b>Y</b> que el sistema recibe datos de pulsaciones de un conductor que superan el máximo predeterminado,<br>
+            <b>Cuando</b> estos datos son procesados<br>
+            <b>Entonces</b> se genera una alerta y se recibe un 200 OK con un mensaje de alerta, incluyendo el ID del conductor, la hora del evento y un mensaje indicando que las pulsaciones están anormalmente altas.<br><br>
             <b>Escenario 3: Manejar ausencia de datos de pulsaciones</b> <br>
-            <b>Dado</b> que no se reciben datos de pulsaciones para un conductor durante un período prolongado,<br>
-            <b>Cuando</b> se verifica la actividad del conductor a través del endpoint /api/drivers/alerts,<br>
-            <b>Entonces</b> el sistema debe generar una alerta de "sin datos" y devolver un 200 OK con un mensaje indicando la falta de datos de pulsaciones y potencialmente sugerir verificar el dispositivo del conductor.
+            <b>Dado</b> que el endpoint  /api/drivers/alerts se encuentra disponible<br>
+            <b>Y</b> que no se reciben datos de pulsaciones para un conductor durante un período mayor a 4 minutos,<br>
+            <b>Cuando</b> se realiza verifica la actividad del conductor ,<br>
+            <b>Entonces</b> el sistema se genera una alerta de "sin datos" y es recibida una respuesta 200 OK con un mensaje indicando la falta de datos de pulsaciones y potencialmente sugerir verificar el dispositivo del conductor.
         </td>
         <td>
         </td>
@@ -844,15 +847,21 @@
 <tr>
          <td>TS12</td>
         <td>Autenticación de Usuarios</td>
-        <td>Como desarrollador, quiero implementar un sistema de inicio de sesión que permita a los usuarios autenticarse utilizando su correo y contraseña o su cuenta de Google, para que puedan acceder de manera segura a la aplicación.</td>
+        <td>Como desarrollador, quiero autenticar a mis usuarios utilizando su correo y contraseña o su cuenta de Google, para que puedan acceder de manera segura a la aplicación.</td>
         <td>
-            <b>Escenario 1: Inicio de sesión con correo y contraseña</b> <br>
-            <b>Dado</b> que un usuario desea iniciar sesión proporcionando un correo y contraseña,<br>
-            <b>Cuando</b> el usuario envía una petición POST a /api/auth/login con su correo y contraseña,<br>
-            <b>Entonces</b> el sistema debe validar las credenciales contra la base de datos,<br>
-            Y si las credenciales son correctas, devolver un 200 OK con un token de acceso JWT (JSON Web Token),<br>
-            Y si las credenciales son incorrectas, devolver un 401 Unauthorized indicando que el correo o contraseña no son válidos.<br><br>
-            <b>Escenario 2: Inicio de sesión con cuenta de Google</b> <br>
+            <b>Escenario 1: Inicio de sesión con correo y contraseña correctos</b> <br>
+            <b>Dado</b> que el endpoint "/api/auth/login" se encuentra disponible<br>
+            <b>Y</b> un usuario desea iniciar sesión proporcionando un correo y contraseña,<br>
+            <b>Cuando</b> la petición POST es enviada junto a valores para el correo y contraseña,<br>
+            <b>Entonces</b> se recibe una respuesta 200 Ok conformada por un token de acceso JWT (JSON Web Token)<br>
+            <b>Escenario 2: Inicio de sesión con correo o contraseña incorrectos</b> <br>
+            <b>Dado</b> que el endpoint "/api/auth/login" se encuentra disponible<br>
+            <b>Y</b> un usuario desea iniciar sesión proporcionando un correo y contraseña,<br>
+            <b>Y</b> el correo o contraseña son erróneos,<br>
+            <b>Cuando</b> la petición POST es enviada junto a valores para el correo y contraseña,<br>
+            <b>Entonces</b> se recibe una respuesta 401 Unauthorized <br>
+            <b>Y</b> un mensaje es incluído en la respuesta con el valor de "Correo o contraseña incorrectos" <br><br>
+            <b>Escenario 3: Inicio de sesión con cuenta de Google</b> <br>
             <b>Dado</b> que un usuario desea iniciar sesión utilizando su cuenta de Google,<br>
             <b>Cuando</b> el usuario selecciona la opción de inicio de sesión con Google y autoriza la aplicación a través de la API de Google,<br>
             <b>Entonces</b> el sistema debe recibir un token de Google,<br>
@@ -860,27 +869,46 @@
             Y si el token es válido, el sistema debe verificar si el usuario ya está registrado con ese correo de Google en la base de datos,<br>
             Si el usuario no está registrado, el sistema debe crear un nuevo usuario con los datos proporcionados por Google y devolver un 200 OK con un token de acceso JWT,<br>
             Si el usuario está registrado, simplemente devolver un 200 OK con un token de acceso JWT.<br><br>
-            <b>Escenario 3: Manejar errores en la autenticación con Google</b> <br>
+            <b>Escenario 4: Manejar errores en la autenticación con Google</b> <br>
             <b>Dado</b> que ocurre un error al intentar autenticar con Google (por ejemplo, el token de Google es inválido o ha expirado),<br>
             <b>Cuando</b> el sistema intenta validar el token con Google,<br>
-            <b>Entonces</b> el sistema debe devolver un 400 Bad Request o 401 Unauthorized indicando el error específico relacionado con la autenticación de Google.<br><br>
-            <b>Escenario 4: Recuperación de Contraseña</b> <br>
-            <b>Dado</b> que un usuario olvida su contraseña y necesita restablecerla,<br>
-            <b>Cuando</b> el usuario solicita una recuperación de contraseña enviando su correo electrónico a /api/auth/recover-password,<br>
-            <b>Entonces</b> el sistema debe verificar si el correo electrónico está asociado con una cuenta existente,<br>
-            Y si el correo electrónico es válido, enviar un correo electrónico al usuario con un enlace de restablecimiento de contraseña,<br>
-            Y si el correo electrónico no está registrado, devolver un 404 Not Found indicando que no se encontró la cuenta.<br><br>
-            <b>Escenario 5: Restablecimiento de Contraseña</b> <br>
-            <b>Dado</b> que un usuario recibe un enlace de restablecimiento de contraseña y proporciona una nueva contraseña,<br>
-            <b>Cuando</b> el usuario envía la nueva contraseña a /api/auth/reset-password junto con el token de restablecimiento obtenido del correo electrónico,<br>
-            <b>Entonces</b> el sistema debe validar el token de restablecimiento,<br>
-            Y si el token es válido, actualizar la contraseña del usuario en la base de datos y devolver un 200 OK indicando que la contraseña ha sido restablecida con éxito,<br>
-            Y si el token no es válido o ha expirado, devolver un 400 Bad Request o 401 Unauthorized indicando el problema con el token de restablecimiento.<br><br>
-            <b>Escenario 6: Cierre de Sesión</b> <br>
-            <b>Dado</b> que un usuario desea cerrar su sesión activa,<br>
-            <b>Cuando</b> el usuario envía una petición POST a /api/auth/logout,<br>
-            <b>Entonces</b> el sistema debe invalidar el token JWT actual del usuario, impidiendo su uso futuro para autenticación,<br>
-            Y devolver un 200 OK confirmando que el usuario ha cerrado sesión correctamente.
+            <b>Entonces</b> se recibe un 400 Bad Request o 401 Unauthorized indicando el error específico relacionado con la autenticación de Google.<br><br>
+            <b>Escenario 5: Recuperación de Contraseña con correo electrónico existente </b> <br>
+            <b>Dado</b> que el endpoint "/api/auth/recover-password" se encuentra disponible <br>
+            <b>Y</b> que un usuario olvidó su contraseña y necesita restablecerla,<br>
+            <b>Cuando</b> el usuario solicita una recuperación de contraseña enviando una solicitud POST con su correo electrónico como valor<br>
+            <b>Y</b> si el correo electrónico es válido<br>
+            <b>Entonces</b> es enviado un correo electrónico de recuperación de contraseña a la cuenta del usuario <br>
+            <b>Escenario 6: Recuperación de Contraseña con correo electrónico inexistente o no relacionado con cuenta</b> <br>
+            <b>Dado</b> que el endpoint "/api/auth/recover-password" se encuentra disponible <br>
+            <b>Y</b> que un usuario olvidó su contraseña y necesita restablecerla,<br>
+            <b>Cuando</b> el usuario solicita una recuperación de contraseña enviando una solicitud POST con su correo electrónico como valor<br>
+            <b>Y</b> si el correo electrónico es uno inexistente o no registrado en la aplicaicón<br>
+            <b>Entonces</b> es se recibe un 404 Not Found <br>
+            <b>Y</b> un mensaje es incluído en el response con el valor "Cuenta inexistente o no registrada".
+            <b>Escenario 6: Restablecimiento de Contraseña exitoso</b> <br>
+            <b>Dado</b> que el endpoint "/api/auth/reset-password" se encuentra disponible <br>
+            <b>Y</b> que un usuario haya recibido un enlace de restablecimiento de contraseña<br>
+            <b>Y</b> haya proporcionado una nueva contraseña<br>
+            <b>Cuando</b> se envía una solicitud POST junto con la contraseña nueva y el token de restablecimiento obtenido del correo electrónico,<br>
+            <b>Y</b> el token de restablecimiento es validado correctamente, 
+            <b>Entonces</b> la contraseña es reestablecida<br>
+            <b>Y</b> es recibida una respuesta tipo 200 OK conformado por un mensaje con el valor "Contraseña reestablecida correctamente"<br>
+            <b>Escenario 7: Restablecimiento de Contraseña inexitoso</b> <br>
+            <b>Dado</b> que el endpoint "/api/auth/reset-password" se encuentra disponible <br>
+            <b>Y</b> que un usuario haya recibido un enlace de restablecimiento de contraseña<br>
+            <b>Y</b> haya proporcionado una nueva contraseña<br>
+            <b>Cuando</b> se envía una solicitud POST junto con la contraseña nueva y el token de restablecimiento obtenido del correo electrónico,<br>
+            <b>Y</b> el token de restablecimiento es inválidado o expiró, 
+            <b>Entonces</b> la contraseña no es reestablecida<br>
+            <b>Y</b> es recibida una respuesta tipo 400 Bad Request o 401 Unauthorized <br>
+            <b>Y</b> un mensaje es incluído en la respuesta con el valor "Problema con token de reestablecimiento"<br><br>
+            <b>Escenario 8: Cierre de Sesión</b> <br>
+            <b>Dado</b> que el endpoint "/api/auth/logout" se encuentra disponible<br>
+            <b>Y</b> que un usuario desea cerrar su sesión activa,<br>
+            <b>Cuando</b> una petición POST es enviada<br>
+            <b>Entonces</b> el token JWT actual del usuario es invalidado, impidiendo su uso futuro para autenticación,<br>
+            <b>Y es recibido un 200 OK confirmando que el usuario ha cerrado sesión correctamente.<br><br>
         </td>
         <td>
         </td>
@@ -888,29 +916,23 @@
 <tr>
          <td>TS13</td>
         <td>Registro de Línea de Bus</td>
-        <td>Como desarrollador, quiero implementar un endpoint /api/bus-lines/register que permita el registro de una nueva línea de bus, para que los administradores de flota o dueños de empresas puedan añadir nuevas líneas al sistema de manera eficiente.</td>
+        <td>Como desarrollador, quiero registrar una nueva línea de bus, para que los administradores de flota o dueños de empresas puedan añadir nuevas líneas al sistema de manera eficiente.</td>
         <td>
-            <b>Escenario 1: Registro exitoso de una nueva línea de bus</b> <br>
-            <b>Dado</b> que el administrador de flota tiene los datos necesarios para registrar una nueva línea de bus,<br>
-            <b>Cuando</b> envía una petición POST a /api/bus-lines/register con los detalles de la línea (nombre, ruta, horarios, información del bus, etc.),<br>
-            <b>Entonces</b> el sistema debe validar la información proporcionada,<br>
-            <b>Y</b> si la información es válida, registrar la nueva línea de bus en la base de datos,<br>
-            <b>Y</b> devolver un 201 Created con los detalles de la línea de bus registrada, incluyendo un identificador único asignado por el sistema.<br>
-            <b>Escenario 2: Manejar intento de registro con datos incompletos o inválidos</b> <br>
-            <b>Dado</b> que el administrador de flota envía una petición POST a /api/bus-lines/register con datos incompletos o inválidos para la línea de bus,<br>
-            <b>Cuando</b> el sistema intenta validar la información,<br>
-            <b>Entonces</b> el sistema debe identificar los campos que son inválidos o faltantes,<br>
-            <b>Y</b> devolver un 400 Bad Request con un mensaje que detalle los problemas encontrados en los datos proporcionados.<br>
-            <b>Escenario 3: Prevención de duplicados en el registro de líneas de bus</b> <br>
-            <b>Dado</b> que el administrador de flota intenta registrar una línea de bus que ya existe en el sistema,<br>
-            <b>Cuando</b> envía una petición POST a /api/bus-lines/register con datos que coinciden con una línea existente,<br>
-            <b>Entonces</b> el sistema debe verificar la base de datos para prevenir registros duplicados,<br>
-            <b>Y</b> si se encuentra un duplicado, devolver un 409 Conflict indicando que la línea de bus ya está registrada.<br>
-            <b>Escenario 4: Confirmación de registro a usuarios interesados</b> <br>
-            <b>Dado</b> que una nueva línea de bus ha sido registrada exitosamente,<br>
-            <b>Cuando</b> el registro se completa,<br>
-            <b>Entonces</b> el sistema debe notificar a los usuarios interesados (por ejemplo, mediante un servicio de mensajería o correo electrónico) sobre la nueva línea de bus disponible,<br>
-            <b>Y</b> incluir en la notificación los detalles básicos de la nueva línea para fomentar su utilización.<br>
+            <b>Escenario 1: Registro exitoso de un TransportCompany</b> <br>
+            <b>Dado</b> que el endpoint "/api/bus-lines/register" está disponible,<br>
+            <b>Cuando</b> la petición POST es enviada junto con valores sobre la línea (nombre, ruta, horarios, información del bus),<br>
+            <b>Entonces</b> una respuesta es recibida con estado 201,<br>
+            <b>Y</b> un TransportCompany Resurce es incluído en el ResponseBody, incluyendo un identificador único asignado y los valores envíados con anterioridad (nombre,ruta,etc).<br>
+            <b>Escenario 2: Datos incompletos o inválidos</b> <br>
+            <b>Dado</b> que el endpoint "/api/bus-lines/register" está disponible,<br>
+            <b>Cuando</b> la solicitud POST es enviada con datos incompletos o inválidos para la línea de bus,<br>
+            <b>Entonces</b> se recibe un 400 Bad Request<br>
+            <b>Y</b> un mensaje incluído en el response que detalle los problemas encontrados en los datos proporcionados.<br>
+            <b>Escenario 3: Registro de Transport Company ya añadido anteriormente</b> <br>
+            <b>Dado</b> que el endpoint "/api/bus-lines/register" está disponible,<br>
+            <b>Cuando</b> la solicitud POST es enviada con los valores para nombre, itinerario, horarios e información del bus<br>
+            <b>Y</b> el TransportCompany con los mismos datos ya han sido almacenados,<br>,<br>
+            <b>Entonces</b> es recibido un error 409 Conflict indicando que la línea de bus ya está registrada<br>
         </td>
         <td>
         </td>
@@ -918,30 +940,33 @@
 <tr>
          <td>TS14</td>
         <td>Suscripción Premium</td>
-        <td>Como desarrollador, quiero implementar un endpoint /api/subscriptions/premium/purchase que gestione la compra de suscripciones premium por parte de los usuarios, para que los usuarios puedan acceder a funcionalidades avanzadas y mejorar su experiencia con la aplicación.</td>
+        <td>Como desarrollador, quiero facilitar la compra de suscripciones premium por parte de los usuarios, para que los usuarios puedan acceder a funcionalidades avanzadas y mejorar su experiencia con la aplicación.</td>
         <td>
             <b>Escenario 1: Compra exitosa de una suscripción premium</b> <br>
-            <b>Dado</b> que un usuario desea adquirir una suscripción premium y tiene los medios de pago válidos,<br>
-            <b>Cuando</b> envía una petición POST a /api/subscriptions/premium/purchase con los detalles de su medio de pago y la duración deseada de la suscripción,<br>
-            <b>Entonces</b> el sistema debe validar los datos de pago,<br>
-            <b>Y</b> si los datos son válidos, procesar el pago a través del sistema de gestión de pagos,<br>
-            <b>Y</b> registrar la suscripción premium en la cuenta del usuario, actualizando su estado a premium,<br>
-            <b>Y</b> devolver un 200 OK con la confirmación de la compra y los detalles de la suscripción.<br>
+            <b>Dado</b> que el endpoint "/api/subscriptions/premium/purchase/stripe" se encuentra disponible <br>
+            <b>Cuando</b> envía una petición POST a /api/subscriptions/premium/purchase/stripe con los detalles de su medio de pago y la duración deseada de la suscripción,<br>
+            <b>Y</b> la pasarela de pagos Stripe valida y procesa el pago <br>
+            <b>Entonces</b> es recibida una respuesta tipo 200 OK conformada con la confirmación de la compra dado por Stripe y los detalles de la suscripción.<br>
             <b>Escenario 2: Fallo en la validación o procesamiento del pago</b> <br>
-            <b>Dado</b> que un usuario intenta comprar una suscripción premium pero proporciona datos de pago inválidos o hay un problema en el procesamiento del pago,<br>
-            <b>Cuando</b> envía una petición POST a /api/subscriptions/premium/purchase,<br>
-            <b>Entonces</b> el sistema debe intentar validar y procesar el pago,<br>
-            <b>Y</b> si hay un fallo, devolver un 400 Bad Request o 402 Payment Required con un mensaje detallando el problema específico encontrado.<br>
+            <b>Dado</b> que el endpoint "/api/subscriptions/premium/purchase/stripe" se encuentra disponible <br>
+            <b>Cuando</b> envía una petición POST a /api/subscriptions/premium/purchase/stripe con los detalles de su medio de pago y la duración deseada de la suscripción,<br>
+            <b>Y</b> Stripe invalida el proceso de pago,<br>
+            <b>Entonces</b> es recibido un 400 Bad Request o 402 Payment Required <br>
+            <b>Y</b> un mensaje es incluído en el response detallando el problema específico encontrado.<br>
             <b>Escenario 3: Compra de suscripción premium cuando ya se posee una activa</b> <br>
             <b>Dado</b> que un usuario con una suscripción premium activa intenta comprar otra suscripción premium,<br>
-            <b>Cuando</b> envía una petición POST a /api/subscriptions/premium/purchase,<br>
-            <b>Entonces</b> el sistema debe verificar el estado de suscripción actual del usuario,<br>
-            <b>Y</b> si ya posee una suscripción activa, devolver un 409 Conflict indicando que ya existe una suscripción premium activa y no se requiere una nueva compra.<br>
+            <b>Y</b> que el endpoint "/api/subscriptions/premium/purchase/stripe" se encuentra disponible <br>
+            <b>Cuando</b> envía una petición POST <br>
+            <b>Y</b> el sistema debe verifica el estado de suscripción actual del usuario,<br>
+            <b>Y</b> si ya posee una suscripción activa <br>
+            <b>Entonces</b> se recibe un 409 Conflict <br>
+            <b>Y</b> un mensaje incluído en el response con el valor "Suscripción premium ya activada , no se requiere una nueva compra.<br><br>
             <b>Escenario 5: Cancelación exitosa de una suscripción premium</b> <br>
             <b>Dado</b> que un usuario con una suscripción premium activa desea cancelarla,<br>
-            <b>Cuando</b> envía una petición POST a /api/subscriptions/premium/cancel con su identificador de usuario,<br>
-            <b>Entonces</b> el sistema debe verificar la existencia de una suscripción premium activa para ese usuario,<br>
-            <b>Y</b> si encuentra una suscripción activa, procesar la cancelación, lo que implica actualizar el estado de la suscripción a ""cancelada"" y desactivar el acceso a las funcionalidades premium
+            <b>Y</b> que el endpoint "/api/subscriptions/premium/cancel" se encuentra disponible <br>
+            <b>Cuando</b> se envía una petición POST con el valor de su identificador de usuario,<br>
+            <b>Y</b> el sistema verifica la existencia de una subscripción premium activa para este usuario<br>
+            <b>Entonces</b> se procesa la cancelación, lo que implica actualizar el estado de la suscripción a ""cancelada"" y desactivar el acceso a las funcionalidades premium<br><br>
 
 </tr>
 <tr>
