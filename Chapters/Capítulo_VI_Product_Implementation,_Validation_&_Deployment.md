@@ -146,8 +146,190 @@ Enlace de la organización: https://github.com/TechSolutions-2024-I-IOT
 
 ### 6.1.3. Source Code Style Guide & Conventions.
 
+### Guía de Estilo y convenciones de codificación HTML
+
+Para las convenciones de codificación HTML, adoptaremos las pautas delineadas en las referencias "Guía de Estilo y Convenciones de Codificación HTML" y "Guía de Estilo HTML/CSS de Google". Aquí algunos puntos clave:
+
+**Convenciones de Nomenclatura:**
+
+- Aplicar nomenclatura en inglés
+- Utilizar letras minúsculas para todos los nombres de elementos HTML.
+- Separar palabras en nombres de ID y clases con guiones (-).
+- Utilizar nombres significativos y descriptivos para IDs y clases.
+
+**Formato:**
+
+- Sangrar elementos anidados para mejorar la legibilidad.
+- Utilizar comillas dobles para los valores de atributos.
+- Emplear etiquetas auto-cerradas para elementos.
+
+**Comentarios:**
+
+- Agregar comentarios para explicar secciones complejas o proporcionar contexto a futuros desarrolladores.
+- Utilizar la sintaxis de comentarios HTML <!-- -->.
+
+### Guía de Estilo y convenciones de codificación CSS
+
+Para las convenciones de codificación CSS, seguiremos las pautas proporcionadas en la referencia "Google HTML/CSS Style Guide". Aquí tienes algunos puntos clave:
+
+**Convenciones de nomenclatura:**
+
+- Aplicar nomenclatura en inglés
+- Usa letras minúsculas para todos los selectores CSS y nombres de propiedades.
+- Separa palabras en nombres de clases con guiones (-).
+- Utiliza nombres significativos y descriptivos para las clases.
+
+**Formato:**
+
+- Indenta estilos anidados para mejorar la legibilidad.
+- Utiliza un estilo de indentación consistente, como dos espacios.
+- Usa propiedades abreviadas cuando sea posible para mantener el código conciso.
+
+**Comentarios:**
+
+- Agrega comentarios para explicar estilos complejos o proporcionar contexto para futuros desarrolladores.
+- Utiliza la sintaxis de comentarios CSS /* */.
+
+### Guía de Estilo y convenciones de codificación JavaScript/TypeScript
+
+Para las convenciones de codificación JavaScript/TypeScript, adoptaremos las pautas proporcionadas en las referencias "Google JavaScript Style Guide" y "Google TypeScript Style Guide". Aquí tienes algunos puntos clave:
+
+**Convenciones de nomenclatura:**
+
+- Aplicar nomenclatura en inglés
+- Utiliza camelCase para nombres de variables y funciones.
+- Utiliza PascalCase para nombres de clases.
+- Utiliza letras mayúsculas para constantes.
+
+**Formato:**
+
+- Utiliza un estilo de indentación consistente, como dos o cuatro espacios.
+- Utiliza punto y coma al final de las sentencias.
+- Evita el uso de variables globales siempre que sea posible.
+
+**Comentarios:**
+
+- Agrega comentarios para explicar lógica compleja o proporcionar contexto para futuros desarrolladores.
+- Utiliza la sintaxis de comentarios JavaScript/TypeScript // para comentarios de una sola línea y /* */ para comentarios de varias líneas.
+
+### Guía de Estilo y convenciones de codificación Java
+
+Para las convenciones de codificación Java, nos adheriremos a las pautas descritas en la referencia "Google Java Style Guide". Aquí tienes algunos puntos clave:
+
+**Convenciones de nomenclatura:**
+
+- Aplicar nomenclatura en inglés
+- Utiliza camelCase para nombres de variables y métodos.
+- Utiliza PascalCase para nombres de clases.
+- Utiliza letras mayúsculas para constantes.
+
+**Formato:**
+
+- Utiliza un estilo de indentación consistente, como cuatro espacios.
+- Coloca las llaves de apertura en la misma línea que la declaración.
+- Utiliza nombres significativos para variables y métodos para mayor claridad.
+
+**Comentarios:**
+
+- Agrega comentarios para explicar algoritmos complejos o proporcionar contexto para futuros desarrolladores.
+- Utiliza la sintaxis de comentarios Java // para comentarios de una sola línea y /* */ para comentarios de varias líneas.
+
 ### 6.1.4. Software Deployment Configuration.
 
+**Despliegue de la landing page en GitHub Pages**
+
+- Ir a la configuración del repositorio
+
+<img src="./Resources/deployment/deployment-landing-1.png" alt="Landing page deployment">
+
+- Seleccionar la opción "Pages"
+
+<img src="./Resources/deployment/deployment-landing-2.png" alt="Landing page deployment">
+
+- Elegir la rama que se desea desplegar y dar click en "Save"
+
+<img src="./Resources/deployment/deployment-landing-3.png" alt="Landing page deployment">
+
+- Luego de unos segundos se mostrará el enlace de la página en la parte superior 
+  
+**Despliegue de web application en netlify**
+
+- Elegimos la opción "Add new site"
+
+  <img src="./Resources/deployment/deployment-frontend-2.png" alt="Web app deployment">
+  
+- Elegimos importar un projecto existente
+
+  <img src="./Resources/deployment/deployment-frontend-2.png" alt="Web app deployment">
+  
+- Seleccionamos la opción "Deploy with github"
+  
+  <img src="./Resources/deployment/deployment-frontend-3.png" alt="Web app deployment">
+   
+- Elegimos el repositorio
+
+   <img src="./Resources/deployment/deployment-frontend-4.png" alt="Web app deployment">
+  
+- Revisamos las configuraciones
+
+   <img src="./Resources/deployment/deployment-frontend-5.png" alt="Web app deployment">
+   
+- Damos clic en deploy
+
+**Despliegue de web service en railway**
+
+**Paso 1: Crear un esquema de MySQL en railway**
+
+- Seleccionar Start a New Project
+
+  <img src="./Resources/deployment/deployment-backend-1.png" alt="Web service deployment">
+  
+- Buscar MySql y seleccionarlo
+
+   <img src="./Resources/deployment/deployment-backend-2.png" alt="Web service deployment">
+   
+- Se crea la instancia y luego se selecciona en Connect, donde se encontrarán las variables para poder conectarnos a la base de datos.
+
+   <img src="./Resources/deployment/deployment-backend-3.png" alt="Web service deployment">
+
+**Paso 2: Despliegue de la API**
+
+- En el mismo entorno con click derecho y seleccionamos GitHub Repo
+
+   <img src="./Resources/deployment/deployment-backend-4.png" alt="Web service deployment">
+   
+- Luego de ello nos abrirá una ventana pop-up y seleccionaremos el repositorio que queremos desplegar
+  
+- Luego vamos Settings y generamos el dominio de nuestro servicio
+
+   <img src="./Resources/deployment/deployment-backend-5.png" alt="Web service deployment">
+  
+- En la sección Git Repository podemos elegir la rama desde donde queremos que se haga el deploy. Los cambios realizados en esta rama de GitHub se enviarán automáticamente a este entorno.
+
+**Despliegue de mobile application en Firebase**
+
+- Lo primero que debemos hacer es registrar nuestra aplicación en Firebase.
+
+  <img src="./Resources/deployment/deployment-mobile-1.png" alt="Mobile deployment">
+  
+- Seleccionamos el tipo de aplicación que deseamos desplegar.
+
+  <img src="./Resources/deployment/deployment-mobile-2.png" alt="Mobile deployment">
+
+- Vamos a seleccionar la opción de Hosting en el menú lateral izquierdo.
+
+  <img src="./Resources/deployment/deployment-mobile-3.png" alt="Mobile deployment">
+
+- Procedemos a instalar el CLI de Firebase
+
+  <img src="./Resources/deployment/deployment-mobile-4.png" alt="Mobile deployment">
+
+- El siguiente paso será situarnos en la carpeta de nuestro proyecto, autenticarnos e inicializarlo.
+  
+- Una vez hayamos inicializado firebase el siguiente paso será realizar el deploy. Para ello ejecutamos el siguiente comando.
+
+  <img src="./Resources/deployment/deployment-mobile-5.png" alt="Mobile deployment">
+  
 ## 6.2. Landing Page, Services & Applications Implementation.
 
 ### 6.2.1. Sprint 1
