@@ -1,11 +1,8 @@
-<div align="center">
-    <img src="./Resources/images/UPC.png" alt="UPC logo">
+![UPC logo](./Resources/images/UPC.png)
 
 **Universidad Peruana de Ciencias Aplicadas**
 
 **Ingeniería de Software**
-
-</div>
 
 Curso: Desarrollo de Soluciones IoT
 
@@ -17,11 +14,11 @@ Ciclo: 2024-1
 
 ---
 
-## TechSolutions
+# TechSolutions
 
-### ChapaTuBus
+## ChapaTuBus
 
-#### Team Members
+### Team Members
 
 | Integrante                               | Código     |
 | ---------------------------------------- | ---------- |
@@ -31,11 +28,7 @@ Ciclo: 2024-1
 | Primo Estrada, Rafael Wimmer             | U202023137 |
 | Vasquez Sal Y Rosas, Tania Sadith        | U20181b530 |
 
-<!-- SECCION: REGISTRO DE VERSIONES
-AQUI VA LA TABLA DE VERSIONES:
-Versión|Fecha|Autor|Descripción de la modificación -->
-
-## Registro de Versiones del Informe
+### Registro de Versiones del Informe
 
 
 | Versión | Fecha      | Autor                     | Descripción de modificación                                                                                                              |
@@ -45,12 +38,8 @@ Versión|Fecha|Autor|Descripción de la modificación -->
 | 2.0     | 01/05/2024 | Todos los participantes  | - Entrega de la Trabajo Práctico (TP) con los siguientes elementos:<br>  * Despliegue de la primera versión del Landing Page y Frontend Web Applications.<br>  * Nuevos capítulos incluidos en el informe: Capítulo V: Solution UI/UX Design, Capítulo VI: Product Implementation, Validation & Deployment, con detalles sobre la implementación y configuración del software, así como del Landing Page y las aplicaciones.<br>  * Detalles sobre la implementación del Sprint 1, incluyendo la planificación, backlog, evidencia de desarrollo, pruebas, ejecución, documentación de servicios y despliegue.<br>  * Insights de colaboración del equipo durante el Sprint 1.<br>  * Actualización de artefactos entregados con la versión corregida y mejorada. |
 
 
-<!-- SECCION: Project Report Collaboration Insights -->
+### Project Report Collaboration Insights
 
-## Project Report Collaboration Insights
+Abril 2024
 
-<div align="right"><Abril 2024></div>
-
-<p align="right">
-(<a href="./Tabla_de_contenidos.md"> Tabla de contenidos</a>)
-</p>
+[Tabla de contenidos](./Tabla_de_contenidos.md)
