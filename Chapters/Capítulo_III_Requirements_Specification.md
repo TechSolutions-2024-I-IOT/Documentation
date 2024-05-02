@@ -86,33 +86,23 @@
         <td>Como visitante del segmento pasajero, deseo dirigirme a la aplicación móvil correspondiente para descargarla en mi dispositivo móvil
         </td>
         <td>
-            <b>Scenario 1: Redirección a Google Play</b> <br>
+            <b>Scenario 1: Aplicación publicada en Google Play</b> <br>
             <b>Dado</b> que el visitante del segmento pasajero se encuentra en la vista principal de la landing page<br>
             <b>Cuando</b> el visitante selecciona descargar la aplicación para Android<br>
             <b>Entonces</b> el visitante es redirigido a la página de descarga de la aplicación en Google Play<br><br> 
-            <b>Scenario 2: Redirección a App Store</b> <br>
+            <b>Scenario 2: Aplicación publicada en App Store</b> <br>
              <b>Dado</b> que el visitante del segmento pasajero se encuentra en la vista principal de la landing page<br>
              <b>Cuando</b> el visitante selecciona descargar la aplicación para iOS<br>
              <b>Entonces</b> el visitante es redirigido a la página de descarga de la aplicación en la App Store de iOS<br><br>
-            <b>Scenario 3: Falla en la Redirección a Google Play</b> <br>
-             <b>Dado</b> que el visitante del segmento pasajero se encuentra en la vista principal de la landing page<br>
-             <b>Cuando</b> el visitante selecciona descargar la aplicación para Android<br>
-             <b>Entonces</b> no es redirigido a la página de descarga de la aplicación en Google Play<br>
-             <b>Y</b> recibe un mensaje de error o una página no encontrada<br><br>
-            <b>Scenario 4: Falla en la Redirección a App Store</b> <br>
-             <b>Dado</b> que el visitante del segmento pasajero se encuentra en la vista principal de la landing page<br>
-             <b>Cuando</b> el visitante selecciona descargar la aplicación para iOS<br>
-             <b>Entonces</b> no es redirigido a la página de descarga de la aplicación en la App Store de iOS<br>
-             <b>Y</b> recibe un mensaje de error o una página no encontrada<br><br>
-             <b>Scenario 5: No se encuentra la Aplicación en Google Play</b> <br>
+             <b>Scenario 3: Aplicación no publicada en la Play Store</b> <br>
             <b>Dado</b> que el visitante del segmento pasajero se encuentra en la vista principal de la landing page<br>
-            <b>Y</b> la aplicación no se encuentra subida en la Play Store<br>
-            <b>Cuando</b> el visitante selecciona descargar la aplicación para Android<br>
+            <b>Y</b> la aplicación no se encuentra publicada en la Play Store<br>
+            <b>Cuando</b> el visitante selecciona descargar la aplicación a través de Play Store<br>
             <b>Entonces</b> es redirigido a la página principal de Google Play<br><br>
-            <b>Scenario 6: No se Encuentra la Aplicación en App Store</b> <br>
+            <b>Scenario 4: Aplicación no publicada en la App Store</b> <br>
             <b>Dado</b> que el visitante del segmento pasajero se encuentra en la vista principal de la landing page<br>
-            <b>Y</b> la aplicación no se encuentra subida en la App Store<br>
-            <b>Cuando</b> el visitante selecciona descargar la aplicación para iOS<br>
+            <b>Y</b> la aplicación no se encuentra publicada en la App Store<br>
+            <b>Cuando</b> el visitante selecciona descargar la aplicación a través de App Store<br>
             <b>Entonces</b> es redirigido a la página principal de la App Store de iOS<br>
         </td>
         <td></td>
@@ -120,77 +110,65 @@
 <tr>
     <td>US02</td>
         <td>Redirección de la landing Page a la aplicación web</td>
-        <td>Como visitante del segmento encargado de flota de autobuses, deseo ingresar a la aplicación web mediante la landing page para usarla en mi navegador favorito</td>
+        <td>Como visitante del segmento encargado de flota de autobuses, deseo ingresar a la aplicación web mediante la landing page para acceder a el contenido que ofrece la aplicación</td>
         <td>
-            <b>Scenario 1: Redirección a la aplicación web de ChapaTuBus</b> <br>
+            <b>Scenario 1: Redirección exitosa a la aplicación web de ChapaTuBus</b> <br>
             <b>Dado</b> que el visitante del segmento encargado de la flota de autobuses se encuentra en la sección de empresa de la landing page<br>
             <b>Cuando</b> el visitante decide redirigirse a la aplicación web<br>
             <b>Entonces</b> el visitante es redirigido a la aplicación web de ChapaTuBus<br><br>
-            <b>Scenario 2: Redirección fallida debido a la aplicación web caída</b> <br>
-            <b>Dado</b> que el visitante se encuentra en la sección de empresa de la landing page<br>
-            <b>Cuando</b> el visitante elige redirigirse a la aplicación web<br>
-            <b>Y</b> la aplicación web de ChapaTuBus se encuentra caída o no disponible<br>
-            <b>Entonces</b> el visitante no es redirigido y recibe un mensaje informando sobre la indisponibilidad temporal de la aplicación web<br><br>
-            <b>Scenario 3: Redirección interrumpida por un error en el sistema</b> <br>
-            <b>Dado</b> que el visitante se encuentra en la sección de empresa de la landing page<br>
-            <b>Cuando</b> el visitante elige redirigirse a la aplicación web<br>
-            <b>Y</b> el sistema experimenta un error interno<br>
-            <b>Entonces</b> el visitante no es redirigido y recibe un mensaje de error<br>
         </td>
         <td></td>
     </tr>
 <tr>
         <td>US03</td>
         <td>Envío de mensaje a través de un formulario de contacto</td>
-        <td>Como visitante de cualquier segmento, deseo enviar un mensaje a los desarrolladores para enviar sugerencias, quejas u mensajes con otro motivo que yo desee</td>
+        <td>Como visitante de cualquier segmento, deseo enviar un mensaje a los desarrolladores para enviar sugerencias, quejas ,mensajes u otro motivo que yo desee</td>
         <td>
-    <b>Scenario 1: Envío exitoso del formulario de contacto</b> <br>
-    <b>Dado</b> que el visitante de cualquier segmento se encuentra en la sección de contacto de la landing page<br>
-    <b>Cuando</b> el visitante completa todos los campos del formulario de contacto con la información solicitada<br>
-    <b>Y</b> ordena enviar el formulario<br>
-    <b>Entonces</b> la información proporcionada es enviada correctamente al correo electrónico de ChapaTuBus<br><br>
-    <b>Scenario 2: Envío fallido por campos incompletos en el formulario</b> <br>
-    <b>Dado</b> que el visitante de cualquier segmento se encuentra en la sección de contacto de la landing page<br>
-    <b>Cuando</b> el visitante completa parcialmente los campos requeridos en el formulario de contacto<br>
-    <b>Y</b> ordena enviar el formulario<br>
-    <b>Entonces</b> se muestra un mensaje de error indicando los campos que aún necesitan ser completados<br><br>
-    <b>Scenario 3: Envío del formulario con información inválida</b> <br>
-    <b>Dado</b> que el visitante de cualquier segmento se encuentra en la sección de contacto de la landing page<br>
-    <b>Cuando</b> el visitante proporciona información inválida en uno o más campos del formulario de contacto<br>
-    <b>Y</b> ordena enviar el formulario<br>
-    <b>Entonces</b> se muestra un mensaje de error indicando los campos con información incorrecta<br><br>
-    <b>Scenario 4: Cancelación del envío del formulario</b> <br>
-    <b>Dado</b> que el visitante de cualquier segmento se encuentra en la sección de contacto de la landing page<br>
-    <b>Cuando</b> el visitante ha llenado o parcialmente llenado el formulario de contacto<br>
-    <b>Y</b> decide cancelar el envío del formulario<br>
-    <b>Entonces</b> el formulario no es enviado y se mantiene la información ingresada por el usuario en los campos correspondientes<br><br>
-    <b>Scenario 5: Redirección a otra sección tras el envío exitoso</b> <br>
-    <b>Dado</b> que el visitante de cualquier segmento ha enviado con éxito el formulario de contacto<br>
-    <b>Cuando</b> el visitante recibe la confirmación del envío exitoso<br>
-    <b>Entonces</b> es redirigido automáticamente a una página de agradecimiento o a otra sección relevante de la landing page<br>
-</td>
+            <b>Scenario 1: Enviar el formulario con los campos correctamentes llenados</b> <br>
+            <b>Dado</b> que el visitante ha completado los campos de nombre,apellido,correo electrónico y mensaje correctamente<br>
+            <b>Cuando</b> los campos son validados<br>
+            <b>Y</b> el visitante ordena enviar el formulario<br>
+            <b>Entonces</b> el formulario es enviado correctamente al correo electrónico de ChapaTuBus<br><br>
+            <b>Scenario 2: Enviar el formulario con un correo electrónico no válido</b> <br>
+            <b>Dado</b> El visitante se encuentra en el formulario de contacto<br>
+            <b>Y</b> ingresa un formato de coreo electrónico no válido<br>
+            <b>Cuando</b> el correo electrónico es revisado<br>
+            <b>Y</b> el visitante ordena enviar el formulario<br>
+            <b>Entonces</b> el formulario no es enviado<br>
+            <b>Y</b> se le muestra un mensaje de error indicando que el correo electrónico no es válido<br><br>
+            <b>Scenario 3: Envío fallido por campos incompletos en el formulario</b> <br>
+            <b>Dado</b> que el visitante se encuentra en la sección de contacto de la landing page<br>
+            <b>Cuando</b> el visitante completa parcialmente los campos requeridos en el formulario de contacto<br>
+            <b>Y</b> ordena enviar el formulario<br>
+            <b>Entonces</b> se muestra un mensaje de error indicando los campos que aún necesitan ser completados<br><br>
+            <b>Scenario 4: Envío del formulario con información vacía</b> <br>
+            <b>Dado</b> que el visitante se encuentra en la sección de contacto de la landing page<br>
+            <b>Cuando</b> el visitante deja en blanco uno o más campos del formulario de contacto<br>
+            <b>Y</b> ordena enviar el formulario<br>
+            <b>Entonces</b> se muestra un mensaje de error indicando que debe rellenar los campos vacíos<br><br>
+            <b>Scenario 5: Redirección a otra sección tras el envío exitoso</b> <br>
+            <b>Dado</b> que el visitante ha enviado con éxito el formulario de contacto<br>
+            <b>Cuando</b> el visitante recibe la confirmación del envío exitoso<br>
+            <b>Entonces</b> es redirigido automáticamente a una página de agradecimiento o a otra sección relevante de la landing page<br>
+        </td>
         <td></td>
     </tr>
 <tr>
         <td>US04</td>
         <td>Conocimiento del Equipo desarrollador de la aplicación</td>
-        <td> Como visitante, deseo conocer al equipo que está desarrollando la aplicación para tener una mayor confianza en las personas detrás del proyecto.</td>
+        <td> Como visitante, deseo visualizar al equipo que está desarrollando la aplicación para tener una mayor confianza en las personas detrás del proyecto.</td>
         <td>
-    <b>Scenario 1: Navegación a la sección de Preguntas Frecuentes</b> <br>
-    <b>Dado</b> que el visitante se encuentra en la página principal de la Landing Page<br>
-    <b>Cuando</b> el visitante se desplaza hasta la sección de Preguntas Frecuentes<br>
-    <b>Entonces</b> el visitante encuentra la sección de Preguntas Frecuentes.<br><br>
-    <b>Scenario 2: Acceso a preguntas y respuestas específicas</b> <br>
-    <b>Dado</b> que el visitante se encuentra en la sección de Preguntas Frecuentes<br>
-    <b>Cuando</b> el visitante selecciona una pregunta de la lista<br>
-    <b>Entonces</b> se despliega la respuesta correspondiente de manera clara y concisa.<br>
-</td>
+            <b>Scenario 1: Navegación a la sección de "Nuestro Equipo"</b> <br>
+            <b>Dado</b> que el visitante se encuentra en la página principal de la Landing Page<br>
+            <b>Cuando</b> el visitante se desplaza hasta la sección de "Nuestro Equipo" <br>
+            <b>Entonces</b> el visitante visualiza al equipo colaborador del proyecto.<br><br>
+        </td>
         <td></td>
     </tr>
 <tr>
         <td>US05</td>
         <td>Sección de Preguntas Frecuentes</td>
-        <td>Como visitante, deseo acceder a una sección de Preguntas Frecuentes para resolver mis inquietudes sobre el servicio ofrecido.</td>
+        <td>Como visitante, deseo acceder a la sección de Preguntas Frecuentes para resolver mis inquietudes sobre el servicio ofrecido.</td>
         <td>
         <b>Scenario 1: Navegación a la sección de Preguntas Frecuentes</b> <br>
         <b>Dado</b> que el visitante se encuentra en la página principal de la Landing Page<br>
@@ -206,7 +184,7 @@
 <tr>
         <td>US06</td>
         <td>Navegación y Contenido Informativo en el Footer</td>
-        <td>Como visitante ,deseo tener acceso fácil y claro a información relevante y enlaces útiles en el footer para una navegación más eficiente e acceder rápidamente a secciones importantes del sitio.</td>
+        <td>Como visitante ,deseo tener acceso fácil y claro a información relevante y enlaces útiles en el footer para acceder rápidamente a secciones importantes de la Landing Page.</td>
         <td>
     <b>Scenario 1: Acceso a información relevante en el footer</b> <br>
     <b>Dado</b> que el visitante se encuentra en cualquier página del sitio web<br>
@@ -214,21 +192,13 @@
     <b>Entonces</b> el visitante encuentra información relevante y enlaces útiles claramente organizados y visibles.<br><br>
     <b>Scenario 2: Enlaces a secciones importantes en el footer</b> <br>
     <b>Dado</b> que el visitante está en el footer <br>
-    <b>Cuando</b> el visitante busca enlaces a secciones importantes como "Inicio", "Nosotros", "Contacto", entre otros<br>
+    <b>Cuando</b> el visitante busca enlaces a secciones importantes como "Inicio", "Nosotros" y "Contacto"<br>
     <b>Entonces</b> el visitante encuentra estos enlaces de forma clara y directa.<br><br>
     <b>Scenario 3: Acceso rápido a redes sociales</b> <br>
     <b>Dado</b> que el visitante está en el footer del sitio web<br>
-    <b>Cuando</b> el visitante elige algún ícono de las redes sociales disponibles<br>
+    <b>Cuando</b> el visitante selecciona algún ícono de las redes sociales disponibles de ChapaTuBus<br>
     <b>Entonces</b> el visitante es redirigido a la red social elegida<br>
 </td>
-        <td>
-        <!--
-            <b>Criterios de Aceptación:</b><br>
-            1. El botón de Google Play en la landing page debe ser funcional y redirigir al usuario a la página de descarga de la aplicación en Google Play Store.<br>
-            2. El botón de App Store en la landing page debe ser funcional y redirigir al usuario a la página de descarga de la aplicación en la App Store de iOS.<br>
-            3. La redirección debe ser inmediata y sin errores, proporcionando al usuario una experiencia fluida.<br>
-            4. Los botones de acción deben ser claramente visibles y distinguibles para el usuario.-->
-        </td>
     </tr>
 <tr>
         <td>US07</td>
@@ -256,14 +226,6 @@
     <b>Cuando</b> el visitante realiza acciones como clics, desplazamientos o interacciones táctiles<br>
     <b>Entonces</b> todos los elementos interactivos funcionan correctamente en todos los dispositivos, garantizando una experiencia de usuario sin errores ni fallos.<br>
 </td>
-        <td>
-        <!--
-            <b>Criterios de Aceptación:</b><br>
-            1. El botón de redirección en la sección de empresa de la landing page debe ser funcional y redirigir al usuario a la aplicación web de ChapaTuBus.<br>
-            2. La redirección debe ser inmediata y sin errores, proporcionando al usuario una experiencia fluida.<br>
-            3. El diseño y la estructura de la aplicación web deben ser coherentes con la marca y ofrecer una navegación intuitiva para el usuario.<br>
-            4. El botón de redirección debe ser claramente visible y distinguible para el usuario, utilizando un diseño que invite a hacer clic.-->
-        </td>
     </tr>
 <tr>
         <td>US08</td>
@@ -278,14 +240,6 @@
         <b>Dado</b> que el visitante visualiza múltiples testimonios en la sección de testimonios<br>
         <b>Cuando</b> el visitante utiliza controles de navegación <br>
         <b>Entonces</b> el visitante puede desplazarse fácilmente entre diferentes testimonios para leer las experiencias de distintos usuarios o clientes.<br>
-        </td>
-        <td>
-        <!--
-            <b>Criterios de Aceptación:</b><br>
-            1. El formulario de contacto debe contener campos claros y relevantes para capturar la información necesaria del visitante (nombre, correo electrónico, mensaje, etc.).<br>
-            2. Al enviar el formulario, el sistema debe realizar una validación para asegurarse de que todos los campos requeridos estén completos antes de enviar la información.<br>
-            3. Después de enviar el formulario con éxito, el visitante debe recibir una confirmación visual o mensaje de éxito en la página, indicando que su mensaje ha sido enviado correctamente.<br>
-            4. La información del formulario debe ser enviada de manera segura al correo electrónico de ChapaTuBus, garantizando la privacidad y seguridad de los datos del visitante.<br>-->
         </td>
     </tr>
 <tr>
@@ -632,20 +586,23 @@
 <tr>
          <td>TS01</td>
         <td>Listado de Líneas de Buses</td>
-        <td>Como desarrollador, quiero implementar un endpoint que devuelva un listado de todas las líneas de buses, para que la aplicación móvil pueda mostrarlas en la sección de explorar.</td>
+        <td>Como desarrollador, quiero obtener un listado de todas las líneas de buses mediante un API, para que la aplicación móvil pueda mostrarlas en la sección de explorar.</td>
         <td>
             <b>Scenario 1: Obtener el listado de líneas de buses exitosamente</b> <br>
             <b>Dado</b> que existen líneas de buses registradas en el sistema,<br>
+            <b>Y</b> el EndPoint "/buses" está disponible
+            <b>Cuando</b> una petición GET es enviada,<br>
+            <b>Entonces</b> una respuesta es recibida con estado 200 OK <br>
+            <b>Y</b> un listado de recursos Buses es incluída en el ReponseBody.<br>
+            <b>Escenario 2: Obtener el listado de líneas de buses sin registros previos</b> <br>
+            <b>Dado</b> que el Endpoint "/buses" está disponible,<br>  
+            <b>Y</b> no hay líneas de buses registradas en el sistema <br>
             <b>Cuando</b> el usuario hace una petición GET,<br>
-            <b>Entonces</b> el sistema debe devolver un 200 OK con un array de objetos con los detalles de cada línea.<br><br>
-            <b>Escenario 2: Manejar la ausencia de líneas de buses</b> <br>
-            <b>Dado</b> que no hay líneas de buses registradas en el sistema,<br>
+            <b>Entonces</b> el sistema debe devolver un 200 OK con un array vacío lo cual indica que no hay líneas disponibles.<br><br>
+            <b>Escenario 3: Obtener el listado de buses con el endpoint no disponible</b> <br>
+            <b>Dado</b> que el endpoint "/buses" no se encuentra disponible<br>
             <b>Cuando</b> el usuario hace una petición GET,<br>
-            <b>Entonces</b> el sistema debe devolver un 200 OK con un array vacío para indicar que no hay líneas disponibles.<br><br>
-            <b>Escenario 3: Manejar errores en el listado de líneas de buses</b> <br>
-            <b>Dado</b> que ocurre un error en el backend mientras se intenta recuperar la lista de líneas de buses,<br>
-            <b>Cuando</b> el usuario hace una petición GET,<br>
-            <b>Entonces</b> el sistema debe devolver un 500 Internal Server Error para indicar que algo salió mal en el proceso de recuperación de datos.
+            <b>Entonces</b> una respuesta es recibida con un 500 Internal Server Error para indicar que algo salió mal en el proceso de recuperación de datos.
         </td>
         <td>
         </td>
@@ -653,12 +610,12 @@
 <tr>
          <td>TS02</td>
         <td>Búsqueda de Líneas de Bus</td>
-        <td>Como desarrollador, quiero crear un endpoint para buscar líneas de bus por nombre, para que los usuarios puedan encontrar rápidamente las rutas que necesitan.</td>
+        <td>Como desarrollador, quiero buscar líneas de bus por nombre a través del API, para que esté disponible para crear funciones para mi aplicación
         <td>
-            <b>Escenario 1: Búsqueda exitosa con cadena válida</b> <br>
-            <b>Dado</b> que el usuario envía una cadena de búsqueda válida,<br>
-            <b>Cuando</b> el sistema procesa la solicitud,<br>
-            <b>Entonces</b> el sistema debe devolver un 200 OK con una lista de líneas que coincidan con esa cadena.<br><br>
+            <b>Escenario 1: Búsqueda exitosa mediante el nombre</b> <br>
+            <b>Dado</b> que el endpoint "/itinerary" se encuentra disponible<br>
+            <b>Cuando</b> una solicitud GET es enviada con el valor del nombre a buscar,<br>
+            <b>Entonces</b> una respuesta lista de tipo Itinerary es recibida con un estado 200 OK de acuerdo a los nombres coincidientes<br><br>
             <b>Escenario 2: Búsqueda fallida con cadena de búsqueda vacía o inválida</b> <br>
             <b>Dado</b> que el usuario envía una cadena de búsqueda vacía o inválida,<br>
             <b>Cuando</b> el sistema procesa la solicitud,<br>
@@ -673,107 +630,115 @@
 </tr>
 <tr>
          <td>TS03</td>
-        <td>Gestión de Favoritos</td>
-        <td>Como desarrollador, quiero crear un endpoint que permita a los usuarios marcar una línea de bus como favorita, para que puedan acceder rápidamente a sus líneas preferidas desde la sección de favoritos.</td>
+        <td>Añadir Líneas de Buses como favoritos a través del RESTful API</td>
+        <td>Como desarrollador, quiero añadir líneas de buses como favoritas a través del API para que pueda crear funciones para mi aplicación.</td>
         <td>
             <b>Escenario 1: Añadir una línea de bus a favoritos</b> <br>
-            <b>Dado</b> que el usuario selecciona una línea de bus para añadir a favoritos y envía una solicitud POST a /api/favorites con el ID de la línea de bus,<br>
-            <b>Cuando</b> el sistema procesa la solicitud,<br>
-            <b>Entonces</b> el sistema debe añadir la línea de bus a la lista de favoritos del usuario y devolver un 201 Created con una confirmación de la acción.<br><br>
+            <b>Dado</b> que el endpoint "/api/favorites" se encuentra disponible<br>
+            <b>Cuando</b> una solicitud POST es enviada con el ID de la línea de bus<br>
+            <b>Entonces</b> una respuesta es recibida con estado 201<br>
             <b>Escenario 2: Eliminar una línea de bus de favoritos</b> <br>
-            <b>Dado</b> que el usuario desea eliminar una línea de bus de su lista de favoritos y envía una solicitud DELETE a con el ID de la línea de bus,<br>
-            <b>Cuando</b> el sistema procesa la solicitud,<br>
-            <b>Entonces</b> el sistema debe eliminar la línea de bus de la lista de favoritos del usuario y devolver un 200 OK con una confirmación de la acción.
+            <b>Dado</b> que el endpoint "/api/favorites" se encuentra disponible<br>
+            <b>Cuando</b> se envía una solicitud DELETE con el ID de la línea de bus,<br>
+            <b>Entonces</b> se recibe una respuesta con estado 200 OK con una confirmación de la acción.
         </td>
         <td>
         </td>
 </tr>
 <tr>
          <td>TS04</td>
-        <td>Listado de Paraderos de una Línea de Bus</td>
-        <td>Como desarrollador, quiero crear un endpoint que devuelva la lista de paraderos de una línea de bus específica, para que los usuarios puedan ver todos los paraderos disponibles para esa línea en la aplicación móvil.</td>
+        <td>Listado de Paraderos de una Línea de Bus a través de la RESTful API</td>
+        <td>Como desarrollador, quiero obtener la información de la lista de paraderos de una compañía de transporte específica a través del API, para que pueda realizar features para mi aplicación.</td>
         <td>
-            <b>Escenario 1: Obtener la lista de paraderos para una línea de bus</b> <br>
-            <b>Dado</b> que el usuario envía una petición GET a /api/bus-lines/{lineId}/stops con un ID de línea de bus válido,<br>
-            <b>Cuando</b> el sistema procesa la solicitud,<br>
-            <b>Entonces</b> el sistema debe devolver un 200 OK con un array de objetos, donde cada objeto contiene al menos el nombre y ubicación del paradero.<br><br>
+            <b>Escenario 1: Obtener la lista de paraderos de una compañía de transporte</b> <br>
+            <b>Dado</b> que el endpoint  "/api/bus-lines/{lineId}/stops" se encuentra disponible,<br>
+            <b>Cuando</b> una petición GET es enviada con un ID de línea de bus válido,<br>
+            <b>Entonces</b> se recibe una respuesta con status 200 OK <br>
+            <b>Y</b> un array de objetos es incluído en el ResponseBody, donde cada objeto contiene al menos el nombre y ubicación del paradero.<br><br>
             <b>Escenario 2: Manejar la solicitud con un ID de línea de bus no existente</b> <br>
-            <b>Dado</b> que el usuario envía una petición GET a /api/bus-lines/{lineId}/stops con un ID de línea de bus que no existe,<br>
-            <b>Cuando</b> el sistema procesa la solicitud,<br>
-            <b>Entonces</b> el sistema debe devolver un 404 Not Found indicando que la línea de bus no existe.<br><br>
-            <b>Escenario 3: Manejar la solicitud sin ID de línea de bus</b> <br>
-            <b>Dado</b> que el usuario envía una petición GET a /api/bus-lines/{lineId}/stops sin proporcionar un ID de línea de bus,<br>
-            <b>Cuando</b> el sistema intenta procesar la solicitud,<br>
-            <b>Entonces</b> el sistema debe devolver un 400 Bad Request indicando que falta el ID de la línea de bus en la solicitud.
+            <b>Dado</b> el endpoint "/api/bus-lines/{lineId}/stops" está disponible<br>
+            <b>Cuando</b> una solicitud GET es enviado junto a un inexistente ID de linea de bus,<br>
+            <b>Entonces</b> una respuesta es recibida con estado 404.<br>
+            <b>Y</b> un mensaje es incluída en el Response Body, con el valor de "Línea de Bus no encontrada"<br><br>
         </td>
         <td>
         </td>
 </tr>
 <tr>
     <td>TS05</td>
-        <td>Datos de Paraderos y Buses en Tiempo Real</td>
-        <td>Como desarrollador, quiero implementar un endpoint /api/real-time/{lineId} que devuelva datos en tiempo real de paraderos y buses para una línea específica, para que los usuarios puedan ver la ubicación del bus en el mapa, el nombre del paradero, y el tiempo estimado de llegada.</td>
+        <td>Datos de Paraderos y Buses en Tiempo Real a través de la Restful API</td>
+        <td>Como desarrollador, quiero obtener datos en tiempo real de paraderos y buses para una línea específica para que los usuarios de la aplicación móvil puedan ver la ubicación del bus en el mapa, el nombre del paradero, y el tiempo estimado de llegada.</td>
         <td>
             <b>Escenario 1: Obtener información en tiempo real de paraderos para una línea de bus</b> <br>
-            <b>Dado</b> que existe información en tiempo real disponible para una línea de bus con un ID específico,<br>
-            <b>Cuando</b> el desarrollador hace una petición GET a /api/real-time/{lineId},<br>
-            <b>Entonces</b> el sistema debe consultar el último estado de los buses de esa línea desde la base de datos en tiempo real o un sistema de mensajería/subscripción como WebSockets o MQTT,<br>
-            <b>Y</b> devolver un 200 OK con un array de objetos que representan los paraderos, donde cada objeto contiene el nombre del paradero, la ubicación geográfica, y datos de tiempo estimado de llegada del próximo bus basado en su ubicación actual.<br><br>
+            <b>Dado</b> que el endpoint "/api/real-time/{lineId}" está disponible<br>
+            <b>Cuando</b> se envía una petición GET con un ID de línea de bus válido<br>
+            <b>Entonces</b> se recibe una respuesta con el estado 200 OK<br>
+            <b>Y</b> Y el cuerpo de la respuesta incluye un array de objetos que representan los paraderos, donde cada objeto contiene el nombre del paradero, la ubicación geográfica, y datos del tiempo estimado de llegada del próximo bus basado en su ubicación actual<br><br>
             <b>Escenario 2: Obtener información de ubicación del bus para un paradero seleccionado</b> <br>
-            <b>Dado</b> que el usuario selecciona un paradero específico y existe información en tiempo real disponible,<br>
-            <b>Cuando</b> el desarrollador hace una petición GET a /api/real-time/{lineId}/stops/{stopId},<br>
-            <b>Entonces</b> el sistema calcula el tiempo estimado de llegada basándose en la velocidad actual del bus y las condiciones de tráfico,<br>
-            <b>Y</b> devolver un 200 OK con un objeto que incluye la ubicación actual del bus y el tiempo estimado de llegada al paradero seleccionado.<br><br>
+            <b>Dado</b> que el endpoint "/api/real-time/{lineId}/stops/{stopId}" se encuentra disponible<br>
+            <b>Y</b> existe información en tiempo real disponible<br>
+            <b>Cuando</b> se envía una petición GET <br>
+            <b>Entonces</b> Entonces se calcula el tiempo estimado de llegada basado en la velocidad actual del bus y las condiciones del tráfico<br>
+            <b>Y</b> Y se devuelve una respuesta 200 OK con un objeto que incluye la ubicación actual del bus y el tiempo estimado de llegada al paradero seleccionado<br><br>
             <b>Escenario 3: Manejar la ausencia de datos en tiempo real</b> <br>
-            <b>Dado</b> que no hay datos en tiempo real disponibles debido a un fallo de sensor o falta de conectividad,<br>
-            <b>Cuando</b> el desarrollador hace una petición GET a cualquiera de los endpoints anteriores,<br>
-            <b>Entonces</b> el sistema debe devolver un 502 Bad Gateway con un mensaje que indique que la información en tiempo real no está disponible.
+            <b>Dado</b> que cualquiera de los endpoints anteriores no presentan datos en tiempo real disponibles debido a un fallo de sensor o falta de conectividad,<br>
+            <b>Cuando</b> se envía una petición GET a<br>
+            <b>Entonces</b> se debe devolver una respuesta 502 Bad Gateway<br>
+            <b>Y</b> un mensaje es incluído con la respuesta, con el valor de "Información en tiempo real no está disponible".
         </td>
         <td>
         </td>
 </tr>
 <tr>
          <td>TS06</td>
-        <td>Aforo en Tiempo Real de Buses</td>
-        <td>Como desarrollador, quiero implementar un endpoint que devuelva el aforo en tiempo real de un bus específico, para que los usuarios puedan saber cuántas personas hay en el bus antes de que llegue al paradero.</td>
+        <td>Información del aforo en Tiempo Real de Buses a través de la RestfulAPI</td>
+        <td>Como desarrollador, quiero obtener el aforo en tiempo real de un bus específico, para que los usuarios puedan saber cuántas personas hay en el bus antes de que llegue al paradero.</td>
         <td>
             <b>Escenario 1: Obtener el aforo en tiempo real de un bus específico</b> <br>
-            <b>Dado</b> que existen cámaras instaladas en un bus específico que están funcionando y enviando datos,<br>
-            <b>Cuando</b> el desarrollador hace una petición GET a /api/real-time/bus-capacity/{busId} con un ID de bus válido,<br>
-            <b>Entonces</b> el sistema debe consultar la última información de aforo recibida de los sensores,<br>
-            <b>Y</b> devolver un 200 OK con el número actual de pasajeros en el bus.<br><br>
+            <b>Dado</b> que existen cámaras instaladas en un bus específico que están funcionando y enviando datos<br>
+            <b>Y</b> el endpoint "/api/real-time/bus-capacity/{busId}" se encuentra disponible <br>
+            <b>Cuando</b> se realiza una petición GET con un ID de bus válido,<br>
+            <b>Entonces</b> se debe consultar la última información de aforo recibida de los sensores<br>
+            <b>Y</b> devolver una respuesta con el estado 200 OK indicando el número actual de pasajeros en el bus.<br><br>
             <b>Escenario 2: Manejar buses sin datos de aforo debido a sensores desconectados o en error</b> <br>
             <b>Dado</b> que los sensores de un bus no están enviando datos debido a una desconexión o mal funcionamiento,<br>
-            <b>Cuando</b> el desarrollador hace una petición GET a /api/real-time/bus-capacity/{busId},<br>
-            <b>Entonces</b> el sistema debe devolver un 503 Service Unavailable con un mensaje que indique que la información de aforo no está disponible temporalmente.<br><br>
+            <b>Y</b> el endpoint "/api/real-time/bus-capacity/{busId}" se encuentra disponible<br>
+            <b>Cuando</b> el desarrollador hace una petición GET<br>
+            <b>Entonces</b> se devuelve una respuesta de estado 503 Service Unavailable <br>
+            <b>Y</b> un mensaje en el response body con el valor "La información de aforo no está disponible temporalmente".<br><br>
             <b>Escenario 3: Manejar ID de bus inválido o inexistente</b> <br>
             <b>Dado</b> que se envía una petición con un ID de bus inválido o inexistente,<br>
-            <b>Cuando</b> el desarrollador hace una petición GET a /api/real-time/aforo/{busId},<br>
-            <b>Entonces</b> el sistema debe validar el ID del bus,<br>
-            <b>Y</b> si el bus no existe, debe devolver un 404 Not Found,<br>
-            <b>O</b> si el ID es inválido, debe devolver un 400 Bad Request.
+            <b>Y</b> el endpoint "/api/real-time/aforo/{busId}" se encuentra disponible <br>
+            <b>Cuando</b> se realiza una petición GET<br>
+            <b>Y</b> se valida el ID del bus
+            <b>Entonces</b> se recibe una respuesta de tipo 404 not found en el caso de que no exista<br>
+            <b>Y</b> en el caso de que el ID sea inválida, debe devolver un 400 Bad Request<br><br>
         </td>
         <td>
         </td>
 </tr>
 <tr>
          <td>TS07</td>
-        <td>Datos Históricos de Paraderos por Fecha</td>
-        <td>Como desarrollador, quiero implementar un endpoint /api/historical/stops/{date} que devuelva los datos históricos de los paraderos para una fecha específica, para que el dashboard de la aplicación web pueda mostrar un listado de paraderos ordenados según la cantidad de personas que subieron en cada uno en dicha fecha.</td>
+        <td>Datos Históricos de Paraderos por Fecha a través de la RestFull API</td>
+        <td>Como desarrollador, quiero obtener los datos históricos de los paraderos para una fecha específica, para que el dashboard de la aplicación web pueda mostrar un listado de paraderos ordenados según la cantidad de personas que subieron en cada uno en dicha fecha.</td>
         <td>
             <b>Escenario 1: Obtener datos históricos de paraderos por fecha específica</b> <br>
-            <b>Dado</b> que existen registros históricos para la fecha proporcionada,<br>
-            <b>Cuando</b> el desarrollador hace una petición GET a /api/historical/stops/{date} con una fecha en formato YYYY-MM-DD,<br>
-            <b>Entonces</b> el sistema debe consultar la base de datos para esa fecha,<br>
-            <b>Y</b> devolver un 200 OK con un array de objetos que representan los paraderos, donde cada objeto contiene el nombre del paradero y el número total de personas que subieron en ese paradero ese día.<br><br>
+            <b>Dado</b> que el endpoint "/api/historical/stops/{date}" se encuentra disponible,<br>
+            <b>Y</b> que existen registros históricos para la fecha proporcionada,<br>
+            <b>Cuando</b> una petición GET es envíada junto a una fecha en formato YYYY-MM-DD,<br>
+            <b>Entonces</b> se recibe una respuesta con status 200 OK,<br>
+            <b>Y</b> un array de objetos que representan los paraderos es incluído dentro de la respuesta, donde cada objeto contiene el nombre del paradero y el número total de personas que subieron en ese paradero ese día.<br><br>
             <b>Escenario 2: Manejar una fecha sin registros históricos</b> <br>
-            <b>Dado</b> que no existen registros históricos para la fecha proporcionada,<br>
-            <b>Cuando</b> el desarrollador hace una petición GET a /api/historical/stops/{date},<br>
-            <b>Entonces</b> el sistema debe devolver un 204 No Content para indicar que no hay datos disponibles para esa fecha.<br><br>
+            <b>Dado</b> que el endpoint "/api/historical/stops/{date}" se encuentra disponible,<br>
+            <b>Y</b> que no existen registros históricos para la fecha proporcionada,<br>
+            <b>Cuando</b> se realiza una petición GET <br>
+            <b>Entonces</b> se recibe una respuesta 204 No Content para indicar que no hay datos disponibles para esa fecha.<br><br>
             <b>Escenario 3: Manejar formato de fecha incorrecto en la solicitud</b> <br>
-            <b>Dado</b> que el desarrollador envía una fecha en un formato incorrecto o inválido,<br>
-            <b>Cuando</b> hace una petición GET a /api/historical/stops/{date},<br>
-            <b>Entonces</b> el sistema debe devolver un 400 Bad Request indicando que el formato de la fecha no es válido.
+            <b>Dado</b> que el endpoint "/api/historical/stops/{date}" se encuentra disponible,<br>
+            <b>Cuando</b> hace una petición GET a /api/historical/stops/{date},<br>\
+            <b>Y</b> se envía una fecha en un formato incorrecto o inválido,<br>
+            <b>Entonces</b> se recibe una respuesta tipo 400 Bad Request <br>
+            <b>Y</b> un mensaje es incluído en la respuesta, con el valor "Formato de la fecha no válido" <br><br>
         </td>
         <td>
         </td>
@@ -781,21 +746,25 @@
 <tr>
          <td>TS08</td>
         <td>Histograma de Afluencia por Paradero</td>
-        <td>Como desarrollador, quiero implementar un endpoint /api/stops/{stopId}/passenger-flow que devuelva los datos de afluencia de pasajeros para un paradero específico, para que el dashboard de la aplicación web pueda mostrar un histograma de la hora más concurrida en dicho paradero.</td>
+        <td>Como desarrollador, quiero obtener los datos de afluencia de pasajeros para un paradero específico, para que el dashboard de la aplicación web pueda mostrar un histograma de la hora más concurrida en dicho paradero.</td>
         <td>
             <b>Escenario 1: Obtener datos de afluencia por paradero</b> <br>
-            <b>Dado</b> que se han recopilado datos de afluencia para un paradero específico durante el día,<br>
-            <b>Cuando</b> el desarrollador hace una petición GET a /api/stops/{stopId}/passenger-flow,<br>
-            <b>Entonces</b> el sistema debe recuperar los datos de afluencia del paradero especificado,<br>
-            <b>Y</b> devolver un 200 OK con un objeto que contenga una serie de pares clave-valor, donde cada clave es un rango horario y cada valor es el número total de pasajeros que subieron en ese paradero durante ese rango.<br><br>
+            <b>Dado</b> que el endpoint "/api/stops/{stopId}/passenger-flow," se encuentra disponible<br>
+            <b>Y</b> que se han recopilado datos de afluencia para un paradero específico durante el día,<br>
+            <b>Cuando</b> una solicitud GET es envíada <br>
+            <b>Entonces</b> se recibe una respuesta con estado 200 OK,<br>
+            <b>Y</b> un objeto que contenga una serie de pares clave-valor es inclúido en la respuesta, donde cada clave es un rango horario y cada valor es el número total de pasajeros que subieron en ese paradero durante ese rango.<br><br>
             <b>Escenario 2: Manejar un paradero sin datos de afluencia</b> <br>
-            <b>Dado</b> que no hay datos de afluencia disponibles para el paradero seleccionado,<br>
-            <b>Cuando</b> el desarrollador hace una petición GET a /api/stops/{stopId}/passenger-flow,<br>
-            <b>Entonces</b> el sistema debe devolver un 204 No Content para indicar que no hay datos disponibles para ese paradero.<br><br>
+            <b>Dado</b> que el endpoint "/api/stops/{stopId}/passenger-flow," se encuentra disponible<br>
+            <b>Y</b> hay datos de afluencia disponibles para el paradero seleccionado,<br>
+            <b>Cuando</b> la petición GET es enviada <br>
+            <b>Entonces</b> se recibe una respuesta 204 No Content para indicar que no hay datos disponibles para ese paradero.<br><br>
             <b>Escenario 3: Manejar una solicitud con ID de paradero inválido o inexistente</b> <br>
-            <b>Dado</b> que el desarrollador envía un ID de paradero que no existe o es inválido,<br>
-            <b>Cuando</b> realiza una petición GET a /api/stops/{stopId}/passenger-flow,<br>
-            <b>Entonces</b> el sistema debe devolver un 404 Not Found indicando que el paradero no está registrado o el ID es incorrecto.
+            <b>Dado</b> que el endpoint "/api/stops/{stopId}/passenger-flow," se encuentra disponible<br>
+            <b>Cuando</b> se envía una petición GET junto con el ID de un paradero<br>
+            <b>Y</b> el ID del paradero no existe o es inválido<br>
+            <b>Entonces</b> se recibe una respuesta 404 Not Found <br>
+            <b>Y un mensaje es incluído en la respuesta, con el valor de "Paradero no registrado o ID incorrecto".</b> 
         </td>
         <td>
         </td>
@@ -803,20 +772,24 @@
 <tr>
          <td>TS09</td>
         <td>Visualización de Datos de Conductores y Buses</td>
-        <td>Como desarrollador, quiero implementar un endpoint /api/drivers-info que devuelva una lista de todos los conductores con sus datos personales y detalles del bus que manejan, para que la aplicación web pueda mostrar esta información en el dashboard y permita a los administradores de flota o dueños de empresas monitorear y gestionar su personal y vehículos de manera efectiva.</td>
+        <td>Como desarrollador, quiero obtener una lista de todos los conductores con sus datos personales y detalles del bus que manejan, para que la aplicación web pueda mostrar esta información en el dashboard y permita a los administradores de flota o dueños de empresas monitorear y gestionar su personal y vehículos de manera efectiva.</td>
         <td>
             <b>Escenario 1: Obtener la lista de conductores y los buses que manejan</b> <br>
-            <b>Dado</b> que existen registros de conductores y buses en el sistema,<br>
-            <b>Cuando</b> el desarrollador hace una petición GET a /api/drivers-info,<br>
-            <b>Entonces</b> el sistema debe consultar la base de datos y devolver un 200 OK con un array de objetos, donde cada objeto contiene la información del conductor (como nombre, número de identificación, etc.) y detalles del bus (como la placa, modelo, y estado actual).<br><br>
-            <b>Escenario 2: Manejar la ausencia de conductores o buses</b> <br>
-            <b>Dado</b> que no hay conductores o buses registrados en el sistema,<br>
-            <b>Cuando</b> el desarrollador hace una petición GET a /api/drivers-info,<br>
-            <b>Entonces</b> el sistema debe devolver un 204 No Content para indicar que actualmente no hay datos disponibles.<br><br>
-            <b>Escenario 3: Manejar errores inesperados al recuperar información</b> <br>
-            <b>Dado</b> que ocurre un error inesperado en el sistema al intentar recuperar la información de los conductores y buses,<br>
-            <b>Cuando</b> el desarrollador hace una petición GET a /api/drivers-info,<br>
-            <b>Entonces</b> el sistema debe devolver un 500 Internal Server Error indicando que no se pudo procesar la solicitud debido a un problema en el servidor.
+            <b>Dado</b> que el endpoint "/api/drivers-info" se encuentra disponible<br>
+            <b>Y</b> que existen registros de conductores y buses en la base de datos,<br>
+            <b>Cuando</b> una petición GET es enviada <br>
+            <b>Entonces</b>se recibe una respuesta 200 OK<br>
+            <b>Y un array de objetos es incluído, donde cada objeto contiene la información del conductor (como nombre, número de identificación, etc.) y detalles del bus (como la placa, modelo, y estado actual).</b>
+            <b>Escenario 2: Ausencia de conductores o buses</b> <br>
+            <b>Dado</b> que el endpoint "/api/drivers-info" se encuentra disponible<br>
+            <b>Y</b> no existen conductores o buses registrados en la base de datos,<br>
+            <b>Cuando</b> una petición GET es enviada<br>
+            <b>Entonces</b> se recibe una respuesta 204 No Content para indicar que actualmente no hay datos disponibles.<br><br>
+            <b>Escenario 3: Errores inesperados al recuperar información</b> <br>
+            <b>Dado</b> que el endpoint "/api/drivers-info" no se encuentra disponible<br>
+            <b>Cuando</b> una petición GET es enviada<br>
+            <b>Entonces</b> es recibida una respuesta 500 Internal Server Error.<br>
+            <b>Y</b> un mensaje es incluído en la solicitud con el mensaje "Servicio de información de conductores no disponible"<br><br>  
         </td>
         <td>
         </td>
@@ -824,20 +797,25 @@
 <tr>
          <td>TS10</td>
         <td>Pulsaciones de Corazón del Conductor</td>
-        <td>Como desarrollador, quiero implementar un endpoint /api/drivers/{driverId}/heart-rate que devuelva el rango de pulsaciones de corazón de un conductor específico durante un rango horario dado, para que el dashboard de la aplicación web pueda mostrar estos datos, permitiendo a los administradores de flota monitorear el bienestar de los conductores durante sus turnos.</td>
+        <td>Como desarrollador, quiero obtener el rango de pulsaciones de corazón de un conductor específico durante un rango horario dado, para que el dashboard de la aplicación web pueda mostrar estos datos, permitiendo a los administradores de flota monitorear el bienestar de los conductores durante sus turnos.</td>
         <td>
             <b>Escenario 1: Obtener el rango de pulsaciones de corazón del conductor</b> <br>
-            <b>Dado</b> que existen registros de las pulsaciones de corazón para un conductor en un rango horario específico,<br>
-            <b>Cuando</b> el desarrollador hace una petición GET a /api/drivers/{driverId}/heart-rate con parámetros de consulta para el rango horario,<br>
-            <b>Entonces</b> el sistema debe consultar la base de datos y devolver un 200 OK con un array de objetos, cada uno representando un intervalo de tiempo con las pulsaciones mínimas, máximas y promedio registradas en ese período.<br><br>
-            <b>Escenario 2: Manejar solicitud de un conductor sin registros de pulsaciones</b> <br>
-            <b>Dado</b> que no hay registros de pulsaciones para el conductor en el rango horario solicitado,<br>
-            <b>Cuando</b> el desarrollador hace una petición GET a /api/drivers/{driverId}/heart-rate,<br>
-            <b>Entonces</b> el sistema debe devolver un 204 No Content para indicar que no hay datos de pulsaciones disponibles para ese conductor en el rango horario especificado.<br><br>
-            <b>Escenario 3: Manejar una solicitud con ID de conductor inválido o inexistente</b> <br>
-            <b>Dado</b> que el desarrollador hace una petición GET a /api/drivers/{driverId}/heart-rate con un ID de conductor que no existe o es inválido,<br>
-            <b>Cuando</b> el sistema intenta recuperar los datos,<br>
-            <b>Entonces</b> el sistema debe devolver un 404 Not Found para indicar que el conductor no está registrado en el sistema o el ID proporcionado es incorrecto.
+            <b>Dado</b> que el endpoint "/api/drivers/{driverId}/heart-rate" se encuentra disponible ,<br>
+            <b>Y</b> que existen registros de las pulsaciones de corazón para un conductor en un rango horario específico,<br>
+            <b>Cuando</b> una petición GET es enviada junto con parámetros de consulta para el rango horario,<br>
+            <b>Entonces</b> se recibe una respuesta 200 OK compuesta por un array de objetos, cada uno representando un intervalo de tiempo con las pulsaciones mínimas, máximas y promedio registradas en ese período.<br><br>
+            <b>Escenario 2: Manejo de solicitud de un conductor sin registros de pulsaciones</b> <br>
+            <b>Dado</b> que el endpoint "/api/drivers/{driverId}/heart-rate" se encuentra disponible ,<br>
+            <b>Y</b> que no existen registros de pulsaciones para el conductor en el rango horario solicitado,<br>
+            <b>Cuando</b> la petición GET es enviada junto con parámetros de consulta para el rango horario,<br>
+            <b>Entonces</b> se recibe una respuesta de tipo 204 No Content <br>
+            <b>Y</b> un mensaje es incluído en el response body con el valor "No existen datos de pulsaciones disponibles para el conductor en el rango horario especificado." <br><br>
+            <b>Escenario 3: Manejo de una solicitud con ID de conductor inválido o inexistente</b> <br>
+            <b>Dado</b> que el endpoint "/api/drivers/{driverId}/heart-rate" se encuentra disponible ,<br>
+            <b>Cuando</b> la petición GET es enviada junto con un ID de conductor<br>
+            <b>Y</b> el ID del conductor no existe o es inválido <br>
+            <b>Entonces</b> una respuesta de tipo 404 Not Found es recibida <br>
+            <b>Y</b> un mensaje es incluído en el response body, con el valor "Conductor no registrado en el sistema o el ID proporcionado es incorrecto." <br><br>
         </td>
         <td>
         </td>
@@ -845,20 +823,23 @@
 <tr>
          <td>TS11</td>
         <td>Alertas de Pulsaciones del Conductor</td>
-        <td>Como desarrollador, quiero implementar un endpoint /api/drivers/alerts que monitoree las pulsaciones del corazón de los conductores y genere alertas cuando estas pulsaciones caigan por debajo de un mínimo o superen un máximo predeterminado, para que el sistema de notificaciones pueda informar a los administradores de flota sobre posibles situaciones de riesgo para la salud del conductor.</td>
+        <td>Como desarrollador, quiero monitorear las pulsaciones del corazón de los conductores y generar alertas cuando estas pulsaciones caigan por debajo de un mínimo o superen un máximo predeterminado, para que el sistema de notificaciones pueda informar a los administradores de flota sobre posibles situaciones de riesgo para la salud del conductor.</td>
         <td>
             <b>Escenario 1: Generar alertas por pulsaciones bajas</b> <br>
-            <b>Dado</b> que el sistema recibe datos de pulsaciones de un conductor que caen por debajo del mínimo predeterminado,<br>
-            <b>Cuando</b> estos datos son procesados por el endpoint /api/drivers/alerts,<br>
-            <b>Entonces</b> el sistema debe generar una alerta y devolver un 200 OK con un mensaje de alerta, incluyendo el ID del conductor, la hora del evento y un mensaje indicando que las pulsaciones están anormalmente bajas.<br><br>
+            <b>Dado</b> que el endpoint  /api/drivers/alerts se encuentra disponible<br>
+            <b>Y</b> que el sistema recibe datos de pulsaciones de un conductor que caen por debajo del mínimo predeterminado,<br>
+            <b>Cuando</b> se procesan los datos <br>
+            <b>Entonces</b> una alerta es generada y un 200 OK es recibido con un mensaje de alerta, incluyendo el ID del conductor, la hora del evento y un mensaje indicando que las pulsaciones están anormalmente bajas.<br><br>
             <b>Escenario 2: Generar alertas por pulsaciones altas</b> <br>
-            <b>Dado</b> que el sistema recibe datos de pulsaciones de un conductor que superan el máximo predeterminado,<br>
-            <b>Cuando</b> estos datos son procesados por el endpoint /api/drivers/alerts,<br>
-            <b>Entonces</b> el sistema debe generar una alerta y devolver un 200 OK con un mensaje de alerta, incluyendo el ID del conductor, la hora del evento y un mensaje indicando que las pulsaciones están anormalmente altas.<br><br>
+            <b>Dado</b> que el endpoint  /api/drivers/alerts se encuentra disponible<br>
+            <b>Y</b> que el sistema recibe datos de pulsaciones de un conductor que superan el máximo predeterminado,<br>
+            <b>Cuando</b> estos datos son procesados<br>
+            <b>Entonces</b> se genera una alerta y se recibe un 200 OK con un mensaje de alerta, incluyendo el ID del conductor, la hora del evento y un mensaje indicando que las pulsaciones están anormalmente altas.<br><br>
             <b>Escenario 3: Manejar ausencia de datos de pulsaciones</b> <br>
-            <b>Dado</b> que no se reciben datos de pulsaciones para un conductor durante un período prolongado,<br>
-            <b>Cuando</b> se verifica la actividad del conductor a través del endpoint /api/drivers/alerts,<br>
-            <b>Entonces</b> el sistema debe generar una alerta de "sin datos" y devolver un 200 OK con un mensaje indicando la falta de datos de pulsaciones y potencialmente sugerir verificar el dispositivo del conductor.
+            <b>Dado</b> que el endpoint  /api/drivers/alerts se encuentra disponible<br>
+            <b>Y</b> que no se reciben datos de pulsaciones para un conductor durante un período mayor a 4 minutos,<br>
+            <b>Cuando</b> se realiza verifica la actividad del conductor ,<br>
+            <b>Entonces</b> el sistema se genera una alerta de "sin datos" y es recibida una respuesta 200 OK con un mensaje indicando la falta de datos de pulsaciones y potencialmente sugerir verificar el dispositivo del conductor.
         </td>
         <td>
         </td>
@@ -866,15 +847,21 @@
 <tr>
          <td>TS12</td>
         <td>Autenticación de Usuarios</td>
-        <td>Como desarrollador, quiero implementar un sistema de inicio de sesión que permita a los usuarios autenticarse utilizando su correo y contraseña o su cuenta de Google, para que puedan acceder de manera segura a la aplicación.</td>
+        <td>Como desarrollador, quiero autenticar a mis usuarios utilizando su correo y contraseña o su cuenta de Google, para que puedan acceder de manera segura a la aplicación.</td>
         <td>
-            <b>Escenario 1: Inicio de sesión con correo y contraseña</b> <br>
-            <b>Dado</b> que un usuario desea iniciar sesión proporcionando un correo y contraseña,<br>
-            <b>Cuando</b> el usuario envía una petición POST a /api/auth/login con su correo y contraseña,<br>
-            <b>Entonces</b> el sistema debe validar las credenciales contra la base de datos,<br>
-            Y si las credenciales son correctas, devolver un 200 OK con un token de acceso JWT (JSON Web Token),<br>
-            Y si las credenciales son incorrectas, devolver un 401 Unauthorized indicando que el correo o contraseña no son válidos.<br><br>
-            <b>Escenario 2: Inicio de sesión con cuenta de Google</b> <br>
+            <b>Escenario 1: Inicio de sesión con correo y contraseña correctos</b> <br>
+            <b>Dado</b> que el endpoint "/api/auth/login" se encuentra disponible<br>
+            <b>Y</b> un usuario desea iniciar sesión proporcionando un correo y contraseña,<br>
+            <b>Cuando</b> la petición POST es enviada junto a valores para el correo y contraseña,<br>
+            <b>Entonces</b> se recibe una respuesta 200 Ok conformada por un token de acceso JWT (JSON Web Token)<br>
+            <b>Escenario 2: Inicio de sesión con correo o contraseña incorrectos</b> <br>
+            <b>Dado</b> que el endpoint "/api/auth/login" se encuentra disponible<br>
+            <b>Y</b> un usuario desea iniciar sesión proporcionando un correo y contraseña,<br>
+            <b>Y</b> el correo o contraseña son erróneos,<br>
+            <b>Cuando</b> la petición POST es enviada junto a valores para el correo y contraseña,<br>
+            <b>Entonces</b> se recibe una respuesta 401 Unauthorized <br>
+            <b>Y</b> un mensaje es incluído en la respuesta con el valor de "Correo o contraseña incorrectos" <br><br>
+            <b>Escenario 3: Inicio de sesión con cuenta de Google</b> <br>
             <b>Dado</b> que un usuario desea iniciar sesión utilizando su cuenta de Google,<br>
             <b>Cuando</b> el usuario selecciona la opción de inicio de sesión con Google y autoriza la aplicación a través de la API de Google,<br>
             <b>Entonces</b> el sistema debe recibir un token de Google,<br>
@@ -882,27 +869,46 @@
             Y si el token es válido, el sistema debe verificar si el usuario ya está registrado con ese correo de Google en la base de datos,<br>
             Si el usuario no está registrado, el sistema debe crear un nuevo usuario con los datos proporcionados por Google y devolver un 200 OK con un token de acceso JWT,<br>
             Si el usuario está registrado, simplemente devolver un 200 OK con un token de acceso JWT.<br><br>
-            <b>Escenario 3: Manejar errores en la autenticación con Google</b> <br>
+            <b>Escenario 4: Manejar errores en la autenticación con Google</b> <br>
             <b>Dado</b> que ocurre un error al intentar autenticar con Google (por ejemplo, el token de Google es inválido o ha expirado),<br>
             <b>Cuando</b> el sistema intenta validar el token con Google,<br>
-            <b>Entonces</b> el sistema debe devolver un 400 Bad Request o 401 Unauthorized indicando el error específico relacionado con la autenticación de Google.<br><br>
-            <b>Escenario 4: Recuperación de Contraseña</b> <br>
-            <b>Dado</b> que un usuario olvida su contraseña y necesita restablecerla,<br>
-            <b>Cuando</b> el usuario solicita una recuperación de contraseña enviando su correo electrónico a /api/auth/recover-password,<br>
-            <b>Entonces</b> el sistema debe verificar si el correo electrónico está asociado con una cuenta existente,<br>
-            Y si el correo electrónico es válido, enviar un correo electrónico al usuario con un enlace de restablecimiento de contraseña,<br>
-            Y si el correo electrónico no está registrado, devolver un 404 Not Found indicando que no se encontró la cuenta.<br><br>
-            <b>Escenario 5: Restablecimiento de Contraseña</b> <br>
-            <b>Dado</b> que un usuario recibe un enlace de restablecimiento de contraseña y proporciona una nueva contraseña,<br>
-            <b>Cuando</b> el usuario envía la nueva contraseña a /api/auth/reset-password junto con el token de restablecimiento obtenido del correo electrónico,<br>
-            <b>Entonces</b> el sistema debe validar el token de restablecimiento,<br>
-            Y si el token es válido, actualizar la contraseña del usuario en la base de datos y devolver un 200 OK indicando que la contraseña ha sido restablecida con éxito,<br>
-            Y si el token no es válido o ha expirado, devolver un 400 Bad Request o 401 Unauthorized indicando el problema con el token de restablecimiento.<br><br>
-            <b>Escenario 6: Cierre de Sesión</b> <br>
-            <b>Dado</b> que un usuario desea cerrar su sesión activa,<br>
-            <b>Cuando</b> el usuario envía una petición POST a /api/auth/logout,<br>
-            <b>Entonces</b> el sistema debe invalidar el token JWT actual del usuario, impidiendo su uso futuro para autenticación,<br>
-            Y devolver un 200 OK confirmando que el usuario ha cerrado sesión correctamente.
+            <b>Entonces</b> se recibe un 400 Bad Request o 401 Unauthorized indicando el error específico relacionado con la autenticación de Google.<br><br>
+            <b>Escenario 5: Recuperación de Contraseña con correo electrónico existente </b> <br>
+            <b>Dado</b> que el endpoint "/api/auth/recover-password" se encuentra disponible <br>
+            <b>Y</b> que un usuario olvidó su contraseña y necesita restablecerla,<br>
+            <b>Cuando</b> el usuario solicita una recuperación de contraseña enviando una solicitud POST con su correo electrónico como valor<br>
+            <b>Y</b> si el correo electrónico es válido<br>
+            <b>Entonces</b> es enviado un correo electrónico de recuperación de contraseña a la cuenta del usuario <br>
+            <b>Escenario 6: Recuperación de Contraseña con correo electrónico inexistente o no relacionado con cuenta</b> <br>
+            <b>Dado</b> que el endpoint "/api/auth/recover-password" se encuentra disponible <br>
+            <b>Y</b> que un usuario olvidó su contraseña y necesita restablecerla,<br>
+            <b>Cuando</b> el usuario solicita una recuperación de contraseña enviando una solicitud POST con su correo electrónico como valor<br>
+            <b>Y</b> si el correo electrónico es uno inexistente o no registrado en la aplicaicón<br>
+            <b>Entonces</b> es se recibe un 404 Not Found <br>
+            <b>Y</b> un mensaje es incluído en el response con el valor "Cuenta inexistente o no registrada".
+            <b>Escenario 6: Restablecimiento de Contraseña exitoso</b> <br>
+            <b>Dado</b> que el endpoint "/api/auth/reset-password" se encuentra disponible <br>
+            <b>Y</b> que un usuario haya recibido un enlace de restablecimiento de contraseña<br>
+            <b>Y</b> haya proporcionado una nueva contraseña<br>
+            <b>Cuando</b> se envía una solicitud POST junto con la contraseña nueva y el token de restablecimiento obtenido del correo electrónico,<br>
+            <b>Y</b> el token de restablecimiento es validado correctamente, 
+            <b>Entonces</b> la contraseña es reestablecida<br>
+            <b>Y</b> es recibida una respuesta tipo 200 OK conformado por un mensaje con el valor "Contraseña reestablecida correctamente"<br>
+            <b>Escenario 7: Restablecimiento de Contraseña inexitoso</b> <br>
+            <b>Dado</b> que el endpoint "/api/auth/reset-password" se encuentra disponible <br>
+            <b>Y</b> que un usuario haya recibido un enlace de restablecimiento de contraseña<br>
+            <b>Y</b> haya proporcionado una nueva contraseña<br>
+            <b>Cuando</b> se envía una solicitud POST junto con la contraseña nueva y el token de restablecimiento obtenido del correo electrónico,<br>
+            <b>Y</b> el token de restablecimiento es inválidado o expiró, 
+            <b>Entonces</b> la contraseña no es reestablecida<br>
+            <b>Y</b> es recibida una respuesta tipo 400 Bad Request o 401 Unauthorized <br>
+            <b>Y</b> un mensaje es incluído en la respuesta con el valor "Problema con token de reestablecimiento"<br><br>
+            <b>Escenario 8: Cierre de Sesión</b> <br>
+            <b>Dado</b> que el endpoint "/api/auth/logout" se encuentra disponible<br>
+            <b>Y</b> que un usuario desea cerrar su sesión activa,<br>
+            <b>Cuando</b> una petición POST es enviada<br>
+            <b>Entonces</b> el token JWT actual del usuario es invalidado, impidiendo su uso futuro para autenticación,<br>
+            <b>Y es recibido un 200 OK confirmando que el usuario ha cerrado sesión correctamente.<br><br>
         </td>
         <td>
         </td>
@@ -910,29 +916,23 @@
 <tr>
          <td>TS13</td>
         <td>Registro de Línea de Bus</td>
-        <td>Como desarrollador, quiero implementar un endpoint /api/bus-lines/register que permita el registro de una nueva línea de bus, para que los administradores de flota o dueños de empresas puedan añadir nuevas líneas al sistema de manera eficiente.</td>
+        <td>Como desarrollador, quiero registrar una nueva línea de bus, para que los administradores de flota o dueños de empresas puedan añadir nuevas líneas al sistema de manera eficiente.</td>
         <td>
-            <b>Escenario 1: Registro exitoso de una nueva línea de bus</b> <br>
-            <b>Dado</b> que el administrador de flota tiene los datos necesarios para registrar una nueva línea de bus,<br>
-            <b>Cuando</b> envía una petición POST a /api/bus-lines/register con los detalles de la línea (nombre, ruta, horarios, información del bus, etc.),<br>
-            <b>Entonces</b> el sistema debe validar la información proporcionada,<br>
-            <b>Y</b> si la información es válida, registrar la nueva línea de bus en la base de datos,<br>
-            <b>Y</b> devolver un 201 Created con los detalles de la línea de bus registrada, incluyendo un identificador único asignado por el sistema.<br>
-            <b>Escenario 2: Manejar intento de registro con datos incompletos o inválidos</b> <br>
-            <b>Dado</b> que el administrador de flota envía una petición POST a /api/bus-lines/register con datos incompletos o inválidos para la línea de bus,<br>
-            <b>Cuando</b> el sistema intenta validar la información,<br>
-            <b>Entonces</b> el sistema debe identificar los campos que son inválidos o faltantes,<br>
-            <b>Y</b> devolver un 400 Bad Request con un mensaje que detalle los problemas encontrados en los datos proporcionados.<br>
-            <b>Escenario 3: Prevención de duplicados en el registro de líneas de bus</b> <br>
-            <b>Dado</b> que el administrador de flota intenta registrar una línea de bus que ya existe en el sistema,<br>
-            <b>Cuando</b> envía una petición POST a /api/bus-lines/register con datos que coinciden con una línea existente,<br>
-            <b>Entonces</b> el sistema debe verificar la base de datos para prevenir registros duplicados,<br>
-            <b>Y</b> si se encuentra un duplicado, devolver un 409 Conflict indicando que la línea de bus ya está registrada.<br>
-            <b>Escenario 4: Confirmación de registro a usuarios interesados</b> <br>
-            <b>Dado</b> que una nueva línea de bus ha sido registrada exitosamente,<br>
-            <b>Cuando</b> el registro se completa,<br>
-            <b>Entonces</b> el sistema debe notificar a los usuarios interesados (por ejemplo, mediante un servicio de mensajería o correo electrónico) sobre la nueva línea de bus disponible,<br>
-            <b>Y</b> incluir en la notificación los detalles básicos de la nueva línea para fomentar su utilización.<br>
+            <b>Escenario 1: Registro exitoso de un TransportCompany</b> <br>
+            <b>Dado</b> que el endpoint "/api/bus-lines/register" está disponible,<br>
+            <b>Cuando</b> la petición POST es enviada junto con valores sobre la línea (nombre, ruta, horarios, información del bus),<br>
+            <b>Entonces</b> una respuesta es recibida con estado 201,<br>
+            <b>Y</b> un TransportCompany Resurce es incluído en el ResponseBody, incluyendo un identificador único asignado y los valores envíados con anterioridad (nombre,ruta,etc).<br>
+            <b>Escenario 2: Datos incompletos o inválidos</b> <br>
+            <b>Dado</b> que el endpoint "/api/bus-lines/register" está disponible,<br>
+            <b>Cuando</b> la solicitud POST es enviada con datos incompletos o inválidos para la línea de bus,<br>
+            <b>Entonces</b> se recibe un 400 Bad Request<br>
+            <b>Y</b> un mensaje incluído en el response que detalle los problemas encontrados en los datos proporcionados.<br>
+            <b>Escenario 3: Registro de Transport Company ya añadido anteriormente</b> <br>
+            <b>Dado</b> que el endpoint "/api/bus-lines/register" está disponible,<br>
+            <b>Cuando</b> la solicitud POST es enviada con los valores para nombre, itinerario, horarios e información del bus<br>
+            <b>Y</b> el TransportCompany con los mismos datos ya han sido almacenados,<br>,<br>
+            <b>Entonces</b> es recibido un error 409 Conflict indicando que la línea de bus ya está registrada<br>
         </td>
         <td>
         </td>
@@ -940,30 +940,33 @@
 <tr>
          <td>TS14</td>
         <td>Suscripción Premium</td>
-        <td>Como desarrollador, quiero implementar un endpoint /api/subscriptions/premium/purchase que gestione la compra de suscripciones premium por parte de los usuarios, para que los usuarios puedan acceder a funcionalidades avanzadas y mejorar su experiencia con la aplicación.</td>
+        <td>Como desarrollador, quiero facilitar la compra de suscripciones premium por parte de los usuarios, para que los usuarios puedan acceder a funcionalidades avanzadas y mejorar su experiencia con la aplicación.</td>
         <td>
             <b>Escenario 1: Compra exitosa de una suscripción premium</b> <br>
-            <b>Dado</b> que un usuario desea adquirir una suscripción premium y tiene los medios de pago válidos,<br>
-            <b>Cuando</b> envía una petición POST a /api/subscriptions/premium/purchase con los detalles de su medio de pago y la duración deseada de la suscripción,<br>
-            <b>Entonces</b> el sistema debe validar los datos de pago,<br>
-            <b>Y</b> si los datos son válidos, procesar el pago a través del sistema de gestión de pagos,<br>
-            <b>Y</b> registrar la suscripción premium en la cuenta del usuario, actualizando su estado a premium,<br>
-            <b>Y</b> devolver un 200 OK con la confirmación de la compra y los detalles de la suscripción.<br>
+            <b>Dado</b> que el endpoint "/api/subscriptions/premium/purchase/stripe" se encuentra disponible <br>
+            <b>Cuando</b> envía una petición POST a /api/subscriptions/premium/purchase/stripe con los detalles de su medio de pago y la duración deseada de la suscripción,<br>
+            <b>Y</b> la pasarela de pagos Stripe valida y procesa el pago <br>
+            <b>Entonces</b> es recibida una respuesta tipo 200 OK conformada con la confirmación de la compra dado por Stripe y los detalles de la suscripción.<br>
             <b>Escenario 2: Fallo en la validación o procesamiento del pago</b> <br>
-            <b>Dado</b> que un usuario intenta comprar una suscripción premium pero proporciona datos de pago inválidos o hay un problema en el procesamiento del pago,<br>
-            <b>Cuando</b> envía una petición POST a /api/subscriptions/premium/purchase,<br>
-            <b>Entonces</b> el sistema debe intentar validar y procesar el pago,<br>
-            <b>Y</b> si hay un fallo, devolver un 400 Bad Request o 402 Payment Required con un mensaje detallando el problema específico encontrado.<br>
+            <b>Dado</b> que el endpoint "/api/subscriptions/premium/purchase/stripe" se encuentra disponible <br>
+            <b>Cuando</b> envía una petición POST a /api/subscriptions/premium/purchase/stripe con los detalles de su medio de pago y la duración deseada de la suscripción,<br>
+            <b>Y</b> Stripe invalida el proceso de pago,<br>
+            <b>Entonces</b> es recibido un 400 Bad Request o 402 Payment Required <br>
+            <b>Y</b> un mensaje es incluído en el response detallando el problema específico encontrado.<br>
             <b>Escenario 3: Compra de suscripción premium cuando ya se posee una activa</b> <br>
             <b>Dado</b> que un usuario con una suscripción premium activa intenta comprar otra suscripción premium,<br>
-            <b>Cuando</b> envía una petición POST a /api/subscriptions/premium/purchase,<br>
-            <b>Entonces</b> el sistema debe verificar el estado de suscripción actual del usuario,<br>
-            <b>Y</b> si ya posee una suscripción activa, devolver un 409 Conflict indicando que ya existe una suscripción premium activa y no se requiere una nueva compra.<br>
+            <b>Y</b> que el endpoint "/api/subscriptions/premium/purchase/stripe" se encuentra disponible <br>
+            <b>Cuando</b> envía una petición POST <br>
+            <b>Y</b> el sistema debe verifica el estado de suscripción actual del usuario,<br>
+            <b>Y</b> si ya posee una suscripción activa <br>
+            <b>Entonces</b> se recibe un 409 Conflict <br>
+            <b>Y</b> un mensaje incluído en el response con el valor "Suscripción premium ya activada , no se requiere una nueva compra.<br><br>
             <b>Escenario 5: Cancelación exitosa de una suscripción premium</b> <br>
             <b>Dado</b> que un usuario con una suscripción premium activa desea cancelarla,<br>
-            <b>Cuando</b> envía una petición POST a /api/subscriptions/premium/cancel con su identificador de usuario,<br>
-            <b>Entonces</b> el sistema debe verificar la existencia de una suscripción premium activa para ese usuario,<br>
-            <b>Y</b> si encuentra una suscripción activa, procesar la cancelación, lo que implica actualizar el estado de la suscripción a ""cancelada"" y desactivar el acceso a las funcionalidades premium
+            <b>Y</b> que el endpoint "/api/subscriptions/premium/cancel" se encuentra disponible <br>
+            <b>Cuando</b> se envía una petición POST con el valor de su identificador de usuario,<br>
+            <b>Y</b> el sistema verifica la existencia de una subscripción premium activa para este usuario<br>
+            <b>Entonces</b> se procesa la cancelación, lo que implica actualizar el estado de la suscripción a ""cancelada"" y desactivar el acceso a las funcionalidades premium<br><br>
 
 </tr>
 <tr>
@@ -1129,44 +1132,44 @@
 
 ## 3.4 Product Backlog
 
-| # Orden | User Story Id | Título                                                                    | Descripción                                                                                                                                                                                                                                                                                                                                                                                            | Story Points |
-| ------- | ------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ |
-| 1       | US09          | Sección de Características del producto                                   | Como visitante, quiero tener una sección claramente definida que muestre las características principales del producto o servicio, para entender rápidamente sus funcionalidades y beneficios.                                                                                                                                                                                                          | 3            |
-| 2       | US10          | Sección de Inicio de la Landing Page                                      | Como visitante , deseo ser recibido con una Hero Section impactante y atractiva en la Landing Page, para que me proporcione una visión clara y concisa del valor y propósito del producto o servicio, capturando mi interés y motivándome a explorar más sobre lo que se ofrece.                                                                                                                       | 5            |
-| 3       | US07          | Diseño Responsivo de la Landing Page                                      | Como visitante, deseo que la página se adapte correctamente a diferentes dispositivos y tamaños de pantalla (como móviles, tablets y desktops), para una experiencia de usuario óptima y consistente en cualquier dispositivo que utilice.                                                                                                                                                             | 2            |
-| 4       | US01          | Redirección de la landing Page a tiendas de aplicaciones                  | Como visitante del segmento pasajero, deseo dirigirme a la aplicación móvil correspondiente para descargarla en mi dispositivo móvil                                                                                                                                                                                                                                                                   | 1            |
-| 5       | US02          | Redirección de la landing Page a la aplicación web                        | Como visitante del segmento encargado de flota de autobuses, deseo ingresar a la aplicación web mediante la landing page para usarla en mi navegador favorito                                                                                                                                                                                                                                          | 1            |
-| 6       | US06          | Navegación y Contenido Informativo en el Footer                           | Como visitante, deseo tener acceso fácil y claro a información relevante y enlaces útiles en el footer para una navegación más eficiente e acceder rápidamente a secciones importantes del sitio.                                                                                                                                                                                                      | 3            |
-| 7       | US08          | Incorporación de Testimonios en la Landing Page                           | Como visitante, deseo tener acceso a testimonios reales de usuarios o clientes para conocer experiencias positivas y comentarios sobre el servicio ofrecido.                                                                                                                                                                                                                                           | 2            |
-| 8       | US03          | Envío de mensaje a través de un formulario de contacto                    | Como visitante de cualquier segmento, deseo enviar un mensaje a los desarrolladores para enviar sugerencias, quejas u mensajes con otro motivo que yo desee                                                                                                                                                                                                                                            | 2            |
-| 9       | US05          | Sección de Preguntas Frecuentes                                           | Como visitante, deseo acceder a una sección de Preguntas Frecuentes para resolver mis inquietudes sobre el servicio ofrecido.                                                                                                                                                                                                                                                                          | 2            |
-| 10      | US04          | Conocimiento del Equipo desarrollador de la aplicación                    | Como visitante, deseo conocer al equipo que está desarrollando la aplicación para tener una mayor confianza en las personas detrás del proyecto.                                                                                                                                                                                                                                                       | 2            |
-| 11      | TS05          | Datos de Paraderos y Buses en Tiempo Real                                 | Como desarrollador, quiero implementar un endpoint /api/real-time/{lineId} que devuelva datos en tiempo real de paraderos y buses para una línea específica, para que los usuarios puedan ver la ubicación del bus en el mapa, el nombre del paradero, y el tiempo estimado de llegada.                                                                                                                | 8            |
-| 12      | TS06          | Aforo en Tiempo Real de Buses                                             | Como desarrollador, quiero implementar un endpoint que devuelva el aforo en tiempo real de un bus específico, para que los usuarios puedan saber cuántas personas hay en el bus antes de que llegue al paradero.                                                                                                                                                                                       | 5            |
-| 13      | TS07          | Datos Históricos de Paraderos por Fecha                                   | Como desarrollador, quiero implementar un endpoint /api/historical/stops/{date} que devuelva los datos históricos de los paraderos para una fecha específica, para que el dashboard de la aplicación web pueda mostrar un listado de paraderos ordenados según la cantidad de personas que subieron en cada uno en dicha fecha.                                                                        | 8            |
-| 14      | TS01          | Listado de Líneas de Buses                                                | Como desarrollador, quiero implementar un endpoint que devuelva un listado de todas las líneas de buses, para que la aplicación móvil pueda mostrarlas en la sección de explorar.                                                                                                                                                                                                                      | 3            |
-| 15      | TS02          | Búsqueda de Líneas de Bus                                                 | Como desarrollador, quiero crear un endpoint para buscar líneas de bus por nombre, para que los usuarios puedan encontrar rápidamente las rutas que necesitan.                                                                                                                                                                                                                                         | 3            |
-| 16      | TS03          | Gestión de Favoritos                                                      | Como desarrollador, quiero crear un endpoint que permita a los usuarios marcar una línea de bus como favorita, para que puedan acceder rápidamente a sus líneas preferidas desde la sección de favoritos.                                                                                                                                                                                              | 2            |
-| 17      | TS04          | Listado de Paraderos de una Línea de Bus                                  | Como desarrollador, quiero crear un endpoint que devuelva la lista de paraderos de una línea de bus específica, para que los usuarios puedan ver todos los paraderos disponibles para esa línea en la aplicación móvil.                                                                                                                                                                                | 3            |
-| 18      | TS10          | Pulsaciones de Corazón del Conductor                                      | Como desarrollador, quiero implementar un endpoint /api/drivers/{driverId}/heart-rate que devuelva el rango de pulsaciones de corazón de un conductor específico durante un rango horario dado, para que el dashboard de la aplicación web pueda mostrar estos datos, permitiendo a los administradores de flota monitorear el bienestar de los conductores durante sus turnos.                        | 5            |
-| 19      | TS11          | Alertas de Pulsaciones del Conductor                                      | Como desarrollador, quiero implementar un endpoint /api/drivers/alerts que monitoree las pulsaciones del corazón de los conductores y genere alertas cuando estas pulsaciones caigan por debajo de un mínimo o superen un máximo predeterminado, para que el sistema de notificaciones pueda informar a los administradores de flota sobre posibles situaciones de riesgo para la salud del conductor. | 8            |
-| 20      | TS08          | Histograma de Afluencia por Paradero                                      | Como desarrollador, quiero implementar un endpoint /api/stops/{stopId}/passenger-flow que devuelva los datos de afluencia de pasajeros para un paradero específico, para que el dashboard de la aplicación web pueda mostrar un histograma de la hora más concurrida en dicho paradero.                                                                                                                | 5            |
-| 21      | TS09          | Visualización de Datos de Conductores y Buses                             | Como desarrollador, quiero implementar un endpoint /api/drivers-info que devuelva una lista de todos los conductores con sus datos personales y detalles del bus que manejan, para que la aplicación web pueda mostrar esta información en el dashboard y permita a los administradores de flota o dueños de empresas monitorear y gestionar su personal y vehículos de manera efectiva.               | 8            |
-| 22      | TS15          | Interconectar dispositivos Iot                                            | Como desarrollador del sistema de gestión de transporte público, quiero interconectar los dispositivos IoT, como camaras y pulsómetros, para recopilar datos relevantes en tiempo real.                                                                                                                                                                                                                | 8            |
-| 23      | TS16          | Conectar dispositivos IoT hacia el Gateway o el Hub                       | Como desarrollador del sistema de gestión de transporte público, necesito establecer la conexión de los dispositivos IoT, como cámaras y pulsómetros, con el Gateway o Hub correspondiente para facilitar la transmisión de datos hacia el sistema central.                                                                                                                                            | 5            |
-| 24      | TS17          | Enviar la información recopilada en los dispositivos IoT hacia el Gateway | Como desarrollador del sistema de gestión de transporte público, debo implementar la funcionalidad para enviar la información recopilada por los dispositivos IoT, como cámaras y pulsómetros, hacia el Gateway designado para su procesamiento y almacenamiento.                                                                                                                                      | 5            |
-| 25      | TS18          | Mandar la información recopilada en el Gateway hacia una plataforma Cloud | Como desarrollador del sistema de gestión de transporte público, debo desarrollar la funcionalidad para enviar la información recopilada en el Gateway hacia una plataforma Cloud, donde se realizará un procesamiento adicional y se almacenarán los datos de manera segura y accesible.                                                                                                              | 5            |
-| 26      | TS19          | Conectar la información con el backend                                    | Como desarrollador del sistema de gestión de transporte público, necesito establecer una conexión entre la información recopilada desde los dispositivos IoT y almacenada en la plataforma Cloud con el backend del sistema, para permitir el procesamiento, análisis y gestión de los datos de manera efectiva.                                                                                       | 5            |
-| 27      | TS20          | Conectar dispositivos IoT hacia internet                                  | Como desarrollador del sistema de gestión de transporte público, debo establecer la conexión de los dispositivos IoT, como cámaras y pulsómetros, a Internet para permitir la transmisión de datos en tiempo real y la comunicación con otros sistemas y servicios externos.                                                                                                                           | 5            |
-| 28      | TS12          | Autenticación de Usuarios                                                 | Como desarrollador, quiero implementar un sistema de inicio de sesión que permita a los usuarios autenticarse utilizando su correo y contraseña o su cuenta de Google, para que puedan acceder de manera segura a la aplicación.                                                                                                                                                                       | 3            |
-| 29      | TS13          | Registro de Línea de Bus                                                  | Como desarrollador, quiero implementar un endpoint /api/bus-lines/register que permita el registro de una nueva línea de bus, para que los administradores de flota o dueños de empresas puedan añadir nuevas líneas al sistema de manera eficiente.                                                                                                                                                   | 3            |
-| 30      | TS14          | Suscripción Premium                                                       | Como desarrollador, quiero implementar un endpoint /api/subscriptions/premium/purchase que gestione la compra de suscripciones premium por parte de los usuarios, para que los usuarios puedan acceder a funcionalidades avanzadas y mejorar su experiencia con la aplicación.                                                                                                                         | 5            |
-| 31      | US13          | Visualizar aforo en buses                                                 | Como empresa de transporte público, quiero tener información con la cantidad de personas en cada bus en tiempo real, para poder identificar los buses con mayor ocupación                                                                                                                                                                                                                              | 3            |
-| 32      | US14          | Visualizar ubicación de la flota en tiempo real                           | Como empresa de transporte público, quiero ver la ubicación de mi flota en tiempo real, para poder monitorizar el estado del servicio                                                                                                                                                                                                                                                                  | 3            |
-| 33      | US15          | Visualizar estado de los conductores                                      | Como empresa de transporte público, quiero ver el estado de mis conductores en tiempo real, para poder identificar a los que puedan estar cansados o estresados                                                                                                                                                                                                                                        | 3            |
-| 34      | US16          | Recibir notificaciones                                                    | Como empresa de transporte público, quiero recibir notificaciones en tiempo real sobre eventos relevantes para estar al tanto de posibles incidentes                                                                                                                                                                                                                                                   | 3            |
-| 35      | US18          | Visualizar gráfico de línea con el tiempo de pulso de los conductores     | Como representante de una empresa de transporte, quiero ver un gráfico de línea con el tiempo de pulso de mis conductores en tiempo real, para poder identificar a los que puedan estar bajo estrés o con problemas de salud                                                                                                                                                                           | 5            |
-| 36      | US17          | Cambiar rutas de la flota                                                 | Como empresa de transporte público, quiero poder cambiar las rutas de mi flota en tiempo real, para poder ajustar el servicio a las condiciones del tráfico o a la demanda de pasajeros                                                                                                                                                                                                                | 5            |
-| 37      | US19          | Registrar empresa de transporte                                           | Como representante de una empresa de transporte, quiero poder registrar mi empresa en el sistema                                                                                                                                                                                                                                                                                                       | 3            |
-| 38      | US20          | Registrar línea de transporte                                             | Como representante de una empresa de transporte, quiero poder registrar una línea de transporte en el sistema                                                                                                                                                                                                                                                                                          | 3            |
-| 39      | US21          | Visualizar recorrido de una línea de bus                                  | Como usuario pasajero, quiero poder buscar y visualizar las rutas de las líneas de autobús, para tener una idea clara de su trayecto y poder planificar mis viajes de manera eficiente.                                                                                                                                                                                                                | 5            |
+| # Orden | User Story Id | Título                                                                    | Descripción                                                                                                                                                                                                                                                                                                                                              | Story Points |
+| ------- | ------------- | ------------------------------------------------------------------------- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| ------------ |
+| 1       | US09          | Sección de Características del producto                                   | Como visitante, quiero tener una sección claramente definida que muestre las características principales del producto o servicio, para entender rápidamente sus funcionalidades y beneficios.                                                                                                                                                            | 2            |
+| 2       | US10          | Sección de Inicio de la Landing Page                                      | Como visitante , deseo ser recibido con una Hero Section impactante y atractiva en la Landing Page, para que me proporcione una visión clara y concisa del valor y propósito del producto o servicio, capturando mi interés y motivándome a explorar más sobre lo que se ofrece.                                                                         | 3            |
+| 3       | US07          | Diseño Responsivo de la Landing Page                                      | Como visitante, deseo que la página se adapte correctamente a diferentes dispositivos y tamaños de pantalla (como móviles, tablets y desktops), para una experiencia de usuario óptima y consistente en cualquier dispositivo que utilice.                                                                                                               | 2            |
+| 4       | US01          | Redirección de la landing Page a tiendas de aplicaciones                  | Como visitante del segmento pasajero, deseo dirigirme a la aplicación móvil correspondiente para descargarla en mi dispositivo móvil                                                                                                                                                                                                                     | 1            |
+| 5       | US02          | Redirección de la landing Page a la aplicación web                        | Como visitante del segmento encargado de flota de autobuses, deseo ingresar a la aplicación web mediante la landing page para usarla en mi navegador favorito                                                                                                                                                                                            | 1            |
+| 6       | US06          | Navegación y Contenido Informativo en el Footer                           | Como visitante, deseo tener acceso fácil y claro a información relevante y enlaces útiles en el footer para una navegación más eficiente e acceder rápidamente a secciones importantes del sitio.                                                                                                                                                        | 2            |
+| 7       | US08          | Incorporación de Testimonios en la Landing Page                           | Como visitante, deseo tener acceso a testimonios reales de usuarios o clientes para conocer experiencias positivas y comentarios sobre el servicio ofrecido.                                                                                                                                                                                             | 1            |
+| 8       | US03          | Envío de mensaje a través de un formulario de contacto                    | Como visitante de cualquier segmento, deseo enviar un mensaje a los desarrolladores para enviar sugerencias, quejas u mensajes con otro motivo que yo desee                                                                                                                                                                                              | 2            |
+| 9       | US05          | Sección de Preguntas Frecuentes                                           | Como visitante, deseo acceder a una sección de Preguntas Frecuentes para resolver mis inquietudes sobre el servicio ofrecido.                                                                                                                                                                                                                            | 2            |
+| 10      | US04          | Conocimiento del Equipo desarrollador de la aplicación                    | Como visitante, deseo conocer al equipo que está desarrollando la aplicación para tener una mayor confianza en las personas detrás del proyecto.                                                                                                                                                                                                         | 1            |
+| 11      | TS05          | Datos de Paraderos y Buses en Tiempo Real                                 | Como desarrollador, quiero obtener datos en tiempo real de paraderos y buses para una línea específica para que los usuarios de la aplicación móvil puedan ver la ubicación del bus en el mapa, el nombre del paradero, y el tiempo estimado de llegada                                                                                                  | 5            |
+| 12      | TS06          | Aforo en Tiempo Real de Buses                                             | Como desarrollador, quiero obtener el aforo en tiempo real de un bus específico, para que los usuarios puedan saber cuántas personas hay en el bus antes de que llegue al paradero                                                                                                                                                                       | 5            |
+| 13      | TS07          | Datos Históricos de Paraderos por Fecha                                   | Como desarrollador, quiero obtener los datos históricos de los paraderos para una fecha específica, para que el dashboard de la aplicación web pueda mostrar un listado de paraderos ordenados según la cantidad de personas que subieron en cada uno en dicha fecha.                                                                                    | 4            |
+| 14      | TS01          | Listado de Líneas de Buses                                                | Como desarrollador, quiero obtener un listado de todas las líneas de buses mediante un API, para que la aplicación móvil pueda mostrarlas en la sección de explorar                                                                                                                                                                                      | 3            |
+| 15      | TS02          | Búsqueda de Líneas de Bus                                                 | Como desarrollador, quiero buscar líneas de bus por nombre a través del API, para que pueda crear features para mi aplicación                                                                                                                                                                                                                            | 2            |
+| 16      | TS03          | Añadir Líneas de Buses como favoritos a través del RESTful API                                                      | Como desarrollador, quiero añadir líneas de buses como favoritas a través del API para que pueda crear funciones para mi aplicación.                                                                                                                                                                                                                     | 2            |
+| 17      | TS04          | Listado de Paraderos de una Línea de Bus a través de la RESTful API                                 | Como desarrollador, quiero crear un endpoint que devuelva la lista de paraderos de una línea de bus específica, para que los usuarios puedan ver todos los paraderos disponibles para esa línea en la aplicación móvil.                                                                                                                                  | 2            |
+| 18      | TS10          | Pulsaciones de Corazón del Conductor                                      | Como desarrollador, quiero obtener el rango de pulsaciones de corazón de un conductor específico durante un rango horario dado, para que el dashboard de la aplicación web pueda mostrar estos datos, permitiendo a los administradores de flota monitorear el bienestar de los conductores durante sus turnos.                                          | 4            |
+| 19      | TS11          | Alertas de Pulsaciones del Conductor                                      | Como desarrollador, quiero monitorear las pulsaciones del corazón de los conductores y generar alertas cuando estas pulsaciones caigan por debajo de un mínimo o superen un máximo predeterminado, para que el sistema de notificaciones pueda informar a los administradores de flota sobre posibles situaciones de riesgo para la salud del conductor. | 3            |
+| 20      | TS08          | Histograma de Afluencia por Paradero                                      | Como desarrollador, quiero obtener los datos de afluencia de pasajeros para un paradero específico, para que el dashboard de la aplicación web pueda mostrar un histograma de la hora más concurrida en dicho paradero                                                                                                                                   | 5            |
+| 21      | TS09          | Visualización de Datos de Conductores y Buses                             | Como desarrollador, quiero obtener una lista de todos los conductores con sus datos personales y detalles del bus que manejan, para que la aplicación web pueda mostrar esta información en el dashboard y permita a los administradores de flota o dueños de empresas monitorear y gestionar su personal y vehículos de manera efectiva.                | 5            |
+| 22      | TS15          | Interconectar dispositivos Iot                                            | Como desarrollador del sistema de gestión de transporte público, quiero interconectar los dispositivos IoT, como camaras y pulsómetros, para recopilar datos relevantes en tiempo real.                                                                                                                                                                  | 3            |
+| 23      | TS16          | Conectar dispositivos IoT hacia el Gateway o el Hub                       | Como desarrollador del sistema de gestión de transporte público, necesito establecer la conexión de los dispositivos IoT, como cámaras y pulsómetros, con el Gateway o Hub correspondiente para facilitar la transmisión de datos hacia el sistema central.                                                                                              | 3            |
+| 24      | TS17          | Enviar la información recopilada en los dispositivos IoT hacia el Gateway | Como desarrollador del sistema de gestión de transporte público, debo implementar la funcionalidad para enviar la información recopilada por los dispositivos IoT, como cámaras y pulsómetros, hacia el Gateway designado para su procesamiento y almacenamiento.                                                                                        | 3            |
+| 25      | TS18          | Mandar la información recopilada en el Gateway hacia una plataforma Cloud | Como desarrollador del sistema de gestión de transporte público, debo desarrollar la funcionalidad para enviar la información recopilada en el Gateway hacia una plataforma Cloud, donde se realizará un procesamiento adicional y se almacenarán los datos de manera segura y accesible.                                                                | 5            |
+| 26      | TS19          | Conectar la información con el backend                                    | Como desarrollador del sistema de gestión de transporte público, necesito establecer una conexión entre la información recopilada desde los dispositivos IoT y almacenada en la plataforma Cloud con el backend del sistema, para permitir el procesamiento, análisis y gestión de los datos de manera efectiva.                                         | 5            |
+| 27      | TS20          | Conectar dispositivos IoT hacia internet                                  | Como desarrollador del sistema de gestión de transporte público, debo establecer la conexión de los dispositivos IoT, como cámaras y pulsómetros, a Internet para permitir la transmisión de datos en tiempo real y la comunicación con otros sistemas y servicios externos.                                                                             | 3            |
+| 28      | TS12          | Autenticación de Usuarios                                                 | Como desarrollador, quiero autenticar a mis usuarios utilizando su correo y contraseña o su cuenta de Google, para que puedan acceder de manera segura a la aplicación.                                                                                                                                                                                  | 3            |
+| 29      | TS13          | Registro de Línea de Bus                                                  | Como desarrollador, quiero registrar una nueva línea de bus, para que los administradores de flota o dueños de empresas puedan añadir nuevas líneas al sistema de manera eficiente                                                                                                                                                                       | 3            |
+| 30      | TS14          | Suscripción Premium                                                       | Como desarrollador, quiero facilitar la compra de suscripciones premium por parte de los usuarios, para que los usuarios puedan acceder a funcionalidades avanzadas y mejorar su experiencia con la aplicación                                                                                                                                           | 4            |
+| 31      | US13          | Visualizar aforo en buses                                                 | Como empresa de transporte público, quiero tener información con la cantidad de personas en cada bus en tiempo real, para poder identificar los buses con mayor ocupación                                                                                                                                                                                | 2            |
+| 32      | US14          | Visualizar ubicación de la flota en tiempo real                           | Como empresa de transporte público, quiero ver la ubicación de mi flota en tiempo real, para poder monitorizar el estado del servicio                                                                                                                                                                                                                    | 2            |
+| 33      | US15          | Visualizar estado de los conductores                                      | Como empresa de transporte público, quiero ver el estado de mis conductores en tiempo real, para poder identificar a los que puedan estar cansados o estresados                                                                                                                                                                                          | 2            |
+| 34      | US16          | Recibir notificaciones                                                    | Como empresa de transporte público, quiero recibir notificaciones en tiempo real sobre eventos relevantes para estar al tanto de posibles incidentes                                                                                                                                                                                                     | 2            |
+| 35      | US18          | Visualizar gráfico de línea con el tiempo de pulso de los conductores     | Como representante de una empresa de transporte, quiero ver un gráfico de línea con el tiempo de pulso de mis conductores en tiempo real, para poder identificar a los que puedan estar bajo estrés o con problemas de salud                                                                                                                             | 5            |
+| 36      | US17          | Cambiar rutas de la flota                                                 | Como empresa de transporte público, quiero poder cambiar las rutas de mi flota en tiempo real, para poder ajustar el servicio a las condiciones del tráfico o a la demanda de pasajeros                                                                                                                                                                  | 3            |
+| 37      | US19          | Registrar empresa de transporte                                           | Como representante de una empresa de transporte, quiero poder registrar mi empresa en el sistema                                                                                                                                                                                                                                                         | 2            |
+| 38      | US20          | Registrar línea de transporte                                             | Como representante de una empresa de transporte, quiero poder registrar una línea de transporte en el sistema                                                                                                                                                                                                                                            | 2            |
+| 39      | US21          | Visualizar recorrido de una línea de bus                                  | Como usuario pasajero, quiero poder buscar y visualizar las rutas de las líneas de autobús, para tener una idea clara de su trayecto y poder planificar mis viajes de manera eficiente.                                                                                                                                                                  | 2            |
