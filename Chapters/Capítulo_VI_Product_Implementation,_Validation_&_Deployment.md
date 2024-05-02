@@ -142,6 +142,10 @@ Enlace de la organización: https://github.com/TechSolutions-2024-I-IOT
 
 **Gitflow**
 
+<div align="center">
+  <img src="../Resources/images/gitflow.png" width=500 alt="Gitflow">
+</div>
+
 Para la implementación del flujo de trabajo Gitflow, usando la herramienta de control de versiones Git, se usó de referencia la entrada de blog “A successful Git branching model” de Vincent Driessen, que nos ayudó a detallar las siguientes convenciones que se usarán en el proyecto:
 
 - **Main  branch**
@@ -163,16 +167,16 @@ Las Feature branches se usarán para desarrollar nuevas características del pro
 - **Conventional Commits**
 Para la redacción de las siguientes convenciones de commits se utilizó de referencia el artículo Conventional Commits 1.0.0. 
 Se debe seguir la siguiente estructura para un commit:  
-git commit -m “<type>[optional scope]: <title>“ -m “<description”
+git commit -m “<type>[optional scope]: <title>“ -m “<description>”
+
 Types: 
-•	add: se usará para indicar que se añadieron archivos o carpetas. 
-•	fix: este tipo de commit se utilizará para la confirmación de una corrección de un error en el código. 
-•	feat: este tipo de commit se utilizará para la confirmación de que se ha añadido una nueva funcionalidad. 
-•	test: se usará para indicar que se añadieron archivos de test .
-•	BREAKING CHANGE: este tipo de commit se utilizará para confirmar la introducción de un cambio importante en el código.
 
-
-
+  - add: se usará para indicar que se añadieron archivos o carpetas. 
+  - fix: este tipo de commit se utilizará para la confirmación de una corrección de un error en el código. 
+  - feat: este tipo de commit se utilizará para la confirmación de que se ha añadido una nueva funcionalidad. 
+  - test: se usará para indicar que se añadieron archivos de test .
+  - docs: se usará para indicar que se añadieron actualizaciones a la documentación
+  - BREAKING CHANGE: este tipo de commit se utilizará para confirmar la introducción de un cambio importante en el código.
 
 ### 6.1.3. Source Code Style Guide & Conventions.
 
@@ -412,7 +416,7 @@ Para las convenciones de codificación Java, nos adheriremos a las pautas descri
         </td>
     </tr>
   <tr>
-        <td>
+        <td  colspan="2">
            <p><b>Sprint Planning Background</b></p>
         </td>
     </tr>
@@ -473,7 +477,7 @@ Para las convenciones de codificación Java, nos adheriremos a las pautas descri
         </td>
     </tr>
    <tr>
-        <td>
+        <td  colspan="2">
            <p><b>Sprint Goal & User Stories</b></p>
         </td>
     </tr>
@@ -498,7 +502,7 @@ Para las convenciones de codificación Java, nos adheriremos a las pautas descri
            <p>Sum of Story Points</p>
         </td>
         <td>
-          <p></p>
+          <p>30</p>
         </td>
     </tr>
 </table>
