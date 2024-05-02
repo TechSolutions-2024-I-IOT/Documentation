@@ -17,8 +17,6 @@ Ciclo: 2024-1
 
 ---
 
-# TB1
-
 ## TechSolutions
 
 ### ChapaTuBus
