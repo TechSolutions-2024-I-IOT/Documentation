@@ -598,11 +598,13 @@ Por otro lado, el viajero de transporte público experimenta un viaje marcado po
 
 **Administrador de flota de buses**
 
-![Journey Mapping Bus Manager](../Resources/maps/Journey_Map_bus_manager.png)
+
+
+![Journey Mapping Bus Manager](../Resources/maps/Journey_Map_Bus_Manager.png)
 
 **Pasajero**
 
-![Journey Mapping Passenger ](../Resources/maps/Journey_Map_passenger.png)
+![Journey Mapping Passenger ](../Resources/maps/Journey_Map_Passenger.PNG)
 
 
 ### 2.3.4 Empathy Mapping
