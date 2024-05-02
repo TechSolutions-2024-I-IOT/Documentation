@@ -282,17 +282,12 @@ Google Maps se basa en la integración de diferentes servicios y datos para ofre
 
 ### 2.1.2 Estrategias y tácticas frente a competidores
 
-**Innovación en Tecnología IoT:** Implementación de funciones basadas en IoT, como por ejemplo un sistema de monitoreo para los encargados
-de los buses en tiempo de real, que pueda alertar a estos sobre el estado del conductor.
+Basándonos en el análisis anterior, se propone la siguiente estrategia competitiva:
 
-**Mejora de la Experiencia del Usuario:** Cada competidor tiene funciones que las demás no, por tanto podríamos
-tomar ventaja e incorporar y mejorar dichas funciones para nuestras aplicación.
-
-**Alianzas con empresas de Transporte Público:** Podemos aliarnos con empresas de transporte público para
-tener sus rutas siempre actualizadas.
-
-**Planes de subscripción Premium:** En un principio ofrecemos un modelo freemium con una plan de subscripción que incluya funciones
-avanzadas, como estimación offline de datos pertinetes del bus, información detallada del estado del conductor a través del tiempo, etc.
+- Enfoque en la precisión y actualización de la información de buses y rutas, superando las limitaciones de TuRuta y Google Maps en este aspecto. Dado que Moovit y TuRuta enfrentan problemas de precisión y actualización en las rutas, centrarnos en garantizar información precisa y actualizada sobre la ubicación de los autobuses, los horarios de llegada y las rutas.
+- Ofrecer una mejor experiencia de usuario, implementando funciones como notificaciones según las rutas favoritas del usuario, avisando al mismo sobre cambios en la ruta o imprevistos, visualización de imágenes de los buses para facilitar la identificación del vehículo correcto, características que Moovit no ofrece.
+- Datos en caché para funcioens básicas offline. Dado que Google Maps depende de la conectividad a internet, ofrecer una función offline en la aplicación móvil para acceder a información básica sobre los buses y horarios que esten en favoritos.
+- Uso de los datos obtenidos para mejorar las rutas mediante análisis de datos. Además de ofrecer información a usuarios pasajeros, proporcionaremos análisis de datos avanzados para los administradores de flotas de autobuses. Incluyendo datos como los paraderos más populares según la hora, estado del chofer, y demás, lo que ayudaría a optimizar la operación de la flota y mejorar la experiencia general del usuario.
 
 ## 2.2 Entrevistas
 
@@ -308,11 +303,17 @@ Esta sección se enfoca en la investigación, utilizando los datos recopilados a
 - ¿Cuál es su estado civil?
 - ¿En qué distrito reside?
 - ¿Qué smartphone posee? ¿Android o IOS?
+- ¿Cuál es su motor de búsqueda favorito?
 
 **Preguntas para los pasajeros habituales de autobús**
 
+- ¿Cuál/Cuales son los dispositivos que usa para planificar su viaje?
+- ¿Cuáles son tus aplicaciones o plataformas digitales favoritas para recibir información o interactuar con servicios?
+- ¿Cuáles son tus aplicaciones o plataformas digitales favoritas?
 - ¿Con qué frecuencia utiliza el transporte público?
+- Frente a un problema inesperado, ¿cuál es tu enfoque para resolverlo? ¿Podrías darme un ejemplo reciente?
 - ¿Cuales son los principales desafíos que enfrenta al usar transporte público en su día a día?
+- ¿Cuáles son tus aplicaciones o plataformas digitales favoritas para recibir información o interactuar con servicios de transporte público?
 - ¿Ha utilizado algunas vez una aplicación móvil para ayudarse con la planificación de rutas u obtener información sobre el autobús?
 - ¿Consideras importante tener acceso a información actualizada sobre el estado del tráfico y los cambios en las rutas de autobús en tiempo real?
 - ¿Tener acceso en tiempo real sobre el aforo de los autobuses le ayudaría a planificar sus viajes?
@@ -323,7 +324,11 @@ Esta sección se enfoca en la investigación, utilizando los datos recopilados a
 **Preguntas para los administradores de flota de buses**
 
 - ¿Cuál es el nombre de su empresa de transporte?
+- ¿Cuál/Cuales son los dispositivos que usa para administrar los buses?
+- ¿Cuáles son tus aplicaciones o plataformas digitales favoritas?
+- ¿Cuáles son las aplicaciones o plataformas digitales que usa para administrar la flota de buses?
 - ¿Cuáles diría que son los mayores desafíos a los que se enfrenta su empresa en la actualidad?
+- Frente a una crisis o un problema inesperado en la operación de la flota, ¿cuál es tu enfoque para resolverlo? ¿Podrías darme un ejemplo reciente?
 - ¿Cómo cree que la tecnología podría ayudar a abordar algunos de estos desafíos?
 - ¿Ha implementado previamente IoT en sus autobuses?
 - ¿Qué opinión tiene sobre la idea de implementar tecnología IoT, como sensores para monitorear el aforo de los autobuses, estado del chofer, y ubicacion en su flota de autobuses?
@@ -345,9 +350,12 @@ Esta sección se enfoca en la investigación, utilizando los datos recopilados a
 
 - Enlace del video: **https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/ETeZ8JWxY7pMoTAAXF6H_DsBKdeZc1_u2YrohdilZ2Obqg?e=G3EseB**
 - Timing: **00:06s-05:45s**
+- Aplicaciones usadas: Excel, WhatsApp, Google Maps
+- Dispositivos: Smartphone Android y computadora portátil
+- Browsers: Google
 - Resumen:
 
-Juan Pérez Sánchez, de 45 años y residente en el distrito de Jesús María en Lima, es el encargado de una flota de autobuses en la Empresa de Transporte Consorcio Vía. Casado y usuario de un smartphone Android, enfrenta desafíos como mejorar la eficiencia en las rutas, controlar el aforo de los autobuses y gestionar el mantenimiento adecuado de la flota, además de abordar quejas de pasajeros sobre el servicio. Aunque no tiene experiencia previa con la tecnología IoT, ve su implementación como una oportunidad para optimizar la planificación y gestión de rutas, mejorar el aforo de los vehículos y reducir costos. Sin embargo, tiene preocupaciones sobre el costo inicial de la implementación y la capacitación del personal. Cree que los mayores beneficios para sus clientes incluirían una experiencia de viaje más enriquecedora, información en tiempo real sobre tráfico y ubicación de los autobuses, y datos sobre el rendimiento de los choferes. Al considerar la implementación de esta tecnología, Juan evaluaría el retorno de inversión, la compatibilidad con los sistemas actuales, la facilidad de uso y mantenimiento, así como el impacto en la calidad del servicio y la satisfacción del cliente.
+Juan Pérez Sánchez, de 45 años y residente en el distrito de Jesús María en Lima, es el administrador de una flota de autobuses en la Empresa de Transporte Consorcio Vía. Casado y usuario de un smartphone Android y una computadora portátil para la administración de su flota, enfrenta desafíos diarios como mejorar la eficiencia en las rutas, controlar el aforo de los autobuses y gestionar el mantenimiento adecuado de la flota, además de abordar quejas de pasajeros sobre el servicio. Tiene un enfoque práctico y colaborativo para manejar crisis en la operación de su flota de autobuses. Cuando surge un problema, como una avería de un autobús, actúa rápidamente para minimizar las interrupciones. Su método incluye mantener la calma, recolectar toda la información relevante, y convocar reuniones con líderes del equipo para formular soluciones eficientes. Utiliza excel para la gestión de flotas y grupos de WhatsApp para la comunicación y coordinación,incluye Google Maps para la navegación y planificación de rutas. Prefiere Google como motor de búsqueda. Las redes sociales que más usa con frecuencia son Facebook e Instagram. Aunque no tiene experiencia previa con la tecnología IoT, ve su implementación como una oportunidad para optimizar la planificación y gestión de rutas, mejorar el aforo de los vehículos y reducir costos. Sus preocupaciones incluyen el costo inicial de la implementación y la capacitación del personal. Considera que los mayores beneficios de la tecnología serían una experiencia de viaje más enriquecedora para los clientes, con acceso a información en tiempo real sobre tráfico y ubicación de los autobuses, y datos sobre el rendimiento de los choferes. Evaluaría cuidadosamente el retorno de inversión, la compatibilidad con los sistemas actuales, la facilidad de uso y mantenimiento, así como el impacto en la calidad del servicio y la satisfacción del cliente antes de implementar nuevas tecnologías. 
 
 **Entrevista N°2**
 
@@ -360,10 +368,15 @@ Juan Pérez Sánchez, de 45 años y residente en el distrito de Jesús María en
 
 - Enlace del video: **https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/ETeZ8JWxY7pMoTAAXF6H_DsBKdeZc1_u2YrohdilZ2Obqg?e=G3EseB**
 - Timing: **05:46s-09:01s**
+- Aplicaciones usadas: Excel, WhatsApp, Facebook, Twitter, TikTok
+- Dispositivos: Smartphone Android y computadora portátil
+- Browsers: Google
 - Resumen:
 
-Jorge Antonio Carrascal Casca, de 28 años, reside en Puente Piedra, es subgerente en la empresa de transporte Santa Rosa S.A., tiene actualmente desafíos como optimizar el mantenimiento de la flota de autobuses y la optimización del aforo de los vehículos. Aunque carece de experiencia previa en tecnología IoT, vislumbra su implementación como una oportunidad para mejorar la planificación y gestión de rutas, así como para aprovechar la capacidad de los autobuses y reducir costos operativos.
-Sin embargo, le preocupa el costo inicial de la implementación y la capacitación requerida para el personal. Además, Jorge teme que la integración de la tecnología pueda afectar la privacidad de los datos de los pasajeros y la seguridad cibernética de la empresa. A pesar de estas inquietudes, reconoce el potencial de la tecnología IoT para ofrecer una experiencia de viaje más enriquecedora y satisfactoria para los clientes. Tambien consideraría la escalabilidad del sistema, la disponibilidad de soporte técnico y la posibilidad de interrupciones en el servicio durante la fase de implementación antes de tomar una decisión.
+
+Por supuesto, aquí tienes una versión modificada del párrafo que refleja mejor las características únicas de Jorge Antonio Carrascal Casca, distinguiéndolo de otros perfiles:
+
+Jorge Antonio Carrascal Casca, de 28 años y residente en Puente Piedra, es subgerente en la empresa de transporte Santa Rosa S.A. Afronta desafíos diarios como la optimización del mantenimiento de la flota de autobuses y el manejo del aforo vehicular. Jorge utiliza un smartphone y una laptop para supervisar la operación, empleando aplicaciones de gestión como Excel y plataformas de comunicación como Whatsapp para coordinar con su equipo. Su preferencia por Google como motor de búsqueda le facilita el acceso rápido a información crucial, y se apoya en herramientas como Google Maps para la navegación y la planificación de rutas eficientes. Las redes sociales que más usa con frecuencia son Facebook, Twitter  y TikTok. A pesar de su falta de experiencia con la tecnología IoT, Jorge ve en ella una oportunidad para mejorar la gestión de rutas y maximizar la capacidad de los autobuses, a la vez que se reducen los costos operativos. Le preocupan los costos iniciales y la capacitación del personal, además del riesgo a la privacidad de los datos de los pasajeros y la seguridad informática. Reconoce el potencial de la IoT para enriquecer la experiencia del cliente, pero es cauteloso y consideraría la escalabilidad del sistema, la disponibilidad de soporte técnico y el riesgo de interrupciones del servicio durante la implementación antes de decidir. Su método para manejar crisis implica una respuesta rápida y eficiente: evalúa la situación con detalle, realiza llamadas al personal involucrado para plantear de soluciones y mantiene una comunicación abierta y constante con su equipo y los usuarios afectados para minimizar impactos negativos.
 
 **Entrevista N°3**
 
@@ -377,9 +390,12 @@ Sin embargo, le preocupa el costo inicial de la implementación y la capacitaci�
 
 - Enlace del video: **https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/ETeZ8JWxY7pMoTAAXF6H_DsBKdeZc1_u2YrohdilZ2Obqg?e=G3EseB**
 - Timing: **09:02s-14:22s**
+- Aplicaciones usadas: Facebook, Instagram, TikTok
+- Dispositivos: Smartphone Android y computadora portátil
+- Browsers: Google
 - Resumen:
 
-Andy Casafranca Carrascal, de 24 años, reside en San Martin de Porres, es ayudante en la gestión de rutas y control de conductores de la empresa Transportes Rápido Corre Caminos SA y se enfrenta a desafíos como la falta de información en tiempo real sobre sus autobuses y la gestión manual de rutas y conductores. Consideran que la tecnología podría mejorar su situación proporcionando mayor control sobre la flota y automatizando tareas. Aunque no han implementado IoT previamente, ven con buenos ojos la idea de utilizar sensores para monitorear el aforo de los autobuses, el estado del conductor y la ubicación de la flota. Sin embargo, tienen preocupaciones sobre un posible mal uso de la tecnología. Esperan obtener beneficios como mayor satisfacción del cliente y, por ende, un aumento en la frecuencia de uso y las ganancias. Al tomar una decisión sobre la implementación, considerarán factores como costos, tiempo y facilidad de uso.
+Andy Casafranca Carrascal, de 24 años y residente en San Martín de Porres, trabaja como ayudante en la gestión de rutas y control de conductores en la empresa Transportes Rápido Corre Caminos SA. Enfrenta retos diarios como la falta de información en tiempo real sobre la ubicación y estado de sus autobuses, y la gestión manual de rutas y conductores. Para gestionar estas tareas, Andy utiliza una combinación de herramientas tradicionales y digitales, incluyendo una laptop para el seguimiento en terreno. Emplea Whatsapp mantenerse en contacto con los conductores y utiliza plataformas como Waze para ajustes de ruta en tiempo real. Las redes sociales que más usa con frecuencia son Facebook, Instagram y TikTok. Aunque es nuevo en la aplicación de tecnología IoT, está entusiasmado con la perspectiva de integrar sensores para monitorear el aforo de los autobuses, el estado del conductor y la ubicación precisa de los vehículos. Andy tiene ciertas reservas sobre el posible mal uso de la tecnología, especialmente en términos de privacidad y dependencia excesiva en soluciones automatizadas. No obstante, está convencido de que los beneficios, como una mayor satisfacción del cliente y un aumento en la frecuencia de uso y ganancias, justificarían la inversión. En su proceso de toma de decisiones, Andy prestará especial atención a los costos de implementación, el tiempo necesario para integrar las nuevas tecnologías y la facilidad de uso para asegurarse de que se adaptan bien al entorno operativo existente. Su enfoque proactivo y su disposición para adaptar soluciones tecnológicas podrían significar un gran avance en la eficiencia y el servicio al cliente en Transportes Rápido Corre Caminos SA.
 
 **Entrevista N°4**
 
@@ -392,9 +408,12 @@ Andy Casafranca Carrascal, de 24 años, reside en San Martin de Porres, es ayuda
 
 - Enlace del video: **https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/ETeZ8JWxY7pMoTAAXF6H_DsBKdeZc1_u2YrohdilZ2Obqg?e=G3EseB**
 - Timing: **14:23s-18:12s**
+- Aplicaciones usadas: Google Maps, Moovit, WhatsApp, Spotify, Instagram, TikTok
+- Dispositivos: Smartphone Android
+- Browsers: Google
 - Resumen:
 
-Wilver Arana Ramos, de 23 años y residente en el distrito de Carabayllo en Lima, es un estudiante universitario. Soltero y usuario de un teléfono inteligente Android, enfrenta desafíos a diario en su trayecto de ir desde su casa a la universidad y viceversa. Entre estos desafíos, menciona que cuando tiene que trasladarse en horas punta suele experimentar el tráfico, lo que ocasiona que llegue tarde a sus clases o más tarde de lo previsto a su destino. También menciona que a esa hora suelen aparecer muchos buses llenos, lo que afecta el tiempo de espera para que llegue el siguiente. Además, comenta que a veces sale de su casa, pero como no sabe en cuánto tiempo llegará su bus, termina esperando mucho tiempo en el paradero. Anteriormente, usó una aplicación móvil de rutas que le ayudaba a saber qué bus tomar en cada paradero para llegar a su destino. Lo malo de esta aplicación era que no le avisaba en cuánto tiempo llegaría el bus a ese paradero, si iba lleno y el tiempo aproximado que le mencionaba no era exacto. Considera que le sería útil una aplicación en la que tenga información en tiempo real, ya que le podría ayudar a planificar sus viajes. Podría ver qué zonas hay tráfico, si el bus en el que subirá está lleno o no, si el bus cambiará de ruta para que pueda prever y no le afecte ese cambio, y así llegar a tiempo y cómodo a su destino. Él no estaría dispuesto a pagar una suscripción premium en una aplicación móvil; preferiría tener una aplicación gratuita con publicidad. Opina que es importante la privacidad de datos en una aplicación, ya que la información es privada, y considera que en este tipo de aplicaciones deberían solicitar información básica.
+Wilver Arana Ramos, de 23 años y residente en el distrito de Carabayllo en Lima, es un estudiante universitario que enfrenta retos diarios en su viaje a la universidad debido al tráfico en horas pico y autobuses llenos, lo que frecuentemente resulta en tardanzas. Utiliza su teléfono inteligente Android para planificar sus desplazamientos y confía en Google Maps para la navegación y Moovit para horarios, aunque estas plataformas no siempre proporcionan información en tiempo real sobre la disponibilidad de los autobuses o cambios de ruta. Además, Wilver utiliza WhatsApp para comunicaciones. Spotify, Instagram y Tik Tok para entretenimiento durante sus viajes. Recientemente, cuando un autobús llegó lleno y no pudo abordar, recurrió a Google, su motor de búsqueda favorito, para encontrar una ruta alternativa a pie hasta la siguiente parada, donde logró tomar un autobús menos congestionado. Prefiere aplicaciones gratuitas con publicidad sobre las de suscripción premium y valora la privacidad de los datos, prefiriendo aplicaciones que solo soliciten información básica. Wilver cree que una aplicación ideal debería proporcionar información en tiempo real sobre la congestión de tráfico, la ocupación de los buses, y alertas sobre cambios de ruta, lo que le permitiría optimizar su tiempo y mejorar su experiencia de viaje.
 
 **Entrevista N°5**
 
@@ -407,9 +426,12 @@ Wilver Arana Ramos, de 23 años y residente en el distrito de Carabayllo en Lima
 
 - Enlace del video: **https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/ETeZ8JWxY7pMoTAAXF6H_DsBKdeZc1_u2YrohdilZ2Obqg?e=G3EseB**
 - Timing: **18:13s-27:43s**
+- Aplicaciones usadas: WhatsApp, Spotify, Twitter, Facebook, TuRuta, Google Maps
+- Dispositivos: Smartphone Android
+- Browsers: Opera
 - Resumen:
 
-Yosef, un estudiante de ingeniería de software, compartió su experiencia diaria con el sistema de transporte público, marcada por los retos del tráfico y la alta ocupación de los buses. Utiliza aplicaciones móviles (TuRuta) principalmente para rutas no habituales, y valora significativamente el acceso a información actual en cuanto a horarios y aforo de los buses, lo que le facilita evitar aglomeraciones.Prefiere las aplicaciones que son gratuitas y funciones como la planificación de rutas y la recepción de notificaciones sobre demoras son cruciales. También muestra interés en una función que le permita guardar sus rutas más usadas. Es evidente su preferencia por una interfaz de usuario intuitiva y fácil de manejar, y subraya la necesidad de que la aplicación sea compatible con el sistema operativo Android, dada la diversidad de dispositivos entre los usuarios.
+Yosef, un estudiante de ingeniería de software, compartió su experiencia diaria con el sistema de transporte público, enfrentando desafíos como el tráfico y la alta ocupación de los buses. Para gestionar sus viajes, utiliza su teléfono inteligente Android, confiando en aplicaciones como TuRuta principalmente para rutas no habituales. Además, utiliza WhatsApp para comunicaciones. Spotify, Twitter y Facebook para entretenimiento durante sus viajes.  Valora el acceso a información actualizada sobre horarios y aforo de los buses, lo que le facilita evitar aglomeraciones y optimizar su tiempo. Prefiere aplicaciones que son gratuitas y destaca la importancia de funciones como la planificación de rutas y la recepción de notificaciones sobre demoras. Yosef también expresa interés en una función que le permita guardar sus rutas más usadas, y es crucial para él que la aplicación tenga una interfaz de usuario intuitiva y fácil de manejar. Su motor de búsqueda favorito es Opera y utiliza otras plataformas digitales como WhatsApp para la comunicación y YouTube para entretenimiento durante sus viajes. Frente a problemas inesperados, como un bus lleno o una ruta bloqueada, Yosef busca alternativas utilizando su aplicación de transporte o consulta rápidamente otras opciones en Google Maps. Subraya la necesidad de que la aplicación de transporte sea compatible con Android para asegurar su funcionamiento en una amplia gama de dispositivos.
 
 **Entrevista N°6**
 
@@ -422,9 +444,12 @@ Yosef, un estudiante de ingeniería de software, compartió su experiencia diari
 
 - Enlace del video: **https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/ETeZ8JWxY7pMoTAAXF6H_DsBKdeZc1_u2YrohdilZ2Obqg?e=G3EseB**
 - Timing: **27:44s-35:54s**
+- Aplicaciones usadas: Google Maps, WhatsApp, Youtube, Instagram, TikTok
+- Dispositivos: Smartphone Android
+- Browsers: Google
 - Resumen:
 
-Diego Perez Garcia, un estudiante de 22 años de edad, residente del distrito de San Martin de Porres en Lima, enfrenta diariamente los desafíos del transporte público mientras se dirige a su universidad para asistir a clases de Administración de Empresas en la Universidad Nacional Mayor de San Marcos. Como muchos otros usuarios, Diego se encuentra frustrado por la falta de puntualidad y la imprevisibilidad en los horarios de llegada de los autobuses, lo que a menudo resulta en largas esperas en los paraderos. Aunque ha recurrido a aplicaciones móviles para ayudarse con la planificación de rutas, encuentra que la información proporcionada a veces es imprecisa o desactualizada, lo que dificulta aún más su viaje. Diego considera que tener acceso en tiempo real a información sobre el tráfico, los cambios en las rutas de autobús y el aforo de los vehículos sería crucial para mejorar su experiencia de viaje y evitar aglomeraciones innecesarias. Además, valoraría características adicionales en una aplicación, como la visualización del recorrido completo de las rutas y la disponibilidad de opciones alternativas en caso de interrupciones en el servicio. A pesar de estar dispuesto a pagar por una aplicación premium que ofrezca estas características, Diego enfatiza la importancia de que la privacidad de sus datos sea respetada.
+Diego Perez Garcia, un estudiante de 22 años de edad de Administración de Empresas en la Universidad Nacional Mayor de San Marcos y residente del distrito de San Martin de Porres en Lima, enfrenta diariamente los desafíos del transporte público. Diego se siente frustrado por la falta de puntualidad y la imprevisibilidad de los horarios de los autobuses, lo que a menudo resulta en largas esperas. Utiliza su smartphone Android y aplicaciones móviles para planificar sus rutas, pero encuentra que la información es a menudo imprecisa o desactualizada. Diego valora significativamente la posibilidad de tener acceso en tiempo real a información sobre el tráfico, los cambios en las rutas de autobús y el aforo de los vehículos, considerando que estas características son cruciales para mejorar su experiencia de viaje y evitar aglomeraciones. Además, le gustaría que las aplicaciones incluyeran la visualización del recorrido completo de las rutas y ofrecieran opciones alternativas en caso de interrupciones. Prefiere Google como su motor de búsqueda por su eficiencia y es usuario de plataformas digitales como WhatsApp para comunicaciones. Youtube, Instagram y Tik Tok para entretenimiento durante sus viajes. Frente a un problema inesperado, como una demora no anunciada, Diego busca rápidamente alternativas y se informa a través de su aplicación de transporte y Google Maps para encontrar la mejor opción. A pesar de estar dispuesto a pagar por una aplicación premium que ofrezca estas funcionalidades avanzadas, enfatiza la importancia de que la privacidad de sus datos sea respetada, esperando que la aplicación solo solicite información básica necesaria para su funcionamiento.
 
 ### 2.2.3 Análisis de entrevistas
 
@@ -497,29 +522,50 @@ Este User Task Matrix identifica y organiza las tareas esenciales que realizan n
     <td>Importancia</td>
   </tr>
   <tr>
-    <td>Registrar flota de buses y personal</td>
+    <td>Inventario de Buses</td>
     <td>Alta</td>
     <td>Alta</td>
     <td>-</td>
     <td>-</td>
   </tr>
   <tr>
-    <td>Asignar un conductor a un bus</td>
+    <td>Registro de Personal</td>
     <td>Alta</td>
     <td>Alta</td>
     <td>-</td>
     <td>-</td>
   </tr>
   <tr>
-    <td>Registrar los horarios de salida de los buses un día posterior</td>
+    <td>Asignación de Conductores a Buses</td>
     <td>Alta</td>
     <td>Alta</td>
     <td>-</td>
     <td>-</td>
   </tr>
   <tr>
-    <td>Conductor consulta el aforo del bus anterior con facilitadores que se encuentran en cada paradero</td>
+    <td>Planificación y Registro de Mantenimiento</td>
+    <td>Media</td>
     <td>Alta</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Programación de Rutas y Horarios</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Gestión de Incidencias y Emergencias</td>
+    <td>Media</td>
+    <td>Alta</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Registro de papeletas</td>
+    <td>Media</td>
     <td>Alta</td>
     <td>-</td>
     <td>-</td>
@@ -529,13 +575,6 @@ Este User Task Matrix identifica y organiza las tareas esenciales que realizan n
     <td>-</td>
     <td>-</td>
     <td>Alta</td>
-    <td>Alta</td>
-  </tr>
-  <tr>
-    <td>Estimar el tiempo de llegada del bus en base a su experiencia</td>
-    <td>-</td>
-    <td>-</td>
-    <td>Media</td>
     <td>Alta</td>
   </tr>
 </table>
@@ -559,11 +598,13 @@ Por otro lado, el viajero de transporte público experimenta un viaje marcado po
 
 **Administrador de flota de buses**
 
-![Journey Mapping Bus Manager](../Resources/maps/Journey_Map_bus_manager.png)
+
+
+![Journey Mapping Bus Manager](../Resources/maps/Journey_Map_Bus_Manager.png)
 
 **Pasajero**
 
-![Journey Mapping Passenger ](../Resources/maps/Journey_Map_passenger.png)
+![Journey Mapping Passenger ](../Resources/maps/Journey_Map_Passenger.PNG)
 
 
 ### 2.3.4 Empathy Mapping
@@ -594,11 +635,12 @@ En esta sección, se presenta el resumen del proceso de elaboración de los Empa
 
 **Términos:**
 
-- **ChapaTuBus:** Solución IoT para mejorar la experiencia del usuario en el transporte público.
-- **Sensor de aforo:** Dispositivo que detecta la cantidad de personas que hay dentro del bus en tiempo real.
-- **Tiempo de circulación:** Tiempo que tarda el bus en completar su recorrido.
-- **Tiempo de espera:** Tiempo que los pasajeros esperan en el paradero hasta que llega el bus.
-- **Aplicación móvil:** Aplicación que los pasajeros pueden usar para acceder a la información de ChapaTuBus.
-- **Pulsera inteligente:** Dispositivo que el conductor usa para monitorizar su estado de fatiga y estrés.
-- **Alerta de bus lleno:** Notificación que se envía a los pasajeros cuando un bus está a punto de llegar y ya no tiene capacidad para más personas.
-- **Ruta:** Camino que sigue el bus para llegar a su destino.
+- **Itinerary:** Ruta de viaje que presenta una empresa de transporte público, todos los buses que están bajo una empresa tienen esta ruta. 
+- **Unit Bus:**  Equipo conformado por un conductor y un autobús que sale a realizar su trabajo en la vía pública. Esta unidad representa la combinación operativa esencial para el servicio de transporte público. Se encarga de llevar a cabo los trayectos designados en una ruta específica durante un intervalo de tiempo determinado.
+- **Departure Schedule:** Agenda que tiene los horarios de las unidades de buses, a través de esta agenda se determina cuales unidades salen a operar durante días determinados
+- **Stop:** Paradero formal de un bus, en conjunto conforman el trayecto de una ruta.
+- **Route:** Camino predefinido que sigue un bus o tren para llegar a su destino.
+- **Fare:** El costo que los pasajeros deben pagar para usar el servicio de transporte público.
+- **Passenger:** Persona que utiliza el transporte público para desplazarse de un lugar a otro.
+- **Driver:** La persona responsable de operar el vehículo de transporte público y garantizar la seguridad de los pasajeros.
+- **Line:** Un identificador único asignado a una ruta para diferenciarla de otras.
