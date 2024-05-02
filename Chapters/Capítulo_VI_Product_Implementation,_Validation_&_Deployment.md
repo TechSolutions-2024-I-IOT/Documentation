@@ -290,7 +290,9 @@ Para las convenciones de codificación Java, nos adheriremos a las pautas descri
 <img src="../Resources/deployment/deployment-landing-3.png" width=500 alt="Landing page deployment">
 </div>
 
-- Luego de unos segundos se mostrará el enlace de la página en la parte superior 
+- Luego de unos segundos se mostrará el enlace de la página en la parte superior
+
+[Enlace a nuestro landing page desplegado](https://techsolutions-2024-i-iot.github.io/chapatubus-landingpage.github.io/)
   
 **Despliegue de web application en netlify**
 
