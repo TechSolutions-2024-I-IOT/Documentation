@@ -543,6 +543,27 @@ Asimismo, se presenta la tabla de nuestro primer sprint con las respectivas user
 
 #### 6.2.1.3. Development Evidence for Sprint Review.
 
+Durante este Sprint, completamos el desarrollo de la Landing Page en su totalidad. Logramos diseñar una interfaz atractiva y funcional que refleja nuestra marca y ofrece una experiencia de usuario óptima. Implementamos características clave, como la capacidad de descarga y acceso rápido a la información relevante para nuestros usuarios. Además, hemos realizado pruebas exhaustivas para garantizar su funcionamiento adecuado en diferentes dispositivos y navegadores.
+
+En cuanto a la aplicación web, hemos desarrollado las primeras funcionalidades principales. Estas incluyen la autenticación de usuarios, la navegación básica y la visualización de contenido relevante. Desplegamos con éxito la primera versión de la aplicación en un entorno de producción y estamos satisfechos de haber cumplido con los objetivos establecidos al inicio del Sprint.
+
+Para las suites de pruebas, nos enfocamos en la creación de escenarios de prueba utilizando Gherkin debido a la simplicidad de la solución desarrollada. Hemos elaborado casos de prueba exhaustivos que abarcan diferentes aspectos de la Landing Page y la aplicación web, asegurando la calidad y funcionalidad de nuestros productos.
+
+| Repository  | Branch  | Commit ID   | Commit Message  | Commit Message Body | Commited on (Date) |
+|:-----------|:---------------------------------------------------------|:---|:------|:------------|:-------------------|
+| Landing-Page | develop | 924ab59 | Merge branch 'feature/US03' into develop | -  | 01/05/2023 | 
+| Landing-Page | develop | b846187 | Merge pull request #9 from TechSolutions-2024-I-IOT/feature/us-4 | -  | 01/05/2023 | 
+| Landing-Page | develop | 30eacc0 | Merge pull request #10 from TechSolutions-2024-I-IOT/feature/i18n | -  | 01/05/2023 | 
+| Landing-Page | develop | c3dbf7f | Merge pull request #14 from TechSolutions-2024-I-IOT/feature/fix-doubts | -  | 03/05/2023 | 
+| Frontend | develop | 5c31484 | Merge pull request #1 from TechSolutions-2024-I-IOT/feature/us-29 | -  | 02/05/2023 | 
+| Frontend | develop | 7379879 | Merge branch 'feature/us-27' into feature/us-29 | -  | 02/05/2023 | 
+| Frontend | develop | 5c31484 | Merge pull request #1 from TechSolutions-2024-I-IOT/feature/us-29 | -  | 02/05/2023 | 
+| TestingSuite | main | 31836ee | update: sprint 1 testing | -  | 03/05/2023 | 
+
+**Network**
+
+
+
 #### 6.2.1.4. Testing Suite Evidence for Sprint Review.
 
 | Repository  | Branch  | Commit ID   | Commit Message  | Commit Message Body | Commited on (Date) |
@@ -616,13 +637,10 @@ Finalmente se nos muestra el enlace de nuestra Landing Page desplegada con el do
 
 - **Web Application**
 
-Para el despliegue de nuestra aplicación web 
+Para el despliegue de nuestra aplicación web, hemos optado por utilizar Netlify debido a su robustez, facilidad de uso y capacidades de integración continua. Netlify nos brinda un entorno de alojamiento altamente escalable y seguro, lo que garantiza una experiencia de usuario óptima. Además, su integración con repositorios Git permite implementaciones automáticas con cada actualización de código, lo que simplifica considerablemente el proceso de despliegue y facilita la colaboración entre el equipo de desarrollo.
 
 <div align="center">
   <img src="../Resources/sprint-1/netlify-deployment.png" width=500 alt="Web deployment">
-</div>
-
-<div align="center">
   <img src="../Resources/sprint-1/netlify-deployment-2.png" width=500 alt="Web deployment">
 </div>
 
@@ -632,10 +650,20 @@ Para el despliegue de nuestra aplicación web
 
 <div align="center">
   <img src="../Resources/sprint-1/contributors-sprint-1.png" width=500 alt="Contributors Sprint 1">
+    <img src="../Resources/sprint-1/contributors-documentation.png" width=500 alt="Contributors Sprint 1">
+</div>
+
+<div align="center">
+  <img src="../Resources/sprint-1/contributors-web.png" width=500 alt="Contributors Sprint 1">
 </div>
 
 - **Pulse**
 
 <div align="center">
   <img src="../Resources/sprint-1/pulse-sprint-1.png" width=500 alt="Pulse Sprint 1">
+  <img src="../Resources/sprint-1/pulse-documentation.png" width=500 alt="Pulse Sprint 1">
+</div>
+
+<div align="center">
+  <img src="../Resources/sprint-1/pulse-web.png" width=500 alt="Pulse Sprint 1">
 </div>
