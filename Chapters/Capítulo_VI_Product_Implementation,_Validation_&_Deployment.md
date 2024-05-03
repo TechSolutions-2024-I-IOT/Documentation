@@ -530,25 +530,84 @@ Asimismo, se presenta la tabla de nuestro primer sprint con las respectivas user
 | User Story | Work-Item /Task                                          |    |       |             |                    |             ||
 | Id         | Title                                                    | Id | Title | Description | Estimation (Hours) | Assigned To |Status (To-do / In-Process/ To-Review / Done)|
 | US01       | Redirección de la landing Page a tiendas de aplicaciones | 1  | Title | Descripción | 1                  | Persona     |To-Do|
-| US02       | Redirección de la landing Page a la aplicación web       | 1  | Title | Descripción | 1                  | Persona     |To-Do|
-| US03       | Envío de mensaje a través de un formulario de contacto   | 1  | Title | Descripción | 1                  | Persona     |To-Do|
-| US04       | Conocimiento del Equipo desarrollador de la aplicación   | 1  | Title | Descripción | 1                  | Persona     |To-Do|
-| US05       | Sección de Preguntas Frecuentes                          | 1  | Title | Descripción | 1                  | Persona     |To-Do|
-| US06       | Navegación y Contenido Informativo en el Footer          | 1  | Title | Descripción | 1                  | Persona     |To-Do|
-| US07       | Diseño Responsivo de la Landing Page                     | 1  | Title | Descripción | 1                  | Persona     |To-Do|
-| US08       | Incorporación de Testimonios en la Landing Page          | 1  | Title | Descripción | 1                  | Persona     |To-Do|
-| US09       | Sección de Características del producto                  | 1  | Title | Descripción | 1                  | Persona     |To-Do|
-| US10       | Sección de Inicio de la Landing Page                     | 1  | Title | Descripción | 1                  | Persona     |To-Do|
+| US02       | Redirección de la landing Page a la aplicación web       | 2  | Title | Descripción | 1                  | Persona     |To-Do|
+| US03       | Envío de mensaje a través de un formulario de contacto   | 3  | Title | Descripción | 1                  | Persona     |To-Do|
+| US04       | Conocimiento del Equipo desarrollador de la aplicación   | 4  | Title | Descripción | 1                  | Persona     |To-Do|
+| US05       | Sección de Preguntas Frecuentes                          | 5  | Title | Descripción | 1                  | Persona     |To-Do|
+| US06       | Navegación y Contenido Informativo en el Footer          | 6  | Title | Descripción | 1                  | Persona     |To-Do|
+| US07       | Diseño Responsivo de la Landing Page                     | 7  | Title | Descripción | 1                  | Persona     |To-Do|
+| US08       | Incorporación de Testimonios en la Landing Page          | 8  | Title | Descripción | 1                  | Persona     |To-Do|
+| US09       | Sección de Características del producto                  | 9  | Title | Descripción | 1                  | Persona     |To-Do|
+| US10       | Sección de Inicio de la Landing Page                     | 10  | Title | Descripción | 1                  | Persona     |To-Do|
 
 
 #### 6.2.1.3. Development Evidence for Sprint Review.
 
 #### 6.2.1.4. Testing Suite Evidence for Sprint Review.
 
+| Repository  | Branch  | Commit ID   | Commit Message  | Commit Message Body | Commited on (Date) |
+|:-----------|:---------------------------------------------------------|:---|:------|:------------|:-------------------|
+| TestingSuite | main | 31836ee | update: sprint 1 testing | -  | 03/05/2023 | 
+
+Para la revisión del Sprint 1, presentamos los Testing Suite Evidence, los cuales se desarrollaron utilizando Gherkin. Esta elección se basó en la simplicidad del proyecto, que consiste en el desarrollo del landing page y la primera versión del front-end. Gherkin proporcionó una forma clara y legible de especificar los comportamientos esperados del sistema a través de escenarios escritos en un lenguaje natural. Esto facilitó la colaboración entre el equipo de desarrollo y los stakeholders al definir y comprender los criterios de aceptación del sprint.
+
+<div align="center">
+  <img src="../Resources/sprint-1/testing-1.png" width=500 alt="Testing">   
+  <img src="../Resources/sprint-1/testing-2.png" width=500 alt="Testing">
+</div>
+
+**Enlace del repositorio:** https://github.com/TechSolutions-2024-I-IOT/TestingSuite
+
 #### 6.2.1.5. Execution Evidence for Sprint Review.
+
+- **Landing Page**
+
+Para el Sprint 1, se logró el desarrollo completo de la landing page, cumpliendo con los objetivos establecidos en cuanto a diseño y funcionalidad. Se implementaron las características acordadas, como la estructura de navegación, la disposición del contenido y la integración de elementos visuales. Además, se realizó una revisión exhaustiva para garantizar la coherencia del diseño y la correcta visualización en diferentes dispositivos y navegadores. El equipo también llevó a cabo pruebas de usabilidad para asegurar una experiencia de usuario fluida y satisfactoria. 
+
+<div align="center">
+  <img src="../Resources/sprint-1/development.png" width=500 alt="Execution">   
+</div>
+
+- **Web Application**
 
 #### 6.2.1.6. Services Documentation Evidence for Sprint Review.
 
 #### 6.2.1.7. Software Deployment Evidence for Sprint Review.
 
+- **Landing Page**
+
+Para el despliegue de nuestra Landing Page, se eligió Pages pues es una herramienta de GitHub integrada que facilita la publicación de sitios web estáticos directamente desde los repositorios de GitHub. Esto permite una implementación rápida y sencilla sin la necesidad de configurar servidores adicionales ni preocuparse por la infraestructura de alojamiento. Además, Pages es altamente configurable y compatible con dominios personalizados, lo que permite una mayor personalización y profesionalismo en la presentación de nuestro sitio web.
+
+<div align="center">
+  <img src="../Resources/sprint-1/pages-1.png" width=500 alt="Mobile deployment">
+</div>
+
+Vamos a Pages y en el apartado de "Build and Deployment" elegimos la rama y la carpeta que deseamos desplegar y le damos a "Save"
+
+<div align="center">
+  <img src="../Resources/sprint-1/pages-2.png" width=500 alt="Mobile deployment">
+</div>
+
+Finalmente se nos muestra el enlace de nuestra Landing Page desplegada con el dominio de GitHub.
+
+<div align="center">
+  <img src="../Resources/sprint-1/pages-3.png" width=500 alt="Mobile deployment">
+</div>
+
+- **Web Application**
+
+Para el Sprint 1, se avanzó significativamente en el desarrollo del Web Application al implementar las primeras funcionalidades clave. Esto incluyó la creación de la interfaz de usuario inicial, la configuración de la navegación básica y la integración de componentes principales. Además, se llevó a cabo con éxito el despliegue de la primera versión del Web Application en el entorno de producción. Este hito marcó un paso importante hacia el objetivo final del proyecto. Se logró cumplir con los objetivos planteados al inicio del sprint, estableciendo así una base sólida para el desarrollo continuo y la expansión de la aplicación.
+
 #### 6.2.1.8. Team Collaboration Insights during Sprint.
+
+- **Contributors**
+
+<div align="center">
+  <img src="../Resources/sprint-1/contributors-sprint-1.png" width=500 alt="Contributors Sprint 1">
+</div>
+
+- **Pulse**
+
+<div align="center">
+  <img src="../Resources/sprint-1/pulse-sprint-1.png" width=500 alt="Pulse Sprint 1">
+</div>
