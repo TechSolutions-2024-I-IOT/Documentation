@@ -19,7 +19,7 @@ En este primer paso, el equipo se reunió para compartir libremente ideas, event
 **Timelines**
 
 En este paso organizamos los eventos identificados en una línea de tiempo cronológica para comprender mejor el flujo de acciones y eventos en nuestro sistema. Esto nos ayudó a visualizar la secuencia temporal y las relaciones entre los diferentes eventos.
- 
+
 <div align="center">
     <img src="../Resources/event-storming/timeline.jpg">
 </div>
@@ -134,33 +134,33 @@ Usamos esta técnica para visualizar cómo los componentes del sistema se comuni
 
 Este lienzo nos proporciona un marco estructurado para definir y visualizar los límites del contexto del dominio en nuestro sistema de software, así como sus interacciones con otros contextos limitados. Nos permite identificar claramente los límites del contexto del dominio, definir los términos del lenguaje ubicuo y establecer las reglas de colaboración entre los diferentes contextos.
 
-- **Gestión de cuentas**
+- **Account management**
 
   Se centra en la gestión de cuentas de usuario dentro del sistema, incluyendo la creación, modificación y eliminación de cuentas, así como la gestión de permisos y roles asociados.
 
-![alt text](../Resources/event-storming/bounded-context-canvases/image1.png)
+![alt text](../Resources/event-storming/bounded-context-canvases/account_managment_bcc.png)
 
-- **Suscripciones**
+- **Subscription**
 
   Aborda el manejo de las suscripciones de usuarios al sistema, incluyendo la gestión de planes de suscripción, renovaciones automáticas, cancelaciones y pagos asociados.
 
-![alt text](../Resources/event-storming/bounded-context-canvases/image2.png)
+![alt text](../Resources/event-storming/bounded-context-canvases/subscription_bcc.png)
 
-- **Ejecución y monitoreo**
+- **Execution and Monitoring**
 
-   Se enfoca en la ejecución y el monitoreo de procesos y operaciones dentro del sistema.
+  Se enfoca en la ejecución y el monitoreo de procesos y operaciones dentro del sistema.
 
-![alt text](../Resources/event-storming/bounded-context-canvases/image3.png)
+![alt text](../Resources/event-storming/bounded-context-canvases/execution_monitoring_bcc.png)
 
-- **Notificaciones**
+- **Notificactions**
 
   Se dedica a la gestión y envío de notificaciones dentro del sistema, abarcando la configuración de reglas de notificación, la programación de envíos y la gestión de canales de comunicación.
 
-![alt text](../Resources/event-storming/bounded-context-canvases/image4.png)
+![alt text](../Resources/event-storming/bounded-context-canvases/notifications_bcc.png)
 
 - **Data Calculate**
 
-   Se concentra en la lógica y los cálculos de datos dentro del sistema, incluyendo la manipulación, transformación y procesamiento de datos para generar resultados y métricas específicas.
+  Se concentra en la lógica y los cálculos de datos dentro del sistema, incluyendo la manipulación, transformación y procesamiento de datos para generar resultados y métricas específicas.
 
 ![alt text](../Resources/event-storming/bounded-context-canvases/image5.png)
 
@@ -211,6 +211,7 @@ En este apartado definiremos la manera en que nuestro sistema estará organizado
 Clases a tomar en cuenta para este bounded context:
 
 **Entities:**
+
 - **Driver:** Clase que representa un conductor para la empresa.
 - **Bus:** Clase que representa una unidad de bus de la empresa.
 - **BusLine:** Clase que representa la ruta que sigue una línea de bus.
@@ -219,6 +220,7 @@ Clases a tomar en cuenta para este bounded context:
 - **Departure:** Salida individual perteneciente a la agenda del día anterior.
 
 **ValueObjects:**
+
 - **LicensePlate:** Placa del autobús.
 - **BusModel:** Modelo del autobús.
 - **GPSLocation:** Ubicación GPS actual del autobús.
@@ -228,11 +230,13 @@ Clases a tomar en cuenta para este bounded context:
 - **ShiftSchedule:** Horario de turno del conductor.
 
 **Aggregates:**
+
 - **PlanificaciónAggregate:** Encargado de manejar los eventos en el bounded context.
 
 #### 4.2.1.2. Interface Layer
 
 **Controllers a tomar en cuenta para este bounded context:**
+
 - **DriverController:** Controlador encargado de realizar peticiones HTTPS de la entite en cuestión.
 - **BusController:** Controlador encargado de realizar peticiones HTTPS de la entites.
 - **BusLineController:** Controlador encargado de realizar peticiones HTTPS de la entites.
@@ -243,7 +247,8 @@ Clases a tomar en cuenta para este bounded context:
 Los flujos de nuestro negocio se manejan siguiendo un approach de Domain Driven Design por lo que serán usados eventos y comandos. Ante ello se tienen las siguientes clases EventHandler y CommandHandler:
 
 **CommandHandler:**
-- **DriverCommandHandler:** 
+
+- **DriverCommandHandler:**
   - RegisterDriverCommand
   - AssignDriverCommand
   - ReassignDriverCommand
@@ -258,7 +263,8 @@ Los flujos de nuestro negocio se manejan siguiendo un approach de Domain Driven 
   - PublishDepartureScheduleCommand
 
 **EventHandler:**
-- **DriverEventHandler:** 
+
+- **DriverEventHandler:**
   - RegisteredDriverEvent
   - AssignedDriverEvent
   - DriverReassignedToBusEvent
@@ -300,27 +306,32 @@ Las siguientes clases con acceso a base de datos de nuestra aplicación son las 
 #### 4.2.2.1. Domain Layer
 
 **Entities:**
+
 - **BusStop:** Representa una parada de autobús.
 - **Bus:** Representa un autobús.
 - **Itinerary:** Representa un itinerario de autobús.
 - **Person:** Representa una persona.
 
 **Value Objects:**
+
 - **BusArrivalTime:** Objeto de valor que representa el tiempo estimado de llegada de un autobús a una parada.
 - **BusPosition:** Objeto de valor que representa la posición actual de un autobús.
 - **Heartbeat:** Objeto de valor que representa el latido del corazón utilizado para el monitoreo de la salud del sistema.
 
 **Aggregates:**
+
 - **BusStopAggregate:** Agrupa la entidad BusStop con sus relaciones y operaciones asociadas.
 - **BusAggregate:** Agrupa la entidad Bus con sus relaciones y operaciones asociadas.
 - **ItineraryAggregate:** Agrupa la entidad Itinerary con sus relaciones y operaciones asociadas.
 
 **Factories:**
+
 - **BusStopFactory:** Fábrica para crear instancias de BusStop.
 - **BusFactory:** Fábrica para crear instancias de Bus.
 - **ItineraryFactory:** Fábrica para crear instancias de Itinerary.
 
 **Domain Services:**
+
 - **ArrivalTimeCalculator:** Servicio de dominio para calcular el tiempo de llegada de un autobús a una parada.
 - **BusPositionVerifier:** Servicio de dominio para verificar la posición de un autobús.
 - **ItineraryStarter:** Servicio de dominio para iniciar un itinerario.
@@ -334,17 +345,20 @@ Las siguientes clases con acceso a base de datos de nuestra aplicación son las 
 #### 4.2.2.2. Interface Layer
 
 **Controllers:**
+
 - **BusStopController:** Controlador que maneja las solicitudes relacionadas con las paradas de autobús como calcular el tiempo de llegada o verificar la posición del autobús en una parada.
 - **BusController:** Controlador que maneja las solicitudes relacionadas con los autobuses como iniciar un itinerario o actualizar su capacidad.
 - **HeartbeatController:** Controlador que maneja las solicitudes relacionadas con el monitoreo del sistema como el seguimiento del latido del corazón o la generación de análisis de latidos del corazón.
 
 **Consumers:**
+
 - **HeartbeatConsumer:** Consumidor que recibe eventos relacionados con el latido del corazón del sistema como alertas de tasa anormal.
 - **PersonDetectionConsumer:** Consumidor que recibe eventos relacionados con la detección de personas como contar personas o detectar personas en ciertas áreas.
 
 #### 4.2.2.3. Application Layer
 
 **Command Handlers:**
+
 - **CalculateBusArrivalTimeCommandHandler:** Maneja los comandos para calcular el tiempo de llegada de un autobús a una parada.
 - **VerifyBusPositionCommandHandler:** Maneja los comandos para verificar la posición de un autobús.
 - **StartItineraryCommandHandler:** Maneja los comandos para iniciar un itinerario.
@@ -353,6 +367,7 @@ Las siguientes clases con acceso a base de datos de nuestra aplicación son las 
 - **DetectPersonCommandHandler:** Maneja los comandos para detectar personas.
 
 **Event Handlers:**
+
 - **BusArrivalTimeCalculatedEventHandler:** Maneja los eventos cuando se calcula el tiempo de llegada de un autobús a una parada.
 - **BusPositionVerifiedEventHandler:** Maneja los eventos cuando se verifica la posición de un autobús.
 - **ItineraryStartedEventHandler:** Maneja los eventos cuando se inicia un itinerario.
@@ -363,6 +378,7 @@ Las siguientes clases con acceso a base de datos de nuestra aplicación son las 
 #### 4.2.2.4. Infrastructure Layer
 
 **Repositories:**
+
 - **BusStopRepositoryImpl:** Implementación del repositorio para acceder a la base de datos de paradas de autobús.
 - **BusRepositoryImpl:** Implementación del repositorio para acceder a la base de datos de autobuses.
 - **ItineraryRepositoryImpl:** Implementación del repositorio para acceder a la base de datos de itinerarios.
@@ -397,6 +413,7 @@ Las siguientes clases con acceso a base de datos de nuestra aplicación son las 
 - **UserRole:** Describe el rol o roles asignados a un usuario dentro del sistema.
 
 **Aggregates:**
+
 - **UserAccount:** Un agregado que engloba la lógica relacionada con las cuentas de usuario. Contiene las entidades User y Account, así como los value objects AccountStatus y UserRole. Permite realizar operaciones como crear una cuenta, modificar el perfil, bloquear o eliminar una cuenta, etc.
 
 #### 4.2.3.2. Interface Layer
@@ -407,26 +424,28 @@ Las siguientes clases con acceso a base de datos de nuestra aplicación son las 
 #### 4.2.3.3. Application Layer
 
 **Command Handlers:**
+
 - **AccountCommandHandler:**
-    - CreateAccountCommand
-    - UpdateAccountCommand
-    - DeleteAccountCommand
-    - ChangePasswordCommand
-    - BlockAccountCommand
-    - UnblockAccountCommand
+  - CreateAccountCommand
+  - UpdateAccountCommand
+  - DeleteAccountCommand
+  - ChangePasswordCommand
+  - BlockAccountCommand
+  - UnblockAccountCommand
 
 **Event Handlers:**
+
 - **AccountEventHandler:**
-    - AccountCreatedEvent
-    - AccountUpdatedEvent
-    - AccountDeletedEvent
-    - PasswordChangedEvent
-    - AccountBlockedEvent
-    - AccountUnblockedEvent
+  - AccountCreatedEvent
+  - AccountUpdatedEvent
+  - AccountDeletedEvent
+  - PasswordChangedEvent
+  - AccountBlockedEvent
+  - AccountUnblockedEvent
 
 #### 4.2.3.4. Infrastructure Layer
 
-- **AccountRepository:**  Implementa la interfaz definida en el Domain Layer para acceder y manipular los datos de las cuentas de usuario en la base de datos.
+- **AccountRepository:** Implementa la interfaz definida en el Domain Layer para acceder y manipular los datos de las cuentas de usuario en la base de datos.
 - **EmailService:** Si se requiere enviar correos electrónicos para confirmar acciones como registro de usuario, cambio de contraseña, etc., esta clase se encargaría de interactuar con un servicio de correo electrónico para enviar los correos correspondientes.
 
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
@@ -448,24 +467,29 @@ Las siguientes clases con acceso a base de datos de nuestra aplicación son las 
 Clases a tomar en cuenta para este bounded context:
 
 **Entities:**
+
 - **Subscriber:** Clase que representa los datos de un usuario que se suscribe.
 
 **ValueObjects:**
+
 - **SubscriptionStatus:** Define el estado de la suscripción del usuario como activa, cancelada o renovada.
 - **SubscriptionType:** Describe el tipo de suscripción como premium o estándar.
 
 **Aggregates:**
+
 - **Subscription:** Un agregado que encapsula la lógica relacionada con las suscripciones de los usuarios. Contiene la entidad Subscriber y los value objects SubscriptionStatus y SubscriptionType. Permite realizar operaciones como iniciar, cancelar y renovar suscripciones.
 
 #### 4.2.4.2. Interface Layer
 
 Controllers a tomar en cuenta para este bounded context:
+
 - **SubscriptionController:** Este controlador manejaría las solicitudes HTTP relacionadas con las suscripciones como crear una nueva suscripción, cancelar una suscripción existente, renovar una suscripción, etc.
 - **PaymentController:** Si las suscripciones requieren pagos, este controlador podría encargarse de recibir solicitudes de pago, validar pagos y actualizar el estado de la suscripción en consecuencia.
 
 #### 4.2.4.3. Application Layer
 
 **CommandHandler:**
+
 - **SubscribeCommandHandler:**
   - CreateSubscriptionCommand
   - RenewSubscriptionCommand
@@ -474,6 +498,7 @@ Controllers a tomar en cuenta para este bounded context:
   - ValidateCardCommand
 
 **EventHandler:**
+
 - **PaymentEventHandler:**
   - CreatePaymentEvent
   - ValidatePaymentEvent
@@ -482,6 +507,7 @@ Controllers a tomar en cuenta para este bounded context:
 #### 4.2.4.4. Infrastructure Layer
 
 **Repositories and Services:**
+
 - **SubscriptionRepository**
 - **PaymentGateway:** Si el proceso de suscripción involucra pagos, podríamos tener una clase que interactúe con un servicio externo de procesamiento de pagos como Stripe, PayPal u otro similar. Esta clase se encargaría de enviar la información del pago y recibir la respuesta del servicio de pagos.
 - **EventBus:** Si estamos implementando un patrón de mensajería para manejar eventos relacionados con las suscripciones, podríamos tener una clase que interactúe con un sistema de mensajería como RabbitMQ o Kafka para publicar y consumir eventos de suscripción.
@@ -503,30 +529,37 @@ Controllers a tomar en cuenta para este bounded context:
 #### 4.2.5.1. Domain Layer
 
 **Entities:**
+
 - **BusApproachingNotification:** Representa una notificación de que un autobús se está acercando a una parada de autobús.
 - **OffItineraryBusNotification:** Representa una notificación sobre un autobús fuera de su itinerario.
 - **AbnormalHeartRateNotification:** Representa una notificación sobre una tasa cardíaca anormal.
 - **ChangeOfBusDestinationNotification:** Representa una notificación sobre un cambio en el destino del itinerario de un autobús.
 
 **Value Objects:**
+
 - **NotificationMessage:** Objeto de valor que representa el mensaje de una notificación
 - **NotificationRecipient:** Objeto de valor que representa el destinatario de una notificación.
 
 **Aggregates:**
+
 - **NotificationAggregate:** Agrupa las diferentes notificaciones con sus relaciones y operaciones asociadas.
 
 **Factories:**
+
 - **NotificationFactory:** Fábrica para crear instancias de notificaciones.
 
 **Domain Services:**
+
 - **NotificationService:** Servicio de dominio para manejar la lógica relacionada con las notificaciones, como enviar notificaciones, validar destinatarios, etc.
 
 #### 4.2.5.2. Interface Layer
 
 **Controllers:**
+
 - NotificationController: Controlador que maneja las solicitudes relacionadas con las notificaciones, como solicitudes para enviar notificaciones de autobuses aproximándose, notificar sobre cambios de itinerario, etc.
 
-**Consumers:"
+\*\*Consumers:"
+
 - **BusApproachingNotificationConsumer:** Consumidor que recibe eventos relacionados con autobuses aproximándose a una parada de autobús y toma medidas según sea necesario.
 - **OffItineraryBusNotificationConsumer:** Consumidor que recibe eventos relacionados con autobuses fuera de itinerario y toma medidas según sea necesario.
 - **AbnormalHeartRateNotificationConsumer:** Consumidor que recibe eventos relacionados con tasas cardíacas anormales y toma medidas según sea necesario.
@@ -535,22 +568,26 @@ Controllers a tomar en cuenta para este bounded context:
 #### 4.2.5.3. Application Layer
 
 **Command Handlers:**
+
 - **NotifyBusApproachingCommandHandler:** Maneja los comandos para enviar notificaciones cuando un autobús se está aproximando a una parada de autobús.
 - **NotifyOffItineraryBusCommandHandler:** Maneja los comandos para enviar notificaciones sobre autobuses fuera de itinerario.
 - **NotifyAbnormalHeartRateCommandHandler:** Maneja los comandos para enviar notificaciones sobre tasas cardíacas anormales.
 - **NotifyChangeOfBusDestinationCommandHandler:** Maneja los comandos para enviar notificaciones sobre cambios en el destino del itinerario de un autobús.
 
 **Event Handlers:**
-- **BusesSendedNotificationEventHandler:** Maneja los eventos cuando se envían notificaciones sobre autobuses (gestionado por el gestor de notificaciones). 
-- **AbnormalHeartRateSendedNotificationEventHandler:** Maneja los eventos cuando se envían notificaciones sobre tasas cardíacas anormales. 
+
+- **BusesSendedNotificationEventHandler:** Maneja los eventos cuando se envían notificaciones sobre autobuses (gestionado por el gestor de notificaciones).
+- **AbnormalHeartRateSendedNotificationEventHandler:** Maneja los eventos cuando se envían notificaciones sobre tasas cardíacas anormales.
 - **ChangeOnTheRouteSendedNotificationEventHandler:** Maneja los eventos cuando se envían notificaciones sobre cambios en la ruta.
 
 #### 4.2.5.4. Infrastructure Layer
 
-**Repositories:** 
+**Repositories:**
+
 - **NotificationRepositoryImpl:** Implementación del repositorio para acceder a la base de datos de notificaciones.
 
 **Services:**
+
 - **DatabaseService:** Clase que maneja la conexión y las operaciones con la base de datos.
 - **MessagingService:** Clase que maneja la conexión y las operaciones con el sistema de mensajería.
 - **EmailService:** Clase que maneja el envío de correos electrónicos.
@@ -572,12 +609,15 @@ Controllers a tomar en cuenta para este bounded context:
 #### 4.2.6.1. Domain Layer
 
 **Entities:**
+
 - **RequestedBoarding:** Representa la solicitud de abordaje de un usuario en una parada de autobús en un determinado intervalo de tiempo.
 
 **Value Objects:**
+
 - **TimeRange:** Define un rango de tiempo específico, como la hora de inicio y la hora de finalización.
 
 **Aggregates:**
+
 - **DataCalculateAggregate:** Agrupa los diferentes calculos realizados por los dispositivos.
 
 #### 4.2.6.2. Interface Layer
@@ -585,22 +625,26 @@ Controllers a tomar en cuenta para este bounded context:
 #### 4.2.6.3. Application Layer
 
 **Command Handlers:**
+
 - **DataCalculateCommandHandler:**
-    - RequestBoardingNumberByTimeRangeCommand
-    - RequestAverageBoardingPerDayCommand
+  - RequestBoardingNumberByTimeRangeCommand
+  - RequestAverageBoardingPerDayCommand
 
 **Event Handlers:**
+
 - **DataCalculateEventHandler:**
-    - BoardingNumberCalculatedEvent
-    - AverageBoardingPerDayCalculatedEvent
-    - BusiestBusStopCalculatedEvent
+  - BoardingNumberCalculatedEvent
+  - AverageBoardingPerDayCalculatedEvent
+  - BusiestBusStopCalculatedEvent
 
 #### 4.2.6.4. Infrastructure Layer
 
-**Repositories:** 
-- **DataCalculateRepository:**  Repositorio para acceder y manipular los datos relacionados con el cálculo.
+**Repositories:**
+
+- **DataCalculateRepository:** Repositorio para acceder y manipular los datos relacionados con el cálculo.
 
 **Services:**
+
 - **DataCalculateService:** Servicio que realiza los cálculos de datos basados en las solicitudes recibidas.
 
 #### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams

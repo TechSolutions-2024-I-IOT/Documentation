@@ -416,21 +416,21 @@
 <tr>
          <td>US18</td>
         <td> Visualizar gráfico de línea con el tiempo de pulso de los conductores</td>
-        <td>Como representante de una empresa de transporte, quiero ver un gráfico de línea con el tiempo de pulso de mis conductores en tiempo real, para poder identificar a los que puedan estar bajo estrés o con problemas de salud</td>
+        <td>Como gerente, quiero ver un gráfico de línea con el tiempo de pulso de mis conductores en tiempo real, para poder identificar a los que puedan estar bajo estrés o con problemas de salud</td>
         <td>
     <b>Escenario 1: Visualización correcta del gráfico</b> <br>
-    <b>Dado</b> que un representante de la empresa de transporte ha iniciado sesión en la aplicación<br>
+    <b>Dado</b> que un gerente de la empresa de transporte ha iniciado sesión en la aplicación<br>
     <b>Y</b> ha seleccionado la opción "Visualizar gráfico de línea de pulso de conductores"<br>
     <b>Cuando</b> la aplicación carga la información del pulso de los conductores<br>
     <b>Entonces</b> se muestra un gráfico de línea con el tiempo de pulso de cada conductor en tiempo real<br>
     <b>Y</b> el gráfico se actualiza en tiempo real a medida que cambia el tiempo de pulso de los conductores.<br><br>
     <b>Escenario 2: Error al visualizar el gráfico</b> <br>
-    <b>Dado</b> que un representante de la empresa intenta acceder a la información del tiempo de pulso con una conexión a internet deficiente<br>
+    <b>Dado</b> que un gerente intenta acceder a la información del tiempo de pulso con una conexión a internet deficiente<br>
     <b>Cuando</b> la aplicación intenta cargar la información<br>
     <b>Entonces</b> se muestra un mensaje informativo que indica la causa del problema (ej. "No se pudo conectar al servidor. Intente nuevamente más tarde").<br>
     <b>Y</b> se ofrece al usuario la opción de volver a intentar cargar la información.<br><br>
     <b>Escenario 3: Visualización de zonas de pulso</b> <br>
-    <b>Dado</b> que un representante de la empresa desea ver zonas de pulso que indiquen posibles estados de salud o estrés<br>
+    <b>Dado</b> que un gerente desea ver zonas de pulso que indiquen posibles estados de salud o estrés<br>
     <b>Cuando</b> se selecciona la opción "Ver zonas de pulso"<br>
     <b>Entonces</b> se superponen al gráfico de línea zonas de colores que indican diferentes estados de salud o estrés (ej. verde para normal, amarillo para elevado, rojo para alto).<br>
 </td>
@@ -440,18 +440,18 @@
 <tr>
          <td>US19</td>
         <td>Registrar empresa de transporte</td>
-        <td>Como representante de una empresa de transporte, quiero poder registrar mi empresa en el sistema</td>
+        <td>Como gerente, quiero poder registrar mi empresa en el sistema</td>
         <td>
     <b>Escenario 1: Registro correcto de la empresa</b> <br>
-    <b>Dado</b> que un representante de la empresa de transporte ha accedido al portal de registro del sistema<br>
-    <b>Cuando</b> el representante introduce la información completa y válida de la empresa en el formulario de registro<br>
+    <b>Dado</b> que un gerente ha accedido al portal de registro del sistema<br>
+    <b>Cuando</b> el gerente introduce la información completa y válida de la empresa en el formulario de registro<br>
     <b>Entonces</b> se valida la información de la empresa en tiempo real (ej. mediante consulta a bases de datos públicas)<br>
     <b>Y</b> se crea una cuenta para la empresa en el sistema<br><br>
     <b>Escenario 2: Error al registrar la empresa</b> <br>
-    <b>Dado</b> que un representante introduce información incompleta o inválida en el formulario de registro<br>
+    <b>Dado</b> que un gerente introduce información incompleta o inválida en el formulario de registro<br>
     <b>Cuando</b> el sistema detecta un error en la información proporcionada<br>
-    <b>Entonces</b> se muestra un mensaje informativo al representante indicando el error y cómo corregirlo<br>
-    <b>Y</b> se ofrece al representante la opción de volver a intentar registrar la empresa<br>
+    <b>Entonces</b> se muestra un mensaje informativo al gerente indicando el error y cómo corregirlo<br>
+    <b>Y</b> se ofrece al gerente la opción de volver a intentar registrar la empresa<br>
 </td>
         <td>
         </td>    
@@ -459,29 +459,29 @@
 <tr>
          <td>US20</td>
         <td>Registrar línea de transporte</td>
-        <td>Como representante de una empresa de transporte, quiero poder registrar una línea de transporte en el sistema
+        <td>Como gerente, quiero poder registrar una línea de transporte en el sistema
         </td>
         <td>
     <b>Escenario 1: Registro correcto de la línea de transporte</b> <br>
-    <b>Dado</b> que un representante de la empresa de transporte ha iniciado sesión en el sistema<br>
+    <b>Dado</b> que un gerente ha iniciado sesión en el sistema<br>
     <b>Y</b> ha seleccionado la opción "Registrar línea de transporte"<br>
-    <b>Cuando</b> el representante introduce la información completa y válida de la línea de transporte en el formulario de registro<br>
+    <b>Cuando</b> el gerente introduce la información completa y válida de la línea de transporte en el formulario de registro<br>
     <b>Entonces</b> se valida la información<br>
     <b>Y</b> se crea una entrada para la línea de transporte en el sistema<br>
-    <b>Y</b> se informa al representante del éxito del registro<br><br>
+    <b>Y</b> se informa al gerente del éxito del registro<br><br>
     <b>Escenario 2: Error al registrar la línea de transporte</b> <br>
-    <b>Dado</b> que un representante introduce información incompleta o inválida en el formulario de registro<br>
+    <b>Dado</b> que un gerente introduce información incompleta o inválida en el formulario de registro<br>
     <b>Cuando</b> el sistema detecta un error en la información proporcionada<br>
-    <b>Entonces</b> se muestra un mensaje informativo al representante indicando el error y cómo corregirlo<br>
-    <b>Y</b> se ofrece al representante la opción de volver a intentar registrar la línea de transporte<br><br>
+    <b>Entonces</b> se muestra un mensaje informativo al gerente indicando el error y cómo corregirlo<br>
+    <b>Y</b> se ofrece al gerente la opción de volver a intentar registrar la línea de transporte<br><br>
     <b>Escenario 3: Validación de datos</b> <br>
     <b>Dado</b> que el sistema necesita verificar la información de la línea de transporte<br>
-    <b>Cuando</b> el representante ingresa la información de la línea de transporte en el formulario de registro<br>
+    <b>Cuando</b> el gerente ingresa la información de la línea de transporte en el formulario de registro<br>
     <b>Entonces</b> el sistema valida la información en tiempo real mediante solicitud de documentación adicional (ej. permisos de operación)<br>
-    <b>Y</b> se informa al representante el estado de la validación<br><br>
+    <b>Y</b> se informa al gerente el estado de la validación<br><br>
     <b>Escenario 4: Configuración de la línea de transporte</b> <br>
     <b>Dado</b> que la línea de transporte ha completado el registro<br>
-    <b>Cuando</b> el representante accede a la configuración de la línea de transporte<br>
+    <b>Cuando</b> el gerente accede a la configuración de la línea de transporte<br>
     <b>Entonces</b> la empresa puede configurar la información de la línea de transporte, como nombre de la línea, ruta, horario de servicio, tarifas y paradas<br>
 </td>
 <td>
@@ -581,7 +581,6 @@
 </tr>
 
 <tr><td colspan="5"> <b>Technical Stories</b> <td></tr>
-
 
 <tr>
          <td>TS01</td>
@@ -981,7 +980,7 @@
                 <b>Entonces</b> la transmisión de video en tiempo real comienza y los datos se pueden visualizar en la plataforma de gestión.<br>
 
 <b>Escenario 2: Conexión de Cámaras IoT Fallida</b><br>
-<b>Dado</b> que una cámara  instaladas en los vehículos del transporte público no responde<br>
+<b>Dado</b> que una cámara instaladas en los vehículos del transporte público no responde<br>
 <b>Cuando</b> se intenta establecer una conexión utilizando el protocolo RTSP.<br>
 <b>Entonces</b> se recibe un código de error 404 indicando que la cámara no está disponible.<br>
 
@@ -1004,7 +1003,8 @@
 <b>Dado</b> que un dispositivo no puede autenticarse con la plataforma de gestión.<br>
 <b>Cuando</b> se intenta establecer una conexión con la plataforma.<br>
 <b>Entonces</b> se recibe un código de error 401 indicando que el acceso está prohibido.<br>
-            </td>
+</td>
+
 </tr>
 <tr>
 <td>TS16</td>
@@ -1031,9 +1031,10 @@
 <b>Dado</b> que un dispositivo IoT no puede conectarse al Gateway debido a problemas de configuración.<br>
 <b>Cuando</b> se realiza un intento de conexión desde el dispositivo.<br>
 <b>Entonces</b> se registran los errores correspondientes y se notifica al administrador del sistema para resolver el problema.<br>
-            </td>
-            <td>
-            </td>
+</td>
+<td>
+</td>
+
 </tr>
 <td>TS17</td>
             <td>Enviar la información recopilada en los dispositivos IoT hacia el Gateway</td><br>
@@ -1046,19 +1047,20 @@
 
 <b>Escenario 2: Envío de Datos de Ritmo Cardíaco desde Pulsómetros IoT al Gateway</b><br>
 <b>Dado</b> que se recopila video en tiempo real de cámaras IoT instaladas en estaciones y vehículos del transporte público.<br>
-      <b>Cuando</b> los datos de video se formatean en formato MPEG-4 y se envían al Gateway utilizando el protocolo RTSP.<br>
-      <b>Entonces</b> el Gateway recibe los datos de video y los procesa para su almacenamiento o visualización en el sistema central.<br>
+<b>Cuando</b> los datos de video se formatean en formato MPEG-4 y se envían al Gateway utilizando el protocolo RTSP.<br>
+<b>Entonces</b> el Gateway recibe los datos de video y los procesa para su almacenamiento o visualización en el sistema central.<br>
 <b>Escenario 3: Verificación de Recepción de Datos en el Gateway</b><br>
 <b>Dado</b> que se envían datos desde dispositivos IoT al Gateway utilizando el protocolo CoAP.<br>
-      <b>Cuando</b> los datos se envían correctamente desde un dispositivo IoT.<br>
-      <b>Entonces</b> el Gateway envía una confirmación de recepción al dispositivo emisor, junto con un código de estado 200 OK para indicar una recepción exitosa.<br>
+<b>Cuando</b> los datos se envían correctamente desde un dispositivo IoT.<br>
+<b>Entonces</b> el Gateway envía una confirmación de recepción al dispositivo emisor, junto con un código de estado 200 OK para indicar una recepción exitosa.<br>
 <b>Escenario 4: Gestión de Errores de Envío de Datos</b><br>
 <b>Dado</b> que un dispositivo IoT intenta enviar datos al Gateway, pero hay un problema de conexión.<br>
-      <b>Cuando</b> se realiza un intento de envío de datos desde el dispositivo.<br>
-      <b>Entonces</b> el Gateway devuelve un código de estado 503 Service Unavailable para indicar que el servicio no está disponible temporalmente, y el dispositivo IoT intenta enviar los datos nuevamente después de un intervalo de tiempo predeterminado.<br>
-            </td>
-            <td>
-            </td>
+<b>Cuando</b> se realiza un intento de envío de datos desde el dispositivo.<br>
+<b>Entonces</b> el Gateway devuelve un código de estado 503 Service Unavailable para indicar que el servicio no está disponible temporalmente, y el dispositivo IoT intenta enviar los datos nuevamente después de un intervalo de tiempo predeterminado.<br>
+</td>
+<td>
+</td>
+
 </tr>
 <tr>
     <td>TS18</td>
@@ -1071,14 +1073,15 @@
       <b>Entonces</b> la plataforma en la nube recibe los datos con éxito y envía una confirmación de recepción al Gateway junto con un código de estado HTTP 200 OK.
 
 <b>Escenario 2: Falla en el Envío de Datos debido a una Conexión Perdida</b>
-      <b>Dado</b> que se intenta enviar datos desde el Gateway hacia la plataforma en la nube.<br>
-      <b>Cuando</b> durante el proceso de envío, se pierde la conexión a Internet.<br>
-      <b>Entonces</b> el Gateway no puede establecer la conexión con la plataforma en la nube y recibe un código de error HTTP 503 Service Unavailable. Y el Gateway intentará reenviar los datos cuando la conexión se restablezca.<br>
-  <b>Escenario 3: Error de Autenticación con la Plataforma en la Nube</b>
-      <b>Dado</b> que se intenta enviar datos desde el Gateway hacia la plataforma en la nube.<br>
-      <b>Cuando</b> el Gateway intenta autenticarse con la plataforma en la nube, pero las credenciales proporcionadas son incorrectas.<br>
-      <b>Entonces</b> la plataforma en la nube rechaza la conexión y devuelve un código de estado HTTP 401 Unauthorized. Y el Gateway notifica al administrador del sistema sobre el error de autenticación para corregir las credenciales.
-    </td>
+<b>Dado</b> que se intenta enviar datos desde el Gateway hacia la plataforma en la nube.<br>
+<b>Cuando</b> durante el proceso de envío, se pierde la conexión a Internet.<br>
+<b>Entonces</b> el Gateway no puede establecer la conexión con la plataforma en la nube y recibe un código de error HTTP 503 Service Unavailable. Y el Gateway intentará reenviar los datos cuando la conexión se restablezca.<br>
+<b>Escenario 3: Error de Autenticación con la Plataforma en la Nube</b>
+<b>Dado</b> que se intenta enviar datos desde el Gateway hacia la plataforma en la nube.<br>
+<b>Cuando</b> el Gateway intenta autenticarse con la plataforma en la nube, pero las credenciales proporcionadas son incorrectas.<br>
+<b>Entonces</b> la plataforma en la nube rechaza la conexión y devuelve un código de estado HTTP 401 Unauthorized. Y el Gateway notifica al administrador del sistema sobre el error de autenticación para corregir las credenciales.
+</td>
+
   </tr>
   <tr>
     <td>TS19</td>
@@ -1133,7 +1136,7 @@
 ## 3.4 Product Backlog
 
 | # Orden | User Story Id | Título                                                                    | Descripción                                                                                                                                                                                                                                                                                                                                              | Story Points |
-| ------- | ------------- | ------------------------------------------------------------------------- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| ------------ |
+| ------- | ------------- | ------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
 | 1       | US09          | Sección de Características del producto                                   | Como visitante, quiero tener una sección claramente definida que muestre las características principales del producto o servicio, para entender rápidamente sus funcionalidades y beneficios.                                                                                                                                                            | 2            |
 | 2       | US10          | Sección de Inicio de la Landing Page                                      | Como visitante , deseo ser recibido con una Hero Section impactante y atractiva en la Landing Page, para que me proporcione una visión clara y concisa del valor y propósito del producto o servicio, capturando mi interés y motivándome a explorar más sobre lo que se ofrece.                                                                         | 3            |
 | 3       | US07          | Diseño Responsivo de la Landing Page                                      | Como visitante, deseo que la página se adapte correctamente a diferentes dispositivos y tamaños de pantalla (como móviles, tablets y desktops), para una experiencia de usuario óptima y consistente en cualquier dispositivo que utilice.                                                                                                               | 2            |
@@ -1149,8 +1152,8 @@
 | 13      | TS07          | Datos Históricos de Paraderos por Fecha                                   | Como desarrollador, quiero obtener los datos históricos de los paraderos para una fecha específica, para que el dashboard de la aplicación web pueda mostrar un listado de paraderos ordenados según la cantidad de personas que subieron en cada uno en dicha fecha.                                                                                    | 4            |
 | 14      | TS01          | Listado de Líneas de Buses                                                | Como desarrollador, quiero obtener un listado de todas las líneas de buses mediante un API, para que la aplicación móvil pueda mostrarlas en la sección de explorar                                                                                                                                                                                      | 3            |
 | 15      | TS02          | Búsqueda de Líneas de Bus                                                 | Como desarrollador, quiero buscar líneas de bus por nombre a través del API, para que pueda crear features para mi aplicación                                                                                                                                                                                                                            | 2            |
-| 16      | TS03          | Añadir Líneas de Buses como favoritos a través del RESTful API                                                      | Como desarrollador, quiero añadir líneas de buses como favoritas a través del API para que pueda crear funciones para mi aplicación.                                                                                                                                                                                                                     | 2            |
-| 17      | TS04          | Listado de Paraderos de una Línea de Bus a través de la RESTful API                                 | Como desarrollador, quiero crear un endpoint que devuelva la lista de paraderos de una línea de bus específica, para que los usuarios puedan ver todos los paraderos disponibles para esa línea en la aplicación móvil.                                                                                                                                  | 2            |
+| 16      | TS03          | Añadir Líneas de Buses como favoritos a través del RESTful API            | Como desarrollador, quiero añadir líneas de buses como favoritas a través del API para que pueda crear funciones para mi aplicación.                                                                                                                                                                                                                     | 2            |
+| 17      | TS04          | Listado de Paraderos de una Línea de Bus a través de la RESTful API       | Como desarrollador, quiero crear un endpoint que devuelva la lista de paraderos de una línea de bus específica, para que los usuarios puedan ver todos los paraderos disponibles para esa línea en la aplicación móvil.                                                                                                                                  | 2            |
 | 18      | TS10          | Pulsaciones de Corazón del Conductor                                      | Como desarrollador, quiero obtener el rango de pulsaciones de corazón de un conductor específico durante un rango horario dado, para que el dashboard de la aplicación web pueda mostrar estos datos, permitiendo a los administradores de flota monitorear el bienestar de los conductores durante sus turnos.                                          | 4            |
 | 19      | TS11          | Alertas de Pulsaciones del Conductor                                      | Como desarrollador, quiero monitorear las pulsaciones del corazón de los conductores y generar alertas cuando estas pulsaciones caigan por debajo de un mínimo o superen un máximo predeterminado, para que el sistema de notificaciones pueda informar a los administradores de flota sobre posibles situaciones de riesgo para la salud del conductor. | 3            |
 | 20      | TS08          | Histograma de Afluencia por Paradero                                      | Como desarrollador, quiero obtener los datos de afluencia de pasajeros para un paradero específico, para que el dashboard de la aplicación web pueda mostrar un histograma de la hora más concurrida en dicho paradero                                                                                                                                   | 5            |
@@ -1168,8 +1171,8 @@
 | 32      | US14          | Visualizar ubicación de la flota en tiempo real                           | Como empresa de transporte público, quiero ver la ubicación de mi flota en tiempo real, para poder monitorizar el estado del servicio                                                                                                                                                                                                                    | 2            |
 | 33      | US15          | Visualizar estado de los conductores                                      | Como empresa de transporte público, quiero ver el estado de mis conductores en tiempo real, para poder identificar a los que puedan estar cansados o estresados                                                                                                                                                                                          | 2            |
 | 34      | US16          | Recibir notificaciones                                                    | Como empresa de transporte público, quiero recibir notificaciones en tiempo real sobre eventos relevantes para estar al tanto de posibles incidentes                                                                                                                                                                                                     | 2            |
-| 35      | US18          | Visualizar gráfico de línea con el tiempo de pulso de los conductores     | Como representante de una empresa de transporte, quiero ver un gráfico de línea con el tiempo de pulso de mis conductores en tiempo real, para poder identificar a los que puedan estar bajo estrés o con problemas de salud                                                                                                                             | 5            |
+| 35      | US18          | Visualizar gráfico de línea con el tiempo de pulso de los conductores     | Como gerente, quiero ver un gráfico de línea con el tiempo de pulso de mis conductores en tiempo real, para poder identificar a los que puedan estar bajo estrés o con problemas de salud                                                                                                                                                                | 5            |
 | 36      | US17          | Cambiar rutas de la flota                                                 | Como empresa de transporte público, quiero poder cambiar las rutas de mi flota en tiempo real, para poder ajustar el servicio a las condiciones del tráfico o a la demanda de pasajeros                                                                                                                                                                  | 3            |
-| 37      | US19          | Registrar empresa de transporte                                           | Como representante de una empresa de transporte, quiero poder registrar mi empresa en el sistema                                                                                                                                                                                                                                                         | 2            |
-| 38      | US20          | Registrar línea de transporte                                             | Como representante de una empresa de transporte, quiero poder registrar una línea de transporte en el sistema                                                                                                                                                                                                                                            | 2            |
+| 37      | US19          | Registrar empresa de transporte                                           | Como gerente, quiero poder registrar mi empresa en el sistema                                                                                                                                                                                                                                                                                            | 2            |
+| 38      | US20          | Registrar línea de transporte                                             | Como gerente, quiero poder registrar una línea de transporte en el sistema                                                                                                                                                                                                                                                                               | 2            |
 | 39      | US21          | Visualizar recorrido de una línea de bus                                  | Como usuario pasajero, quiero poder buscar y visualizar las rutas de las líneas de autobús, para tener una idea clara de su trayecto y poder planificar mis viajes de manera eficiente.                                                                                                                                                                  | 2            |
