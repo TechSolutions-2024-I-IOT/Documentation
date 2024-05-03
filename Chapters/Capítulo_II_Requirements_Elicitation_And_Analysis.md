@@ -355,7 +355,7 @@ Esta sección se enfoca en la investigación, utilizando los datos recopilados a
 - Browsers: Google
 - Resumen:
 
-Juan Pérez Sánchez, de 45 años y residente en el distrito de Jesús María en Lima, es el administrador de una flota de autobuses en la Empresa de Transporte Consorcio Vía. Casado y usuario de un smartphone Android y una computadora portátil para la administración de su flota, enfrenta desafíos diarios como mejorar la eficiencia en las rutas, controlar el aforo de los autobuses y gestionar el mantenimiento adecuado de la flota, además de abordar quejas de pasajeros sobre el servicio. Tiene un enfoque práctico y colaborativo para manejar crisis en la operación de su flota de autobuses. Cuando surge un problema, como una avería de un autobús, actúa rápidamente para minimizar las interrupciones. Su método incluye mantener la calma, recolectar toda la información relevante, y convocar reuniones con líderes del equipo para formular soluciones eficientes. Utiliza excel para la gestión de flotas y grupos de WhatsApp para la comunicación y coordinación,incluye Google Maps para la navegación y planificación de rutas. Prefiere Google como motor de búsqueda. Las redes sociales que más usa con frecuencia son Facebook e Instagram. Aunque no tiene experiencia previa con la tecnología IoT, ve su implementación como una oportunidad para optimizar la planificación y gestión de rutas, mejorar el aforo de los vehículos y reducir costos. Sus preocupaciones incluyen el costo inicial de la implementación y la capacitación del personal. Considera que los mayores beneficios de la tecnología serían una experiencia de viaje más enriquecedora para los clientes, con acceso a información en tiempo real sobre tráfico y ubicación de los autobuses, y datos sobre el rendimiento de los choferes. Evaluaría cuidadosamente el retorno de inversión, la compatibilidad con los sistemas actuales, la facilidad de uso y mantenimiento, así como el impacto en la calidad del servicio y la satisfacción del cliente antes de implementar nuevas tecnologías. 
+Juan Pérez Sánchez, de 45 años y residente en el distrito de Jesús María en Lima, es el administrador de una flota de autobuses en la Empresa de Transporte Consorcio Vía. Casado y usuario de un smartphone Android y una computadora portátil para la administración de su flota, enfrenta desafíos diarios como mejorar la eficiencia en las rutas, controlar el aforo de los autobuses y gestionar el mantenimiento adecuado de la flota, además de abordar quejas de pasajeros sobre el servicio. Tiene un enfoque práctico y colaborativo para manejar crisis en la operación de su flota de autobuses. Cuando surge un problema, como una avería de un autobús, actúa rápidamente para minimizar las interrupciones. Su método incluye mantener la calma, recolectar toda la información relevante, y convocar reuniones con líderes del equipo para formular soluciones eficientes. Utiliza excel para la gestión de flotas y grupos de WhatsApp para la comunicación y coordinación,incluye Google Maps para la navegación y planificación de rutas. Prefiere Google como motor de búsqueda. Las redes sociales que más usa con frecuencia son Facebook e Instagram. Aunque no tiene experiencia previa con la tecnología IoT, ve su implementación como una oportunidad para optimizar la planificación y gestión de rutas, mejorar el aforo de los vehículos y reducir costos. Sus preocupaciones incluyen el costo inicial de la implementación y la capacitación del personal. Considera que los mayores beneficios de la tecnología serían una experiencia de viaje más enriquecedora para los clientes, con acceso a información en tiempo real sobre tráfico y ubicación de los autobuses, y datos sobre el rendimiento de los choferes. Evaluaría cuidadosamente el retorno de inversión, la compatibilidad con los sistemas actuales, la facilidad de uso y mantenimiento, así como el impacto en la calidad del servicio y la satisfacción del cliente antes de implementar nuevas tecnologías.
 
 **Entrevista N°2**
 
@@ -373,10 +373,9 @@ Juan Pérez Sánchez, de 45 años y residente en el distrito de Jesús María en
 - Browsers: Google
 - Resumen:
 
-
 Por supuesto, aquí tienes una versión modificada del párrafo que refleja mejor las características únicas de Jorge Antonio Carrascal Casca, distinguiéndolo de otros perfiles:
 
-Jorge Antonio Carrascal Casca, de 28 años y residente en Puente Piedra, es subgerente en la empresa de transporte Santa Rosa S.A. Afronta desafíos diarios como la optimización del mantenimiento de la flota de autobuses y el manejo del aforo vehicular. Jorge utiliza un smartphone y una laptop para supervisar la operación, empleando aplicaciones de gestión como Excel y plataformas de comunicación como Whatsapp para coordinar con su equipo. Su preferencia por Google como motor de búsqueda le facilita el acceso rápido a información crucial, y se apoya en herramientas como Google Maps para la navegación y la planificación de rutas eficientes. Las redes sociales que más usa con frecuencia son Facebook, Twitter  y TikTok. A pesar de su falta de experiencia con la tecnología IoT, Jorge ve en ella una oportunidad para mejorar la gestión de rutas y maximizar la capacidad de los autobuses, a la vez que se reducen los costos operativos. Le preocupan los costos iniciales y la capacitación del personal, además del riesgo a la privacidad de los datos de los pasajeros y la seguridad informática. Reconoce el potencial de la IoT para enriquecer la experiencia del cliente, pero es cauteloso y consideraría la escalabilidad del sistema, la disponibilidad de soporte técnico y el riesgo de interrupciones del servicio durante la implementación antes de decidir. Su método para manejar crisis implica una respuesta rápida y eficiente: evalúa la situación con detalle, realiza llamadas al personal involucrado para plantear de soluciones y mantiene una comunicación abierta y constante con su equipo y los usuarios afectados para minimizar impactos negativos.
+Jorge Antonio Carrascal Casca, de 28 años y residente en Puente Piedra, es subgerente en la empresa de transporte Santa Rosa S.A. Afronta desafíos diarios como la optimización del mantenimiento de la flota de autobuses y el manejo del aforo vehicular. Jorge utiliza un smartphone y una laptop para supervisar la operación, empleando aplicaciones de gestión como Excel y plataformas de comunicación como Whatsapp para coordinar con su equipo. Su preferencia por Google como motor de búsqueda le facilita el acceso rápido a información crucial, y se apoya en herramientas como Google Maps para la navegación y la planificación de rutas eficientes. Las redes sociales que más usa con frecuencia son Facebook, Twitter y TikTok. A pesar de su falta de experiencia con la tecnología IoT, Jorge ve en ella una oportunidad para mejorar la gestión de rutas y maximizar la capacidad de los autobuses, a la vez que se reducen los costos operativos. Le preocupan los costos iniciales y la capacitación del personal, además del riesgo a la privacidad de los datos de los pasajeros y la seguridad informática. Reconoce el potencial de la IoT para enriquecer la experiencia del cliente, pero es cauteloso y consideraría la escalabilidad del sistema, la disponibilidad de soporte técnico y el riesgo de interrupciones del servicio durante la implementación antes de decidir. Su método para manejar crisis implica una respuesta rápida y eficiente: evalúa la situación con detalle, realiza llamadas al personal involucrado para plantear de soluciones y mantiene una comunicación abierta y constante con su equipo y los usuarios afectados para minimizar impactos negativos.
 
 **Entrevista N°3**
 
@@ -385,8 +384,7 @@ Jorge Antonio Carrascal Casca, de 28 años y residente en Puente Piedra, es subg
 - Edad: **24**
 - Distrito: **San Martin de Porres**
 
-
-![Entrevista con Andy Casafranca](https://raw.githubusercontent.com/TechSolutions-2024-I-IOT/upc-pre-202401-si572-WS71-techsolutions-report/feature/2.2.interviews/Resources/interviews/andy-casafranca-interview.png)
+![Entrevista con Andy Casafranca](/Resources/interviews/andy-casafranca-interview.png)
 
 - Enlace del video: **https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/ETeZ8JWxY7pMoTAAXF6H_DsBKdeZc1_u2YrohdilZ2Obqg?e=G3EseB**
 - Timing: **09:02s-14:22s**
@@ -431,7 +429,7 @@ Wilver Arana Ramos, de 23 años y residente en el distrito de Carabayllo en Lima
 - Browsers: Opera
 - Resumen:
 
-Yosef, un estudiante de ingeniería de software, compartió su experiencia diaria con el sistema de transporte público, enfrentando desafíos como el tráfico y la alta ocupación de los buses. Para gestionar sus viajes, utiliza su teléfono inteligente Android, confiando en aplicaciones como TuRuta principalmente para rutas no habituales. Además, utiliza WhatsApp para comunicaciones. Spotify, Twitter y Facebook para entretenimiento durante sus viajes.  Valora el acceso a información actualizada sobre horarios y aforo de los buses, lo que le facilita evitar aglomeraciones y optimizar su tiempo. Prefiere aplicaciones que son gratuitas y destaca la importancia de funciones como la planificación de rutas y la recepción de notificaciones sobre demoras. Yosef también expresa interés en una función que le permita guardar sus rutas más usadas, y es crucial para él que la aplicación tenga una interfaz de usuario intuitiva y fácil de manejar. Su motor de búsqueda favorito es Opera y utiliza otras plataformas digitales como WhatsApp para la comunicación y YouTube para entretenimiento durante sus viajes. Frente a problemas inesperados, como un bus lleno o una ruta bloqueada, Yosef busca alternativas utilizando su aplicación de transporte o consulta rápidamente otras opciones en Google Maps. Subraya la necesidad de que la aplicación de transporte sea compatible con Android para asegurar su funcionamiento en una amplia gama de dispositivos.
+Yosef, un estudiante de ingeniería de software, compartió su experiencia diaria con el sistema de transporte público, enfrentando desafíos como el tráfico y la alta ocupación de los buses. Para gestionar sus viajes, utiliza su teléfono inteligente Android, confiando en aplicaciones como TuRuta principalmente para rutas no habituales. Además, utiliza WhatsApp para comunicaciones. Spotify, Twitter y Facebook para entretenimiento durante sus viajes. Valora el acceso a información actualizada sobre horarios y aforo de los buses, lo que le facilita evitar aglomeraciones y optimizar su tiempo. Prefiere aplicaciones que son gratuitas y destaca la importancia de funciones como la planificación de rutas y la recepción de notificaciones sobre demoras. Yosef también expresa interés en una función que le permita guardar sus rutas más usadas, y es crucial para él que la aplicación tenga una interfaz de usuario intuitiva y fácil de manejar. Su motor de búsqueda favorito es Opera y utiliza otras plataformas digitales como WhatsApp para la comunicación y YouTube para entretenimiento durante sus viajes. Frente a problemas inesperados, como un bus lleno o una ruta bloqueada, Yosef busca alternativas utilizando su aplicación de transporte o consulta rápidamente otras opciones en Google Maps. Subraya la necesidad de que la aplicación de transporte sea compatible con Android para asegurar su funcionamiento en una amplia gama de dispositivos.
 
 **Entrevista N°6**
 
@@ -440,7 +438,7 @@ Yosef, un estudiante de ingeniería de software, compartió su experiencia diari
 - Edad: **22**
 - Distrito: **San Martin de Porres**
 
-![Entrevista con pasajero](https://raw.githubusercontent.com/TechSolutions-2024-I-IOT/upc-pre-202401-si572-WS71-techsolutions-report/feature/2.2.interviews/Resources/interviews/diego-perez-garcia-interview.png)
+![Entrevista con pasajero](/Resources/interviews/diego-perez-garcia-interview.png)
 
 - Enlace del video: **https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/ETeZ8JWxY7pMoTAAXF6H_DsBKdeZc1_u2YrohdilZ2Obqg?e=G3EseB**
 - Timing: **27:44s-35:54s**
@@ -581,12 +579,14 @@ Este User Task Matrix identifica y organiza las tareas esenciales que realizan n
 
 **Leyenda:**
 
-***Frecuencia:***
+**_Frecuencia:_**
+
 - Alta: Tarea realizada diaria o en cada uso del servicio.
 - Media: Tarea realizada con frecuencia, pero no necesariamente cada día.
 - Baja: Tarea realizada ocasionalmente o a demanda.
 
-***Importancia:***
+**_Importancia:_**
+
 - Alta: Tarea crucial que impacta directamente en la operatividad y experiencia del usuario.
 - Media: Tarea importante que tiene un impacto significativo en la eficiencia y satisfacción.
 
@@ -598,18 +598,15 @@ Por otro lado, el viajero de transporte público experimenta un viaje marcado po
 
 **Administrador de flota de buses**
 
-
-
 ![Journey Mapping Bus Manager](../Resources/maps/Journey_Map_Bus_Manager.png)
 
 **Pasajero**
 
 ![Journey Mapping Passenger ](../Resources/maps/Journey_Map_Passenger.PNG)
 
-
 ### 2.3.4 Empathy Mapping
 
-En esta sección, se presenta el resumen del proceso de elaboración de los Empathy Maps para cada uno de los User Personas identificados. Estos mapas fueron construidos con el objetivo de proporcionar una visión profunda de los pensamientos, sentimientos, entorno y comportamiento de los dueños de empresas de transporte y de los pasajeros. Los Empathy Maps son el resultado de un análisis detallado de las entrevistas con usuarios y reflejan las perspectivas únicas de cada segmento. 
+En esta sección, se presenta el resumen del proceso de elaboración de los Empathy Maps para cada uno de los User Personas identificados. Estos mapas fueron construidos con el objetivo de proporcionar una visión profunda de los pensamientos, sentimientos, entorno y comportamiento de los dueños de empresas de transporte y de los pasajeros. Los Empathy Maps son el resultado de un análisis detallado de las entrevistas con usuarios y reflejan las perspectivas únicas de cada segmento.
 
 **Administrador de flota de buses**
 
@@ -635,8 +632,8 @@ En esta sección, se presenta el resumen del proceso de elaboración de los Empa
 
 **Términos:**
 
-- **Itinerary:** Ruta de viaje que presenta una empresa de transporte público, todos los buses que están bajo una empresa tienen esta ruta. 
-- **Unit Bus:**  Equipo conformado por un conductor y un autobús que sale a realizar su trabajo en la vía pública. Esta unidad representa la combinación operativa esencial para el servicio de transporte público. Se encarga de llevar a cabo los trayectos designados en una ruta específica durante un intervalo de tiempo determinado.
+- **Itinerary:** Ruta de viaje que presenta una empresa de transporte público, todos los buses que están bajo una empresa tienen esta ruta.
+- **Unit Bus:** Equipo conformado por un conductor y un autobús que sale a realizar su trabajo en la vía pública. Esta unidad representa la combinación operativa esencial para el servicio de transporte público. Se encarga de llevar a cabo los trayectos designados en una ruta específica durante un intervalo de tiempo determinado.
 - **Departure Schedule:** Agenda que tiene los horarios de las unidades de buses, a través de esta agenda se determina cuales unidades salen a operar durante días determinados
 - **Stop:** Paradero formal de un bus, en conjunto conforman el trayecto de una ruta.
 - **Route:** Camino predefinido que sigue un bus o tren para llegar a su destino.
