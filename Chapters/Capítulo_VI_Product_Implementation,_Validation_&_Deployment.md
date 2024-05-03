@@ -570,7 +570,27 @@ Para el Sprint 1, se logró el desarrollo completo de la landing page, cumpliend
 
 - **Web Application**
 
+Para el Sprint 1, se avanzó significativamente en el desarrollo del Web Application al implementar las primeras funcionalidades clave. Esto incluyó la creación de la interfaz de usuario inicial, la configuración de la navegación básica y la integración de componentes principales. Además, se llevó a cabo con éxito el despliegue de la primera versión del Web Application en el entorno de producción. Este hito marcó un paso importante hacia el objetivo final del proyecto. Se logró cumplir con los objetivos planteados al inicio del sprint, estableciendo así una base sólida para el desarrollo continuo y la expansión de la aplicación.
+
+<div align="center">
+  <img src="../Resources/sprint-1/execution-web.png" width=500 alt="Execution">   
+</div>
+
 #### 6.2.1.6. Services Documentation Evidence for Sprint Review.
+
+Para el Sprint 1, se enfocó principalmente en el desarrollo del front-end de la aplicación, y no se abordó el desarrollo del back-end en esta etapa. Como alternativa, los servicios necesarios se implementaron utilizando datos en formato JSON y se alojaron en My JSON Server. Esta decisión permitió avanzar de manera eficiente en el desarrollo del front-end, aprovechando las herramientas disponibles para simular y consumir datos hasta que el back-end esté completamente desarrollado en futuros sprints.
+
+Se creó un repositorio para cada bounded context:
+
+<div align="center">
+  <img src="../Resources/sprint-1/services-sprint-1.png" width=500 alt="Services"> 
+</div>
+
+Cada repositorio cuenta con su respecto "db.json" donde se encuentra información en formato json:
+
+<div align="center">
+  <img src="../Resources/sprint-1/services-sprint-1-1.png" width=500 alt="Services">   
+</div>
 
 #### 6.2.1.7. Software Deployment Evidence for Sprint Review.
 
@@ -596,7 +616,15 @@ Finalmente se nos muestra el enlace de nuestra Landing Page desplegada con el do
 
 - **Web Application**
 
-Para el Sprint 1, se avanzó significativamente en el desarrollo del Web Application al implementar las primeras funcionalidades clave. Esto incluyó la creación de la interfaz de usuario inicial, la configuración de la navegación básica y la integración de componentes principales. Además, se llevó a cabo con éxito el despliegue de la primera versión del Web Application en el entorno de producción. Este hito marcó un paso importante hacia el objetivo final del proyecto. Se logró cumplir con los objetivos planteados al inicio del sprint, estableciendo así una base sólida para el desarrollo continuo y la expansión de la aplicación.
+Para el despliegue de nuestra aplicación web 
+
+<div align="center">
+  <img src="../Resources/sprint-1/netlify-deployment.png" width=500 alt="Web deployment">
+</div>
+
+<div align="center">
+  <img src="../Resources/sprint-1/netlify-deployment-2.png" width=500 alt="Web deployment">
+</div>
 
 #### 6.2.1.8. Team Collaboration Insights during Sprint.
 
