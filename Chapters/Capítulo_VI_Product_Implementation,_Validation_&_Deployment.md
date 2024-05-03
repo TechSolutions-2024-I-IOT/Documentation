@@ -529,16 +529,15 @@ Asimismo, se presenta la tabla de nuestro primer sprint con las respectivas user
 |:-----------|:---------------------------------------------------------|:---|:------|:------------|:-------------------|:------------| :- |
 | User Story | Work-Item /Task                                          |    |       |             |                    |             ||
 | Id         | Title                                                    | Id | Title | Description | Estimation (Hours) | Assigned To |Status (To-do / In-Process/ To-Review / Done)|
-| US01       | Redirección de la landing Page a tiendas de aplicaciones | 1  | Title | Descripción | 1                  | Persona     |To-Do|
-| US02       | Redirección de la landing Page a la aplicación web       | 2  | Title | Descripción | 1                  | Persona     |To-Do|
-| US03       | Envío de mensaje a través de un formulario de contacto   | 3  | Title | Descripción | 1                  | Persona     |To-Do|
-| US04       | Conocimiento del Equipo desarrollador de la aplicación   | 4  | Title | Descripción | 1                  | Persona     |To-Do|
-| US05       | Sección de Preguntas Frecuentes                          | 5  | Title | Descripción | 1                  | Persona     |To-Do|
-| US06       | Navegación y Contenido Informativo en el Footer          | 6  | Title | Descripción | 1                  | Persona     |To-Do|
-| US07       | Diseño Responsivo de la Landing Page                     | 7  | Title | Descripción | 1                  | Persona     |To-Do|
-| US08       | Incorporación de Testimonios en la Landing Page          | 8  | Title | Descripción | 1                  | Persona     |To-Do|
-| US09       | Sección de Características del producto                  | 9  | Title | Descripción | 1                  | Persona     |To-Do|
-| US10       | Sección de Inicio de la Landing Page                     | 10  | Title | Descripción | 1                  | Persona     |To-Do|
+| US01       | Redirección de la landing Page a tiendas de aplicaciones | 1  | Implementar enlaces de redirección a tiendas de aplicaciones | Configurar los enlaces en la Landing Page para redirigir a las tiendas de aplicaciones correspondientes (App Store y Google Play) según el dispositivo del usuario. | 1                  | Diego Merino     | Done|
+| US02       | Redirección de la landing Page a la aplicación web       | 2  | Configurar enlace de redirección a la aplicación web | Establecer un enlace en la Landing Page que dirija a los usuarios a la aplicación web, garantizando una experiencia fluida y coherente. | 1                  | Andrea Alfaro     |Done|
+| US03       | Envío de mensaje a través de un formulario de contacto   | 3  | Implementar formulario de contacto | Crear un formulario de contacto funcional en la Landing Page que permita a los usuarios enviar mensajes directamente al equipo de soporte. | 3                  | Axel Fiestas     |Done|
+| US04       | Conocimiento del Equipo desarrollador de la aplicación   | 4  | Crear sección de equipo desarrollador | Diseñar y desarrollar una sección informativa en la Landing Page que presente al equipo de desarrollo de la aplicación, incluyendo información relevante sobre cada miembro. | 4                 | Tania Vasquez     |Done|
+| US05       | Sección de Preguntas Frecuentes                          | 5  | Integrar sección de preguntas frecuentes | Agregar una sección dedicada a preguntas frecuentes en la Landing Page, que aborde las consultas comunes de los usuarios y proporcione respuestas claras y concisas. | 4                  | Rafael Primo     |Done|
+| US06       | Navegación y Contenido Informativo en el Footer          | 6  | Mejorar navegación y contenido en el Footer | Optimizar la navegación y agregar contenido informativo relevante en el Footer de la Landing Page para mejorar la experiencia del usuario y facilitar el acceso a información importante. | 4                  | Diego Merino     |Done|
+| US07       | Diseño Responsivo de la Landing Page                     | 7  | Implementar diseño responsivo | Desarrollar una versión responsiva de la Landing Page que se adapte automáticamente a diferentes tamaños de pantalla y dispositivos, garantizando una experiencia consistente y agradable para todos los usuarios. | 6                  | Andrea Alfaro     |Done|
+| US09       | Sección de Características del producto                  | 8  | Crear sección de características del producto | Diseñar y desarrollar una sección en la Landing Page que resalte las características y funcionalidades clave del producto, ayudando a los usuarios a comprender mejor su propósito y beneficios. | 3                  | Axel Fiestas     |Done|
+| US10       | Sección de Inicio de la Landing Page                     | 9  |  Diseñar sección de inicio | Elaborar el diseño y contenido inicial de la Landing Page, estableciendo la estructura y presentación general del sitio para captar la atención de los visitantes y orientarlos hacia la información relevante. | 4                  | Tania Vasquez     |Done|
 
 
 #### 6.2.1.3. Development Evidence for Sprint Review.
@@ -562,7 +561,13 @@ Para las suites de pruebas, nos enfocamos en la creación de escenarios de prueb
 
 **Network**
 
+<div align="center">
+  <img src="../Resources/sprint-1/gitflow-landing.png" width=500 alt="Network">   
+</div>
 
+<div align="center">
+  <img src="../Resources/sprint-1/gitflow-front.png" width=500 alt="Network">   
+</div>
 
 #### 6.2.1.4. Testing Suite Evidence for Sprint Review.
 
@@ -635,6 +640,8 @@ Finalmente se nos muestra el enlace de nuestra Landing Page desplegada con el do
   <img src="../Resources/sprint-1/pages-3.png" width=500 alt="Mobile deployment">
 </div>
 
+**Enlace de la landing page desplegada**: https://techsolutions-2024-i-iot.github.io/Landing-Page/
+
 - **Web Application**
 
 Para el despliegue de nuestra aplicación web, hemos optado por utilizar Netlify debido a su robustez, facilidad de uso y capacidades de integración continua. Netlify nos brinda un entorno de alojamiento altamente escalable y seguro, lo que garantiza una experiencia de usuario óptima. Además, su integración con repositorios Git permite implementaciones automáticas con cada actualización de código, lo que simplifica considerablemente el proceso de despliegue y facilita la colaboración entre el equipo de desarrollo.
@@ -643,6 +650,8 @@ Para el despliegue de nuestra aplicación web, hemos optado por utilizar Netlify
   <img src="../Resources/sprint-1/netlify-deployment.png" width=500 alt="Web deployment">
   <img src="../Resources/sprint-1/netlify-deployment-2.png" width=500 alt="Web deployment">
 </div>
+
+**Enlace de la web application desplegada**: https://chapatubus.netlify.app/
 
 #### 6.2.1.8. Team Collaboration Insights during Sprint.
 
