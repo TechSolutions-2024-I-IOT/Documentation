@@ -529,26 +529,150 @@ Asimismo, se presenta la tabla de nuestro primer sprint con las respectivas user
 |:-----------|:---------------------------------------------------------|:---|:------|:------------|:-------------------|:------------| :- |
 | User Story | Work-Item /Task                                          |    |       |             |                    |             ||
 | Id         | Title                                                    | Id | Title | Description | Estimation (Hours) | Assigned To |Status (To-do / In-Process/ To-Review / Done)|
-| US01       | Redirección de la landing Page a tiendas de aplicaciones | 1  | Title | Descripción | 1                  | Persona     |To-Do|
-| US02       | Redirección de la landing Page a la aplicación web       | 1  | Title | Descripción | 1                  | Persona     |To-Do|
-| US03       | Envío de mensaje a través de un formulario de contacto   | 1  | Title | Descripción | 1                  | Persona     |To-Do|
-| US04       | Conocimiento del Equipo desarrollador de la aplicación   | 1  | Title | Descripción | 1                  | Persona     |To-Do|
-| US05       | Sección de Preguntas Frecuentes                          | 1  | Title | Descripción | 1                  | Persona     |To-Do|
-| US06       | Navegación y Contenido Informativo en el Footer          | 1  | Title | Descripción | 1                  | Persona     |To-Do|
-| US07       | Diseño Responsivo de la Landing Page                     | 1  | Title | Descripción | 1                  | Persona     |To-Do|
-| US08       | Incorporación de Testimonios en la Landing Page          | 1  | Title | Descripción | 1                  | Persona     |To-Do|
-| US09       | Sección de Características del producto                  | 1  | Title | Descripción | 1                  | Persona     |To-Do|
-| US10       | Sección de Inicio de la Landing Page                     | 1  | Title | Descripción | 1                  | Persona     |To-Do|
+| US01       | Redirección de la landing Page a tiendas de aplicaciones | 1  | Implementar enlaces de redirección a tiendas de aplicaciones | Configurar los enlaces en la Landing Page para redirigir a las tiendas de aplicaciones correspondientes (App Store y Google Play) según el dispositivo del usuario. | 1                  | Diego Merino     | Done|
+| US02       | Redirección de la landing Page a la aplicación web       | 2  | Configurar enlace de redirección a la aplicación web | Establecer un enlace en la Landing Page que dirija a los usuarios a la aplicación web, garantizando una experiencia fluida y coherente. | 1                  | Andrea Alfaro     |Done|
+| US03       | Envío de mensaje a través de un formulario de contacto   | 3  | Implementar formulario de contacto | Crear un formulario de contacto funcional en la Landing Page que permita a los usuarios enviar mensajes directamente al equipo de soporte. | 3                  | Axel Fiestas     |Done|
+| US04       | Conocimiento del Equipo desarrollador de la aplicación   | 4  | Crear sección de equipo desarrollador | Diseñar y desarrollar una sección informativa en la Landing Page que presente al equipo de desarrollo de la aplicación, incluyendo información relevante sobre cada miembro. | 4                 | Tania Vasquez     |Done|
+| US05       | Sección de Preguntas Frecuentes                          | 5  | Integrar sección de preguntas frecuentes | Agregar una sección dedicada a preguntas frecuentes en la Landing Page, que aborde las consultas comunes de los usuarios y proporcione respuestas claras y concisas. | 4                  | Rafael Primo     |Done|
+| US06       | Navegación y Contenido Informativo en el Footer          | 6  | Mejorar navegación y contenido en el Footer | Optimizar la navegación y agregar contenido informativo relevante en el Footer de la Landing Page para mejorar la experiencia del usuario y facilitar el acceso a información importante. | 4                  | Diego Merino     |Done|
+| US07       | Diseño Responsivo de la Landing Page                     | 7  | Implementar diseño responsivo | Desarrollar una versión responsiva de la Landing Page que se adapte automáticamente a diferentes tamaños de pantalla y dispositivos, garantizando una experiencia consistente y agradable para todos los usuarios. | 6                  | Andrea Alfaro     |Done|
+| US09       | Sección de Características del producto                  | 8  | Crear sección de características del producto | Diseñar y desarrollar una sección en la Landing Page que resalte las características y funcionalidades clave del producto, ayudando a los usuarios a comprender mejor su propósito y beneficios. | 3                  | Axel Fiestas     |Done|
+| US10       | Sección de Inicio de la Landing Page                     | 9  |  Diseñar sección de inicio | Elaborar el diseño y contenido inicial de la Landing Page, estableciendo la estructura y presentación general del sitio para captar la atención de los visitantes y orientarlos hacia la información relevante. | 4                  | Tania Vasquez     |Done|
 
 
 #### 6.2.1.3. Development Evidence for Sprint Review.
 
+Durante este Sprint, completamos el desarrollo de la Landing Page en su totalidad. Logramos diseñar una interfaz atractiva y funcional que refleja nuestra marca y ofrece una experiencia de usuario óptima. Implementamos características clave, como la capacidad de descarga y acceso rápido a la información relevante para nuestros usuarios. Además, hemos realizado pruebas exhaustivas para garantizar su funcionamiento adecuado en diferentes dispositivos y navegadores.
+
+En cuanto a la aplicación web, hemos desarrollado las primeras funcionalidades principales. Estas incluyen la autenticación de usuarios, la navegación básica y la visualización de contenido relevante. Desplegamos con éxito la primera versión de la aplicación en un entorno de producción y estamos satisfechos de haber cumplido con los objetivos establecidos al inicio del Sprint.
+
+Para las suites de pruebas, nos enfocamos en la creación de escenarios de prueba utilizando Gherkin debido a la simplicidad de la solución desarrollada. Hemos elaborado casos de prueba exhaustivos que abarcan diferentes aspectos de la Landing Page y la aplicación web, asegurando la calidad y funcionalidad de nuestros productos.
+
+| Repository  | Branch  | Commit ID   | Commit Message  | Commit Message Body | Commited on (Date) |
+|:-----------|:---------------------------------------------------------|:---|:------|:------------|:-------------------|
+| Landing-Page | develop | 924ab59 | Merge branch 'feature/US03' into develop | -  | 01/05/2023 | 
+| Landing-Page | develop | b846187 | Merge pull request #9 from TechSolutions-2024-I-IOT/feature/us-4 | -  | 01/05/2023 | 
+| Landing-Page | develop | 30eacc0 | Merge pull request #10 from TechSolutions-2024-I-IOT/feature/i18n | -  | 01/05/2023 | 
+| Landing-Page | develop | c3dbf7f | Merge pull request #14 from TechSolutions-2024-I-IOT/feature/fix-doubts | -  | 03/05/2023 | 
+| Frontend | develop | 5c31484 | Merge pull request #1 from TechSolutions-2024-I-IOT/feature/us-29 | -  | 02/05/2023 | 
+| Frontend | develop | 7379879 | Merge branch 'feature/us-27' into feature/us-29 | -  | 02/05/2023 | 
+| Frontend | develop | 5c31484 | Merge pull request #1 from TechSolutions-2024-I-IOT/feature/us-29 | -  | 02/05/2023 | 
+| TestingSuite | main | 31836ee | update: sprint 1 testing | -  | 03/05/2023 | 
+
+**Network**
+
+<div align="center">
+  <img src="../Resources/sprint-1/gitflow-landing.png" width=500 alt="Network">   
+</div>
+
+<div align="center">
+  <img src="../Resources/sprint-1/gitflow-front.png" width=500 alt="Network">   
+</div>
+
 #### 6.2.1.4. Testing Suite Evidence for Sprint Review.
+
+| Repository  | Branch  | Commit ID   | Commit Message  | Commit Message Body | Commited on (Date) |
+|:-----------|:---------------------------------------------------------|:---|:------|:------------|:-------------------|
+| TestingSuite | main | 31836ee | update: sprint 1 testing | -  | 03/05/2023 | 
+
+Para la revisión del Sprint 1, presentamos los Testing Suite Evidence, los cuales se desarrollaron utilizando Gherkin. Esta elección se basó en la simplicidad del proyecto, que consiste en el desarrollo del landing page y la primera versión del front-end. Gherkin proporcionó una forma clara y legible de especificar los comportamientos esperados del sistema a través de escenarios escritos en un lenguaje natural. Esto facilitó la colaboración entre el equipo de desarrollo y los stakeholders al definir y comprender los criterios de aceptación del sprint.
+
+<div align="center">
+  <img src="../Resources/sprint-1/testing-1.png" width=500 alt="Testing">   
+  <img src="../Resources/sprint-1/testing-2.png" width=500 alt="Testing">
+</div>
+
+**Enlace del repositorio:** https://github.com/TechSolutions-2024-I-IOT/TestingSuite
 
 #### 6.2.1.5. Execution Evidence for Sprint Review.
 
+- **Landing Page**
+
+Para el Sprint 1, se logró el desarrollo completo de la landing page, cumpliendo con los objetivos establecidos en cuanto a diseño y funcionalidad. Se implementaron las características acordadas, como la estructura de navegación, la disposición del contenido y la integración de elementos visuales. Además, se realizó una revisión exhaustiva para garantizar la coherencia del diseño y la correcta visualización en diferentes dispositivos y navegadores. El equipo también llevó a cabo pruebas de usabilidad para asegurar una experiencia de usuario fluida y satisfactoria. 
+
+<div align="center">
+  <img src="../Resources/sprint-1/development.png" width=500 alt="Execution">   
+</div>
+
+- **Web Application**
+
+Para el Sprint 1, se avanzó significativamente en el desarrollo del Web Application al implementar las primeras funcionalidades clave. Esto incluyó la creación de la interfaz de usuario inicial, la configuración de la navegación básica y la integración de componentes principales. Además, se llevó a cabo con éxito el despliegue de la primera versión del Web Application en el entorno de producción. Este hito marcó un paso importante hacia el objetivo final del proyecto. Se logró cumplir con los objetivos planteados al inicio del sprint, estableciendo así una base sólida para el desarrollo continuo y la expansión de la aplicación.
+
+<div align="center">
+  <img src="../Resources/sprint-1/execution-web.png" width=500 alt="Execution">   
+</div>
+
 #### 6.2.1.6. Services Documentation Evidence for Sprint Review.
+
+Para el Sprint 1, se enfocó principalmente en el desarrollo del front-end de la aplicación, y no se abordó el desarrollo del back-end en esta etapa. Como alternativa, los servicios necesarios se implementaron utilizando datos en formato JSON y se alojaron en My JSON Server. Esta decisión permitió avanzar de manera eficiente en el desarrollo del front-end, aprovechando las herramientas disponibles para simular y consumir datos hasta que el back-end esté completamente desarrollado en futuros sprints.
+
+Se creó un repositorio para cada bounded context:
+
+<div align="center">
+  <img src="../Resources/sprint-1/services-sprint-1.png" width=500 alt="Services"> 
+</div>
+
+Cada repositorio cuenta con su respecto "db.json" donde se encuentra información en formato json:
+
+<div align="center">
+  <img src="../Resources/sprint-1/services-sprint-1-1.png" width=500 alt="Services">   
+</div>
 
 #### 6.2.1.7. Software Deployment Evidence for Sprint Review.
 
+- **Landing Page**
+
+Para el despliegue de nuestra Landing Page, se eligió Pages pues es una herramienta de GitHub integrada que facilita la publicación de sitios web estáticos directamente desde los repositorios de GitHub. Esto permite una implementación rápida y sencilla sin la necesidad de configurar servidores adicionales ni preocuparse por la infraestructura de alojamiento. Además, Pages es altamente configurable y compatible con dominios personalizados, lo que permite una mayor personalización y profesionalismo en la presentación de nuestro sitio web.
+
+<div align="center">
+  <img src="../Resources/sprint-1/pages-1.png" width=500 alt="Mobile deployment">
+</div>
+
+Vamos a Pages y en el apartado de "Build and Deployment" elegimos la rama y la carpeta que deseamos desplegar y le damos a "Save"
+
+<div align="center">
+  <img src="../Resources/sprint-1/pages-2.png" width=500 alt="Mobile deployment">
+</div>
+
+Finalmente se nos muestra el enlace de nuestra Landing Page desplegada con el dominio de GitHub.
+
+<div align="center">
+  <img src="../Resources/sprint-1/pages-3.png" width=500 alt="Mobile deployment">
+</div>
+
+**Enlace de la landing page desplegada**: https://techsolutions-2024-i-iot.github.io/Landing-Page/
+
+- **Web Application**
+
+Para el despliegue de nuestra aplicación web, hemos optado por utilizar Netlify debido a su robustez, facilidad de uso y capacidades de integración continua. Netlify nos brinda un entorno de alojamiento altamente escalable y seguro, lo que garantiza una experiencia de usuario óptima. Además, su integración con repositorios Git permite implementaciones automáticas con cada actualización de código, lo que simplifica considerablemente el proceso de despliegue y facilita la colaboración entre el equipo de desarrollo.
+
+<div align="center">
+  <img src="../Resources/sprint-1/netlify-deployment.png" width=500 alt="Web deployment">
+  <img src="../Resources/sprint-1/netlify-deployment-2.png" width=500 alt="Web deployment">
+</div>
+
+**Enlace de la web application desplegada**: https://chapatubus.netlify.app/
+
 #### 6.2.1.8. Team Collaboration Insights during Sprint.
+
+- **Contributors**
+
+<div align="center">
+  <img src="../Resources/sprint-1/contributors-sprint-1.png" width=500 alt="Contributors Sprint 1">
+    <img src="../Resources/sprint-1/contributors-documentation.png" width=500 alt="Contributors Sprint 1">
+</div>
+
+<div align="center">
+  <img src="../Resources/sprint-1/contributors-web.png" width=500 alt="Contributors Sprint 1">
+</div>
+
+- **Pulse**
+
+<div align="center">
+  <img src="../Resources/sprint-1/pulse-sprint-1.png" width=500 alt="Pulse Sprint 1">
+  <img src="../Resources/sprint-1/pulse-documentation.png" width=500 alt="Pulse Sprint 1">
+</div>
+
+<div align="center">
+  <img src="../Resources/sprint-1/pulse-web.png" width=500 alt="Pulse Sprint 1">
+</div>
