@@ -939,3 +939,52 @@ Para el despliegue de nuestra aplicación web, hemos optado por utilizar Netlify
 <div align="center">
   <img src="" width=500 alt="Pulse Sprint 1">
 </div>
+
+## 6.3. Validation Interviews.
+
+### 6.3.1. Diseño de Entrevistas.
+
+- Preguntas de Validación para Administradores de Flota de Buses
+
+*Sobre la Landing Page*
+
+1. ¿La landing page explica claramente cómo ChapaTuBus puede beneficiar a los administradores de flota?
+2. ¿Qué tan fácil fue para ti encontrar la información que buscabas en la landing page?
+3. ¿Es fácil de entender el propósito de la aplicación desde la landing page?
+4. ¿Qué te pareció el diseño y la navegación de la landing page?
+5. ¿Hay alguna información que te gustaría ver en la landing page que no está actualmente?
+
+*Sobre la Aplicación*
+
+1. ¿Qué tan fácil te resultó registrar tu empresa y crear un perfil en la aplicación?
+2. ¿Cómo evaluas la funcionalidad de monitoreo en tiempo real del estado de los conductores?
+3. ¿Encontraste útil la información sobre la velocidad de los buses?
+4. ¿La funcionalidad de consulta de horarios y paraderos con mayor afluencia es clara y accesible?
+5. ¿Qué tan preciso encontraste el monitoreo del aforo de los buses basado en los sensores de peso?
+6. ¿Hubo algún aspecto de la aplicación que te resultó confuso o difícil de usar?
+7. ¿Qué características adicionales te gustaría ver en la aplicación para administradores de flota?
+
+- Preguntas de Validación para Pasajeros
+
+*Sobre la Landing Page*
+
+1. ¿Qué opinas de la información presentada en la página principal de ChapaTuBus?
+2. ¿Es fácil de entender el propósito de la aplicación desde la landing page?
+3. ¿Qué te pareció el diseño y la navegación de la landing page?
+4. ¿Hay alguna información que te gustaría ver en la landing page que no está actualmente?
+
+*Sobre la Aplicación*
+
+1. ¿Qué tan fácil te resultó iniciar sesión y personalizar tu perfil en la aplicación?
+2. ¿Qué tan útil te resultó la funcionalidad de tiempo estimado de llegada de los buses?
+3. ¿Cómo evaluas la función de guardar destinos frecuentes y consultar rutas?
+4. ¿Las alertas de buses llenos fueron útiles y claras?
+5. ¿Qué tan intuitiva te pareció la funcionalidad del mapa interactivo para localizar paraderos y trazar rutas?
+6. ¿Hubo algún aspecto de la aplicación que te resultó confuso o difícil de usar?
+7. ¿Qué características adicionales te gustaría ver en la aplicación para pasajeros?
+
+### 6.3.2. Registro de Entrevistas.
+
+### 6.3.3. Evaluaciones según heurísticas.
+
+## 6.4. Video About-the-Product.
