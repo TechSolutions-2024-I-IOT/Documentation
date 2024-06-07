@@ -166,8 +166,6 @@ Las Feature branches se usarán para desarrollar nuevas características del pro
 
 - **Conventional Commits**
 Para la redacción de las siguientes convenciones de commits se utilizó de referencia el artículo Conventional Commits 1.0.0. 
-Se debe seguir la siguiente estructura para un commit:  
-git commit -m “<type>[optional scope]: <title>“ -m “<description>”
 
 Types: 
 
@@ -675,4 +673,269 @@ Para el despliegue de nuestra aplicación web, hemos optado por utilizar Netlify
 
 <div align="center">
   <img src="../Resources/sprint-1/pulse-web.png" width=500 alt="Pulse Sprint 1">
+</div>
+
+### 6.2.2. Sprint 2
+
+#### 6.2.2.1. Sprint Planning 2.
+
+<table border="2">
+    <tr>
+        <td>
+           <p style = "font-weight: bold"><b>Sprint #</b></p>
+        </td>
+        <td>
+          <p style = "font-weight: bold">Sprint 2</p>
+        </td>
+    </tr>
+  <tr>
+        <td  colspan="2">
+           <p><b>Sprint Planning Background</b></p>
+        </td>
+    </tr>
+  <tr>
+        <td>
+           <p>Date</p>
+        </td>
+        <td>
+          <p>20-05-2024</p>
+        </td>
+    </tr>
+  <tr>
+        <td>
+           <p>Time</p>
+        </td>
+        <td>
+          <p>21:00</p>
+        </td>
+    </tr>
+  <tr>
+        <td>
+           <p>Location</p>
+        </td>
+        <td>
+          <p>Reunión virtual vía Discord</p>
+        </td>
+    </tr>
+  <tr>
+        <td>
+           <p>Prepared By</p>
+        </td>
+        <td>
+          <p>Tania Sadith Vasquez Sal Y Rosas</p>
+        </td>
+    </tr>
+  <tr>
+        <td>
+           <p>Attendees (to planning meeting)</p>
+        </td>
+        <td>
+          <p>Tania Sadith Vasquez Sal Y Rosas, Andrea Sofia Alfaro Salinas, Diego Martin Merino Mas, Axel Joshue Fiestas Santisteban, Rafael Wimmer Primo Estrada</p>
+        </td>
+    </tr>
+  <tr>
+        <td>
+           <p>Sprint 1 – 2 Review Summary</p>
+        </td>
+        <td>
+          <p></p>
+        </td>
+    </tr>
+  <tr>
+        <td>
+           <p>Sprint 1 – 2 Retrospective Summary</p>
+        </td>
+        <td>
+          <p></p>
+        </td>
+    </tr>
+   <tr>
+        <td  colspan="2">
+           <p><b>Sprint Goal & User Stories</b></p>
+        </td>
+    </tr>
+   <tr>
+        <td>
+           <p>Sprint 2 Goal</p>
+        </td>
+        <td>
+          <p></p>
+        </td>
+    </tr>
+  <tr>
+        <td>
+           <p>Sprint 2 Velocity</p>
+        </td>
+        <td>
+          <p></p>
+        </td>
+    </tr>
+  <tr>
+        <td>
+           <p>Sum of Story Points</p>
+        </td>
+        <td>
+          <p></p>
+        </td>
+    </tr>
+</table>
+
+#### 6.2.2.2. Sprint Backlog 2.
+
+El objetivo principal del sprint 2 es 
+
+A continuación, se presenta un screenshot del sprint 2 en desarrollo realizado en Jira por el equipo:
+
+<div align="center">
+  <img src="../Resources/jira-sprints/JiraSprint2Screenshot.png" alt="Jira Sprint 2 Screenshot">
+</div>
+
+Asimismo, se presenta la tabla de nuestro primer sprint con las respectivas user stories a trabajar:
+
+| Sprint #   | Sprint 2                                                 |    |       |             |                    |             ||
+|:-----------|:---------------------------------------------------------|:---|:------|:------------|:-------------------|:------------| :- |
+| User Story | Work-Item /Task                                          |    |       |             |                    |             ||
+| Id         | Title                                                    | Id | Title | Description | Estimation (Hours) | Assigned To |Status (To-do / In-Process/ To-Review / Done)|
+| US0X       |  | 1  |  |  |                   |     |Done|
+| US0X       |  | 2  |  |  |                   |     |Done|
+| US0X       |  | 3  |  |  |                   |     |Done|
+| US0X       |  | 4  |  |  |                   |     |Done|
+| US0X       |  | 5  |  |  |                   |     |Done|
+| US0X       |  | 6  |  |  |                   |     |Done|
+| US0X       |  | 7  |  |  |                   |     |Done|
+| US0X       |  | 8  |  |  |                   |     |Done|
+| USX        |  | 9  |  |  |                   |     |Done|
+
+#### 6.2.2.3. Development Evidence for Sprint Review.
+
+Durante este Sprint, completamos el desarrollo de 
+
+En cuanto a la aplicación web, hemos desarrollado 
+
+Para las suites de pruebas, nos enfocamos en la creación de escenarios de prueba utilizando Gherkin debido a la simplicidad de la solución desarrollada. Hemos elaborado casos de prueba exhaustivos que abarcan diferentes aspectos de la Landing Page y la aplicación web, asegurando la calidad y funcionalidad de nuestros productos.
+
+| Repository  | Branch  | Commit ID   | Commit Message  | Commit Message Body | Commited on (Date) |
+|:-----------|:---------------------------------------------------------|:---|:------|:------------|:-------------------|
+| |  |  |  | -  |  | 
+| |  |  | | -  |  | 
+|  |  |  |  | -  |  | 
+|  | |  |  | -  |  | 
+|  |  |  |  | -  |  | 
+|  |  |  |  | -  |  | 
+|  |  | |  | -  |  | 
+|  |  |  |  | -  |  | 
+
+**Network**
+
+<div align="center">
+  <img src="" width=500 alt="Network">   
+</div>
+
+<div align="center">
+  <img src="" width=500 alt="Network">   
+</div>
+
+#### 6.2.2.4. Testing Suite Evidence for Sprint Review.
+
+| Repository  | Branch  | Commit ID   | Commit Message  | Commit Message Body | Commited on (Date) |
+|:-----------|:---------------------------------------------------------|:---|:------|:------------|:-------------------|
+| TestingSuite | main |  |  | -  |  | 
+
+Para la revisión del Sprint 2, presentamos los Testing Suite Evidence, los cuales se desarrollaron utilizando Gherkin. Gherkin proporcionó una forma clara y legible de especificar los comportamientos esperados del sistema a través de escenarios escritos en un lenguaje natural. Esto facilitó la colaboración entre el equipo de desarrollo y los stakeholders al definir y comprender los criterios de aceptación del sprint.
+
+<div align="center">
+  <img src="" width=500 alt="Testing">   
+  <img src="" width=500 alt="Testing">
+</div>
+
+**Enlace del repositorio:** https://github.com/TechSolutions-2024-I-IOT/TestingSuite
+
+#### 6.2.2.5. Execution Evidence for Sprint Review.
+
+- **Landing Page**
+
+Para el Sprint 2, se corrigió
+
+<div align="center">
+  <img src="" width=500 alt="Execution">   
+</div>
+
+- **Web Application**
+
+Para el Sprint 2, se 
+
+<div align="center">
+  <img src="" width=500 alt="Execution">   
+</div>
+
+- **Web Services**
+
+- **IOT Devices**
+
+#### 6.2.2.6. Services Documentation Evidence for Sprint Review.
+
+Para el Sprint 2, se
+
+
+#### 6.2.2.7. Software Deployment Evidence for Sprint Review.
+
+- **Landing Page**
+
+Para el despliegue de nuestra Landing Page, se eligió Pages pues es una herramienta de GitHub integrada que facilita la publicación de sitios web estáticos directamente desde los repositorios de GitHub. Esto permite una implementación rápida y sencilla sin la necesidad de configurar servidores adicionales ni preocuparse por la infraestructura de alojamiento. Además, Pages es altamente configurable y compatible con dominios personalizados, lo que permite una mayor personalización y profesionalismo en la presentación de nuestro sitio web.
+
+<div align="center">
+  <img src="../Resources/sprint-1/pages-1.png" width=500 alt="Mobile deployment">
+</div>
+
+Vamos a Pages y en el apartado de "Build and Deployment" elegimos la rama y la carpeta que deseamos desplegar y le damos a "Save"
+
+<div align="center">
+  <img src="../Resources/sprint-1/pages-2.png" width=500 alt="Mobile deployment">
+</div>
+
+Finalmente se nos muestra el enlace de nuestra Landing Page desplegada con el dominio de GitHub.
+
+<div align="center">
+  <img src="../Resources/sprint-1/pages-3.png" width=500 alt="Mobile deployment">
+</div>
+
+**Enlace de la landing page desplegada**: https://techsolutions-2024-i-iot.github.io/Landing-Page/
+
+- **Web Application**
+
+Para el despliegue de nuestra aplicación web, hemos optado por utilizar Netlify debido a su robustez, facilidad de uso y capacidades de integración continua. Netlify nos brinda un entorno de alojamiento altamente escalable y seguro, lo que garantiza una experiencia de usuario óptima. Además, su integración con repositorios Git permite implementaciones automáticas con cada actualización de código, lo que simplifica considerablemente el proceso de despliegue y facilita la colaboración entre el equipo de desarrollo.
+
+<div align="center">
+  <img src="../Resources/sprint-1/netlify-deployment.png" width=500 alt="Web deployment">
+  <img src="../Resources/sprint-1/netlify-deployment-2.png" width=500 alt="Web deployment">
+</div>
+
+**Enlace de la web application desplegada**: https://chapatubus.netlify.app/
+
+- **Web Services**
+
+- **IOT Devices**
+
+#### 6.2.2.8. Team Collaboration Insights during Sprint.
+
+- **Contributors**
+
+<div align="center">
+  <img src="" width=500 alt="Contributors Sprint 1">
+    <img src="" width=500 alt="Contributors Sprint 1">
+</div>
+
+<div align="center">
+  <img src="" width=500 alt="Contributors Sprint 1">
+</div>
+
+- **Pulse**
+
+<div align="center">
+  <img src="" width=500 alt="Pulse Sprint 1">
+  <img src="" width=500 alt="Pulse Sprint 1">
+</div>
+
+<div align="center">
+  <img src="" width=500 alt="Pulse Sprint 1">
 </div>
