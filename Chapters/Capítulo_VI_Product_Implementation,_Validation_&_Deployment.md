@@ -815,14 +815,13 @@ Para las suites de pruebas, nos enfocamos en la creación de escenarios de prueb
 
 | Repository  | Branch  | Commit ID   | Commit Message  | Commit Message Body | Commited on (Date) |
 |:-----------|:---------------------------------------------------------|:---|:------|:------------|:-------------------|
-| |  |  |  | -  |  | 
-| |  |  | | -  |  | 
-|  |  |  |  | -  |  | 
-|  | |  |  | -  |  | 
-|  |  |  |  | -  |  | 
-|  |  |  |  | -  |  | 
-|  |  | |  | -  |  | 
-|  |  |  |  | -  |  | 
+|Frontend| develop | c9b6e82 | Merge pull request #6 from TechSolutions-2024-I-IOT/feature/us-30| -  | 08/06/2024 | 
+|Frontend| develop | c73006b| Merge pull request #4 from TechSolutions-2024-I-IOT/feature/us-18 | -  | 06/06/2024 | 
+| Backend | develop |b44bac6| Merge pull request #1 from TechSolutions-2024-I-IOT/feature/security | -  | 05/06/2024 | 
+| Backend | develop | abff06a| Merge branch 'feature/TS-12' into feature/security | -  | 05/06/2024 | 
+| EdgeBackendChapaTuBus | main | 459276a | feat: integration to send information to backend cloud for real time ubication | -  | 06/06/2024 | 
+| embedded-system-heart-rate | main | 44bf0a1 | feat: simple connection and send data to backend edge layer | -  | 02/06/2024 | 
+| ChapaTuBusApp-Mobile | main | fe130b2| Merge pull request #1 from TechSolutions-2024-I-IOT/develop| -  | 31/05/2024 | 
 
 **Network**
 
@@ -879,7 +878,9 @@ Para el Sprint 2, se añadieron más pantallas relacionadas a nuestro core como 
 
 - **IOT Devices**
 
-- **Mobile Application**
+<div align="center">
+  <img src="../Resources/sprint-2/iot_development.jpeg" width=500 alt="Execution">   
+</div>
 
 #### 6.2.2.6. Services Documentation Evidence for Sprint Review.
 
@@ -934,9 +935,23 @@ Para el despliegue de nuestra aplicación web, hemos optado por utilizar Netlify
 
 - **Web Services**
 
+Para el despliegue de nuestros servicios web, hemos optado por utilizar Azure debido a su robustez, flexibilidad y amplio conjunto de herramientas integradas. Azure nos proporciona un entorno de alojamiento altamente escalable y seguro, lo que garantiza un rendimiento confiable para nuestros servicios. Además, su integración con repositorios Git y otras herramientas de desarrollo permite implementaciones automáticas con cada actualización de código, simplificando así el proceso de despliegue y fomentando la colaboración entre el equipo de desarrollo. Con Azure, tenemos la confianza de que nuestros servicios estarán disponibles de manera consistente y ofrecerán una experiencia óptima para nuestros usuarios.
+
+<div align="center">
+  <img src="../Resources/sprint-2/backend_deployment.jpeg" width=500 alt="Web deployment">
+</div>
+
 **Enlace del web service desplegado**: https://chapatubusbackend.azurewebsites.net/swagger-ui/index.html#/
 
-- **IOT Devices**
+- **IOT Edge Backend**
+
+Para nuestro backend de IoT Edge, hemos elegido Azure debido a su potente conjunto de herramientas diseñadas específicamente para escenarios de IoT. Azure nos proporciona una plataforma sólida y escalable para desplegar y administrar nuestros dispositivos de borde de manera eficiente. La integración con Azure IoT Hub nos permite gestionar de forma centralizada la conectividad, la seguridad y la supervisión de nuestros dispositivos, lo que garantiza un funcionamiento confiable en todo momento. Además, la capacidad de implementar módulos personalizados en los dispositivos de borde nos brinda la flexibilidad necesaria para adaptar nuestro backend a las necesidades específicas de nuestro proyecto. Con Azure, tenemos la confianza de que nuestro backend de IoT Edge funcionará de manera óptima y segura, proporcionando una base sólida para nuestras soluciones de IoT.
+
+<div align="center">
+  <img src="../Resources/sprint-2/edge_deployment.jpeg" width=500 alt="Web deployment">
+</div>
+
+**Enlace del IOT Edge Backend desplegado**: https://edgebackendchapatubus.azurewebsites.net/swagger-ui/index.html
 
 #### 6.2.2.8. Team Collaboration Insights during Sprint.
 
