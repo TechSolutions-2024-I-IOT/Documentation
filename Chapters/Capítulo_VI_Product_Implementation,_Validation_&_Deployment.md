@@ -994,8 +994,8 @@ Para el despliegue de nuestra aplicación web, hemos optado por utilizar Netlify
 **CURSO** : Desarrollo de Soluciones IoT
 **SECCIÓN** : Código de la sección
 **PROFESORES** : Todos
-**AUDITOR** : Nombre del Grupo que ejecuta la Sesión de evaluación
-**CLIENTE(S)** : Nombre de las personas que participan en la sesión
+**AUDITOR** : TechSolutions
+**CLIENTE(S)** : 
 
 **SITE o APP A EVALUAR:** ChapaTuBus
 
@@ -1004,21 +1004,18 @@ Para el despliegue de nuestra aplicación web, hemos optado por utilizar Netlify
 El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
 
 1. Registro de un usuario nuevo
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
-8. 
+2. Inicio de sesión
+3. Navegación por el panel principal
+4. Creación de un nuevo vehículo en la flota
+5. Asignación de conductores a vehículos
+6. Monitoreo en tiempo real de la flota
 
 No están incluidas en esta versión de la evaluación las siguientes tareas:
 
-1. 
-2. 
-3. 
-4. 
-5. 
+1. Integración con sistemas de terceros
+2. Módulo de mantenimiento de vehículos
+3. Gestión de permisos y roles avanzados
+4. Exportación de datos a formatos externos
 
 **ESCALA DE SEVERIDAD:**
 Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
@@ -1034,29 +1031,31 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 | # | Problema | Escala de severidad | Heurística/Principio violada(o) |
 |:--|:---------|:--------------------|:--------------------------------|
-|   |          |                     |                                 |
+|  1 | Dificultad para agregar paradas a la línea |  3  | Consistencia y estándares |
+|  2| Tedioso asignar conductores a vehículos |  3  | Minimizar la carga de memoria del usuario |
+|  3| Complejidad en la asignación de horarios |  4  | Eficiencia y flexibilidad de uso |
 
 **DESCRIPCIÓN DE PROBLEMAS:**
 
 - **PROBLEMA #1:** 
-Severidad: 
-Heurística violada: 
-Problema:
+Severidad: 3
+Heurística violada: Consistencia y estándares
+Problema: El proceso para agregar paradas a la línea es confuso y requiere varios pasos innecesarios, lo que dificulta completar la tarea correctamente.
 (Incluir además una captura de pantalla ilustrando el problema).
-Recomendación:
+Recomendación: Simplificar el flujo para agregar paradas, asegurando que el proceso sea intuitivo y directo, con etiquetas claras y consistentes.
 
 - **PROBLEMA #2:** 
-Severidad: 
-Heurística violada: 
-Problema:
+Severidad: 3
+Heurística violada: Minimizar la carga de memoria del usuario
+Problema: Asignar conductores a vehículos es un proceso tedioso que requiere navegar por múltiples menús y recordar información específica sobre los conductores y vehículos.
 (Incluir además una captura de pantalla ilustrando el problema).
-Recomendación:
+Recomendación: Rediseñar la interfaz de asignación para permitir una selección más rápida y fácil, posiblemente utilizando listas desplegables y autocompletado para minimizar la carga de memoria del usuario.
 
 - **PROBLEMA #3:** 
-Severidad: 
-Heurística violada: 
-Problema:
+Severidad: 4
+Heurística violada: Eficiencia y flexibilidad de uso
+Problema: La asignación de horarios es compleja y no permite flexibilidad, con una interfaz que no es intuitiva y requiere muchos clics y confirmaciones.
 (Incluir además una captura de pantalla ilustrando el problema).
-Recomendación:
+Recomendación: Simplificar y optimizar la interfaz para la asignación de horarios, permitiendo arrastrar y soltar y proporcionando plantillas predefinidas para agilizar el proceso.
 
 ## 6.4. Video About-the-Product.
