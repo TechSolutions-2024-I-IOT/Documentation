@@ -738,7 +738,7 @@ Para el despliegue de nuestra aplicación web, hemos optado por utilizar Netlify
            <p>Sprint 1 – 2 Review Summary</p>
         </td>
         <td>
-          <p></p>
+          <p>En los Sprints 1 y 2, nuestro equipo se centró en establecer las bases del proyecto. Los objetivos principales incluyeron la configuración de la infraestructura del proyecto, completar el trabajo de diseño inicial y comenzar el desarrollo de las características fundamentales. Logramos configurar con éxito el entorno de desarrollo, el control de versiones y las canalizaciones de integración continua. Completamos los prototipos de diseño iniciales para la interfaz de usuario y finalizamos los flujos de experiencia del usuario con la aprobación de las partes interesadas. Implementamos el módulo de autenticación de usuarios, incluyendo funcionalidades de registro e inicio de sesión, y comenzamos el desarrollo del tablero principal, logrando un 70% de avance.</p>
         </td>
     </tr>
   <tr>
@@ -746,7 +746,7 @@ Para el despliegue de nuestra aplicación web, hemos optado por utilizar Netlify
            <p>Sprint 1 – 2 Retrospective Summary</p>
         </td>
         <td>
-          <p></p>
+          <p>Lo que salió bien: La fuerte colaboración y comunicación dentro del equipo permitió una resolución eficiente de problemas. Las sesiones regulares de actualizaciones y retroalimentación con las partes interesadas aseguraron la alineación y la rápida resolución de discrepancias de diseño. Lo que se puede mejorar: Mejorar la estimación y asignación de tiempo para las tareas de configuración inicial para evitar retrasos futuros. Establecer un proceso de aprobación de diseño más detallado para minimizar revisiones y alinear expectativas desde el principio. Necesidad de una documentación más completa, especialmente en relación con los procesos de configuración.</p>
         </td>
     </tr>
    <tr>
@@ -796,56 +796,54 @@ Asimismo, se presenta la tabla de nuestro primer sprint con las respectivas user
 |:-----------|:---------------------------------------------------------|:---|:------|:------------|:-------------------|:------------| :- |
 | User Story | Work-Item /Task                                          |    |       |             |                    |             ||
 | Id         | Title                                                    | Id | Title | Description | Estimation (Hours) | Assigned To |Status (To-do / In-Process/ To-Review / Done)|
-| US0X       |  | 1  |  |  |                   |     |Done|
-| US0X       |  | 2  |  |  |                   |     |Done|
-| US0X       |  | 3  |  |  |                   |     |Done|
-| US0X       |  | 4  |  |  |                   |     |Done|
-| US0X       |  | 5  |  |  |                   |     |Done|
-| US0X       |  | 6  |  |  |                   |     |Done|
-| US0X       |  | 7  |  |  |                   |     |Done|
-| US0X       |  | 8  |  |  |                   |     |Done|
-| USX        |  | 9  |  |  |                   |     |Done|
+| TS12      | Autenticación de usuarios | 1  |  |  |                   |     |Done|
+| TS21      | Registro de un Transport Company | 2  |  |  |                   |     |Done|
+| TS22       | Registro de un Conductor de un Transport Company | 3  |  |  |                   |     |Done|
+| TS23       | Listado de Drivers Asociados de la empresa | 4  |  |  |                   |     |Done|
+| TS24      | Registro de bus para un Transport Company | 5  |  |  |                   |     |Done|
+| TS25      | Listado de Buses Asociados de un Transport Company | 6  |  |  |                   |     |Done|
+| TS26       | Asignación de una Unidad de Bus | 7  |  |  |                   |     |Done|
+| TS27      | Listado de Drivers Asociados de un Transport Company | 8  |  |  |                   |     |Done|
+| TS29        | Creación de un Schedule de un Transport Company | 9  |  |  |                   |     |Done|
 
 #### 6.2.2.3. Development Evidence for Sprint Review.
 
-Durante este Sprint, completamos el desarrollo de 
+Durante este Sprint, realizamos las correcciones previas de la Landing Page, desarrollamos el Web Services, IoT Devices y Mobile Applications.
 
-En cuanto a la aplicación web, hemos desarrollado 
 
 Para las suites de pruebas, nos enfocamos en la creación de escenarios de prueba utilizando Gherkin debido a la simplicidad de la solución desarrollada. Hemos elaborado casos de prueba exhaustivos que abarcan diferentes aspectos de la Landing Page y la aplicación web, asegurando la calidad y funcionalidad de nuestros productos.
 
 | Repository  | Branch  | Commit ID   | Commit Message  | Commit Message Body | Commited on (Date) |
 |:-----------|:---------------------------------------------------------|:---|:------|:------------|:-------------------|
-| |  |  |  | -  |  | 
-| |  |  | | -  |  | 
-|  |  |  |  | -  |  | 
-|  | |  |  | -  |  | 
-|  |  |  |  | -  |  | 
-|  |  |  |  | -  |  | 
-|  |  | |  | -  |  | 
-|  |  |  |  | -  |  | 
+|Frontend| develop | c9b6e82 | Merge pull request #6 from TechSolutions-2024-I-IOT/feature/us-30| -  | 08/06/2024 | 
+|Frontend| develop | c73006b| Merge pull request #4 from TechSolutions-2024-I-IOT/feature/us-18 | -  | 06/06/2024 | 
+| Backend | develop |b44bac6| Merge pull request #1 from TechSolutions-2024-I-IOT/feature/security | -  | 05/06/2024 | 
+| Backend | develop | abff06a| Merge branch 'feature/TS-12' into feature/security | -  | 05/06/2024 | 
+| EdgeBackendChapaTuBus | main | 459276a | feat: integration to send information to backend cloud for real time ubication | -  | 06/06/2024 | 
+| embedded-system-heart-rate | main | 44bf0a1 | feat: simple connection and send data to backend edge layer | -  | 02/06/2024 | 
+| ChapaTuBusApp-Mobile | main | fe130b2| Merge pull request #1 from TechSolutions-2024-I-IOT/develop| -  | 31/05/2024 | 
 
 **Network**
 
 <div align="center">
-  <img src="" width=500 alt="Network">   
+  <img src="../Resources/sprint-2/network_backend_sprint2.png" width=500 alt="Network">   
 </div>
 
 <div align="center">
-  <img src="" width=500 alt="Network">   
+  <img src="../Resources/sprint-2/network_frontend_sprint2.png" width=500 alt="Network">   
 </div>
 
 #### 6.2.2.4. Testing Suite Evidence for Sprint Review.
 
 | Repository  | Branch  | Commit ID   | Commit Message  | Commit Message Body | Commited on (Date) |
 |:-----------|:---------------------------------------------------------|:---|:------|:------------|:-------------------|
-| TestingSuite | main |  |  | -  |  | 
+| TestingSuite | main | a72257e | test: update sprint 2 | -  | 08/06/2024 | 
 
 Para la revisión del Sprint 2, presentamos los Testing Suite Evidence, los cuales se desarrollaron utilizando Gherkin. Gherkin proporcionó una forma clara y legible de especificar los comportamientos esperados del sistema a través de escenarios escritos en un lenguaje natural. Esto facilitó la colaboración entre el equipo de desarrollo y los stakeholders al definir y comprender los criterios de aceptación del sprint.
 
 <div align="center">
-  <img src="" width=500 alt="Testing">   
-  <img src="" width=500 alt="Testing">
+  <img src="../Resources/sprint-2/testing_sprint_2_1.png" width=500 alt="Testing">   
+  <img src="../Resources/sprint-2/testing_sprint_2_2.png" width=500 alt="Testing">
 </div>
 
 **Enlace del repositorio:** https://github.com/TechSolutions-2024-I-IOT/TestingSuite
@@ -854,28 +852,51 @@ Para la revisión del Sprint 2, presentamos los Testing Suite Evidence, los cual
 
 - **Landing Page**
 
-Para el Sprint 2, se corrigió
+Para el Sprint 2, se añadió la sección de planes de pagos para ambos segmentos para así brindar una mayor información a los visitantes.
 
 <div align="center">
-  <img src="" width=500 alt="Execution">   
+  <img src="../Resources/sprint-2/landing_passenger.png" width=500 alt="Execution">   
+</div>
+
+<div align="center">
+  <img src="../Resources/sprint-2/landing_company.png" width=500 alt="Execution">   
 </div>
 
 - **Web Application**
 
-Para el Sprint 2, se 
+Para el Sprint 2, se añadieron más pantallas relacionadas a nuestro core como la de la administración de los conductores, los buses, el registro de unidades de transporte, la visualización de los gráficos, entre otros.
 
 <div align="center">
-  <img src="" width=500 alt="Execution">   
+  <img src="../Resources/sprint-2/frontend_execution_sprint2_1.png" width=500 alt="Execution">   
 </div>
 
 - **Web Services**
 
+<div align="center">
+  <img src="../Resources/sprint-2/backend_execution_sprint2.png" width=500 alt="Execution">   
+</div>
+
 - **IOT Devices**
+
+<div align="center">
+  <img src="../Resources/sprint-2/iot_development.jpeg" width=500 alt="Execution">   
+</div>
 
 #### 6.2.2.6. Services Documentation Evidence for Sprint Review.
 
-Para el Sprint 2, se
+Para el Sprint 2, se ha proporcionado evidencia visual de la documentación de los servicios desarrollados. A continuación, se presentan las imágenes correspondientes a los controladores implementados durante este sprint:
 
+<div align="center">
+  <img src="../Resources/sprint-2/user-controller.png" width=500 alt="Execution">   
+</div>
+<div align="center">
+  <img src="../Resources/sprint-2/transport-company-controller.png" width=500 alt="Execution">   
+</div>
+<div align="center">
+  <img src="../Resources/sprint-2/other-controllers.png" width=500 alt="Execution">   
+</div>
+
+Estas imágenes muestran la ejecución y estructura de los controladores, reflejando el progreso realizado en la integración y desarrollo de los servicios esenciales para el proyecto.
 
 #### 6.2.2.7. Software Deployment Evidence for Sprint Review.
 
@@ -914,30 +935,43 @@ Para el despliegue de nuestra aplicación web, hemos optado por utilizar Netlify
 
 - **Web Services**
 
-- **IOT Devices**
+Para el despliegue de nuestros servicios web, hemos optado por utilizar Azure debido a su robustez, flexibilidad y amplio conjunto de herramientas integradas. Azure nos proporciona un entorno de alojamiento altamente escalable y seguro, lo que garantiza un rendimiento confiable para nuestros servicios. Además, su integración con repositorios Git y otras herramientas de desarrollo permite implementaciones automáticas con cada actualización de código, simplificando así el proceso de despliegue y fomentando la colaboración entre el equipo de desarrollo. Con Azure, tenemos la confianza de que nuestros servicios estarán disponibles de manera consistente y ofrecerán una experiencia óptima para nuestros usuarios.
+
+<div align="center">
+  <img src="../Resources/sprint-2/backend_deployment.jpeg" width=500 alt="Web deployment">
+</div>
+
+**Enlace del web service desplegado**: https://chapatubusbackend.azurewebsites.net/swagger-ui/index.html#/
+
+- **IOT Edge Backend**
+
+Para nuestro backend de IoT Edge, hemos elegido Azure debido a su potente conjunto de herramientas diseñadas específicamente para escenarios de IoT. Azure nos proporciona una plataforma sólida y escalable para desplegar y administrar nuestros dispositivos de borde de manera eficiente. La integración con Azure IoT Hub nos permite gestionar de forma centralizada la conectividad, la seguridad y la supervisión de nuestros dispositivos, lo que garantiza un funcionamiento confiable en todo momento. Además, la capacidad de implementar módulos personalizados en los dispositivos de borde nos brinda la flexibilidad necesaria para adaptar nuestro backend a las necesidades específicas de nuestro proyecto. Con Azure, tenemos la confianza de que nuestro backend de IoT Edge funcionará de manera óptima y segura, proporcionando una base sólida para nuestras soluciones de IoT.
+
+<div align="center">
+  <img src="../Resources/sprint-2/edge_deployment.jpeg" width=500 alt="Web deployment">
+</div>
+
+**Enlace del IOT Edge Backend desplegado**: https://edgebackendchapatubus.azurewebsites.net/swagger-ui/index.html
 
 #### 6.2.2.8. Team Collaboration Insights during Sprint.
 
 - **Contributors**
 
 <div align="center">
-  <img src="" width=500 alt="Contributors Sprint 1">
-    <img src="" width=500 alt="Contributors Sprint 1">
+  <img src="../Resources/backend_contribuitors.png" width=500 alt="Contributors Sprint 2">
+    <img src="../Resources/frontend_contribuitors.png" width=500 alt="Contributors Sprint 2">
 </div>
 
 <div align="center">
-  <img src="" width=500 alt="Contributors Sprint 1">
+  <img src="../Resources/landing_contribuitors.png" width=500 alt="Contributors Sprint 2">
+    <img src="../Resources/mobile_contribuitors.png" width=500 alt="Contributors Sprint 2">
 </div>
 
 - **Pulse**
 
 <div align="center">
-  <img src="" width=500 alt="Pulse Sprint 1">
-  <img src="" width=500 alt="Pulse Sprint 1">
-</div>
-
-<div align="center">
-  <img src="" width=500 alt="Pulse Sprint 1">
+  <img src="../Resources/frontend_pulse.png" width=500 alt="Pulse Sprint 2">
+  <img src="../Resources/iot_pulse.png" width=500 alt="Pulse Sprint 2">
 </div>
 
 ## 6.3. Validation Interviews.
