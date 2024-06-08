@@ -1037,25 +1037,50 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 **DESCRIPCIÓN DE PROBLEMAS:**
 
-- **PROBLEMA #1:** 
+- **PROBLEMA #1:**
+
 Severidad: 3
+
 Heurística violada: Consistencia y estándares
+
 Problema: El proceso para agregar paradas a la línea es confuso y requiere varios pasos innecesarios, lo que dificulta completar la tarea correctamente.
-(Incluir además una captura de pantalla ilustrando el problema).
+
+<div align="center">
+  <img src="../Resources/heuristicas_1.png" width=500 alt="Heuristicas">
+</div>
+
 Recomendación: Simplificar el flujo para agregar paradas, asegurando que el proceso sea intuitivo y directo, con etiquetas claras y consistentes.
 
-- **PROBLEMA #2:** 
+- **PROBLEMA #2:**
+
 Severidad: 3
+
 Heurística violada: Minimizar la carga de memoria del usuario
+
 Problema: Asignar conductores a vehículos es un proceso tedioso que requiere navegar por múltiples menús y recordar información específica sobre los conductores y vehículos.
-(Incluir además una captura de pantalla ilustrando el problema).
+
+<div align="center">
+  <img src="../Resources/heuristicas_2.png" width=500 alt="Heuristicas">
+</div>
+
 Recomendación: Rediseñar la interfaz de asignación para permitir una selección más rápida y fácil, posiblemente utilizando listas desplegables y autocompletado para minimizar la carga de memoria del usuario.
 
-- **PROBLEMA #3:** 
+- **PROBLEMA #3:**
+
 Severidad: 4
+
 Heurística violada: Eficiencia y flexibilidad de uso
+
 Problema: La asignación de horarios es compleja y no permite flexibilidad, con una interfaz que no es intuitiva y requiere muchos clics y confirmaciones.
-(Incluir además una captura de pantalla ilustrando el problema).
+
+<div align="center">
+  <img src="../Resources/heuristicas_3_1.png" width=500 alt="Heuristicas">
+</div>
+
+<div align="center">
+  <img src="../Resources/heuristicas_3_2.png" width=500 alt="Heuristicas">
+</div>
+
 Recomendación: Simplificar y optimizar la interfaz para la asignación de horarios, permitiendo arrastrar y soltar y proporcionando plantillas predefinidas para agilizar el proceso.
 
 ## 6.4. Video About-the-Product.
