@@ -987,4 +987,100 @@ Para el despliegue de nuestra aplicación web, hemos optado por utilizar Netlify
 
 ### 6.3.3. Evaluaciones según heurísticas.
 
+**UX Heuristics & Principles Evaluation**
+**Usability – Inclusive Design – Information Architecture**
+
+**CARRERA** : Ingeniería de Software
+**CURSO** : Desarrollo de Soluciones IoT
+**SECCIÓN** : Código de la sección
+**PROFESORES** : Todos
+**AUDITOR** : TechSolutions
+**CLIENTE(S)** : 
+
+**SITE o APP A EVALUAR:** ChapaTuBus
+
+**TAREAS A EVALUAR:**
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Registro de un usuario nuevo
+2. Inicio de sesión
+3. Navegación por el panel principal
+4. Creación de un nuevo vehículo en la flota
+5. Asignación de conductores a vehículos
+6. Monitoreo en tiempo real de la flota
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Integración con sistemas de terceros
+2. Módulo de mantenimiento de vehículos
+3. Gestión de permisos y roles avanzados
+4. Exportación de datos a formatos externos
+
+**ESCALA DE SEVERIDAD:**
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+
+| Nivel | Descripción | 
+|:--|:---------|
+| 1  | Problema superficial: puede ser fácilmente superador por el usuario u ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo |   
+| 2  | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase |      
+| 3  | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |      
+| 4  | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |         
+
+**TABLA RESUMEN:**
+
+| # | Problema | Escala de severidad | Heurística/Principio violada(o) |
+|:--|:---------|:--------------------|:--------------------------------|
+|  1 | Dificultad para agregar paradas a la línea |  3  | Consistencia y estándares |
+|  2| Tedioso asignar conductores a vehículos |  3  | Minimizar la carga de memoria del usuario |
+|  3| Complejidad en la asignación de horarios |  4  | Eficiencia y flexibilidad de uso |
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+- **PROBLEMA #1:**
+
+Severidad: 3
+
+Heurística violada: Consistencia y estándares
+
+Problema: El proceso para agregar paradas a la línea es confuso y requiere varios pasos innecesarios, lo que dificulta completar la tarea correctamente.
+
+<div align="center">
+  <img src="../Resources/heuristicas_1.png" width=500 alt="Heuristicas">
+</div>
+
+Recomendación: Simplificar el flujo para agregar paradas, asegurando que el proceso sea intuitivo y directo, con etiquetas claras y consistentes.
+
+- **PROBLEMA #2:**
+
+Severidad: 3
+
+Heurística violada: Minimizar la carga de memoria del usuario
+
+Problema: Asignar conductores a vehículos es un proceso tedioso que requiere navegar por múltiples menús y recordar información específica sobre los conductores y vehículos.
+
+<div align="center">
+  <img src="../Resources/heuristicas_2.png" width=500 alt="Heuristicas">
+</div>
+
+Recomendación: Rediseñar la interfaz de asignación para permitir una selección más rápida y fácil, posiblemente utilizando listas desplegables y autocompletado para minimizar la carga de memoria del usuario.
+
+- **PROBLEMA #3:**
+
+Severidad: 4
+
+Heurística violada: Eficiencia y flexibilidad de uso
+
+Problema: La asignación de horarios es compleja y no permite flexibilidad, con una interfaz que no es intuitiva y requiere muchos clics y confirmaciones.
+
+<div align="center">
+  <img src="../Resources/heuristicas_3_1.png" width=500 alt="Heuristicas">
+</div>
+
+<div align="center">
+  <img src="../Resources/heuristicas_3_2.png" width=500 alt="Heuristicas">
+</div>
+
+Recomendación: Simplificar y optimizar la interfaz para la asignación de horarios, permitiendo arrastrar y soltar y proporcionando plantillas predefinidas para agilizar el proceso.
+
 ## 6.4. Video About-the-Product.
