@@ -943,23 +943,20 @@ Para el despliegue de nuestra aplicación web, hemos optado por utilizar Netlify
 - **Contributors**
 
 <div align="center">
-  <img src="" width=500 alt="Contributors Sprint 1">
-    <img src="" width=500 alt="Contributors Sprint 1">
+  <img src="../Resources/backend_contribuitors.png" width=500 alt="Contributors Sprint 2">
+    <img src="../Resources/frontend_contribuitors.png" width=500 alt="Contributors Sprint 2">
 </div>
 
 <div align="center">
-  <img src="" width=500 alt="Contributors Sprint 1">
+  <img src="../Resources/landing_contribuitors.png" width=500 alt="Contributors Sprint 2">
+    <img src="../Resources/mobile_contribuitors.png" width=500 alt="Contributors Sprint 2">
 </div>
 
 - **Pulse**
 
 <div align="center">
-  <img src="" width=500 alt="Pulse Sprint 1">
-  <img src="" width=500 alt="Pulse Sprint 1">
-</div>
-
-<div align="center">
-  <img src="" width=500 alt="Pulse Sprint 1">
+  <img src="../Resources/frontend_pulse.png" width=500 alt="Pulse Sprint 2">
+  <img src="../Resources/iot_pulse.png" width=500 alt="Pulse Sprint 2">
 </div>
 
 ## 6.3. Validation Interviews.
