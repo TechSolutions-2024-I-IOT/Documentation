@@ -758,7 +758,7 @@ Para el despliegue de nuestra aplicación web, hemos optado por utilizar Netlify
            <p>Sprint 2 Goal</p>
         </td>
         <td>
-          <p></p>
+          <p>Completar el Web Application de nuestro programa, así como el Web Services y mostrar un avance considerable del Mobile Application.</p>
         </td>
     </tr>
   <tr>
@@ -766,7 +766,7 @@ Para el despliegue de nuestra aplicación web, hemos optado por utilizar Netlify
            <p>Sprint 2 Velocity</p>
         </td>
         <td>
-          <p></p>
+          <p>61</p>
         </td>
     </tr>
   <tr>
@@ -774,14 +774,14 @@ Para el despliegue de nuestra aplicación web, hemos optado por utilizar Netlify
            <p>Sum of Story Points</p>
         </td>
         <td>
-          <p></p>
+          <p>61</p>
         </td>
     </tr>
 </table>
 
 #### 6.2.2.2. Sprint Backlog 2.
 
-El objetivo principal del sprint 2 es
+El objetivo principal del sprint 2 es completar el Web Application de nuestro programa, así como el Web Services y mostrar un avance considerable del Mobile Application.
 
 A continuación, se presenta un screenshot del sprint 2 en desarrollo realizado en Jira por el equipo:
 
@@ -1031,8 +1031,6 @@ _Sobre la Aplicación_
 5. ¿Qué tan intuitiva te pareció la funcionalidad del mapa interactivo para localizar paraderos y trazar rutas?
 6. ¿Hubo algún aspecto de la aplicación que te resultó confuso o difícil de usar?
 7. ¿Qué características adicionales te gustaría ver en la aplicación para pasajeros?
-
-### 6.3.2. Registro de Entrevistas.
 
 ### 6.3.3. Evaluaciones según heurísticas.
 
