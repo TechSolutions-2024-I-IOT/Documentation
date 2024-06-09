@@ -1133,3 +1133,9 @@ Problema: La asignación de horarios es compleja y no permite flexibilidad, con 
 Recomendación: Simplificar y optimizar la interfaz para la asignación de horarios, permitiendo arrastrar y soltar y proporcionando plantillas predefinidas para agilizar el proceso.
 
 ## 6.4. Video About-the-Product.
+
+A continuación, se presenta el video About The Product. Este tiene como objetivo presentar nuestro producto al público, por lo que en él se mostrarán las principales características con las que cuenta ChapaTuBus, la version Web. Captura de pantalla del video:
+
+<img src="../Resources/images/About-the-product.png">
+
+Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111473_upc_edu_pe/EUDbaT99xI9LpvWFVjHJ10QBDVPKtxGeaNsIF9OZUZxs3w?e=iykH72&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
