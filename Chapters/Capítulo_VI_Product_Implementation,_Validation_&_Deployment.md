@@ -1106,6 +1106,24 @@ En la reunión presencial realizada, se identificaron los avances conseguidos y 
 
 #### 6.2.3.2. Sprint Backlog 3.
 
+El objetivo principal del Sprint 3 es avanzar significativamente en el desarrollo de funcionalidades críticas y mejorar la integración de los diversos componentes del sistema, asegurando que cada parte del proyecto esté alineada y funcione de manera cohesiva. Nos enfocaremos en desplegar nuevas características, resolver problemas pendientes y mejorar el funcionamiento del sistema.
+
+A continuación se presenta una captura de pantalla del Board para el Sprint en la herramienta de control utilizada, junto con el enlace público al Board para seguimiento en tiempo real:
+
+###IMAGEN
+
+###LINK
+
+A continuación, se incluye la tabla con los user stories asignados al sprint y last task resultantes:
+
+| Sprint #   | Sprint 3                         |     |                                                  |                                                                                      |                    |              |                                               |
+| :--------- | :------------------------------- | :-- | :----------------------------------------------- | :----------------------------------------------------------------------------------- | :----------------- | :----------- | :-------------------------------------------- |
+| User Story | Work-Item /Task                  |     |                                                  |                                                                                      |                    |              |                                               |
+| Id         | Title                            | Id  | Title                                            | Description                                                                          | Estimation (Hours) | Assigned To  | Status (To-do / In-Process/ To-Review / Done) |
+| TS21       | Implementación de Sensor de Peso | 1   | Diseño del Simulador de Peso                     | Implementar la lógica para simular el peso                                           | 1                  | Axel Fiestas | Done                                          |
+| TS21       | Implementación de Sensor de Peso | 2   | Desarrollo del Controlador de Sensores Simulados | Crear la clase SimulatedWeightSensorController e integrar con WeightSensorController | 1                  | Axel Fiestas | Done                                          |
+| TS21       | Implementación de Sensor de Peso | 3   | Integración con el Backend Edge                  | Envío de data al endpoint correcto                                                   | 1                  | Axel Fiestas | InProgress                                    |
+
 #### 6.2.3.3. Development Evidence for Sprint Review.
 
 #### 6.2.3.4. Testing Suite Evidence for Sprint Review.
