@@ -991,7 +991,118 @@ Para nuestro backend de IoT Edge, hemos elegido Azure debido a su potente conjun
 
 ### 6.2.3. Sprint 3
 
+Se tuvieron avances significativos en lo que respecta a los distintos productos que conforman
+nuestro producto. Principalmente por el lado de la finalización de los dispositivos embedded IOT,
+finalización de una versión base tanto de nuestros dos backends desplegados así como nuestra
+aplicación web.
+
 #### 6.2.3.1. Sprint Planning 3.
+
+En la reunión presencial realizada, se identificaron los avances conseguidos y se llevó a cabo una retrospectiva para evaluar los procesos que el equipo estaba ejecutando de manera ineficiente. Se realizó un análisis paralelo para buscar soluciones con el objetivo de evitar cuellos de botella en los distintos productos desarrollados por el equipo, garantizando así que el avance del proyecto no se vea estancado. Como resultado, se dividieron las tareas de todos los productos (IoT, backend, frontend, móvil) entre todos los integrantes del equipo para asegurar una distribución equitativa y eficiente del trabajo.
+
+<table border="2">
+    <tr>
+        <td>
+           <p style = "font-weight: bold"><b>Sprint #</b></p>
+        </td>
+        <td>
+          <p style = "font-weight: bold">Sprint 3</p>
+        </td>
+    </tr>
+  <tr>
+        <td  colspan="2">
+           <p><b>Sprint Planning Background</b></p>
+        </td>
+    </tr>
+  <tr>
+        <td>
+           <p>Date</p>
+        </td>
+        <td>
+          <p>21-06-2024</p>
+        </td>
+    </tr>
+  <tr>
+        <td>
+           <p>Time</p>
+        </td>
+        <td>
+          <p>11:00</p>
+        </td>
+    </tr>
+  <tr>
+        <td>
+           <p>Location</p>
+        </td>
+        <td>
+          <p>Reunión presencial en el salón de clases IOT</p>
+        </td>
+    </tr>
+  <tr>
+        <td>
+           <p>Prepared By</p>
+        </td>
+        <td>
+          <p>Tania Sadith Vasquez Sal Y Rosas</p>
+        </td>
+    </tr>
+  <tr>
+        <td>
+           <p>Attendees (to planning meeting)</p>
+        </td>
+        <td>
+          <p>Tania Sadith Vasquez Sal Y Rosas, Andrea Sofia Alfaro Salinas, Diego Martin Merino Mas, Axel Joshue Fiestas Santisteban, Rafael Wimmer Primo Estrada</p>
+        </td>
+    </tr>
+  <tr>
+        <td>
+           <p>Sprint n – 2 Review Summary</p>
+        </td>
+<td>
+    <p>En el Sprint 2, nuestro equipo se centró en continuar con los requisitos del proyecto. Los objetivos principales incluyeron el despliegue de componentes clave como el backend y el frontend, el avance de funcionalidades en los dispositivos embebidos, backend, frontend y móvil, la creación del backend edge, y la solución de bugs encontrados en el proceso.</p>
+    <p>Logramos desplegar con éxito el backend cloud de la solución, enviar información de manera eficiente a través de los dispositivos hacia el backend edge y manejar y enviar los datos desde el backend edge al backend en una versión inicial.</p>
+    <p>En cuanto a la aplicación móvil, comenzamos a utilizar ciertos endpoints del backend cloud. En el caso del frontend, se crearon y finalizaron pantallas que aún estaban pendientes.</p>
+</td>
+    </tr>
+  <tr>
+        <td>
+           <p>Sprint 2 Retrospective Summary</p>
+        </td>
+  <td>
+    <p><b>Lo que salió bien:</b> La fuerte colaboración y comunicación dentro del equipo permitió una resolución eficiente de problemas. Las sesiones regulares de actualizaciones y retroalimentación con las partes interesadas aseguraron la alineación y la rápida resolución de discrepancias de diseño.</p>
+    <p><b>Lo que se puede mejorar:</b> A pesar de la comunicación efectiva, los diferentes productos de software se aislaron, con una persona responsable por cada producto. Esto puede mejorarse fomentando una mayor integración y colaboración entre los responsables de los distintos productos.</p>
+</td>
+    </tr>
+   <tr>
+        <td  colspan="2">
+           <p><b>Sprint Goal & User Stories</b></p>
+        </td>
+    </tr>
+   <tr>
+        <td>
+           <p>Sprint 3 Goal</p>
+        </td>
+        <td>
+          <p>Completar los dispositivos IOT de nuestra solución, así como los Web Services (Edge y Cloud) y WebApplication así tambien como mostrar una versión final base de la aplicación móvil.</p>
+        </td>
+    </tr>
+  <tr>
+        <td>
+           <p>Sprint 3 Velocity</p>
+        </td>
+        <td>
+          <p>##</p>
+        </td>
+    </tr>
+  <tr>
+        <td>
+           <p>Sum of Story Points</p>
+        </td>
+        <td>
+          <p>##</p>
+        </td>
+    </tr>
+</table>
 
 #### 6.2.3.2. Sprint Backlog 3.
 
