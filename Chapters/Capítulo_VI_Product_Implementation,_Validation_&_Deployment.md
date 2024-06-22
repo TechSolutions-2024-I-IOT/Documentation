@@ -989,6 +989,24 @@ Para nuestro backend de IoT Edge, hemos elegido Azure debido a su potente conjun
   <img src="../Resources/iot_pulse.png" width=500 alt="Pulse Sprint 2">
 </div>
 
+### 6.2.3. Sprint 3
+
+#### 6.2.3.1. Sprint Planning 3.
+
+#### 6.2.3.2. Sprint Backlog 3.
+
+#### 6.2.3.3. Development Evidence for Sprint Review.
+
+#### 6.2.3.4. Testing Suite Evidence for Sprint Review.
+
+#### 6.2.3.5. Execution Evidence for Sprint Review.
+
+#### 6.2.3.6. Services Documentation Evidence for Sprint Review.
+
+#### 6.2.3.7. Software Deployment Evidence for Sprint Review.
+
+#### 6.2.3.8. Team Collaboration Insights during Sprint.
+
 ## 6.3. Validation Interviews.
 
 ### 6.3.1. Diseño de Entrevistas.
