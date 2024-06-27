@@ -1206,6 +1206,23 @@ Para las suites de pruebas, nos enfocamos en la creación de escenarios de prueb
 | embedded-system-gps | main | fa80d07 | feat: Add embedded GPS system | | Jun 22, 2024 |
 | embedded-system-gps | main | b540950 | Add files via upload | | Jun 21, 2024 |
 | embedded-system-gps | main | 4a2e333 | Initial commit | | Jun 21, 2024 |
+| embedded-system-weight-sensor | main | 07dd4cc | Update README.md | | Jun 26, 2024 |
+| embedded-system-weight-sensor | main | 7ac5fd6 | feat: update sketch.ino and WeightSensor/Controller | | Jun 22, 2024 |
+| embedded-system-weight-sensor | main | 454a345 | feat: simulatedWeighSensorController.h and cpp added | | Jun 22, 2024 |
+| embedded-system-weight-sensor | main | 7b8601b | feat: SimulatedWeightSensor.cpp and .h added | | Jun 22, 2024 |
+| embedded-system-weight-sensor | main | 0d373cf | feat: device.cpp and .h added | | Jun 22, 2024 |
+| embedded-system-weight-sensor | main | a8f985d | feat: config.h added | | Jun 22, 2024 |
+| embedded-system-weight-sensor | main | 1a8f5d9 | Add files via upload | | Jun 21, 2024 |
+| embedded-system-weight-sensor | main | ea74010 | Initial commit | | Jun 21, 2024 |
+| embedded-system-heart-rate | main | 4a2e333 | Update README | | Jun 26, 2024 |
+| embedded-system-heart-rate | main | 4a2e333 | add: device.h | | Jun 22, 2024 |
+| embedded-system-heart-rate | main | 4a2e333 | add: send smart band id | | Jun 22, 2024 |
+| embedded-system-heart-rate | main | 4a2e333 | add wifi manager | | Jun 22, 2024 |
+| embedded-system-heart-rate | main | 4a2e333 | add config.h | | Jun 22, 2024 |
+| embedded-system-heart-rate | main | 4a2e333 | feat: simple connection and send data to backend edge layer | | Jun 2, 2024 |
+| embedded-system-heart-rate | main | 4a2e333 | Update README.md | | Jun 2, 2024 |
+| embedded-system-heart-rate | main | 4a2e333 | feat: First great advance in the hear rate sensor | | Jun 2, 2024 |
+| embedded-system-heart-rate | main | 4a2e333 | Initial commit | | Jun 2, 2024 |
 
 #### 6.2.3.4. Testing Suite Evidence for Sprint Review
 
