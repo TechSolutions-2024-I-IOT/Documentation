@@ -989,6 +989,232 @@ Para nuestro backend de IoT Edge, hemos elegido Azure debido a su potente conjun
   <img src="../Resources/iot_pulse.png" width=500 alt="Pulse Sprint 2">
 </div>
 
+### 6.2.3. Sprint 3
+
+#### 6.2.3.1. Sprint Planning 3
+
+<table border="2">
+    <tr>
+        <td>
+           <p style = "font-weight: bold"><b>Sprint #</b></p>
+        </td>
+        <td>
+          <p style = "font-weight: bold">Sprint 3</p>
+        </td>
+    </tr>
+    <tr>
+        <td  colspan="2">
+           <p><b>Sprint Planning Background</b></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+           <p>Date</p>
+        </td>
+        <td>
+          <p>FECHA REUNION</p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+           <p>Time</p>
+        </td>
+        <td>
+          <p>HORA REUNION</p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+           <p>Location</p>
+        </td>
+        <td>
+          <p>Reunión virtual vía Discord</p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+           <p>Prepared By</p>
+        </td>
+        <td>
+          <p>Tania Sadith Vasquez Sal Y Rosas</p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+           <p>Attendees (to planning meeting)</p>
+        </td>
+        <td>
+          <p>Tania Sadith Vasquez Sal Y Rosas, Andrea Sofia Alfaro Salinas, Diego Martin Merino Mas, Axel Joshue Fiestas Santisteban, Rafael Wimmer Primo Estrada</p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+           <p>Sprint 2 – 3 Review Summary</p>
+        </td>
+        <td>
+          <p> Descripcion</p>
+        </td>
+      </tr>
+  <tr>
+        <td>
+           <p>Sprint 2 – 3 Retrospective Summary</p>
+        </td>
+        <td>
+          <p>Lo que salió bien:. 
+          Lo que se puede mejorar: .</p>
+        </td>
+    </tr>
+   <tr>
+        <td  colspan="2">
+           <p><b>Sprint Goal & User Stories</b></p>
+        </td>
+    </tr>
+   <tr>
+        <td>
+           <p>Sprint 3 Goal</p>
+        </td>
+        <td>
+          <p>Completar el Web Application de nuestro programa, así como el Web Services y mostrar un avance considerable del Mobile Application.</p>
+        </td>
+    </tr>
+  <tr>
+        <td>
+           <p>Sprint 3 Velocity</p>
+        </td>
+        <td>
+          <p>61</p>
+        </td>
+    </tr>
+  <tr>
+        <td>
+           <p>Sum of Story Points</p>
+        </td>
+        <td>
+          <p>61</p>
+        </td>
+    </tr>
+</table>
+
+#### 6.2.3.2. Sprint Backlog 3
+
+El objetivo principal del sprint 3 es completar lo planeado en el Web Application de nuestro programa, así como en el Web Services y el Mobile Application.
+
+A continuación, se presenta un screenshot del sprint 3 en desarrollo realizado en Jira por el equipo:
+
+"imagen del jira"
+
+"Tabla ejemeplo describiendo el jira"
+
+Asimismo, se presenta la tabla de nuestro primer sprint con las respectivas user stories a trabajar: **TABLA POR CAMBIAR**
+
+| Sprint #   | Sprint 2                                                              |     |                                                              |                                                                                                                                     |                    |               |                                               |
+| :--------- | :-------------------------------------------------------------------- | :-- | :----------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------- | :----------------- | :------------ | :-------------------------------------------- |
+| User Story | Work-Item /Task                                                       |     |                                                              |                                                                                                                                     |                    |               |                                               |
+| Id         | Title                                                                 | Id  | Title                                                        | Description                                                                                                                         | Estimation (Hours) | Assigned To   | Status (To-do / In-Process/ To-Review / Done) |
+| TS21       | Registro de un Transport Company                                      | 1   | Registro de empresas de transporte                           | Que un usuario de la plataforma web pueda registrar a su empresa de transporte                                                      | 1                  | Axel Fiestas  | In Progress                                   |
+| TS22       | Registro de Conductor de un Transport Company                         | 2   | Registro de conductores de empresas de transporte            | El usuario registrado como manager de la empresa de transporte debe registrar los conductores respectivos con los datos solicitados | 2                  | Axel Fiestas  | In Progress                                   |
+| US12       | Visualizar horarios de mayor afluencia                                | 3   | Mostrar los horarios en que hay mayor afluencia de buses     | Mostrar un gráfico estadístico con los horarios de mayor afluencia en cada paradero, para poder ajustar la frecuencia de los buses  | 6                  | Tania Vasquez | To Do                                         |
+| US11       | Visualizar paraderos con mayor afluencia                              | 4   | Mostrar los paraderos con más concurrencia                   | Mostrar información sobre los paraderos donde se sube más gente durante el día, para poder identificar las rutas con mayor demanda  | 6                  | Tania Vasquez | To Do                                         |
+| TS23       | Listado de Drivers Asociados de la empresa                            | 5   | Listar los conductores asociados a una empresa de transporte | Mostrar de forma ordenada los conductores registrados en la empresa                                                                 | 1                  | Axel Fiestas  | In Progress                                   |
+| TS24       | Registro de bus para un Transport Company                             | 6   | Registro de buses para empresas de transporte                | Añadir un bus a la flota de la empresa, después de introducir los datos requeridos                                                  | 1                  | Axel Fiestas  | In Progress                                   |
+| TS25       | Listado de Buses Asociados de un Transport Company                    | 7   | Listar los buses asociados a una empresa de transporte       | Mostrar de forma ordenada los buses registrados a la flota de la empresa                                                            | 1                  | Axel Fiestas  | In Progress                                   |
+| TS26       | Asignación de una Unidad de Bus                                       | 8   | Asignar una unidad de bus a un conductor                     | Al asignar un conductor a un bus se crea la unidad de bus                                                                           | 2                  | Axel Fiestas  | In Progress                                   |
+| TS27       | Listado de Drivers Asociados de un Transport Company                  | 9   | Listar los conductores asociados a una empresa de transporte | Crear un endpoint para devolver los conductores ligados a la empresa con una correcta estructura                                    | 1                  | Axel Fiestas  | In Progress                                   |
+| TS29       | Creación de un Schedule de un Transport Company                       | 10  | Crear un horario para una empresa de transporte              | Crear un horario para una empresa de transporte para mejorar la organización de salidas y llegadas                                  | 3                  | Axel Fiestas  | In Progress                                   |
+| TS30       | Registro de una salida (Departure Schedule) asociada con              | 11  | Registro de salida de un bus                                 | Registrar la salida de un bus en el horario planificado                                                                             | 2                  | Axel Fiestas  | To Do                                         |
+| TS31       | Subida de imágenes para formularios                                   | 12  | Subida de imágenes                                           | Permitir la subida de imágenes en los formularios para documentación visual                                                         | 2                  | Axel Fiestas  | In Progress                                   |
+| US18       | Visualizar gráfico de línea con el tiempo de pulso de la              | 13  | Visualizar gráfico del pulso del conductor                   | Mostrar un gráfico de línea con el tiempo de pulso del conductor para monitorear su salud                                           | 4                  | Axel Fiestas  | To Do                                         |
+| TS32       | Listado de todos los transport companies existentes                   | 14  | Listar todas las empresas de transporte                      | Listar todas las empresas de transporte registradas en la plataforma                                                                | 1                  | Axel Fiestas  | In Progress                                   |
+| TS33       | Obtener información de un conductor                                   | 15  | Obtener información detallada de un conductor                | Obtener información detallada de un conductor por medio de su ID                                                                    | 2                  | Axel Fiestas  | In Progress                                   |
+| TS34       | Obtener información de la ubicación del bus en tiempo re              | 16  | Obtener ubicación en tiempo real                             | Obtener la ubicación en tiempo real de los buses mediante GPS                                                                       | 6                  | Axel Fiestas  | To Do                                         |
+| TS35       | Modificar información de un driver                                    | 17  | Modificar información de un conductor                        | Modificar datos de un conductor existente en la base de datos                                                                       | 2                  | Axel Fiestas  | In Progress                                   |
+| TS36       | Modificar información de un bus                                       | 18  | Modificar información de un bus                              | Modificar datos de un bus existente en la base de datos                                                                             | 2                  | Axel Fiestas  | In Progress                                   |
+| TS37       | Borrar información de un Driver                                       | 19  | Borrar información de un conductor                           | Eliminar datos de un conductor de la base de datos                                                                                  | 2                  | Axel Fiestas  | In Progress                                   |
+| TS38       | Listado de Schedules Asociados de un TransportCompany                 | 20  | Listar horarios de una empresa de transporte                 | Listar los horarios asociados a una empresa de transporte                                                                           | 2                  | Rafael Primo  | In Progress                                   |
+| TS39       | Borrar información de un Bus                                          | 21  | Borrar información de un bus                                 | Eliminar datos de un bus de la base de datos                                                                                        | 2                  | Axel Fiestas  | In Progress                                   |
+| TS40       | Obtener información de un TransportCompany med...                     | 22  | Obtener información de una empresa por IoT                   | Obtener datos de una empresa de transporte mediante dispositivos IoT                                                                | 2                  | Axel Fiestas  | In Progress                                   |
+| TS41       | Reasignar un UnitBus                                                  | 23  | Reasignar una unidad de bus                                  | Reasignar una unidad de bus a otro conductor o ruta                                                                                 | 2                  | Axel Fiestas  | To Do                                         |
+| TS15       | Interconectar dispositivos Iot                                        | 24  | Interconectar dispositivos IoT                               | Configurar la interconexión de dispositivos IoT para la plataforma                                                                  | 2                  | Diego Merino  | To Do                                         |
+| TS16       | Conectar dispositivos IoT hacia el Gateway o el Hub                   | 25  | Conectar dispositivos IoT al Gateway                         | Configurar la conexión de dispositivos IoT hacia el Gateway o Hub                                                                   | 2                  | Diego Merino  | To Do                                         |
+| US18       | Visualizar gráfico de línea con el tiempo de pulso de los conductores | 26  | Visualizar gráfico del pulso de los conductores              | Mostrar un gráfico de línea con el tiempo de pulso de todos los conductores para monitorear su salud                                | 2                  | Diego Merino  | To Do                                         |
+
+#### 6.2.3.3. Development Evidence for Sprint Review
+
+Durante este Sprint, terminamos las implementaciones a los backend desplegados, se termino de configurar los IoT devices, asi como el Web Services y Mobile Applications.
+
+Para las suites de pruebas, nos enfocamos en la creación de escenarios de prueba utilizando Gherkin debido a la simplicidad de la solución desarrollada. Hemos elaborado casos de prueba exhaustivos que abarcan diferentes aspectos de la Landing Page y la aplicación web, asegurando la calidad y funcionalidad de nuestros productos.
+**TABLA POR CAMBIAR**
+
+| Repository                 | Branch  | Commit ID | Commit Message                                                                 | Commit Message Body | Commited on (Date) |
+| :------------------------- | :------ | :-------- | :----------------------------------------------------------------------------- | :------------------ | :----------------- |
+| Frontend                   | develop | c9b6e82   | Merge pull request #6 from TechSolutions-2024-I-IOT/feature/us-30              | -                   | 08/06/2024         |
+| Frontend                   | develop | c73006b   | Merge pull request #4 from TechSolutions-2024-I-IOT/feature/us-18              | -                   | 06/06/2024         |
+| Backend                    | develop | b44bac6   | Merge pull request #1 from TechSolutions-2024-I-IOT/feature/security           | -                   | 05/06/2024         |
+| Backend                    | develop | abff06a   | Merge branch 'feature/TS-12' into feature/security                             | -                   | 05/06/2024         |
+| EdgeBackendChapaTuBus      | main    | 459276a   | feat: integration to send information to backend cloud for real time ubication | -                   | 06/06/2024         |
+| embedded-system-heart-rate | main    | 44bf0a1   | feat: simple connection and send data to backend edge layer                    | -                   | 02/06/2024         |
+| ChapaTuBusApp-Mobile       | main    | fe130b2   | Merge pull request #1 from TechSolutions-2024-I-IOT/develop                    | -                   | 31/05/2024         |
+
+#### 6.2.3.4. Testing Suite Evidence for Sprint Review
+
+| Repository   | Branch | Commit ID | Commit Message        | Commit Message Body | Commited on (Date) |
+| :----------- | :----- | :-------- | :-------------------- | :------------------ | :----------------- |
+| TestingSuite | main   | a72257e   | test: update sprint 3 | -                   | 08/06/2024         |
+
+Para la revisión del Sprint 3, presentamos los Testing Suite Evidence, los cuales se desarrollaron utilizando Gherkin. Gherkin proporcionó una forma clara y legible de especificar los comportamientos esperados del sistema a través de escenarios escritos en un lenguaje natural. Esto facilitó la colaboración entre el equipo de desarrollo y los stakeholders al definir y comprender los criterios de aceptación del sprint.
+
+<div align="center">
+  <img src="../Resources/sprint-3/testing_sprint_2_1.png" width=500 alt="Testing">   
+  <img src="../Resources/sprint-3/testing_sprint_2_2.png" width=500 alt="Testing">
+</div>
+
+**Enlace del repositorio:** https://github.com/TechSolutions-2024-I-IOT/TestingSuite
+
+#### 6.2.3.5. Execution Evidence for Sprint Review
+
+- **Web Application**
+
+Para el Sprint 3, se añadieron las pantallas relacionadas a la administración de los conductores. El enfoque principal fue la generación y visualización de los gráficos y seguridad.
+
+<div align="center">
+  <img src="../Resources/sprint-3/frontend_execution_sprint3_1.png" width=500 alt="Execution">   
+</div>
+
+- **Web Services**
+
+Para el Sprint 3, se termino el edgebackend y la labor de logica y resumen que debe realizar antes de enviar la informacion de los devices al backend(cloud).
+
+- Edgebackend
+
+<div align="center">
+  <img src="../Resources/sprint-3/edgebackend_execution_sprint3_1.png" width=80% alt="Execution">   
+</div>
+
+- Backend
+<div align="center">
+  <img src="../Resources/sprint-3/backend_execution_sprint3.jpeg" width=80% alt="Execution">   
+</div>
+
+* **IOT Devices**
+
+Para el Sprint 3, se termino la configuracion de los devices. Así como verificar el correcto envio de información al edge backend y los simuladores para que funcione sin intervención.
+
+<div align="center">
+  <img src="../Resources/sprint-3/iot_smartBand_sprint3.png" width=80% alt="Execution">   
+</div>
+<div align="center">
+  <img src="../Resources/sprint-3/iot_weightSensor_sprint3.png" width=80% alt="Execution">   
+</div>
+<div align="center">
+  <img src="../Resources/sprint-3/iot_gps_sprint3.png" width=80% alt="Execution">   
+</div>
+
+#### 6.2.3.6. Services Documentation Evidence for Sprint Review
+
+#### 6.2.3.7. Software Deployment Evidence for Sprint Review
+
+#### 6.2.3.8. Team Collaboration Insights during Sprint
+
 ## 6.3. Validation Interviews.
 
 ### 6.3.1. Diseño de Entrevistas.
