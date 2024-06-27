@@ -1019,6 +1019,47 @@ Para nuestro backend de IoT Edge, hemos elegido Azure debido a su potente conjun
 
 ### 6.3.2. Registro de Entrevistas.
 
+**Entrevista N°3**
+
+- Segmento objetivo: **Encargado de flota de autobuses**
+- Nombres y apellidos: **Leslie Silvera Melgarejo**
+- Edad: **25**
+- Distrito: **Comas**
+- Timing: **22:42 - 27:24**
+
+![Entrevista con encargos de flota Leslie](https://i.postimg.cc/PJgQyYZ6/manager.png)
+
+- Resumen:
+
+  #### Landing Page
+
+  Menciona que le fue fácil poder navegar a través de ella y la información fue acertada y se tiene un claro conocimiento de las funcionalidades de la aplicación. En cuanto diseño menciona que esta bien estructurada la aplicación con las secciones necesarias para poder comprender claramente el servicio que se ofrece.
+
+  #### Aplicación web
+
+  Inicio sesión con facilidad y que al momento de registrarse se pidio información concisa y oportuna, por lo que fue rápido el registro de la compañía de transporte en la que trabaja. Menciona que el monitoreo de los conductores en tiempo real es realmente algo valioso , ya que con ello se podría prevenir incluso accidentes de tránsito. Además, la velocidad de los buses es vital para saber si los conductores están acatando las normas de tránsito en conjunto los sensores de peso, para saber si están sobrepasando el aforo esperado. Menciona por último que podría ser conveniente un módulo en el cual se pueda administrar los ingresos monetarios qde la compañia.
+
+**Entrevista N°4**
+
+- Segmento objetivo: **Pasajero**
+- Nombres y apellidos: **Uriel Velasquez**
+- Edad: **20**
+- Distrito: **San Martin de Porres**
+- Timing: **13:12 - 22:41**
+
+![Entrevista con pasajero Uriel](https://i.postimg.cc/Ssm57FqX/passenger.png)
+
+- Resumen:
+
+  #### Landing Page
+
+  El pasajero menciona que fue sencillo navegar a través de la landing page y le pareció interesante que la página tenga cambio de idioma, dentro de la información de funcionalidad le pareció clara la información. En cuanto al diseño, destaca que la aplicación que tiene las secciones necesarias para comprender claramente el servicio ofrecido. Aprecia cómo se ha diseñado para que los pasajeros puedan entender fácilmente el propósito de la aplicación desde la landing page.
+
+  #### Aplicación movil
+
+  La funcionalidad de tiempo estimado de llegada de los buses resultó ser extremadamente útil, permitiéndole planificar sus viajes a la universidad. La función de guardar destinos frecuentes y consultar rutas es muy práctica y facilita el acceso rápido a sus rutas habituales. Las alertas de buses llenos fueron claras y le ayudaron basicamente a saber si esperar el siguiente bus. El mapa interactivo le permitió de forma más sencilla localizar paraderos de forma más fácil, ya que no siempre se conoce la dirección exacta. No encontró ningún aspecto de la aplicación que le resultara confuso o difícil de usar. Le gustaría ver características adicionales como opciones de pago integradas y notificaciones en tiempo real sobre cambios en las rutas o retrasos.
+
+
 ### 6.3.3. Evaluaciones según heurísticas.
 
 **UX Heuristics & Principles Evaluation**
