@@ -88,50 +88,86 @@ Evidencias de colaboración y commits - Github:
     <img src="./Resources/project-collaboration/tb1_discord2.png" width=80% alt="Execution">   
     </div>
 
-#### Entrega TP
+#### Entrega TP1
 
-El equipo se reunió por discord para hacer las primeras coordinaciones y posteriormente todo el desarrollo y reuniones de avance lo realizamos mediante Discord. En cuanto al desarrollo del informe, se realizó una repartición de manera aleatoria mediante una ruleta. Sin embargo, todos los participantes dieron ideas sobre el Lean UX y para la formación de Bounded Context.
+En el entregable de TP1, se siguió usando discord para realizar reuniones y posteriormente todas las tareas las anunciamos por un grupo de Whatsapp. Para seguir el avance del informe, se dividieron las entrevistas a realizar y las correcciones asi como las secciones y código a realizar. Algunas secciones fueron voluntarias y otras fueron sorteadas aleatoriamente.
 
 Evidencias de colaboración y commits - Github:
 
 - Contributors Image of Github Insights
 <div align="center">
-  <img src="./Resources/project-collaboration/tb1-commits.jpeg" width=80% alt="Execution">   
+  <img src="./Resources/project-collaboration/tp1-commits.jpeg" width=80% alt="Execution">   
 </div>
 
 - Commits realizados por integrante
 
   - Andrea Sofia Alfaro Salinas
       <div align="center">
-      <img src="./Resources/project-collaboration/tb1-andrea-commits.jpeg" width=80% alt="Execution">   
+      <img src="./Resources/project-collaboration/tp1-andrea-commits.jpeg" width=80% alt="Execution">   
+      </div>
+      <div align="center">
+      <img src="./Resources/project-collaboration/tp1-andrea-commits-2.jpeg" width=80% alt="Execution">   
       </div>
   - Axel
       <div align="center">
-      <img src="./Resources/project-collaboration/tb1-axel-commits.jpeg" width=80% alt="Execution">   
+      <img src="./Resources/project-collaboration/tp1-axel-commits.jpeg" width=80% alt="Execution">   
       </div>
   - Diego Martin Merino Mas
       <div align="center">
-      <img src="./Resources/project-collaboration/tb1-diego-commits.jpeg" width=80% alt="Execution">   
+      <img src="./Resources/project-collaboration/tp1-diego-commits.jpeg" width=80% alt="Execution">   
       </div>
   - Rafael
       <div align="center">
-      <img src="./Resources/project-collaboration/tb1-rafael-commits.jpeg" width=80% alt="Execution">   
+      <img src="./Resources/project-collaboration/tp1-rafael-commits.jpeg" width=80% alt="Execution">   
       </div>
   - Tania
       <div align="center">
-      <img src="./Resources/project-collaboration/tb1-tania-commits.jpeg" width=80% alt="Execution">   
+      <img src="./Resources/project-collaboration/tp1-tania-commits.jpeg" width=80% alt="Execution">   
       </div>
 
 - Evidencias de colaboración - otras herramientas
   - Discord: Utilizado como medio de reuniones y para dejar preguntas y comentarios asi como guardar los links
     <div align="center">
-    <img src="./Resources/project-collaboration/tb1_discord.png" width=80% alt="Execution">   
+    <img src="./Resources/project-collaboration/tp1-discord-1.png" width=80% alt="Execution">   
     </div>
     <div align="center">
-    <img src="./Resources/project-collaboration/tb1_discord2.png" width=80% alt="Execution">   
+    <img src="./Resources/project-collaboration/tp1-discord-2.png" width=80% alt="Execution">   
     </div>
 
 #### Entrega TB2
+
+Se uso discord para hacer las reuniones y comentarios pero los divisiones de responsabilidades así como dudas se escribirian en el grupo de Whatsapp. Se siguió el mismo patron para la division de responsabilidades. Sin embargo, todos los participantes unieron conocimientos para participar activamente en la elaboración del código del Landign Page, Web Application, Web Services, Mobile Applciation, y los Embedded Aplication.
+
+Evidencias de colaboración y commits - Github:
+
+- Contributors Image of Github Insights
+<div align="center">
+  <img src="./Resources/project-collaboration/tb2-commits.jpeg" width=80% alt="Execution">   
+</div>
+
+- Commits realizados por integrante
+
+  - Andrea Sofia Alfaro Salinas
+      <div align="center">
+      <img src="./Resources/project-collaboration/tb2-andrea-commits.jpeg" width=80% alt="Execution">   
+      </div>
+  - Diego Martin Merino Mas
+      <div align="center">
+      <img src="./Resources/project-collaboration/tb2-diego-commits.jpeg" width=80% alt="Execution">   
+      </div>
+  - Tania
+      <div align="center">
+      <img src="./Resources/project-collaboration/tb2-tania-commits.jpeg" width=80% alt="Execution">   
+      </div>
+
+- Evidencias de colaboración - otras herramientas
+  - Discord: Utilizado como medio de reuniones y para dejar preguntas y comentarios asi como guardar los links
+    <div align="center">
+    <img src="./Resources/project-collaboration/tp1-discord-1.png" width=80% alt="Execution">   
+    </div>
+    <div align="center">
+    <img src="./Resources/project-collaboration/tp1-discord-2.png" width=80% alt="Execution">   
+    </div>
 
 #### Entrega TF
 
