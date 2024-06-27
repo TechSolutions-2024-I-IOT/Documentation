@@ -90,6 +90,47 @@ Evidencias de colaboración y commits - Github:
 
 #### Entrega TP
 
+El equipo se reunió por discord para hacer las primeras coordinaciones y posteriormente todo el desarrollo y reuniones de avance lo realizamos mediante Discord. En cuanto al desarrollo del informe, se realizó una repartición de manera aleatoria mediante una ruleta. Sin embargo, todos los participantes dieron ideas sobre el Lean UX y para la formación de Bounded Context.
+
+Evidencias de colaboración y commits - Github:
+
+- Contributors Image of Github Insights
+<div align="center">
+  <img src="./Resources/project-collaboration/tb1-commits.jpeg" width=80% alt="Execution">   
+</div>
+
+- Commits realizados por integrante
+
+  - Andrea Sofia Alfaro Salinas
+      <div align="center">
+      <img src="./Resources/project-collaboration/tb1-andrea-commits.jpeg" width=80% alt="Execution">   
+      </div>
+  - Axel
+      <div align="center">
+      <img src="./Resources/project-collaboration/tb1-axel-commits.jpeg" width=80% alt="Execution">   
+      </div>
+  - Diego Martin Merino Mas
+      <div align="center">
+      <img src="./Resources/project-collaboration/tb1-diego-commits.jpeg" width=80% alt="Execution">   
+      </div>
+  - Rafael
+      <div align="center">
+      <img src="./Resources/project-collaboration/tb1-rafael-commits.jpeg" width=80% alt="Execution">   
+      </div>
+  - Tania
+      <div align="center">
+      <img src="./Resources/project-collaboration/tb1-tania-commits.jpeg" width=80% alt="Execution">   
+      </div>
+
+- Evidencias de colaboración - otras herramientas
+  - Discord: Utilizado como medio de reuniones y para dejar preguntas y comentarios asi como guardar los links
+    <div align="center">
+    <img src="./Resources/project-collaboration/tb1_discord.png" width=80% alt="Execution">   
+    </div>
+    <div align="center">
+    <img src="./Resources/project-collaboration/tb1_discord2.png" width=80% alt="Execution">   
+    </div>
+
 #### Entrega TB2
 
 #### Entrega TF
