@@ -1146,17 +1146,66 @@ A continuación, se incluye la tabla con los user stories asignados al sprint y 
 Durante este Sprint, terminamos las implementaciones a los backend desplegados, se termino de configurar los IoT devices, asi como el Web Services y Mobile Applications.
 
 Para las suites de pruebas, nos enfocamos en la creación de escenarios de prueba utilizando Gherkin debido a la simplicidad de la solución desarrollada. Hemos elaborado casos de prueba exhaustivos que abarcan diferentes aspectos de la Landing Page y la aplicación web, asegurando la calidad y funcionalidad de nuestros productos.
-**TABLA POR CAMBIAR**
-
-| Repository                 | Branch  | Commit ID | Commit Message                                                                 | Commit Message Body | Commited on (Date) |
-| :------------------------- | :------ | :-------- | :----------------------------------------------------------------------------- | :------------------ | :----------------- |
-| Frontend                   | develop | c9b6e82   | Merge pull request #6 from TechSolutions-2024-I-IOT/feature/us-30              | -                   | 08/06/2024         |
-| Frontend                   | develop | c73006b   | Merge pull request #4 from TechSolutions-2024-I-IOT/feature/us-18              | -                   | 06/06/2024         |
-| Backend                    | develop | b44bac6   | Merge pull request #1 from TechSolutions-2024-I-IOT/feature/security           | -                   | 05/06/2024         |
-| Backend                    | develop | abff06a   | Merge branch 'feature/TS-12' into feature/security                             | -                   | 05/06/2024         |
-| EdgeBackendChapaTuBus      | main    | 459276a   | feat: integration to send information to backend cloud for real time ubication | -                   | 06/06/2024         |
-| embedded-system-heart-rate | main    | 44bf0a1   | feat: simple connection and send data to backend edge layer                    | -                   | 02/06/2024         |
-| ChapaTuBusApp-Mobile       | main    | fe130b2   | Merge pull request #1 from TechSolutions-2024-I-IOT/develop                    | -                   | 31/05/2024         |
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|------------|--------|-----------|--------------------------------------------------------|---------------------|---------------------|
+| Backend | develop| 40c3a83 | feat: update unit buses endpoint | | Jun 26, 2024 |
+| Backend | TS32 | ae6fc50 | add: get transport company by user id | | Jun 26, 2024 |
+| Backend | develop| 24ff648 | fix: security | | Jun 26, 2024 |
+| Backend | develop| 31d71e1 | fix: security | | Jun 26, 2024 |
+| Backend | monitoringAndExecutionBoundedContext | 61bf8c7 | feat: Added controller of weight sensor | | Jun 25, 2024 |
+| Backend | TS34 | baa8531 | add: gps tracker controller | | Jun 25, 2024 |
+| Backend | develop| 4137e4c | fix: security | | Jun 25, 2024 |
+| Backend | TS14 | 82a8c16 | feat: db credentials updated and some resources deleted | | Jun 24, 2024 |
+| Backend | develop| 24c9b15 | fix: app properties | | Jun 24, 2024 |
+| Backend | TS14 | 3d62a8f | feat: basic endpoints for SmartBand aggregate | | Jun 24, 2024 |
+| Backend | develop| 3d62a8f | add: stripe payment endpoint | | Jun 19, 2024 |
+| Backend | develop| 01b3a72 | feat: new database link updated | | Jun 17, 2024 |
+| Backend | develop| 7b14c72 | fix: endpoint get transport company information by id | | Jun 17, 2024 |
+| EdgeBackendChapaTuBus | feature/TS21 | 6c873e | add: sendRealTimeCapacityToCloudBackend | | Jun 26, 2024 |
+| EdgeBackendChapaTuBus | fix/weight-batch-controller | 4ca6b9 | fix: weight batch controller | | Jun 26, 2024 |
+| EdgeBackendChapaTuBus | develop | 2b8b6d | fix: conflict errors of merge | | Jun 26, 2024 |
+| EdgeBackendChapaTuBus | develop | 9c798d | fix: add some import missing | | Jun 26, 2024 |
+| EdgeBackendChapaTuBus | develop | 9715b5 | feat: add endpoint to send backend cloud gps data || Jun 25, 2024 |
+| EdgeBackendChapaTuBus | feature/TS21 | 6c373f | add: weight batch controller | | Jun 25, 2024 |
+| EdgeBackendChapaTuBus | develop | f1893f | fix: add missing endpoints | | Jun 25, 2024 |
+| EdgeBackendChapaTuBus | develop | a73878 | fix: add missing endpoints | | Jun 25, 2024 |
+| EdgeBackendChapaTuBus | feature/fixSendHeartBeatAverageToCloudBackend | a53333 | update: application properties | | Jun 24, 2024 |
+| EdgeBackendChapaTuBus | feature/fixSendHeartBeatAverageToCloudBackend | db6e6c | fix: json | | Jun 24, 2024 |
+| EdgeBackendChapaTuBus | feature/TS43 | 27d4dc | fix: sendHeartBeatAverageToCloudBackend() | | Jun 24, 2024 |
+| EdgeBackendChapaTuBus | revert-3-feature/TS-34 | 26858d | Revert "fix: Data received from GPS sensor" | | Jun 24, 2024 |
+| EdgeBackendChapaTuBus | feature/TS-34 | 9c833a | fix: Data received from GPS sensor | | Jun 24, 2024 |
+| EdgeBackendChapaTuBus | revert-1-feature/TS-34 | 5b60bd | Revert "feature/TS-34" | | Jun 24, 2024 |
+| EdgeBackendChapaTuBus | feature/TS-34 | f88a95 | feat: Add location controller | | Jun 24, 2024 |
+| EdgeBackendChapaTuBus | feature/TS-34 | c6a75d | feat: Add domain / model | | Jun 24, 2024 |
+| EdgeBackendChapaTuBus | develop | a8c527 | feat: Add for send the data to cloud | | Jun 24, 2024 |
+| EdgeBackendChapaTuBus | develop | 1d602a | update: send heart beat pulse to cloud backend | | Jun 23, 2024 |
+| Frontend | fix/us-11 | b313ff8 | fix: dependecies | | Jun 27, 2024 |
+| Frontend | feature/us14 | b9c368b | feat: update dashboard component | | Jun 27, 2024 |
+| Frontend | feature/us-11 | bd2a40b | feat: dashboard weight/capacity bus sensors | | Jun 27, 2024 |
+| Frontend | develop | c5c5c17 | add: notifications | | Jun 27, 2024 |
+| Frontend | develop | 3937803 | fix: notifications route | | Jun 27, 2024 |
+| Frontend | develop | 269f3bb | add: logout | | Jun 27, 2024 |
+| Frontend | develop | a5e49f3 | add: setting forms | | Jun 26, 2024 |
+| Frontend | develop | 3fcc68f | fix: payment service and routes | | Jun 26, 2024 |
+| Frontend | develop | 82e528d | fix: service | | Jun 26, 2024 |
+| Frontend | feature/us-31 | 434dc7e | feat: Add creation of schedules | | Jun 26, 2024 |
+| Frontend | develop | d6c4d18 | add: stripe service | | Jun 24, 2024 |
+| Frontend | develop | 2da2729 | add: stripe payment component | | Jun 24, 2024 |
+| Frontend | develop | 6d16db9 | add: stripe component | | Jun 24, 2024 |
+| Frontend | develop | fca6628 | add: toolbar and routes | | Jun 22, 2024 |
+| Frontend | develop | 8832e38 | add: subscription page base | | Jun 22, 2024 |
+| Frontend | develop | 1b792f8 | fix (\*) - old router | | Jun 14, 2024 |
+| Frontend | develop | 7d8a59a | fix: route | | Jun 8, 2024 |
+| Mobile | feature/subscriptions | 44c9940 | feat: added subscriptions bounded context | | Jun 27, 2024 |
+| Mobile | feature/router | fde7f42 | feat: added shared with router and navbar | | Jun 27, 2024 |
+| Mobile | feature/home | b89e8ed | feat: added home screen | | Jun 27, 2024 |
+| Mobile | feature/injections | 40eb906 | feat: added injections | | Jun 27, 2024 |
+| Mobile | feature/executing-monitoring | 7a0c68d | feat: add executing monitoring bounded context | | Jun 27, 2024 |
+| embedded-system-gps | main | a551b17 | feat: wokwi project gps updated | | Jun 25, 2024 |
+| embedded-system-gps | main | 6e684e5 | feat: wokwi project updated | | Jun 25, 2024 |
+| embedded-system-gps | main | fa80d07 | feat: Add embedded GPS system | | Jun 22, 2024 |
+| embedded-system-gps | main | b540950 | Add files via upload | | Jun 21, 2024 |
+| embedded-system-gps | main | 4a2e333 | Initial commit | | Jun 21, 2024 |
 
 #### 6.2.3.4. Testing Suite Evidence for Sprint Review
 
