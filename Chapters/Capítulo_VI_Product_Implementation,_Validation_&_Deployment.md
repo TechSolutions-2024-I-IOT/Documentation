@@ -1209,6 +1209,13 @@ Para el Sprint 3, se termino la configuracion de los devices. Así como verifica
   <img src="../Resources/sprint-3/iot_gps_sprint3.png" width=80% alt="Execution">   
 </div>
 
+**Enlace de explicación de los proyectos wokwi IOT y el backend edge:**
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u20181b530_upc_edu_pe/EcvbdBzmy5pCkP0Qpf2R9m4Blt2eRT_IV4pp_JktYCHifw?e=nFON6b&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+**Enlace de explicación de la aplicación web y backend cloud:**
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u20181b530_upc_edu_pe/EQUU_88MDRJKlqxR1jxUvCMB036ogGdSsiqMF6WnpdSZtg?e=oiQMbD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+
 #### 6.2.3.6. Services Documentation Evidence for Sprint Review
 
 #### 6.2.3.7. Software Deployment Evidence for Sprint Review
