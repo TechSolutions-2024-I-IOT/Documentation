@@ -1039,10 +1039,10 @@ _Sobre la Aplicación_
 
 **CARRERA** : Ingeniería de Software
 **CURSO** : Desarrollo de Soluciones IoT
-**SECCIÓN** : Código de la sección
-**PROFESORES** : Todos
+**SECCIÓN** : WS71
+**PROFESORES** : Angel Augusto Velasquez Nuñez
 **AUDITOR** : TechSolutions
-**CLIENTE(S)** :
+**CLIENTE(S)** : Pasajeros y administradores de líneas de transporte
 
 **SITE o APP A EVALUAR:** ChapaTuBus
 
@@ -1056,6 +1056,14 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 4. Creación de un nuevo vehículo en la flota
 5. Asignación de conductores a vehículos
 6. Monitoreo en tiempo real de la flota
+7. Visualización de rutas de buses en la app móvil
+8. Consulta de la ubicación en tiempo real de buses específicos
+9. Verificación del aforo de buses en la app móvil
+10. Adición y gestión de rutas favoritas en la app móvil
+11. Búsqueda de paradas cercanas en la app móvil
+12. Planificación de viajes con múltiples rutas
+13. Recepción de notificaciones sobre retrasos o cambios en el servicio
+14. Eliminación de unidades de bus del sistema (web)
 
 No están incluidas en esta versión de la evaluación las siguientes tareas:
 
@@ -1081,44 +1089,49 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 | 1   | Dificultad para agregar paradas a la línea | 3                   | Consistencia y estándares                 |
 | 2   | Tedioso asignar conductores a vehículos    | 3                   | Minimizar la carga de memoria del usuario |
 | 3   | Complejidad en la asignación de horarios   | 4                   | Eficiencia y flexibilidad de uso          |
+| 4   | Falta de visibilidad del estado de los buses en tiempo real   | 3                  | Visibilidad del estado del sistema          |
+| 5   | Dificultad para agregar rutas favoritas en la app móvil   | 2                   | Control y libertad del usuario         |
+| 6   | Confusión en la interpretación del aforo de buses   | 3                   | Coincidencia entre sistema y mundo real          |
+| 7   | Falta de confirmación al eliminar rutas favoritas   | 3                   | Prevención de errores          |
+| 8   | Falta de confirmación al eliminar unidades de bus  | 3                   | Prevención de errores          |
 
 **DESCRIPCIÓN DE PROBLEMAS:**
 
-- **PROBLEMA #1:**
+- **PROBLEMA #1:** Dificultad para agregar paradas a la línea
 
 Severidad: 3
 
 Heurística violada: Consistencia y estándares
 
-Problema: El proceso para agregar paradas a la línea es confuso y requiere varios pasos innecesarios, lo que dificulta completar la tarea correctamente.
+Problema: El proceso para agregar paradas a la línea en la interfaz web es confuso y requiere varios pasos innecesarios. Los usuarios se encuentran con inconsistencias en la terminología utilizada y en la ubicación de los controles para esta función. Por ejemplo, el botón para agregar una nueva parada se encuentra en una posición poco intuitiva, y los campos para ingresar la información de la parada no siguen un orden lógico. Esto resulta en una tasa de error significativa y un aumento en el tiempo necesario para completar esta tarea crucial.
 
 <div align="center">
   <img src="../Resources/heuristicas_1.png" width=500 alt="Heuristicas">
 </div>
 
-Recomendación: Simplificar el flujo para agregar paradas, asegurando que el proceso sea intuitivo y directo, con etiquetas claras y consistentes.
+Recomendación: Rediseñar el flujo de trabajo para agregar paradas, asegurando que el proceso sea intuitivo y directo. Implementar un diseño consistente con otras partes de la aplicación, utilizando etiquetas claras y ubicando los controles de manera lógica. Considerar la implementación de un asistente paso a paso para guiar a los usuarios a través del proceso, especialmente para usuarios nuevos o poco frecuentes.
 
-- **PROBLEMA #2:**
+- **PROBLEMA #2:** Tedioso asignar conductores a vehículos
 
 Severidad: 3
 
 Heurística violada: Minimizar la carga de memoria del usuario
 
-Problema: Asignar conductores a vehículos es un proceso tedioso que requiere navegar por múltiples menús y recordar información específica sobre los conductores y vehículos.
+Problema:  La asignación de conductores a vehículos en la plataforma web es un proceso tedioso que impone una carga cognitiva significativa en los usuarios. Actualmente, requiere navegar por múltiples menús y recordar información específica sobre los conductores y vehículos. Los usuarios deben alternar entre diferentes pantallas para verificar la disponibilidad de conductores y las características de los vehículos, lo que aumenta la probabilidad de errores y reduce la eficiencia operativa.
 
 <div align="center">
   <img src="../Resources/heuristicas_2.png" width=500 alt="Heuristicas">
 </div>
 
-Recomendación: Rediseñar la interfaz de asignación para permitir una selección más rápida y fácil, posiblemente utilizando listas desplegables y autocompletado para minimizar la carga de memoria del usuario.
+Recomendación: Rediseñar la interfaz de asignación para permitir una selección más rápida y fácil. Implementar un sistema de búsqueda y filtrado avanzado que permita a los usuarios encontrar rápidamente conductores y vehículos basándose en criterios relevantes. Utilizar listas desplegables inteligentes y funciones de autocompletado para minimizar la entrada manual de datos. Mostrar información contextual relevante (como la disponibilidad del conductor y las características del vehículo) directamente en la interfaz de asignación para reducir la necesidad de cambiar entre pantallas.
 
-- **PROBLEMA #3:**
+- **PROBLEMA #3:** Complejidad en la asignación de horarios
 
 Severidad: 4
 
 Heurística violada: Eficiencia y flexibilidad de uso
 
-Problema: La asignación de horarios es compleja y no permite flexibilidad, con una interfaz que no es intuitiva y requiere muchos clics y confirmaciones.
+Problema: La asignación de horarios en la plataforma web es excesivamente compleja y carece de la flexibilidad necesaria para adaptarse a las necesidades operativas cambiantes. La interfaz actual no es intuitiva y requiere numerosos clics y confirmaciones para realizar incluso ajustes menores. Los usuarios encuentran difícil visualizar los horarios de manera holística, lo que complica la detección de conflictos o la optimización de las programaciones. Además, la rigidez del sistema dificulta la realización de cambios rápidos en respuesta a eventos imprevistos o ajustes de última hora.
 
 <div align="center">
   <img src="../Resources/heuristicas_3_1.png" width=500 alt="Heuristicas">
@@ -1128,7 +1141,69 @@ Problema: La asignación de horarios es compleja y no permite flexibilidad, con 
   <img src="../Resources/heuristicas_3_2.png" width=500 alt="Heuristicas">
 </div>
 
-Recomendación: Simplificar y optimizar la interfaz para la asignación de horarios, permitiendo arrastrar y soltar y proporcionando plantillas predefinidas para agilizar el proceso.
+Recomendación: Desarrollar una interfaz de usuario más flexible y eficiente para la asignación de horarios. Implementar un sistema de arrastrar y soltar que permita a los usuarios manipular visualmente los horarios. Integrar una vista de calendario interactiva que muestre claramente las asignaciones y permita ajustes rápidos. Añadir funciones de autocompletado inteligente y sugerencias basadas en patrones históricos para acelerar el proceso de programación. Incorporar un sistema de alertas que identifique automáticamente conflictos potenciales y sugiera optimizaciones. Permitir la creación y aplicación de plantillas de horarios para escenarios comunes, reduciendo así el tiempo necesario para la programación rutinaria.
+
+- **PROBLEMA #4:** Falta de visibilidad del estado de los buses en tiempo real
+
+Severidad: 3
+
+Heurística violada: Visibilidad del estado del sistema
+
+Problema: En la aplicación móvil, la visualización de la ubicación en tiempo real de los buses es deficiente y no proporciona actualizaciones con la frecuencia necesaria. Los usuarios experimentan confusión y frustración debido a la discrepancia entre la posición mostrada en la app y la ubicación real de los vehículos. Esta falta de precisión afecta negativamente la confiabilidad percibida del servicio y puede llevar a los pasajeros a tomar decisiones erróneas sobre sus viajes.
+
+Recomendación: Mejorar significativamente el sistema de seguimiento en tiempo real. Aumentar la frecuencia de actualización de la ubicación de los buses, asegurando que los datos se refresquen al menos cada 10-15 segundos. Implementar indicadores visuales claros que muestren cuándo se actualizó por última vez la información de cada bus. Añadir una función de "pulsar para actualizar" que permita a los usuarios solicitar manualmente una actualización inmediata. Considerar la implementación de un sistema de predicción que estime la posición del bus entre actualizaciones basándose en datos históricos y condiciones de tráfico en tiempo real.
+
+- **PROBLEMA #5:** Dificultad para agregar rutas favoritas en la app móvil
+
+Severidad: 2
+
+Heurística violada: Visibilidad del estado del sistema
+
+Problema: En la aplicación móvil, la visualización de la ubicación en tiempo real de los buses es deficiente y no proporciona actualizaciones con la frecuencia necesaria. Los usuarios experimentan confusión y frustración debido a la discrepancia entre la posición mostrada en la app y la ubicación real de los vehículos. Esta falta de precisión afecta negativamente la confiabilidad percibida del servicio y puede llevar a los pasajeros a tomar decisiones erróneas sobre sus viajes.
+
+Recomendación: Mejorar significativamente el sistema de seguimiento en tiempo real. Aumentar la frecuencia de actualización de la ubicación de los buses, asegurando que los datos se refresquen al menos cada 10-15 segundos. Implementar indicadores visuales claros que muestren cuándo se actualizó por última vez la información de cada bus. Añadir una función de "pulsar para actualizar" que permita a los usuarios solicitar manualmente una actualización inmediata. Considerar la implementación de un sistema de predicción que estime la posición del bus entre actualizaciones basándose en datos históricos y condiciones de tráfico en tiempo real.
+
+- **PROBLEMA #6:** Confusión en la interpretación del aforo de buses
+
+Severidad: 3
+
+Heurística violada: Coincidencia entre sistema y mundo real
+
+Problema: La representación visual del aforo de buses en la aplicación móvil utiliza un sistema de codificación por colores que resulta ambiguo y poco intuitivo para muchos usuarios. El esquema actual no logra transmitir eficazmente la información sobre la disponibilidad de espacio en los vehículos, llevando a malinterpretaciones que pueden resultar en decisiones inadecuadas por parte de los pasajeros. La falta de claridad en esta información crítica disminuye la utilidad de la aplicación y puede contribuir a la congestión en ciertos buses mientras otros circulan con capacidad disponible.
+
+Recomendación: Rediseñar completamente la visualización del aforo de buses para hacerla más intuitiva y fácil de interpretar a primera vista. Implementar un sistema que combine códigos de colores con iconos representativos y etiquetas de texto claras. Por ejemplo:
+
+- Verde con icono de asiento: "Asientos disponibles"
+- Amarillo con icono de personas de pie: "De pie con espacio"
+- Rojo con icono de bus lleno: "Capacidad máxima"
+
+Además, incluir un indicador numérico que muestre el porcentaje aproximado de ocupación. Considerar la adición de una leyenda explicativa accesible mediante un botón de información, para usuarios que necesiten clarificación adicional.
+
+
+- **PROBLEMA #7:** Falta de confirmación al eliminar rutas favoritas
+
+Severidad: 3
+
+Heurística violada: Prevención de errores
+
+Problema: La aplicación móvil permite a los usuarios eliminar rutas de su lista de favoritos sin solicitar ninguna confirmación, lo que frecuentemente resulta en eliminaciones accidentales. Esta falta de un mecanismo de seguridad causa frustración en los usuarios, especialmente cuando eliminan rutas que utilizan con frecuencia y que luego deben volver a agregar manualmente. El problema se agrava por la falta de una función de "deshacer" inmediata, lo que obliga a los usuarios a navegar nuevamente por la aplicación para restaurar sus rutas favoritas perdidas.
+
+Recomendación: Implementar un sistema de confirmación de dos pasos para la eliminación de rutas favoritas. Cuando un usuario intente eliminar una ruta, mostrar un diálogo de confirmación que explique claramente las consecuencias de la acción y solicite una confirmación explícita. Incluir en este diálogo una opción para "No mostrar de nuevo" para usuarios avanzados que prefieran un proceso más rápido. Adicionalmente, implementar una función de "deshacer" que aparezca temporalmente después de la eliminación, permitiendo a los usuarios recuperar fácilmente una ruta eliminada por error. Considerar la creación de una "papelera" temporal que retenga las rutas eliminadas durante un período determinado (por ejemplo, 30 días) antes de eliminarlas permanentemente, ofreciendo así una capa adicional de seguridad.
+
+- **PROBLEMA #8:** Falta de confirmación al eliminar unidades de bus
+
+Severidad: 3
+
+Heurística violada: Prevención de errores
+
+Problema: En la interfaz web de administración de la flota, el sistema permite la eliminación de unidades de bus sin un proceso de confirmación adecuado. Esta falta de salvaguardas ha resultado en eliminaciones accidentales de vehículos de la flota, causando disrupciones significativas en la planificación y operación del servicio. Los administradores se ven obligados a recrear manualmente la información del bus eliminado, lo que consume tiempo y puede llevar a inconsistencias en los datos si no se recupera toda la información correctamente. Además, la ausencia de un registro claro de estas acciones dificulta la auditoría y la resolución de problemas relacionados con cambios no intencionales en la flota.
+
+Recomendación: Implementar un robusto sistema de confirmación multi-paso para la eliminación de unidades de bus. Este proceso debe incluir:
+
+- Un diálogo de confirmación inicial que muestre claramente los detalles del bus que se va a eliminar, incluyendo su número de identificación, ruta asignada y cualquier programación futura.
+- Requerir que el usuario escriba una frase específica (por ejemplo, "ELIMINAR BUS [ID]") para confirmar la acción, reduciendo así la probabilidad de eliminaciones accidentales.
+- Implementar un sistema de "soft delete" que mueva los buses eliminados a una sección de "Inactivos" en lugar de eliminarlos permanentemente. Esto permitiría una fácil recuperación en caso de eliminaciones erróneas.
+- Enviar notificaciones automáticas a otros administradores del sistema cuando se elimine un bus, permitiendo una rápida intervención si la acción fue no intencional.
 
 ## 6.4. Video About-the-Product.
 
