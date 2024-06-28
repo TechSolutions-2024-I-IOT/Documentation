@@ -1357,6 +1357,36 @@ Para el Sprint 3, también hemos finalizado la implementación y documentación 
 
 #### 6.2.3.7. Software Deployment Evidence for Sprint Review
 
+Durante el Sprint 3, se llevaron a cabo diversas actividades relacionadas con el despliegue del backend edge del proyecto en Azure. A continuación, se describen los pasos realizados:
+
+**Creación del Grupo de Recursos en Azure:**
+
+- Se creó una cuenta en Azure para gestionar los recursos necesarios para el proyecto.
+- Se configuraron los permisos y roles adecuados para los miembros del equipo de desarrollo.
+
+**Configuración del Azure App Service:**
+
+- Se desplegó el backend utilizando Azure App Service, que permite gestionar y escalar aplicaciones web de manera eficiente.
+- Se configuró una base de datos SQL en Azure para almacenar los datos necesarios para el funcionamiento del backend.
+
+<div align="center">
+  <img src="../Resources/sprint-3/azure.jpeg" width=80% alt="Execution">   
+</div>
+
+**Pipeline de CI/CD en Azure DevOps:**
+
+- Se configuraron pipelines de CD para que, una vez aprobados los cambios, estos sean desplegados automáticamente en el entorno de producción.
+
+<div align="center">
+  <img src="../Resources/sprint-3/pipeline.jpeg" width=80% alt="Execution">   
+</div>
+
+**Estado Final del Backend Cloud Desplegado:**
+
+<div align="center">
+  <img src="../Resources/sprint-3/edgebackend_execution_sprint3_1.png" width=80% alt="Execution">   
+</div>
+
 #### 6.2.3.8. Team Collaboration Insights during Sprint
 
 **Edge Devices**
