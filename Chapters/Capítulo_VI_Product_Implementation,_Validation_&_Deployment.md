@@ -1359,6 +1359,78 @@ Para el Sprint 3, también hemos finalizado la implementación y documentación 
 
 #### 6.2.3.8. Team Collaboration Insights during Sprint
 
+**Edge Devices**
+
+- embedded-system-gps
+
+<div align="center">
+  <img src="../Resources/sprint-3/embedded-system-gps-pulse.png" width=80% alt="Execution">   
+</div>
+
+<div align="center">
+  <img src="../Resources/sprint-3/embedded-system-gps-contributors.png" width=80% alt="Execution">   
+</div>
+
+- embedded-system-weight-sensor
+
+<div align="center">
+  <img src="../Resources/sprint-3/embedded-system-weight-sensor-pulse.png" width=80% alt="Execution">   
+</div>
+
+<div align="center">
+  <img src="../Resources/sprint-3/embedded-system-weight-sensor-contributors.png" width=80% alt="Execution">   
+</div>
+
+- embedded-system-heart-rate
+
+<div align="center">
+  <img src="../Resources/sprint-3/embedded-system-heart-rate-pulse.png" width=80% alt="Execution">   
+</div>
+
+<div align="center">
+  <img src="../Resources/sprint-3/embedded-system-heart-rate-contributos.png" width=80% alt="Execution">   
+</div>
+
+**Edge Backend**
+
+<div align="center">
+  <img src="../Resources/sprint-3/edge-backend-pulse.png" width=80% alt="Execution">   
+</div>
+
+<div align="center">
+  <img src="../Resources/sprint-3/edge-backend-contributors.png" width=80% alt="Execution">   
+</div>
+
+**Cloud Backend**
+
+<div align="center">
+  <img src="../Resources/sprint-3/cloud-backend-pulse.png" width=80% alt="Execution">   
+</div>
+
+<div align="center">
+  <img src="../Resources/sprint-3/cloud-backend-contributors.png" width=80% alt="Execution">   
+</div>
+
+**Frontend**
+
+<div align="center">
+  <img src="../Resources/sprint-3/frontend-pulse.png" width=80% alt="Execution">   
+</div>
+
+<div align="center">
+  <img src="../Resources/sprint-3/frontend-contributors.png" width=80% alt="Execution">   
+</div>
+
+**Mobile**
+
+<div align="center">
+  <img src="../Resources/sprint-3/mobile-pulse.png" width=80% alt="Execution">   
+</div>
+
+<div align="center">
+  <img src="../Resources/sprint-3/mobile-contributors.png" width=80% alt="Execution">   
+</div>
+
 ## 6.3. Validation Interviews.
 
 ### 6.3.1. Diseño de Entrevistas.
@@ -1403,6 +1475,44 @@ _Sobre la Aplicación_
 7. ¿Qué características adicionales te gustaría ver en la aplicación para pasajeros?
 
 ### 6.3.2. Registro de Entrevistas.
+
+**Entrevista N°1**
+
+- Segmento objetivo: **Pasajero**
+- Nombres y apellidos: ****
+- Edad: ****
+- Distrito: ****
+- Timing: ****
+
+![Entrevista con pasajero Renzo]()
+
+- Resumen:
+
+  #### Landing Page
+
+  
+
+  #### Aplicación móvil
+
+**Entrevista N°2**
+
+- Segmento objetivo: **Encargado de flota de autobuses**
+- Nombres y apellidos: ****
+- Edad: ****
+- Distrito: ****
+- Timing: ****
+
+![Entrevista con encargos de flota Andy]()
+
+- Resumen:
+
+  #### Landing Page
+
+
+
+  #### Aplicación web
+
+ 
 
 **Entrevista N°3**
 
