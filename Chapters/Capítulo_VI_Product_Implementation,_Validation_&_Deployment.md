@@ -823,32 +823,30 @@ Asimismo, se presenta la tabla de nuestro primer sprint con las respectivas user
 | :--------- | :-------------------------------------------------------------------- | :-- | :----------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------- | :----------------- | :------------ | :---------- |
 | User Story | Work-Item /Task                                                       |     |                                                              |                                                                                                                                     |                    |               |             |
 | Id         | Title                                                                 | Id  | Title                                                        | Description                                                                                                                         | Estimation (Hours) | Assigned To   | Status      |
-| TS21       | Registro de un Transport Company                                      | 1   | Registro de empresas de transporte                           | Que un usuario de la plataforma web pueda registrar a su empresa de transporte                                                      | 1                  | Axel Fiestas  | In Progress |
-| TS22       | Registro de Conductor de un Transport Company                         | 2   | Registro de conductores de empresas de transporte            | El usuario registrado como manager de la empresa de transporte debe registrar los conductores respectivos con los datos solicitados | 2                  | Axel Fiestas  | In Progress |
-| US12       | Visualizar horarios de mayor afluencia                                | 3   | Mostrar los horarios en que hay mayor afluencia de buses     | Mostrar un gráfico estadístico con los horarios de mayor afluencia en cada paradero, para poder ajustar la frecuencia de los buses  | 6                  | Tania Vasquez | To Do       |
-| US11       | Visualizar paraderos con mayor afluencia                              | 4   | Mostrar los paraderos con más concurrencia                   | Mostrar información sobre los paraderos donde se sube más gente durante el día, para poder identificar las rutas con mayor demanda  | 6                  | Tania Vasquez | To Do       |
-| TS23       | Listado de Drivers Asociados de la empresa                            | 5   | Listar los conductores asociados a una empresa de transporte | Mostrar de forma ordenada los conductores registrados en la empresa                                                                 | 1                  | Axel Fiestas  | In Progress |
-| TS24       | Registro de bus para un Transport Company                             | 6   | Registro de buses para empresas de transporte                | Añadir un bus a la flota de la empresa, después de introducir los datos requeridos                                                  | 1                  | Axel Fiestas  | In Progress |
-| TS25       | Listado de Buses Asociados de un Transport Company                    | 7   | Listar los buses asociados a una empresa de transporte       | Mostrar de forma ordenada los buses registrados a la flota de la empresa                                                            | 1                  | Axel Fiestas  | In Progress |
-| TS26       | Asignación de una Unidad de Bus                                       | 8   | Asignar una unidad de bus a un conductor                     | Al asignar un conductor a un bus se crea la unidad de bus                                                                           | 2                  | Axel Fiestas  | In Progress |
-| TS27       | Listado de Drivers Asociados de un Transport Company                  | 9   | Listar los conductores asociados a una empresa de transporte | Crear un endpoint para devolver los conductores ligados a la empresa con una correcta estructura                                    | 1                  | Axel Fiestas  | In Progress |
-| TS29       | Creación de un Schedule de un Transport Company                       | 10  | Crear un horario para una empresa de transporte              | Crear un horario para una empresa de transporte para mejorar la organización de salidas y llegadas                                  | 3                  | Axel Fiestas  | In Progress |
-| TS30       | Registro de una salida (Departure Schedule) asociada con              | 11  | Registro de salida de un bus                                 | Registrar la salida de un bus en el horario planificado                                                                             | 2                  | Axel Fiestas  | To Do       |
-| TS31       | Subida de imágenes para formularios                                   | 12  | Subida de imágenes                                           | Permitir la subida de imágenes en los formularios para documentación visual                                                         | 2                  | Axel Fiestas  | In Progress |
-| US18       | Visualizar gráfico de línea con el tiempo de pulso de la              | 13  | Visualizar gráfico del pulso del conductor                   | Mostrar un gráfico de línea con el tiempo de pulso del conductor para monitorear su salud                                           | 4                  | Axel Fiestas  | To Do       |
-| TS32       | Listado de todos los transport companies existentes                   | 14  | Listar todas las empresas de transporte                      | Listar todas las empresas de transporte registradas en la plataforma                                                                | 1                  | Axel Fiestas  | In Progress |
-| TS33       | Obtener información de un conductor                                   | 15  | Obtener información detallada de un conductor                | Obtener información detallada de un conductor por medio de su ID                                                                    | 2                  | Axel Fiestas  | In Progress |
-| TS34       | Obtener información de la ubicación del bus en tiempo re              | 16  | Obtener ubicación en tiempo real                             | Obtener la ubicación en tiempo real de los buses mediante GPS                                                                       | 6                  | Axel Fiestas  | To Do       |
-| TS35       | Modificar información de un driver                                    | 17  | Modificar información de un conductor                        | Modificar datos de un conductor existente en la base de datos                                                                       | 2                  | Axel Fiestas  | In Progress |
-| TS36       | Modificar información de un bus                                       | 18  | Modificar información de un bus                              | Modificar datos de un bus existente en la base de datos                                                                             | 2                  | Axel Fiestas  | In Progress |
-| TS37       | Borrar información de un Driver                                       | 19  | Borrar información de un conductor                           | Eliminar datos de un conductor de la base de datos                                                                                  | 2                  | Axel Fiestas  | In Progress |
-| TS38       | Listado de Schedules Asociados de un TransportCompany                 | 20  | Listar horarios de una empresa de transporte                 | Listar los horarios asociados a una empresa de transporte                                                                           | 2                  | Rafael Primo  | In Progress |
-| TS39       | Borrar información de un Bus                                          | 21  | Borrar información de un bus                                 | Eliminar datos de un bus de la base de datos                                                                                        | 2                  | Axel Fiestas  | In Progress |
-| TS40       | Obtener información de un TransportCompany med...                     | 22  | Obtener información de una empresa por IoT                   | Obtener datos de una empresa de transporte mediante dispositivos IoT                                                                | 2                  | Axel Fiestas  | In Progress |
-| TS41       | Reasignar un UnitBus                                                  | 23  | Reasignar una unidad de bus                                  | Reasignar una unidad de bus a otro conductor o ruta                                                                                 | 2                  | Axel Fiestas  | To Do       |
-| TS15       | Interconectar dispositivos Iot                                        | 24  | Interconectar dispositivos IoT                               | Configurar la interconexión de dispositivos IoT para la plataforma                                                                  | 2                  | Diego Merino  | To Do       |
-| TS16       | Conectar dispositivos IoT hacia el Gateway o el Hub                   | 25  | Conectar dispositivos IoT al Gateway                         | Configurar la conexión de dispositivos IoT hacia el Gateway o Hub                                                                   | 2                  | Diego Merino  | To Do       |
-| US18       | Visualizar gráfico de línea con el tiempo de pulso de los conductores | 26  | Visualizar gráfico del pulso de los conductores              | Mostrar un gráfico de línea con el tiempo de pulso de todos los conductores para monitorear su salud                                | 2                  | Diego Merino  | To Do       |
+| TS21 | Registro de un Transport Company  | 1 | Registro de empresas de transporte  | Que un usuario de la plataforma web pueda registrar a su empresa de transporte  | 3  | Axel Fiestas  | Done |
+| TS22 | Registro de Conductor de un Transport Company  | 2 | Registro de conductores de empresas de transporte  | El usuario registrado como manager de la empresa de transporte debe registrar los conductores respectivos con los datos solicitados | 2  | Axel Fiestas  | Done |
+| US12  | Visualizar horarios de mayor afluencia | 3 | Mostrar los horarios en que hay mayor afluencia de buses | Mostrar un gráfico estadístico con los horarios de mayor afluencia en cada paradero, para poder ajustar la frecuencia de los buses  | 2 | Tania Vasquez | Done |
+| TS23 | Listado de Drivers Asociados de la empresa                            | 5   | Listar los conductores asociados a una empresa de transporte | Mostrar de forma ordenada los conductores registrados en la empresa | 2 | Axel Fiestas  | Done |
+| TS24 | Registro de bus para un Transport Company | 6   | Registro de buses para empresas de transporte  | Añadir un bus a la flota de la empresa, después de introducir los datos requeridos | 2 | Axel Fiestas  | Done |
+| TS25 | Listado de Buses Asociados de un Transport Company | 7   | Listar los buses asociados a una empresa de transporte  | Mostrar de forma ordenada los buses registrados a la flota de la empresa  | 2| Axel Fiestas  | Done |
+| TS26  | Asignación de una Unidad de Bus | 8 | Asignar una unidad de bus a un conductor | Al asignar un conductor a un bus se crea la unidad de bus | 2  | Andrea Alfaro  | Done |
+| TS27  | Listado de Drivers Asociados de un Transport Company | 9 | Listar los conductores asociados a una empresa de transporte | Crear un endpoint para devolver los conductores ligados a la empresa con una correcta estructura | 2 | Axel Fiestas  | Done |
+| TS29 | Creación de un Schedule de un Transport Company  | 10  | Crear un horario para una empresa de transporte | Crear un horario para una empresa de transporte para mejorar la organización de salidas y llegadas | 3  | Axel Fiestas  | Done |
+| TS30 | Registro de una salida (Departure Schedule) asociada con  | 11  | Registro de salida de un bus  | Registrar la salida de un bus en el horario planificado | 3 | Axel Fiestas  | Done |
+| TS31 | Subida de imágenes para formularios  | 12  | Subida de imágenes  | Permitir la subida de imágenes en los formularios para documentación visual  | 2                  | Axel Fiestas  | Done |
+| US18  | Visualizar gráfico de línea con el tiempo de pulso de la  | 13  | Visualizar gráfico del pulso del conductor  | Mostrar un gráfico de línea con el tiempo de pulso del conductor para monitorear su salud | 3 | Diego Merino  | Done |
+| TS32 | Listado de todos los transport companies existentes | 14  | Listar todas las empresas de transporte | Listar todas las empresas de transporte registradas en la plataforma  | 1  | Axel Fiestas  | Done |
+| TS33  | Obtener información de un conductor  | 15  | Obtener información detallada de un conductor  | Obtener información detallada de un conductor por medio de su ID  | 2 | Axel Fiestas  | Done |
+| TS35  | Modificar información de un driver  | 16  | Modificar información de un conductor  | Modificar datos de un conductor existente en la base de datos  | 2   | Axel Fiestas  | Done |
+| TS36       | Modificar información de un bus                                       | 18  | Modificar información de un bus                              | Modificar datos de un bus existente en la base de datos                                                                             | 2                  | Axel Fiestas  | Done |
+| TS37       | Borrar información de un Driver                                       | 19  | Borrar información de un conductor                           | Eliminar datos de un conductor de la base de datos                                                                                  | 2                  | Andrea Alfaro  | Done |
+| TS38       | Listado de Schedules Asociados de un TransportCompany                 | 20  | Listar horarios de una empresa de transporte                 | Listar los horarios asociados a una empresa de transporte                                                                           | 2                  | Rafael Primo  | Done |
+| TS39       | Borrar información de un Bus                                          | 21  | Borrar información de un bus                                 | Eliminar datos de un bus de la base de datos                                                                                        | 2                  | Axel Fiestas  | Done |
+| TS40       | Obtener información de un TransportCompany  | 22  | Obtener información de una empresa por IoT  | Obtener datos de una empresa de transporte mediante dispositivos IoT   | 2  | Axel Fiestas  | Done |
+| TS41       | Reasignar un UnitBus                                                  | 23  | Reasignar una unidad de bus                                  | Reasignar una unidad de bus a otro conductor o ruta                                                                                 | 3                  | Andrea Alfaro  | Done       |
+| TS15       | Interconectar dispositivos Iot                                        | 24  | Interconectar dispositivos IoT                               | Configurar la interconexión de dispositivos IoT para la plataforma                                                                  | 5                  | Diego Merino  | Done      |
+| TS16       | Conectar dispositivos IoT hacia el Gateway o el Hub                   | 25  | Conectar dispositivos IoT al Gateway                         | Configurar la conexión de dispositivos IoT hacia el Gateway o Hub                                                                   | 5                  | Diego Merino  | Done      |
+
 
 #### 6.2.2.3. Development Evidence for Sprint Review.
 
@@ -858,8 +856,19 @@ Para las suites de pruebas, nos enfocamos en la creación de escenarios de prueb
 
 | Repository                 | Branch  | Commit ID | Commit Message                                                                 | Commit Message Body | Commited on (Date) |
 | :------------------------- | :------ | :-------- | :----------------------------------------------------------------------------- | :------------------ | :----------------- |
-| Frontend                   | develop | c9b6e82   | Merge pull request #6 from TechSolutions-2024-I-IOT/feature/us-30              | -                   | 08/06/2024         |
+| Frontend                   | feature/us-18 | c73006b | feat: Add auth services | -                   | 06/06/2024         |
+| Frontend                   | feature/us-18 | 29895d3 | fix: Restructure folders and services | -                   | 06/06/2024         |     |
 | Frontend                   | develop | c73006b   | Merge pull request #4 from TechSolutions-2024-I-IOT/feature/us-18              | -                   | 06/06/2024         |
+| Frontend                   | feature/us-19 | d19d120 | feat: Add profile view  | -                   | 07/06/2024         |
+| Frontend                   | feature/us-19 | 7efdc8f | feat: Add Unit Bus and Bus services , fix styles  | -                   | 07/06/2024         |
+| Frontend                   | feature/us-19 | 1a21739 | feat: Add sign-in view and services  | -                   | 07/06/2024         |
+| Frontend                   | feature/us-19 | 88e58ba | feat: Add sign-up and transport company register  | -                   | 07/06/2024         |
+| Frontend                   | develop | c73006b   | Merge pull request #4 from TechSolutions-2024-I-IOT/feature/us-19              | -                   | 08/06/2024         |
+| Frontend                   | feature/us-30 | 6e09685 | feat: Departure Schedule view | -                   | 08/06/2024         |
+| Frontend                   | develop | c9b6e82 | Merge pull request #6 from TechSolutions-2024-I-IOT/feature/us-30_| -             | 08/06/2024         |
+| Backend                    | feature/TS-12 | 61345a9 | fix: url transport company controller mapping fixed  | -                   | 05/06/2024         
+| Backend                    | feature/security | abff06a | Merge branch 'feature/TS-12' into feature/security  | -                   | 05/06/2024   |
+| Backend                    | feature/security | 94c2775 | fix: Correct login  | -                   | 05/06/2024   |
 | Backend                    | develop | b44bac6   | Merge pull request #1 from TechSolutions-2024-I-IOT/feature/security           | -                   | 05/06/2024         |
 | Backend                    | develop | abff06a   | Merge branch 'feature/TS-12' into feature/security                             | -                   | 05/06/2024         |
 | EdgeBackendChapaTuBus      | main    | 459276a   | feat: integration to send information to backend cloud for real time ubication | -                   | 06/06/2024         |
@@ -998,23 +1007,31 @@ Para nuestro backend de IoT Edge, hemos elegido Azure debido a su potente conjun
 
 #### 6.2.2.8. Team Collaboration Insights during Sprint.
 
-- **Contributors**
+**Frontend**
 
 <div align="center">
-  <img src="../Resources/backend_contribuitors.png" width=500 alt="Contributors Sprint 2">
-    <img src="../Resources/frontend_contribuitors.png" width=500 alt="Contributors Sprint 2">
+  <img src="../Resources/sprint-2/frontend-sprint-2-pulse.png"alt="Contributors Sprint 2">
+</div>
+<div align="center">
+  <img src="../Resources/sprint-2/frontend-sprint-2-contributors.png"alt="Contributors Sprint 2">
 </div>
 
+**Backend Cloud**
+
 <div align="center">
-  <img src="../Resources/landing_contribuitors.png" width=500 alt="Contributors Sprint 2">
-    <img src="../Resources/mobile_contribuitors.png" width=500 alt="Contributors Sprint 2">
+  <img src="../Resources/sprint-2/backend-sprint-2-pulse.png"alt="Contributors Sprint 2">
+</div>
+<div align="center">
+  <img src="../Resources/sprint-2/backend-sprint-2-contributors.png"alt="Contributors Sprint 2">
 </div>
 
-- **Pulse**
+**Backend Edge**
 
 <div align="center">
-  <img src="../Resources/frontend_pulse.png" width=500 alt="Pulse Sprint 2">
-  <img src="../Resources/iot_pulse.png" width=500 alt="Pulse Sprint 2">
+  <img src="../Resources/sprint-2/edge-sprint-2-pulse.png"alt="Contributors Sprint 2">
+</div>
+<div align="center">
+  <img src="../Resources/sprint-2/edge-sprint-2-contributors.png"alt="Contributors Sprint 2">
 </div>
 
 ### 6.2.3. Sprint 3
