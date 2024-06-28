@@ -1509,40 +1509,48 @@ _Sobre la Aplicación_
 **Entrevista N°1**
 
 - Segmento objetivo: **Pasajero**
-- Nombres y apellidos: ****
-- Edad: ****
-- Distrito: ****
-- Timing: ****
+- Nombres y apellidos: **Renzo Casafranca Carrascal**
+- Edad: **22**
+- Distrito: **San Martin de Porres**
+- Timing: **00:00-13:11**
 
-![Entrevista con pasajero Renzo]()
-
-- Resumen:
+<div align="center">
+  <img src="../Resources/interviews/validacion-renzo.png" width=80% alt="Renzo Validation Interview">   
+</div>
 
   #### Landing Page
 
-  
+  En cuanto a la landing page, Renzo opina que la información presentada es clara y bien estructurada, permitiendo entender fácilmente el propósito de la aplicación y los beneficios que ofrece a los usuarios. Destaca que el diseño es atractivo y moderno, y la navegación es intuitiva, lo cual le pareció muy positivo. Sin embargo, sugiere que sería útil incluir una sección de testimonios de usuarios que hayan tenido buenas experiencias con la aplicación, así como un video tutorial corto que muestre cómo usar las funciones principales.
 
   #### Aplicación móvil
+
+  Sobre la aplicación, Renzo menciona que iniciar sesión y personalizar su perfil fue bastante fácil, y el proceso es sencillo. Comenta que la funcionalidad de tiempo estimado de llegada de los buses es muy útil, ya que le ayuda a planificar mejor su tiempo y a no esperar demasiado en la parada. También valora positivamente la función de guardar destinos frecuentes y consultar rutas, describiéndola como muy práctica y ahorradora de tiempo, facilitando sus desplazamientos diarios. Además, Renzo destaca que las alertas de buses llenos son claras y útiles, permitiéndole tomar decisiones informadas sobre si esperar el próximo bus o buscar alternativas. Renzo señala que la funcionalidad del mapa interactivo para localizar paraderos y trazar rutas es bastante intuitiva y fácil de usar. Sin embargo, menciona que hubo algunos aspectos de la aplicación que le resultaron confusos, como la opción para cambiar la configuración de notificaciones, que podría simplificarse un poco más. Finalmente, Renzo sugiere que le gustaría ver una función de chat o comentarios en tiempo real para interactuar con otros usuarios y compartir información sobre las rutas. También menciona que sería genial tener una opción de alertas personalizadas según sus preferencias de ruta y horario.
+
+- Enlace: **https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/EQjLZChk50pPoCeKUBqM8yEBgLswhmCg79WOC-Sv09CLYg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=vo07dO**
 
 **Entrevista N°2**
 
 - Segmento objetivo: **Encargado de flota de autobuses**
-- Nombres y apellidos: ****
-- Edad: ****
-- Distrito: ****
-- Timing: ****
+- Nombres y apellidos: **Andy Casafranca Carrascal**
+- Edad: **27**
+- Distrito: **San Martin de Porres**
+- Timing: **35:40-50:10**
 
-![Entrevista con encargos de flota Andy]()
+<div align="center">
+  <img src="../Resources/interviews/andy-validacion.png" width=100% alt="Andy Validation Interview">   
+</div>
 
 - Resumen:
 
   #### Landing Page
 
-
+  Andy menciona que la landing page explica claramente cómo ChapaTuBus puede beneficiar a los administradores de flota, destacando los puntos clave de manera concisa y efectiva. Encontró la información que buscaba con facilidad, gracias a la organización clara y la estructura lógica de la página. Andy afirma que el propósito de la aplicación es fácil de entender desde la landing page, y el diseño le pareció atractivo y moderno, con una navegación intuitiva que facilita la experiencia del usuario. Sin embargo, sugiere que sería útil incluir más información detallada sobre casos de éxito y testimonios de otros administradores de flota que hayan utilizado la aplicación.
 
   #### Aplicación web
 
- 
+  Andy comenta que registrar su empresa y crear un perfil en la aplicación fue un proceso sencillo y directo. Evalúa positivamente la funcionalidad de monitoreo en tiempo real del estado de los conductores, considerándola una herramienta valiosa para la gestión eficiente de la flota. También encontró útil la información sobre la velocidad de los buses, lo cual le ayuda a supervisar mejor el desempeño de los conductores. La funcionalidad de consulta de horarios y paraderos con mayor afluencia le pareció clara y accesible, brindándole datos importantes para optimizar las rutas. Además, Andy destaca la precisión del monitoreo del aforo de los buses basado en los sensores de peso. Sin embargo, sugiere que una mejora sería añadir más opciones de personalización en las alertas y reportes, para adaptarlas mejor a las necesidades específicas de su empresa.
+
+- Enlace: **https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/EQjLZChk50pPoCeKUBqM8yEBgLswhmCg79WOC-Sv09CLYg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=vo07dO**
 
 **Entrevista N°3**
 
@@ -1564,6 +1572,8 @@ _Sobre la Aplicación_
 
   Inicio sesión con facilidad y que al momento de registrarse se pidio información concisa y oportuna, por lo que fue rápido el registro de la compañía de transporte en la que trabaja. Menciona que el monitoreo de los conductores en tiempo real es realmente algo valioso , ya que con ello se podría prevenir incluso accidentes de tránsito. Además, la velocidad de los buses es vital para saber si los conductores están acatando las normas de tránsito en conjunto los sensores de peso, para saber si están sobrepasando el aforo esperado. Menciona por último que podría ser conveniente un módulo en el cual se pueda administrar los ingresos monetarios qde la compañia.
 
+- Enlace: **https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/EQjLZChk50pPoCeKUBqM8yEBgLswhmCg79WOC-Sv09CLYg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=vo07dO**
+
 **Entrevista N°4**
 
 - Segmento objetivo: **Pasajero**
@@ -1583,6 +1593,32 @@ _Sobre la Aplicación_
   #### Aplicación movil
 
   La funcionalidad de tiempo estimado de llegada de los buses resultó ser extremadamente útil, permitiéndole planificar sus viajes a la universidad. La función de guardar destinos frecuentes y consultar rutas es muy práctica y facilita el acceso rápido a sus rutas habituales. Las alertas de buses llenos fueron claras y le ayudaron basicamente a saber si esperar el siguiente bus. El mapa interactivo le permitió de forma más sencilla localizar paraderos de forma más fácil, ya que no siempre se conoce la dirección exacta. No encontró ningún aspecto de la aplicación que le resultara confuso o difícil de usar. Le gustaría ver características adicionales como opciones de pago integradas y notificaciones en tiempo real sobre cambios en las rutas o retrasos.
+
+- Enlace: **https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/EQjLZChk50pPoCeKUBqM8yEBgLswhmCg79WOC-Sv09CLYg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=vo07dO**
+
+**Entrevista N°5**
+
+- Segmento objetivo: **Encargado de flota de autobuses**
+- Nombres y apellidos: **Jorge Casafranca Ichiro**
+- Edad: **29**
+- Distrito: **Puente Piedra**
+- Timing: **27:25 - 35:39**
+
+<div align="center">
+  <img src="../Resources/interviews/jorge-validacion.png" width=100% alt="Jorge Validation Interview">   
+</div>
+
+- Resumen:
+
+  #### Landing Page
+
+  Jorge menciona que la landing page de ChapaTuBus comunica de manera efectiva los beneficios para los administradores de flota, resaltando las características principales de forma clara. Encontró la información que buscaba sin dificultad, gracias a la disposición bien organizada de los contenidos. Jorge afirma que el propósito de la aplicación es fácil de entender desde la landing page, y el diseño le pareció atractivo, con una navegación fluida y accesible. No obstante, sugiere que sería beneficioso ampliar la sección de preguntas frecuentes (FAQ) para resolver dudas comunes de los nuevos usuarios.
+
+  #### Aplicación web
+
+  Jorge comenta que el proceso de registrar su empresa y crear un perfil en la aplicación fue muy fácil y no encontró problemas durante la configuración inicial. Evalúa positivamente la funcionalidad de monitoreo en tiempo real del estado de los conductores, destacando su precisión y utilidad. Además, encontró muy útil la información sobre la velocidad de los buses, lo que le permite tomar decisiones informadas sobre el rendimiento de la flota. La funcionalidad de consulta de horarios y paraderos con mayor afluencia es clara y accesible, proporcionando datos valiosos para mejorar la eficiencia del servicio. Jorge también destaca la precisión del monitoreo del aforo de los buses basado en los sensores de peso. Como sugerencia, le gustaría ver una integración más profunda con otros sistemas de gestión de flotas que ya utilizan, para centralizar toda la información en una única plataforma.
+
+- Enlace: **https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/EQjLZChk50pPoCeKUBqM8yEBgLswhmCg79WOC-Sv09CLYg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=vo07dO**
 
 ### 6.3.3. Evaluaciones según heurísticas.
 
