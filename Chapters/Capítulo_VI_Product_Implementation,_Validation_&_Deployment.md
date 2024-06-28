@@ -1089,7 +1089,7 @@ En la reunión presencial realizada, se identificaron los avances conseguidos y 
            <p>Sprint 3 Velocity</p>
         </td>
         <td>
-          <p>##</p>
+          <p>La velocidad del equipo es de 72 (promedio de los tres sprints)</p>
         </td>
     </tr>
   <tr>
@@ -1097,7 +1097,7 @@ En la reunión presencial realizada, se identificaron los avances conseguidos y 
            <p>Sum of Story Points</p>
         </td>
         <td>
-          <p>##</p>
+          <p>72</p>
         </td>
     </tr>
 </table>
@@ -1109,10 +1109,10 @@ El objetivo principal del Sprint 3 es avanzar significativamente en el desarroll
 A continuación se presenta una captura de pantalla del Board para el Sprint en la herramienta de control utilizada, junto con el enlace público al Board para seguimiento en tiempo real:
 
 <div align="center">
-  <img src="../Resources/jira-sprints/JiraSprint3Screenshot.png" alt="Jira Sprint 2 Screenshot">
+  <img src="../Resources/sprint-3/sprint 3 jira.png" alt="Jira Sprint 2 Screenshot">
 </div>
 
-###LINK
+**Enlace:** https://chapatubus.atlassian.net/jira/software/projects/SCRUM/boards/1?sprints=3 
 
 A continuación, se incluye la tabla con los user stories asignados al sprint y last task resultantes:
 
@@ -1120,26 +1120,25 @@ A continuación, se incluye la tabla con los user stories asignados al sprint y 
 | :--------- | :------------------------------------------------------------------------ | :-- | :----------------------------------------------- | :----------------------------------------------------------------------------------- | :----------------- | :------------ | :--------- |
 | User Story | Work-Item /Task                                                           |     |                                                  |                                                                                      |                    |               |            |
 | Id         | Title                                                                     | Id  | Title                                            | Description                                                                          | Estimation (Hours) | Assigned To   | Status     |
-| TS21       | Implementación de Sensor de Peso                                          | 1   | Diseño del Simulador de Peso                     | Implementar la lógica para simular el peso                                           | 1                  | Axel Fiestas  | Done       |
-| TS21       | Implementación de Sensor de Peso                                          | 2   | Desarrollo del Controlador de Sensores Simulados | Crear la clase SimulatedWeightSensorController e integrar con WeightSensorController | 1                  | Axel Fiestas  | Done       |
-| TS21       | Implementación de Sensor de Peso                                          | 3   | Integración con el Backend Edge                  | Envío de data al endpoint correcto                                                   | 1                  | Axel Fiestas  | InProgress |
-| US11       | Visualización de métricas de ocupación y capacidad de unidades de buses   | 4   |                                                  |                                                                                      | 3                  | Axel Fiestas  | InProgress |
-| TS14       | Suscripción Premium                                                       | 5   |                                                  |                                                                                      | 3                  | Tania Vásquez | InProgress |
-| TS34       | Obtener información de la ubicación del bus en tiempo real                | 6   |                                                  |                                                                                      | 3                  | Andrea Alfaro | InProgress |
-| TS17       | Enviar la información recopilada en los dispositivos IoT hacia el Gateway | 7   |                                                  |                                                                                      | 5                  | Axel Fiestas  | InProgress |
-| TS42       | Obtener información del sensor de peso                                    | 8   |                                                  |                                                                                      | 3                  | Andrea Alfaro | InProgress |
-| TS18       | Mandar la información recopilada en el Gateway hacia una plataforma Cloud | 9   |                                                  |                                                                                      | 5                  | Axel Fiestas  | InProgress |
-| TS43       | Enviar información del sensor de pulso al backend cloud                   | 10  |                                                  |                                                                                      | 5                  | Andrea Alfaro | InProgress |
-| US31       | Registro de Schedules                                                     | 11  |                                                  |                                                                                      | 3                  | Tania Vásquez | InProgress |
-| US16       | Recibir notificaciones                                                    | 12  |                                                  |                                                                                      | 2                  | Andrea Alfaro | InProgress |
-| TS13       | Registro de Itinerario                                                    | 13  |                                                  |                                                                                      | 3                  | Tania Vásquez | InProgress |
-| TS09       | Visualización de Datos de Conductores y Buses                             | 14  |                                                  |                                                                                      | 3                  | Diego Merino  | InProgress |
-| TS10       | Pulsaciones de Corazón del Conductor                                      | 15  |                                                  |                                                                                      | 5                  | Andrea Alfaro | InProgress |
-| TS11       | Alertas de Pulsaciones del Conductor                                      | 16  |                                                  |                                                                                      | 3                  | Tania Vásquez | InProgress |
-| US13       | Visualizar aforo en buses                                                 | 17  |                                                  |                                                                                      | 3                  | Diego Merino  | InProgress |
-| US15       | Visualizar estado de los conductores                                      | 18  |                                                  |                                                                                      | 3                  | Andrea Alfaro | InProgress |
-| TS19       | Conectar la información con el backend                                    | 19  |                                                  |                                                                                      | 5                  | Rafael Primo  | InProgress |
-| US14       | Visualizar ubicación de la flota en tiempo real                           | 20  |                                                  |                                                                                      | 4                  | Rafael Primo  | InProgress |
+| TS21 | Implementación de Sensor de Peso | 1 | Diseño del Simulador de Peso | Implementar la lógica para simular el peso | 5 | Axel Fiestas | Done |
+| TS14 | Suscripción Premium | 2 | Desarrollar la lógica de los métodos de pago al registrar | Implementar endpoints en el backend Cloud que se conecte al servicio externo Stripe | 3 | Andrea Alfaro  | Done  |
+| US11 | Visualización de métricas de ocupación y capacidad de unidades de buses | 3 | Integración de gráficas que muestres información captada de los dispositivos IOT | Consumo de endpoints de los dispositos IOT  | 3 | Axel Fiestas  | Done |
+| US34 | Obtener información de la ubicación del bus en tiempo real | 4 | Rastreo GPS de buses | Desarrollar un sistema para capturar y transmitir la ubicación GPS de cada bus en intervalos regulares | 5 | Tania Vasquez | Done |
+| TS17 | Enviar la información recopilada en los dispositivos IoT hacia el Gateway | 5 | Transmisión de datos IoT al Gateway | Configurar los dispositivos IoT para enviar datos recopilados a un Gateway central de manera eficiente y segura. | 5 | Axel Fiestas | Done |
+| TS42 | Obtener información de la ubicación del bus en tiempo real | 6 | Lectura de sensores de peso | Implementar la captura y procesamiento de datos de los sensores de peso instalados en los buses | 3 | Andrea Alfaro | Done |
+| TS18 | Mandar la información recopilada en el Gateway hacia una plataforma Cloud | 7   | Sincronización Gateway-Cloud | Desarrollar un sistema para transferir automáticamente los datos del Gateway a una plataforma cloud seleccionada | 5 | Axel Fiestas | Done |
+| TS43 | Enviar información del sensor de pulso al backend cloud | 8 | Transmisión de datos de pulso cardiaco | Configurar la transmisión de lecturas del sensor de pulso de los conductores al backend en la nube | 5 | Andrea Alfaro | Done |
+| US-31 | Registro de Schedules | 9 | Gestión de horarios de buses | Crear una interfaz para registrar y administrar los horarios programados de las rutas de buses | 3 | Tania Vasquez | Done |
+| US16 | Recibir notificaciones | 10  | Sistema de notificaciones | Implementar un sistema que envíe notificaciones relevantes a usuarios y personal sobre el servicio de buses | 2 | Andrea Alfaro | Done |
+| TS13 | Registro de Itinerario | 11  | Creación de itinerarios | Desarrollar una funcionalidad para crear y almacenar itinerarios detallados de las rutas de buses. | 3 | Tania Vasquez | Done |
+| TS09 | Visualización de Datos de Conductores y Buses | 12  | Dashboard de conductores y buses | Crear una interfaz que muestre información clave sobre conductores en servicio y estado de los buses | 3 | Diego Merino | Done |
+| TS10 | Pulsaciones de Corazón del Conductor | 13  | Monitoreo cardiaco de conductores | Implementar un sistema para registrar y visualizar las pulsaciones cardiacas de los conductores en tiempo real | 5 | Andrea Alfaro | Done |
+| TS11 | Alertas de Pulsaciones del Conductor | 14  | Alertas de ritmo cardiaco anormal | Desarrollar un sistema de alertas que se active cuando las pulsaciones de un conductor salgan de un rango saludable | 3 | Andrea Alfaro | Done |
+| US13  | Visualizar aforo en buses | 15  | Monitor de aforo de pasajeros | Crear una interfaz que muestre en tiempo real el número de pasajeros en cada bus y su capacidad máxima | 3 | Rafael Primo | Done |
+| US15 | Visualizar estado de los conductores | 16  | Panel de estado de conductores |  Implementar una vista que muestre el estado actual (en servicio, descanso, etc.) y condición de cada conductor | 3 | Diego Merino | Done |
+| TS19 | Conectar la información con el backend | 17  | Integración de datos con backend | Desarrollar la conexión y sincronización de todos los datos recopilados con el sistema backend central | 5 | Andrea Alfaro  | Done |
+| US14 | Visualizar ubicación de la flota en tiempo real | 18  | Mapa en vivo de la flota | Crear un mapa interactivo que muestre la ubicación en tiempo real de todos los buses en servicio | 5 | Rafael Primo | Done |
+| US21 | Visualizar recorrido de una línea de bus |19  | Visor de rutas de buses | Implementar una función que permita ver el recorrido completo de una línea de bus específica en un mapa | 5 | Rafael Primo | Done |
 
 #### 6.2.3.3. Development Evidence for Sprint Review
 
