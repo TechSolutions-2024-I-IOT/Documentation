@@ -21,6 +21,8 @@
             Organizé reuniones para la delegación de tareas de cada miembro. Asimismo también fui la responsable de generar el listado de apuntes respecto a la retroalimentación del proyecto.<br>
             <b>TB2</b><br>
             Siguiendo con el desarrollo agil, me centre especialmetne en realizar mejoras y correcciones, tanto en la landing page del proyecto como en el frontend y backend.<br>
+            <b>TF</b><br>
+            Manteniendo el desarrollo agil, me centre especialmetne en realizar mejoras y correcciones, centrandome en el backend y edgebackend. Aunque tambien trabaje en el frontend.<br>
             <b>Merino Mas, Diego Martin</b><br>
             <b>TB1</b><br>
             Organicé reuniones regulares de equipo para discutir el progreso del proyecto y asignar tareas de manera eficiente.<br>
@@ -28,6 +30,8 @@
             Realicé planificaciones respecto al sistema de versiones, con el fin de tener un repositorio correctamente versionado.<br>
             <b>TB2</b><br>
             Me enfoque especialmente en implementar y configurar dispositivos IoT, además de conectarlos al edge backend para completar la funcionalidad del sistema.<br>
+            <b>TF</b><br>
+            Me centre en la division de responsabilidades y supervision general de los detalles del informe, así como avances en el backend.<br>
             <b>Fiestas Santisteban, Axel Joshue</b><br>
             <b>TB1</b><br>
             Realicé sesiones de lluvia de ideas (brainstorming) para generar soluciones creativas a los desafíos del proyecto.<br>
@@ -35,6 +39,8 @@
             Realicé sesiones de conversaciones de avances diarios con el fin de no perder de vista el continuo avance del proyecto.<br>
             <b>TB2</b><br>
             Me centre en el desarrollo de la parte backend del proyecto, asegurando la funcionalidad del servidor y la base de datos.<br>
+            <b>TF</b><br>
+            Termine mejoras y bugs surgidos en el backend asi como errores del despliege tanto en backend como en frontend.<br>
             <b>Primo Estrada, Rafael Wimmer</b><br>
             <b>TB1</b><br>
             Utilicé herramientas de colaboración en línea para compartir documentos, seguimiento de tareas y comunicación entre los miembros del equipo.<br>
@@ -42,6 +48,8 @@
             Identifiqué tareas faltantes de puntos que se estaban pasando por alto y los compartí con el equipo.<br>
             <b>TB2</b><br>
             Desarrollé la aplicación móvil del proyecto, asegurando la compatibilidad y usabilidad en diferentes dispositivos.<br>
+            <b>TF</b><br>
+            Continue realizando mejoras en la aplicacion móvil, tambien ayude en el desarrollo del gps y levemente en los backends.<br>
             <b>Vasquez Sal Y Rosas, Tania Sadith</b><br>
             <b>TB1</b><br>
             Asigné roles y responsabilidades claras a cada miembro del equipo para garantizar una distribución equitativa del trabajo y un avance eficiente del proyecto.<br>
@@ -49,6 +57,8 @@
             Reasigné roles en base al perfil de cada integrante del equipo, con el fin de realizar una distribución efectiva en la carga de trabajo.<br>
             <b>TB2</b><br>
             Me enfoque en desarrollar la parte frontend del proyecto, asegurando una interfaz de usuario intuitiva y responsive.<br>
+            <b>TF</b><br>
+            Me enfoque en los ultimos detalles y errores que surgieron en el forntend, así como tareas en los backends.<br>
           </p>
         </td>
         <td>
@@ -66,6 +76,8 @@
             <b>TP</b><br>
             Realicé investigaciones respecto a las variables que mas llaman la atención de ver en pasajeros y el sector de transporte público.<br>
             <b>TB2</b><br>
+            Implementé mejoras y correcciones basadas en la retroalimentación del sector para optimizar la landing page del proyecto.<br>
+            <b>TF</b><br>
             Implementé mejoras y correcciones basadas en la retroalimentación del sector para optimizar la landing page del proyecto.<br>
             <b>Merino Mas, Diego Martin</b><br>
             <b>TB1</b><br>
