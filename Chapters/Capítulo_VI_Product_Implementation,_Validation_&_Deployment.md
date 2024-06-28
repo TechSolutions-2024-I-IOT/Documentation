@@ -1227,15 +1227,12 @@ Para las suites de pruebas, nos enfocamos en la creación de escenarios de prueb
 
 | Repository   | Branch | Commit ID | Commit Message        | Commit Message Body | Commited on (Date) |
 | :----------- | :----- | :-------- | :-------------------- | :------------------ | :----------------- |
-| TestingSuite | main   | a72257e   | test: update sprint 3 | -                   | 08/06/2024         |
+| TestingSuite | main   | a72257e   | test: update sprint 3 | -                   | 27/06/2024         |
 
 Para la revisión del Sprint 3, presentamos los Testing Suite Evidence, los cuales se desarrollaron utilizando Gherkin. Gherkin proporcionó una forma clara y legible de especificar los comportamientos esperados del sistema a través de escenarios escritos en un lenguaje natural. Esto facilitó la colaboración entre el equipo de desarrollo y los stakeholders al definir y comprender los criterios de aceptación del sprint.
 
-**"POR HACER"**
-
 <div align="center">
-  <img src="../Resources/sprint-3/testing_sprint_2_1.png" width=500 alt="Testing">   
-  <img src="../Resources/sprint-3/testing_sprint_2_2.png" width=500 alt="Testing">
+  <img src="../Resources/sprint-3/testing-sprint-3.png" width=700 alt="Testing">   
 </div>
 
 **Enlace del repositorio:** https://github.com/TechSolutions-2024-I-IOT/TestingSuite
@@ -1247,8 +1244,23 @@ Para la revisión del Sprint 3, presentamos los Testing Suite Evidence, los cual
 Para el Sprint 3, se añadieron las pantallas relacionadas a la administración de los conductores. El enfoque principal fue la generación y visualización de los gráficos y seguridad.
 
 <div align="center">
-  <img src="../Resources/sprint-3/frontend_execution_sprint3_1.png" width=500 alt="Execution">   
+  <img src="../Resources/sprint-3/web-sprint-3-1.png" width=700 alt="Execution">   
 </div>
+
+<div align="center">
+  <img src="../Resources/sprint-3/web-sprint-3-2.png" width=700 alt="Execution">   
+</div>
+
+<div align="center">
+  <img src="../Resources/sprint-3/web-sprint-3-4.png" width=700 alt="Execution">   
+</div>
+
+
+<div align="center">
+  <img src="../Resources/sprint-3/web-sprint-3-3.png" width=700 alt="Execution">   
+</div>
+
+**Enlace:** https://chapatubus.netlify.app/
 
 - **Web Services**
 
@@ -1260,10 +1272,14 @@ Para el Sprint 3, se termino el edgebackend y la labor de logica y resumen que d
   <img src="../Resources/sprint-3/edgebackend_execution_sprint3_1.png" width=80% alt="Execution">   
 </div>
 
+**Enlace:** https://edgebackendchapatubus.azurewebsites.net/swagger-ui/index.html#/
+
 - Backend
 <div align="center">
   <img src="../Resources/sprint-3/backend_execution_sprint3.jpeg" width=80% alt="Execution">   
 </div>
+
+**Enlace**: https://chapatubusbackend.azurewebsites.net/swagger-ui/index.html#
 
 * **IOT Devices**
 
@@ -1286,6 +1302,58 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u20181b530_upc_edu_pe/EcvbdBzm
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u20181b530_upc_edu_pe/EQUU_88MDRJKlqxR1jxUvCMB036ogGdSsiqMF6WnpdSZtg?e=oiQMbD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 #### 6.2.3.6. Services Documentation Evidence for Sprint Review
+
+En este Sprint 3, hemos logrado completar la documentación de todos los endpoints tanto para el backend cloud como para el backend edge utilizando OpenAPI. Este avance significativo permite una mejor comprensión y utilización de nuestros servicios web, facilitando la integración y el desarrollo de aplicaciones que consuman estos endpoints.
+
+**Endpoints Documentados**
+
+- Backend Cloud
+
+A continuación se presentan capturas de pantalla de la interacción con los endpoints documentados, utilizando datos de muestra. Estas capturas ilustran las respuestas de los endpoints en diferentes escenarios de prueba.
+
+**Autorización por tokens**
+
+<div align="center">
+  <img src="../Resources/sprint-3/backend-cloud-execution-1.png" width=80% alt="Execution">   
+</div>
+
+**transport-company-controller**
+
+<div align="center">
+  <img src="../Resources/sprint-3/backend-cloud-execution-2.png" width=80% alt="Execution">   
+</div>
+
+**payment-controller**
+
+<div align="center">
+  <img src="../Resources/sprint-3/backend-cloud-execution-3.png" width=80% alt="Execution">   
+</div>
+
+Enlace: https://chapatubusbackend.azurewebsites.net/swagger-ui/index.html#
+
+- Backend Edge
+
+Para el Sprint 3, también hemos finalizado la implementación y documentación de todos los endpoints necesarios para nuestro backend edge. Estos endpoints son cruciales para la comunicación y operación de dispositivos en el borde de nuestra red, facilitando la recolección y transmisión de datos en tiempo real.
+
+**heart-beat-batch-controller**
+
+<div align="center">
+  <img src="../Resources/sprint-3/backend-edge-execution-1.png" width=80% alt="Execution">   
+</div>
+
+**location-batch-controller**
+
+<div align="center">
+  <img src="../Resources/sprint-3/backend-edge-execution-2.png" width=80% alt="Execution">   
+</div>
+
+**weight-batch-controller**
+
+<div align="center">
+  <img src="../Resources/sprint-3/backend-edge-execution-3.png" width=80% alt="Execution">   
+</div>
+
+**Enlace:** https://edgebackendchapatubus.azurewebsites.net/swagger-ui/index.html#/
 
 #### 6.2.3.7. Software Deployment Evidence for Sprint Review
 
