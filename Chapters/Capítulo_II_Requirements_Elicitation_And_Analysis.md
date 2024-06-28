@@ -348,7 +348,7 @@ Esta sección se enfoca en la investigación, utilizando los datos recopilados a
 
 ![Entrevista con dueño Juan](https://i.ibb.co/D99Y5y9/ENTREVISTA.png)
 
-- Enlace del video: **https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/ETeZ8JWxY7pMoTAAXF6H_DsBKdeZc1_u2YrohdilZ2Obqg?e=G3EseB**
+- Enlace del video: **https://upcedupe-my.sharepoint.com/%3Av%3A/g/personal/u202115862_upc_edu_pe/ETeZ8JWxY7pMoTAAXF6H_DsBKdeZc1_u2YrohdilZ2Obqg?e=G3EseB**
 - Timing: **00:06s-05:45s**
 - Aplicaciones usadas: Excel, WhatsApp, Google Maps
 - Dispositivos: Smartphone Android y computadora portátil
@@ -366,7 +366,7 @@ Juan Pérez Sánchez, de 45 años y residente en el distrito de Jesús María en
 
 <img src="../Resources/interviews/jorge_carrascal.png" alt="Captura de entrevistado">
 
-- Enlace del video: **https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/ETeZ8JWxY7pMoTAAXF6H_DsBKdeZc1_u2YrohdilZ2Obqg?e=G3EseB**
+- Enlace del video: **https://upcedupe-my.sharepoint.com/%3Av%3A/g/personal/u202115862_upc_edu_pe/ETeZ8JWxY7pMoTAAXF6H_DsBKdeZc1_u2YrohdilZ2Obqg?e=G3EseB**
 - Timing: **05:46s-09:01s**
 - Aplicaciones usadas: Excel, WhatsApp, Facebook, Twitter, TikTok
 - Dispositivos: Smartphone Android y computadora portátil
@@ -386,7 +386,7 @@ Jorge Antonio Carrascal Casca, de 28 años y residente en Puente Piedra, es subg
 
 ![Entrevista con Andy Casafranca](/Resources/interviews/andy-casafranca-interview.png)
 
-- Enlace del video: **https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/ETeZ8JWxY7pMoTAAXF6H_DsBKdeZc1_u2YrohdilZ2Obqg?e=G3EseB**
+- Enlace del video: **https://upcedupe-my.sharepoint.com/%3Av%3A/g/personal/u202115862_upc_edu_pe/ETeZ8JWxY7pMoTAAXF6H_DsBKdeZc1_u2YrohdilZ2Obqg?e=G3EseB**
 - Timing: **09:02s-14:22s**
 - Aplicaciones usadas: Facebook, Instagram, TikTok
 - Dispositivos: Smartphone Android y computadora portátil
@@ -404,7 +404,7 @@ Andy Casafranca Carrascal, de 24 años y residente en San Martín de Porres, tra
 
 ![Entrevista con pasajero Wilver](https://blogger.googleusercontent.com/img/a/AVvXsEh2ohJkeaXKM5lluNJc3NVlcDOkGa5X_VHRvNPaH_hjvLN5DuWSp7OrcqYvEDOIah_fyCHBBtV7nyicBZbASJQt2MlP0d0_b3BsApAWOmfZblO5H3ViOvJrs49xBUIoTcNNcr3C3rssS0H1lQnKloffCrmcvEcuJItFhHz7F-8W8cdhH4JbqetOVV95VzI)
 
-- Enlace del video: **https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/ETeZ8JWxY7pMoTAAXF6H_DsBKdeZc1_u2YrohdilZ2Obqg?e=G3EseB**
+- Enlace del video: **https://upcedupe-my.sharepoint.com/%3Av%3A/g/personal/u202115862_upc_edu_pe/ETeZ8JWxY7pMoTAAXF6H_DsBKdeZc1_u2YrohdilZ2Obqg?e=G3EseB**
 - Timing: **14:23s-18:12s**
 - Aplicaciones usadas: Google Maps, Moovit, WhatsApp, Spotify, Instagram, TikTok
 - Dispositivos: Smartphone Android
@@ -422,7 +422,7 @@ Wilver Arana Ramos, de 23 años y residente en el distrito de Carabayllo en Lima
 
 ![Entrevista con pasajero](../Resources/interviews/passenger_Yosef_Castillo.png)
 
-- Enlace del video: **https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/ETeZ8JWxY7pMoTAAXF6H_DsBKdeZc1_u2YrohdilZ2Obqg?e=G3EseB**
+- Enlace del video: **https://upcedupe-my.sharepoint.com/%3Av%3A/g/personal/u202115862_upc_edu_pe/ETeZ8JWxY7pMoTAAXF6H_DsBKdeZc1_u2YrohdilZ2Obqg?e=G3EseB**
 - Timing: **18:13s-27:43s**
 - Aplicaciones usadas: WhatsApp, Spotify, Twitter, Facebook, TuRuta, Google Maps
 - Dispositivos: Smartphone Android
@@ -440,7 +440,7 @@ Yosef, un estudiante de ingeniería de software, compartió su experiencia diari
 
 ![Entrevista con pasajero](/Resources/interviews/diego-perez-garcia-interview.png)
 
-- Enlace del video: **https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/ETeZ8JWxY7pMoTAAXF6H_DsBKdeZc1_u2YrohdilZ2Obqg?e=G3EseB**
+- Enlace del video: **https://upcedupe-my.sharepoint.com/%3Av%3A/g/personal/u202115862_upc_edu_pe/ETeZ8JWxY7pMoTAAXF6H_DsBKdeZc1_u2YrohdilZ2Obqg?e=G3EseB**
 - Timing: **27:44s-35:54s**
 - Aplicaciones usadas: Google Maps, WhatsApp, Youtube, Instagram, TikTok
 - Dispositivos: Smartphone Android

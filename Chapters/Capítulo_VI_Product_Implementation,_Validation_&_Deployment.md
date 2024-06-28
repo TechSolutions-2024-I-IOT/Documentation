@@ -523,26 +523,26 @@ el equipo:
 
 Asimismo, se presenta la tabla de nuestro primer sprint con las respectivas user stories a trabajar:
 
-| Sprint #   | Sprint 1                                                 |     |                                                              |                                                                                                                                                                                                                    |                    |               |        |
-| :--------- | :------------------------------------------------------- | :-- | :----------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------- | :------------ | :----- |
-| User Story | Work-Item /Task                                          |     |                                                              |                                                                                                                                                                                                                    |                    |               |        |
-| Id         | Title                                                    | Id  | Title                                                        | Description                                                                                                                                                                                                        | Estimation (Hours) | Assigned To   | Status |
-| US01       | Redirección de la landing Page a tiendas de aplicaciones | 1   | Implementar enlaces de redirección a tiendas de aplicaciones | Configurar los enlaces en la Landing Page para redirigir a las tiendas de aplicaciones correspondientes (App Store y Google Play) según el dispositivo del usuario.                                                | 1                  | Rafael Primo  | Done   |
-| US02       | Redirección de la landing Page a la aplicación web       | 2   | Configurar enlace de redirección a la aplicación web         | Establecer un enlace en la Landing Page que dirija a los usuarios a la aplicación web, garantizando una experiencia fluida y coherente.                                                                            | 1                  | Andrea Alfaro | Done   |
-| US03       | Envío de mensaje a través de un formulario de contacto   | 3   | Implementar formulario de contacto                           | Crear un formulario de contacto funcional en la Landing Page que permita a los usuarios enviar mensajes directamente al equipo de soporte.                                                                         | 3                  | Axel Fiestas  | Done   |
-| US04       | Conocimiento del Equipo desarrollador de la aplicación   | 4   | Crear sección de equipo desarrollador                        | Diseñar y desarrollar una sección informativa en la Landing Page que presente al equipo de desarrollo de la aplicación, incluyendo información relevante sobre cada miembro.                                       | 2                 | Tania Vasquez | Done   |
-| US05       | Sección de Preguntas Frecuentes                          | 5   | Integrar sección de preguntas frecuentes                     | Agregar una sección dedicada a preguntas frecuentes en la Landing Page, que aborde las consultas comunes de los usuarios y proporcione respuestas claras y concisas.                                               | 2                  | Rafael Primo  | Done   |
-| US06       | Navegación y Contenido Informativo en el Footer          | 6   | Mejorar navegación y contenido en el Footer                  | Optimizar la navegación y agregar contenido informativo relevante en el Footer de la Landing Page para mejorar la experiencia del usuario y facilitar el acceso a información importante.                          | 1                  | Tania Vasquez  | Done   |
-| US07       | Diseño Responsivo de la Landing Page                     | 7   | Implementar diseño responsivo                                | Desarrollar una versión responsiva de la Landing Page que se adapte automáticamente a diferentes tamaños de pantalla y dispositivos, garantizando una experiencia consistente y agradable para todos los usuarios. | 2                  | Diego Merino | Done   |
-| US09       | Sección de Características del producto                  | 8   | Crear sección de características del producto                | Diseñar y desarrollar una sección en la Landing Page que resalte las características y funcionalidades clave del producto, ayudando a los usuarios a comprender mejor su propósito y beneficios.                   | 2                  | Andrea Alfaro  | Done   |
-| US10       | Sección de Inicio de la Landing Page                     | 9   | Diseñar sección de inicio                                    | Elaborar el diseño y contenido inicial de la Landing Page, estableciendo la estructura y presentación general del sitio para captar la atención de los visitantes y orientarlos hacia la información relevante.    | 2                  | Diego Merino | Done   |
-| US29       | Creación de Itinerario | 10   | Diseñar sección de la creación de itinerario de una línea de transporte | Elaborar el diseño y contenido inicial de la creación de itinerario, estableciendo la estructura y presentación general del sitio y el consumo de los servicios  | 5 | Rafael Primo | Done |
-| US19       | Registrar empresa de transporte | 11 | Diseñar sección del registro de una empresa de transporte | Elaborar el diseño y contenido inicial del registro de una empresa de transporte, estableciendo la estructura y presentación general del sitio y el consumo de los servicios  | 5 | Tania Vasquez | Done |
-| US20       | Registrar línea de transporte | 12 | Diseñar sección del registro de una línea de transporte | Elaborar el diseño y contenido inicial del registro de una línea de transporte, estableciendo la estructura y presentación general del sitio y el consumo de los servicios  | 3 | Tania Vasquez | Done |
-| US26       | Registro de unidad de bus | 13 | Diseñar sección del registro de una unidad de bus | Elaborar el diseño y contenido inicial del registro de una unidad de bus, estableciendo la estructura y presentación general del sitio y el consumo de los servicios  | 3 | Andrea Alfaro | Done |
-| US27       | Registro de conductor | 14 | Diseñar sección del registro de un conductor | Elaborar el diseño y contenido inicial del registro de un conductor, estableciendo la estructura y presentación general del sitio y el consumo de los servicios  | 2 | Axel Fiestas | Done |
-| US28       | Registro de bus | 15 | Diseñar sección del registro de un bus | Elaborar el diseño y contenido inicial del registro de un bus, estableciendo la estructura y presentación general del sitio y el consumo de los servicios  | 2 | Andrea Alfaro | Done |
-| US30       | Creación de Horarios de salidas | 16 | Diseñar sección de horarios de salidas | Elaborar el diseño y contenido inicial de horarios de salidas, estableciendo la estructura y presentación general del sitio y el consumo de los servicios  | 5 | Diego Merino | Done |
+| Sprint #   | Sprint 1                                                 |     |                                                                         |                                                                                                                                                                                                                    |                    |               |        |
+| :--------- | :------------------------------------------------------- | :-- | :---------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------- | :------------ | :----- |
+| User Story | Work-Item /Task                                          |     |                                                                         |                                                                                                                                                                                                                    |                    |               |        |
+| Id         | Title                                                    | Id  | Title                                                                   | Description                                                                                                                                                                                                        | Estimation (Hours) | Assigned To   | Status |
+| US01       | Redirección de la landing Page a tiendas de aplicaciones | 1   | Implementar enlaces de redirección a tiendas de aplicaciones            | Configurar los enlaces en la Landing Page para redirigir a las tiendas de aplicaciones correspondientes (App Store y Google Play) según el dispositivo del usuario.                                                | 1                  | Rafael Primo  | Done   |
+| US02       | Redirección de la landing Page a la aplicación web       | 2   | Configurar enlace de redirección a la aplicación web                    | Establecer un enlace en la Landing Page que dirija a los usuarios a la aplicación web, garantizando una experiencia fluida y coherente.                                                                            | 1                  | Andrea Alfaro | Done   |
+| US03       | Envío de mensaje a través de un formulario de contacto   | 3   | Implementar formulario de contacto                                      | Crear un formulario de contacto funcional en la Landing Page que permita a los usuarios enviar mensajes directamente al equipo de soporte.                                                                         | 3                  | Axel Fiestas  | Done   |
+| US04       | Conocimiento del Equipo desarrollador de la aplicación   | 4   | Crear sección de equipo desarrollador                                   | Diseñar y desarrollar una sección informativa en la Landing Page que presente al equipo de desarrollo de la aplicación, incluyendo información relevante sobre cada miembro.                                       | 2                  | Tania Vasquez | Done   |
+| US05       | Sección de Preguntas Frecuentes                          | 5   | Integrar sección de preguntas frecuentes                                | Agregar una sección dedicada a preguntas frecuentes en la Landing Page, que aborde las consultas comunes de los usuarios y proporcione respuestas claras y concisas.                                               | 2                  | Rafael Primo  | Done   |
+| US06       | Navegación y Contenido Informativo en el Footer          | 6   | Mejorar navegación y contenido en el Footer                             | Optimizar la navegación y agregar contenido informativo relevante en el Footer de la Landing Page para mejorar la experiencia del usuario y facilitar el acceso a información importante.                          | 1                  | Tania Vasquez | Done   |
+| US07       | Diseño Responsivo de la Landing Page                     | 7   | Implementar diseño responsivo                                           | Desarrollar una versión responsiva de la Landing Page que se adapte automáticamente a diferentes tamaños de pantalla y dispositivos, garantizando una experiencia consistente y agradable para todos los usuarios. | 2                  | Diego Merino  | Done   |
+| US09       | Sección de Características del producto                  | 8   | Crear sección de características del producto                           | Diseñar y desarrollar una sección en la Landing Page que resalte las características y funcionalidades clave del producto, ayudando a los usuarios a comprender mejor su propósito y beneficios.                   | 2                  | Andrea Alfaro | Done   |
+| US10       | Sección de Inicio de la Landing Page                     | 9   | Diseñar sección de inicio                                               | Elaborar el diseño y contenido inicial de la Landing Page, estableciendo la estructura y presentación general del sitio para captar la atención de los visitantes y orientarlos hacia la información relevante.    | 2                  | Diego Merino  | Done   |
+| US29       | Creación de Itinerario                                   | 10  | Diseñar sección de la creación de itinerario de una línea de transporte | Elaborar el diseño y contenido inicial de la creación de itinerario, estableciendo la estructura y presentación general del sitio y el consumo de los servicios                                                    | 5                  | Rafael Primo  | Done   |
+| US19       | Registrar empresa de transporte                          | 11  | Diseñar sección del registro de una empresa de transporte               | Elaborar el diseño y contenido inicial del registro de una empresa de transporte, estableciendo la estructura y presentación general del sitio y el consumo de los servicios                                       | 5                  | Tania Vasquez | Done   |
+| US20       | Registrar línea de transporte                            | 12  | Diseñar sección del registro de una línea de transporte                 | Elaborar el diseño y contenido inicial del registro de una línea de transporte, estableciendo la estructura y presentación general del sitio y el consumo de los servicios                                         | 3                  | Tania Vasquez | Done   |
+| US26       | Registro de unidad de bus                                | 13  | Diseñar sección del registro de una unidad de bus                       | Elaborar el diseño y contenido inicial del registro de una unidad de bus, estableciendo la estructura y presentación general del sitio y el consumo de los servicios                                               | 3                  | Andrea Alfaro | Done   |
+| US27       | Registro de conductor                                    | 14  | Diseñar sección del registro de un conductor                            | Elaborar el diseño y contenido inicial del registro de un conductor, estableciendo la estructura y presentación general del sitio y el consumo de los servicios                                                    | 2                  | Axel Fiestas  | Done   |
+| US28       | Registro de bus                                          | 15  | Diseñar sección del registro de un bus                                  | Elaborar el diseño y contenido inicial del registro de un bus, estableciendo la estructura y presentación general del sitio y el consumo de los servicios                                                          | 2                  | Andrea Alfaro | Done   |
+| US30       | Creación de Horarios de salidas                          | 16  | Diseñar sección de horarios de salidas                                  | Elaborar el diseño y contenido inicial de horarios de salidas, estableciendo la estructura y presentación general del sitio y el consumo de los servicios                                                          | 5                  | Diego Merino  | Done   |
 
 #### 6.2.1.3. Development Evidence for Sprint Review.
 
@@ -552,30 +552,30 @@ En cuanto a la aplicación web, hemos desarrollado las primeras funcionalidades 
 
 Para las suites de pruebas, nos enfocamos en la creación de escenarios de prueba utilizando Gherkin debido a la simplicidad de la solución desarrollada. Hemos elaborado casos de prueba exhaustivos que abarcan diferentes aspectos de la Landing Page y la aplicación web, asegurando la calidad y funcionalidad de nuestros productos.
 
-| Repository   | Branch  | Commit ID | Commit Message                                                          | Commit Message Body | Commited on (Date) |
-| :----------- | :------ | :-------- | :---------------------------------------------------------------------- | :------------------ | :----------------- |
-| Landing-Page | develop | 924ab59   | Merge branch 'feature/US03' into develop                                | -                   | 01/05/2023         |
-| Landing-Page | develop | b846187   | Merge pull request #9 from TechSolutions-2024-I-IOT/feature/us-4        | -                   | 01/05/2023         |
-| Landing-Page | develop | 30eacc0   | Merge pull request #10 from TechSolutions-2024-I-IOT/feature/i18n       | -                   | 01/05/2023         |
-| Landing-Page | feature/fix-style | abb702d  | fix: .css direction                                           | -                   | 02/05/2023         |
-| Landing-Page | feature/fix-style | 26a6d39f | fix: .js                                         | -                   | 02/05/2023         |
-| Landing-Page | feature/fix-style | 17f39b3 | fix: hero section                                | -                   | 02/05/2023         |
-| Landing-Page | feature/fix-style | 90087c5 | fix: colors                             | -                   | 02/05/2023         |
-| Landing-Page | develop | 0ebae30 | Merge pull request #12 from TechSolutions-2024-I-IOT/feature/fix-style    | -                   | 02/05/2023         |
-| Landing-Page | feature/fix-language | f4d0052 | fix: company home                             | -                   | 02/05/2023         |
-| Landing-Page | feature/fix-language | bf95448 | fix: FAQ section                            | -                   | 02/05/2023         |
-| Landing-Page | feature/fix-language | ebc6654 | fix: footer section                            | -                   | 02/05/2023         |
-| Landing-Page | develop | 0fe600c   | Merge pull request #13 from TechSolutions-2024-I-IOT/feature/fix-language | -                   | 02/05/2023         |
-| Landing-Page | develop | c3dbf7f   | Merge pull request #14 from TechSolutions-2024-I-IOT/feature/fix-doubts | -                   | 03/05/2023         |
-| Frontend     | develop | d3463f5   | feat: ddd planification structure first version      | -                   | 01/05/2023         |
-| Frontend     | develop | 719ff83   | feat: setup of styles      | -                   | 01/05/2023         |
-| Frontend     | develop | f90f9fc   | feat: global styles      | -                   | 01/05/2023         |
-| Frontend     | feature/us-29  | 140a093   | feature: Add first version of itinerary flow      | -                   | 01/05/2023         |
-| Frontend     | feature/us-29  | 177910f   | fix: sidebar bug fixed      | -                   | 01/05/2023         |
-| Frontend     | develop | 5c31484   | Merge pull request #1 from TechSolutions-2024-I-IOT/feature/us-29       | -                   | 02/05/2023         |
-| Frontend     | develop | 7379879   | Merge branch 'feature/us-27' into feature/us-29                         | -                   | 02/05/2023         |
-| Frontend     | develop | 5c31484   | Merge pull request #1 from TechSolutions-2024-I-IOT/feature/us-29       | -                   | 02/05/2023         |
-| TestingSuite | main    | 31836ee   | update: sprint 1 testing                                                | -                   | 03/05/2023         |
+| Repository   | Branch               | Commit ID | Commit Message                                                            | Commit Message Body | Commited on (Date) |
+| :----------- | :------------------- | :-------- | :------------------------------------------------------------------------ | :------------------ | :----------------- |
+| Landing-Page | develop              | 924ab59   | Merge branch 'feature/US03' into develop                                  | -                   | 01/05/2023         |
+| Landing-Page | develop              | b846187   | Merge pull request #9 from TechSolutions-2024-I-IOT/feature/us-4          | -                   | 01/05/2023         |
+| Landing-Page | develop              | 30eacc0   | Merge pull request #10 from TechSolutions-2024-I-IOT/feature/i18n         | -                   | 01/05/2023         |
+| Landing-Page | feature/fix-style    | abb702d   | fix: .css direction                                                       | -                   | 02/05/2023         |
+| Landing-Page | feature/fix-style    | 26a6d39f  | fix: .js                                                                  | -                   | 02/05/2023         |
+| Landing-Page | feature/fix-style    | 17f39b3   | fix: hero section                                                         | -                   | 02/05/2023         |
+| Landing-Page | feature/fix-style    | 90087c5   | fix: colors                                                               | -                   | 02/05/2023         |
+| Landing-Page | develop              | 0ebae30   | Merge pull request #12 from TechSolutions-2024-I-IOT/feature/fix-style    | -                   | 02/05/2023         |
+| Landing-Page | feature/fix-language | f4d0052   | fix: company home                                                         | -                   | 02/05/2023         |
+| Landing-Page | feature/fix-language | bf95448   | fix: FAQ section                                                          | -                   | 02/05/2023         |
+| Landing-Page | feature/fix-language | ebc6654   | fix: footer section                                                       | -                   | 02/05/2023         |
+| Landing-Page | develop              | 0fe600c   | Merge pull request #13 from TechSolutions-2024-I-IOT/feature/fix-language | -                   | 02/05/2023         |
+| Landing-Page | develop              | c3dbf7f   | Merge pull request #14 from TechSolutions-2024-I-IOT/feature/fix-doubts   | -                   | 03/05/2023         |
+| Frontend     | develop              | d3463f5   | feat: ddd planification structure first version                           | -                   | 01/05/2023         |
+| Frontend     | develop              | 719ff83   | feat: setup of styles                                                     | -                   | 01/05/2023         |
+| Frontend     | develop              | f90f9fc   | feat: global styles                                                       | -                   | 01/05/2023         |
+| Frontend     | feature/us-29        | 140a093   | feature: Add first version of itinerary flow                              | -                   | 01/05/2023         |
+| Frontend     | feature/us-29        | 177910f   | fix: sidebar bug fixed                                                    | -                   | 01/05/2023         |
+| Frontend     | develop              | 5c31484   | Merge pull request #1 from TechSolutions-2024-I-IOT/feature/us-29         | -                   | 02/05/2023         |
+| Frontend     | develop              | 7379879   | Merge branch 'feature/us-27' into feature/us-29                           | -                   | 02/05/2023         |
+| Frontend     | develop              | 5c31484   | Merge pull request #1 from TechSolutions-2024-I-IOT/feature/us-29         | -                   | 02/05/2023         |
+| TestingSuite | main                 | 31836ee   | update: sprint 1 testing                                                  | -                   | 03/05/2023         |
 
 **Network**
 
@@ -675,13 +675,13 @@ Para el despliegue de nuestra aplicación web, hemos optado por utilizar Netlify
 
 - **Landing Page**
 
-   *Pulse*
+  _Pulse_
 
   <div align="center">
   <img src="../Resources/sprint-1/pulse-documentation.png" width=500 alt="Pulse Sprint 1">
   </div>
-  
-  *Contributors*
+
+  _Contributors_
 
   <div align="center">
     <img src="../Resources/sprint-1/contributors-documentation.png" width=500 alt="Contributors Sprint 1">
@@ -689,13 +689,13 @@ Para el despliegue de nuestra aplicación web, hemos optado por utilizar Netlify
 
 - **Frontend**
 
-  *Pulse*
+  _Pulse_
 
   <div align="center">
     <img src="../Resources/sprint-1/pulse-web.png" width=500 alt="Pulse Sprint 1">
   </div>
 
-  *Contributors*
+  _Contributors_
 
   <div align="center">
     <img src="../Resources/sprint-1/contributors-web.png" width=500 alt="Contributors Sprint 1">
@@ -1140,33 +1140,33 @@ A continuación se presenta una captura de pantalla del Board para el Sprint en 
   <img src="../Resources/sprint-3/sprint 3 jira.png" alt="Jira Sprint 2 Screenshot">
 </div>
 
-**Enlace:** https://chapatubus.atlassian.net/jira/software/projects/SCRUM/boards/1?sprints=3 
+**Enlace:** https://chapatubus.atlassian.net/jira/software/projects/SCRUM/boards/1?sprints=3
 
 A continuación, se incluye la tabla con los user stories asignados al sprint y last task resultantes:
 
-| Sprint #   | Sprint 3                                                                  |     |                                                  |                                                                                      |                    |               |            |
-| :--------- | :------------------------------------------------------------------------ | :-- | :----------------------------------------------- | :----------------------------------------------------------------------------------- | :----------------- | :------------ | :--------- |
-| User Story | Work-Item /Task                                                           |     |                                                  |                                                                                      |                    |               |            |
-| Id         | Title                                                                     | Id  | Title                                            | Description                                                                          | Estimation (Hours) | Assigned To   | Status     |
-| TS21 | Implementación de Sensor de Peso | 1 | Diseño del Simulador de Peso | Implementar la lógica para simular el peso | 5 | Axel Fiestas | Done |
-| TS14 | Suscripción Premium | 2 | Desarrollar la lógica de los métodos de pago al registrar | Implementar endpoints en el backend Cloud que se conecte al servicio externo Stripe | 3 | Andrea Alfaro  | Done  |
-| US11 | Visualización de métricas de ocupación y capacidad de unidades de buses | 3 | Integración de gráficas que muestres información captada de los dispositivos IOT | Consumo de endpoints de los dispositos IOT  | 3 | Axel Fiestas  | Done |
-| US34 | Obtener información de la ubicación del bus en tiempo real | 4 | Rastreo GPS de buses | Desarrollar un sistema para capturar y transmitir la ubicación GPS de cada bus en intervalos regulares | 5 | Tania Vasquez | Done |
-| TS17 | Enviar la información recopilada en los dispositivos IoT hacia el Gateway | 5 | Transmisión de datos IoT al Gateway | Configurar los dispositivos IoT para enviar datos recopilados a un Gateway central de manera eficiente y segura. | 5 | Axel Fiestas | Done |
-| TS42 | Obtener información de la ubicación del bus en tiempo real | 6 | Lectura de sensores de peso | Implementar la captura y procesamiento de datos de los sensores de peso instalados en los buses | 3 | Andrea Alfaro | Done |
-| TS18 | Mandar la información recopilada en el Gateway hacia una plataforma Cloud | 7   | Sincronización Gateway-Cloud | Desarrollar un sistema para transferir automáticamente los datos del Gateway a una plataforma cloud seleccionada | 5 | Axel Fiestas | Done |
-| TS43 | Enviar información del sensor de pulso al backend cloud | 8 | Transmisión de datos de pulso cardiaco | Configurar la transmisión de lecturas del sensor de pulso de los conductores al backend en la nube | 5 | Andrea Alfaro | Done |
-| US-31 | Registro de Schedules | 9 | Gestión de horarios de buses | Crear una interfaz para registrar y administrar los horarios programados de las rutas de buses | 3 | Tania Vasquez | Done |
-| US16 | Recibir notificaciones | 10  | Sistema de notificaciones | Implementar un sistema que envíe notificaciones relevantes a usuarios y personal sobre el servicio de buses | 2 | Andrea Alfaro | Done |
-| TS13 | Registro de Itinerario | 11  | Creación de itinerarios | Desarrollar una funcionalidad para crear y almacenar itinerarios detallados de las rutas de buses. | 3 | Tania Vasquez | Done |
-| TS09 | Visualización de Datos de Conductores y Buses | 12  | Dashboard de conductores y buses | Crear una interfaz que muestre información clave sobre conductores en servicio y estado de los buses | 3 | Diego Merino | Done |
-| TS10 | Pulsaciones de Corazón del Conductor | 13  | Monitoreo cardiaco de conductores | Implementar un sistema para registrar y visualizar las pulsaciones cardiacas de los conductores en tiempo real | 5 | Andrea Alfaro | Done |
-| TS11 | Alertas de Pulsaciones del Conductor | 14  | Alertas de ritmo cardiaco anormal | Desarrollar un sistema de alertas que se active cuando las pulsaciones de un conductor salgan de un rango saludable | 3 | Andrea Alfaro | Done |
-| US13  | Visualizar aforo en buses | 15  | Monitor de aforo de pasajeros | Crear una interfaz que muestre en tiempo real el número de pasajeros en cada bus y su capacidad máxima | 3 | Rafael Primo | Done |
-| US15 | Visualizar estado de los conductores | 16  | Panel de estado de conductores |  Implementar una vista que muestre el estado actual (en servicio, descanso, etc.) y condición de cada conductor | 3 | Diego Merino | Done |
-| TS19 | Conectar la información con el backend | 17  | Integración de datos con backend | Desarrollar la conexión y sincronización de todos los datos recopilados con el sistema backend central | 5 | Andrea Alfaro  | Done |
-| US14 | Visualizar ubicación de la flota en tiempo real | 18  | Mapa en vivo de la flota | Crear un mapa interactivo que muestre la ubicación en tiempo real de todos los buses en servicio | 5 | Rafael Primo | Done |
-| US21 | Visualizar recorrido de una línea de bus |19  | Visor de rutas de buses | Implementar una función que permita ver el recorrido completo de una línea de bus específica en un mapa | 5 | Rafael Primo | Done |
+| Sprint #   | Sprint 3                                                                  |     |                                                                                  |                                                                                                                     |                    |               |        |
+| :--------- | :------------------------------------------------------------------------ | :-- | :------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------ | :----------------- | :------------ | :----- |
+| User Story | Work-Item /Task                                                           |     |                                                                                  |                                                                                                                     |                    |               |        |
+| Id         | Title                                                                     | Id  | Title                                                                            | Description                                                                                                         | Estimation (Hours) | Assigned To   | Status |
+| TS21       | Implementación de Sensor de Peso                                          | 1   | Diseño del Simulador de Peso                                                     | Implementar la lógica para simular el peso                                                                          | 5                  | Axel Fiestas  | Done   |
+| TS14       | Suscripción Premium                                                       | 2   | Desarrollar la lógica de los métodos de pago al registrar                        | Implementar endpoints en el backend Cloud que se conecte al servicio externo Stripe                                 | 3                  | Andrea Alfaro | Done   |
+| US11       | Visualización de métricas de ocupación y capacidad de unidades de buses   | 3   | Integración de gráficas que muestres información captada de los dispositivos IOT | Consumo de endpoints de los dispositos IOT                                                                          | 3                  | Axel Fiestas  | Done   |
+| US34       | Obtener información de la ubicación del bus en tiempo real                | 4   | Rastreo GPS de buses                                                             | Desarrollar un sistema para capturar y transmitir la ubicación GPS de cada bus en intervalos regulares              | 5                  | Tania Vasquez | Done   |
+| TS17       | Enviar la información recopilada en los dispositivos IoT hacia el Gateway | 5   | Transmisión de datos IoT al Gateway                                              | Configurar los dispositivos IoT para enviar datos recopilados a un Gateway central de manera eficiente y segura.    | 5                  | Axel Fiestas  | Done   |
+| TS42       | Obtener información de la ubicación del bus en tiempo real                | 6   | Lectura de sensores de peso                                                      | Implementar la captura y procesamiento de datos de los sensores de peso instalados en los buses                     | 3                  | Andrea Alfaro | Done   |
+| TS18       | Mandar la información recopilada en el Gateway hacia una plataforma Cloud | 7   | Sincronización Gateway-Cloud                                                     | Desarrollar un sistema para transferir automáticamente los datos del Gateway a una plataforma cloud seleccionada    | 5                  | Axel Fiestas  | Done   |
+| TS43       | Enviar información del sensor de pulso al backend cloud                   | 8   | Transmisión de datos de pulso cardiaco                                           | Configurar la transmisión de lecturas del sensor de pulso de los conductores al backend en la nube                  | 5                  | Andrea Alfaro | Done   |
+| US-31      | Registro de Schedules                                                     | 9   | Gestión de horarios de buses                                                     | Crear una interfaz para registrar y administrar los horarios programados de las rutas de buses                      | 3                  | Tania Vasquez | Done   |
+| US16       | Recibir notificaciones                                                    | 10  | Sistema de notificaciones                                                        | Implementar un sistema que envíe notificaciones relevantes a usuarios y personal sobre el servicio de buses         | 2                  | Andrea Alfaro | Done   |
+| TS13       | Registro de Itinerario                                                    | 11  | Creación de itinerarios                                                          | Desarrollar una funcionalidad para crear y almacenar itinerarios detallados de las rutas de buses.                  | 3                  | Tania Vasquez | Done   |
+| TS09       | Visualización de Datos de Conductores y Buses                             | 12  | Dashboard de conductores y buses                                                 | Crear una interfaz que muestre información clave sobre conductores en servicio y estado de los buses                | 3                  | Diego Merino  | Done   |
+| TS10       | Pulsaciones de Corazón del Conductor                                      | 13  | Monitoreo cardiaco de conductores                                                | Implementar un sistema para registrar y visualizar las pulsaciones cardiacas de los conductores en tiempo real      | 5                  | Andrea Alfaro | Done   |
+| TS11       | Alertas de Pulsaciones del Conductor                                      | 14  | Alertas de ritmo cardiaco anormal                                                | Desarrollar un sistema de alertas que se active cuando las pulsaciones de un conductor salgan de un rango saludable | 3                  | Andrea Alfaro | Done   |
+| US13       | Visualizar aforo en buses                                                 | 15  | Monitor de aforo de pasajeros                                                    | Crear una interfaz que muestre en tiempo real el número de pasajeros en cada bus y su capacidad máxima              | 3                  | Rafael Primo  | Done   |
+| US15       | Visualizar estado de los conductores                                      | 16  | Panel de estado de conductores                                                   | Implementar una vista que muestre el estado actual (en servicio, descanso, etc.) y condición de cada conductor      | 3                  | Diego Merino  | Done   |
+| TS19       | Conectar la información con el backend                                    | 17  | Integración de datos con backend                                                 | Desarrollar la conexión y sincronización de todos los datos recopilados con el sistema backend central              | 5                  | Andrea Alfaro | Done   |
+| US14       | Visualizar ubicación de la flota en tiempo real                           | 18  | Mapa en vivo de la flota                                                         | Crear un mapa interactivo que muestre la ubicación en tiempo real de todos los buses en servicio                    | 5                  | Rafael Primo  | Done   |
+| US21       | Visualizar recorrido de una línea de bus                                  | 19  | Visor de rutas de buses                                                          | Implementar una función que permita ver el recorrido completo de una línea de bus específica en un mapa             | 5                  | Rafael Primo  | Done   |
 
 #### 6.2.3.3. Development Evidence for Sprint Review
 
@@ -1283,7 +1283,6 @@ Para el Sprint 3, se añadieron las pantallas relacionadas a la administración 
   <img src="../Resources/sprint-3/web-sprint-3-4.png" width=700 alt="Execution">   
 </div>
 
-
 <div align="center">
   <img src="../Resources/sprint-3/web-sprint-3-3.png" width=700 alt="Execution">   
 </div>
@@ -1309,7 +1308,7 @@ Para el Sprint 3, se termino el edgebackend y la labor de logica y resumen que d
 
 **Enlace**: https://chapatubusbackend.azurewebsites.net/swagger-ui/index.html#
 
-* **IOT Devices**
+- **IOT Devices**
 
 Para el Sprint 3, se termino la configuracion de los devices. Así como verificar el correcto envio de información al edge backend y los simuladores para que funcione sin intervención.
 
@@ -1324,10 +1323,10 @@ Para el Sprint 3, se termino la configuracion de los devices. Así como verifica
 </div>
 
 **Enlace de explicación de los proyectos wokwi IOT y el backend edge:**
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u20181b530_upc_edu_pe/EcvbdBzmy5pCkP0Qpf2R9m4Blt2eRT_IV4pp_JktYCHifw?e=nFON6b&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+https://upcedupe-my.sharepoint.com/%3Av%3A/g/personal/u20181b530_upc_edu_pe/EcvbdBzmy5pCkP0Qpf2R9m4Blt2eRT_IV4pp_JktYCHifw?e=nFON6b&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 **Enlace de explicación de la aplicación web y backend cloud:**
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u20181b530_upc_edu_pe/EQUU_88MDRJKlqxR1jxUvCMB036ogGdSsiqMF6WnpdSZtg?e=oiQMbD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+https://upcedupe-my.sharepoint.com/%3Av%3A/g/personal/u20181b530_upc_edu_pe/EQUU_88MDRJKlqxR1jxUvCMB036ogGdSsiqMF6WnpdSZtg?e=oiQMbD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 #### 6.2.3.6. Services Documentation Evidence for Sprint Review
 
@@ -1546,15 +1545,15 @@ _Sobre la Aplicación_
   <img src="../Resources/interviews/validacion-renzo.png" width=80% alt="Renzo Validation Interview">   
 </div>
 
-  #### Landing Page
+#### Landing Page
 
-  En cuanto a la landing page, Renzo opina que la información presentada es clara y bien estructurada, permitiendo entender fácilmente el propósito de la aplicación y los beneficios que ofrece a los usuarios. Destaca que el diseño es atractivo y moderno, y la navegación es intuitiva, lo cual le pareció muy positivo. Sin embargo, sugiere que sería útil incluir una sección de testimonios de usuarios que hayan tenido buenas experiencias con la aplicación, así como un video tutorial corto que muestre cómo usar las funciones principales.
+En cuanto a la landing page, Renzo opina que la información presentada es clara y bien estructurada, permitiendo entender fácilmente el propósito de la aplicación y los beneficios que ofrece a los usuarios. Destaca que el diseño es atractivo y moderno, y la navegación es intuitiva, lo cual le pareció muy positivo. Sin embargo, sugiere que sería útil incluir una sección de testimonios de usuarios que hayan tenido buenas experiencias con la aplicación, así como un video tutorial corto que muestre cómo usar las funciones principales.
 
-  #### Aplicación móvil
+#### Aplicación móvil
 
-  Sobre la aplicación, Renzo menciona que iniciar sesión y personalizar su perfil fue bastante fácil, y el proceso es sencillo. Comenta que la funcionalidad de tiempo estimado de llegada de los buses es muy útil, ya que le ayuda a planificar mejor su tiempo y a no esperar demasiado en la parada. También valora positivamente la función de guardar destinos frecuentes y consultar rutas, describiéndola como muy práctica y ahorradora de tiempo, facilitando sus desplazamientos diarios. Además, Renzo destaca que las alertas de buses llenos son claras y útiles, permitiéndole tomar decisiones informadas sobre si esperar el próximo bus o buscar alternativas. Renzo señala que la funcionalidad del mapa interactivo para localizar paraderos y trazar rutas es bastante intuitiva y fácil de usar. Sin embargo, menciona que hubo algunos aspectos de la aplicación que le resultaron confusos, como la opción para cambiar la configuración de notificaciones, que podría simplificarse un poco más. Finalmente, Renzo sugiere que le gustaría ver una función de chat o comentarios en tiempo real para interactuar con otros usuarios y compartir información sobre las rutas. También menciona que sería genial tener una opción de alertas personalizadas según sus preferencias de ruta y horario.
+Sobre la aplicación, Renzo menciona que iniciar sesión y personalizar su perfil fue bastante fácil, y el proceso es sencillo. Comenta que la funcionalidad de tiempo estimado de llegada de los buses es muy útil, ya que le ayuda a planificar mejor su tiempo y a no esperar demasiado en la parada. También valora positivamente la función de guardar destinos frecuentes y consultar rutas, describiéndola como muy práctica y ahorradora de tiempo, facilitando sus desplazamientos diarios. Además, Renzo destaca que las alertas de buses llenos son claras y útiles, permitiéndole tomar decisiones informadas sobre si esperar el próximo bus o buscar alternativas. Renzo señala que la funcionalidad del mapa interactivo para localizar paraderos y trazar rutas es bastante intuitiva y fácil de usar. Sin embargo, menciona que hubo algunos aspectos de la aplicación que le resultaron confusos, como la opción para cambiar la configuración de notificaciones, que podría simplificarse un poco más. Finalmente, Renzo sugiere que le gustaría ver una función de chat o comentarios en tiempo real para interactuar con otros usuarios y compartir información sobre las rutas. También menciona que sería genial tener una opción de alertas personalizadas según sus preferencias de ruta y horario.
 
-- Enlace: **https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/EQjLZChk50pPoCeKUBqM8yEBgLswhmCg79WOC-Sv09CLYg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=vo07dO**
+- Enlace: **https://upcedupe-my.sharepoint.com/%3Av%3A/g/personal/u202115862_upc_edu_pe/EQjLZChk50pPoCeKUBqM8yEBgLswhmCg79WOC-Sv09CLYg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=vo07dO**
 
 **Entrevista N°2**
 
@@ -1578,7 +1577,7 @@ _Sobre la Aplicación_
 
   Andy comenta que registrar su empresa y crear un perfil en la aplicación fue un proceso sencillo y directo. Evalúa positivamente la funcionalidad de monitoreo en tiempo real del estado de los conductores, considerándola una herramienta valiosa para la gestión eficiente de la flota. También encontró útil la información sobre la velocidad de los buses, lo cual le ayuda a supervisar mejor el desempeño de los conductores. La funcionalidad de consulta de horarios y paraderos con mayor afluencia le pareció clara y accesible, brindándole datos importantes para optimizar las rutas. Además, Andy destaca la precisión del monitoreo del aforo de los buses basado en los sensores de peso. Sin embargo, sugiere que una mejora sería añadir más opciones de personalización en las alertas y reportes, para adaptarlas mejor a las necesidades específicas de su empresa.
 
-- Enlace: **https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/EQjLZChk50pPoCeKUBqM8yEBgLswhmCg79WOC-Sv09CLYg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=vo07dO**
+- Enlace: **https://upcedupe-my.sharepoint.com/%3Av%3A/g/personal/u202115862_upc_edu_pe/EQjLZChk50pPoCeKUBqM8yEBgLswhmCg79WOC-Sv09CLYg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=vo07dO**
 
 **Entrevista N°3**
 
@@ -1600,7 +1599,7 @@ _Sobre la Aplicación_
 
   Inicio sesión con facilidad y que al momento de registrarse se pidio información concisa y oportuna, por lo que fue rápido el registro de la compañía de transporte en la que trabaja. Menciona que el monitoreo de los conductores en tiempo real es realmente algo valioso , ya que con ello se podría prevenir incluso accidentes de tránsito. Además, la velocidad de los buses es vital para saber si los conductores están acatando las normas de tránsito en conjunto los sensores de peso, para saber si están sobrepasando el aforo esperado. Menciona por último que podría ser conveniente un módulo en el cual se pueda administrar los ingresos monetarios qde la compañia.
 
-- Enlace: **https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/EQjLZChk50pPoCeKUBqM8yEBgLswhmCg79WOC-Sv09CLYg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=vo07dO**
+- Enlace: **https://upcedupe-my.sharepoint.com/%3Av%3A/g/personal/u202115862_upc_edu_pe/EQjLZChk50pPoCeKUBqM8yEBgLswhmCg79WOC-Sv09CLYg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=vo07dO**
 
 **Entrevista N°4**
 
@@ -1622,7 +1621,7 @@ _Sobre la Aplicación_
 
   La funcionalidad de tiempo estimado de llegada de los buses resultó ser extremadamente útil, permitiéndole planificar sus viajes a la universidad. La función de guardar destinos frecuentes y consultar rutas es muy práctica y facilita el acceso rápido a sus rutas habituales. Las alertas de buses llenos fueron claras y le ayudaron basicamente a saber si esperar el siguiente bus. El mapa interactivo le permitió de forma más sencilla localizar paraderos de forma más fácil, ya que no siempre se conoce la dirección exacta. No encontró ningún aspecto de la aplicación que le resultara confuso o difícil de usar. Le gustaría ver características adicionales como opciones de pago integradas y notificaciones en tiempo real sobre cambios en las rutas o retrasos.
 
-- Enlace: **https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/EQjLZChk50pPoCeKUBqM8yEBgLswhmCg79WOC-Sv09CLYg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=vo07dO**
+- Enlace: **https://upcedupe-my.sharepoint.com/%3Av%3A/g/personal/u202115862_upc_edu_pe/EQjLZChk50pPoCeKUBqM8yEBgLswhmCg79WOC-Sv09CLYg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=vo07dO**
 
 **Entrevista N°5**
 
@@ -1646,7 +1645,7 @@ _Sobre la Aplicación_
 
   Jorge comenta que el proceso de registrar su empresa y crear un perfil en la aplicación fue muy fácil y no encontró problemas durante la configuración inicial. Evalúa positivamente la funcionalidad de monitoreo en tiempo real del estado de los conductores, destacando su precisión y utilidad. Además, encontró muy útil la información sobre la velocidad de los buses, lo que le permite tomar decisiones informadas sobre el rendimiento de la flota. La funcionalidad de consulta de horarios y paraderos con mayor afluencia es clara y accesible, proporcionando datos valiosos para mejorar la eficiencia del servicio. Jorge también destaca la precisión del monitoreo del aforo de los buses basado en los sensores de peso. Como sugerencia, le gustaría ver una integración más profunda con otros sistemas de gestión de flotas que ya utilizan, para centralizar toda la información en una única plataforma.
 
-- Enlace: **https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/EQjLZChk50pPoCeKUBqM8yEBgLswhmCg79WOC-Sv09CLYg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=vo07dO**
+- Enlace: **https://upcedupe-my.sharepoint.com/%3Av%3A/g/personal/u202115862_upc_edu_pe/EQjLZChk50pPoCeKUBqM8yEBgLswhmCg79WOC-Sv09CLYg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=vo07dO**
 
 ### 6.3.3. Evaluaciones según heurísticas.
 
@@ -1826,4 +1825,4 @@ A continuación, se presenta el video About The Product. Este tiene como objetiv
 
 <img src="../Resources/images/About-the-product.png">
 
-Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111473_upc_edu_pe/EUDbaT99xI9LpvWFVjHJ10QBDVPKtxGeaNsIF9OZUZxs3w?e=iykH72&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+Link: https://upcedupe-my.sharepoint.com/%3Av%3A/g/personal/u202111473_upc_edu_pe/EUDbaT99xI9LpvWFVjHJ10QBDVPKtxGeaNsIF9OZUZxs3w?e=iykH72&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D

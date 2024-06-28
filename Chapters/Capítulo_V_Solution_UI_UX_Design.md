@@ -4,7 +4,7 @@
 
 ### 5.1.1 General Style Guidelines
 
-Para nuestra paleta de colores, hemos seleccionado tonos que evocan una sensación de confianza y profesionalismo. El color primario  transmite una sensación de seguridad y fiabilidad, mientras que el color secundario añade un toque de optimismo y claridad a nuestra interfaz. El color terciario aporta un elemento de calidez y vitalidad. Además de nuestra paleta de colores, hemos definido una tipografía clara y legible que refuerza la experiencia del usuario. Nuestro sistema de iconografía utiliza símbolos intuitivos y reconocibles para mejorar la navegación y comprensión de la interfaz. El sistema de cuadrícula garantiza una disposición ordenada y consistente de los elementos en la pantalla, mientras que el espaciado adecuado proporciona una experiencia visual equilibrada y agradable. Para los selectores, botones y elementos grandes y pequeños, hemos establecido estilos coherentes que aseguran una experiencia de usuario uniforme en toda la aplicación.
+Para nuestra paleta de colores, hemos seleccionado tonos que evocan una sensación de confianza y profesionalismo. El color primario transmite una sensación de seguridad y fiabilidad, mientras que el color secundario añade un toque de optimismo y claridad a nuestra interfaz. El color terciario aporta un elemento de calidez y vitalidad. Además de nuestra paleta de colores, hemos definido una tipografía clara y legible que refuerza la experiencia del usuario. Nuestro sistema de iconografía utiliza símbolos intuitivos y reconocibles para mejorar la navegación y comprensión de la interfaz. El sistema de cuadrícula garantiza una disposición ordenada y consistente de los elementos en la pantalla, mientras que el espaciado adecuado proporciona una experiencia visual equilibrada y agradable. Para los selectores, botones y elementos grandes y pequeños, hemos establecido estilos coherentes que aseguran una experiencia de usuario uniforme en toda la aplicación.
 
 <div align="center">
     <img src="../Resources/style_guidelines/Colors.png" width=400>
@@ -199,7 +199,7 @@ A través de nuestras aplicaciones, hemos implementado sistemas de navegación q
 
 Nuestra propuesta se basa en las decisiones de diseño y arquitectura de la información definidas previamente, asegurando una experiencia de usuario coherente y efectiva en todas las plataformas.
 
-Los principios de diseño aplicados son: 
+Los principios de diseño aplicados son:
 
 - **Simplicidad**: La interfaz se mantendrá simple y fácil de navegar, con elementos claros y concisos.
 - **Claridad**: El mensaje principal de la empresa se transmitirá de manera clara y directa.
@@ -226,6 +226,7 @@ En relación a nuestra arquitectura de la información, se plantea:
 Juntos, hemos trabajado en equipo utilizando la herramienta de diseño colaborativo Figma para crear los wireframes de nuestra landing page. Se consideraron nuestros dos segmentos objetivos para el planteamiento del diseño.
 
 **Desktop Web Browser:**
+
 - Cabecera: Logotipo, menú de navegación y botón de llamada de acción.
 - Sección principal: Imagen de fondo, título principal, subtítulo y botón de llamada de acción.
 - Sección de características: Íconos o cuadros de texto con descripciones.
@@ -234,6 +235,7 @@ Juntos, hemos trabajado en equipo utilizando la herramienta de diseño colaborat
 - Pie de página: Información de contacto y redes sociales.
 
 **Mobile Web Browser:**
+
 - Cabecera: Logotipo y menú de hamburguesa.
 - Sección principal: Imagen de fondo, título principal, subtítulo y botón de llamada de acción.
 - Secciones de características y equipo: Acordeones (opcional).
@@ -251,6 +253,7 @@ Enlace de Figma: https://www.figma.com/file/97DXUycS74gm7Bu99vor2j/IOT?type=desi
 Juntos, hemos trabajado en equipo utilizando la herramienta de diseño colaborativo Figma para crear el diseño Mock-up de nuestra landing page. Se consideraron nuestros dos segmentos objetivos para el planteamiento del diseño.
 
 **Desktop Web Browser:**
+
 - Cabecera: Logotipo ubicado en la esquina superior izquierda, con un tamaño y color que lo hagan destacar. Utilizamos una paleta de colores consistente con la marca de la empresa.
 - Sección principal: Una imagen de alta calidad que represente el valor principal de la empresa, transmitiendo una sensación de profesionalismo y confianza, un texto breve y conciso que resuma la propuesta de valor de la empresa, utilizando una tipografía grande y llamativa y botón de llamada de acción visible y accesible.
 - Sección de características: Diseños visuales que representen las características principales de la empresa, utilizando colores y formas que sean fácilmente reconocibles.
@@ -259,6 +262,7 @@ Juntos, hemos trabajado en equipo utilizando la herramienta de diseño colaborat
 - Pie de página: Información de contacto y redes sociales, utilizar una tipografía legible y un tamaño de letra.
 
 **Mobile Web Browser:**
+
 - Cabecera: Logotipo ubicado en la esquina superior izquierda, con un tamaño y color que lo hagan destacar y menú de hamburguesa llamativo.
 - Sección principal: Una imagen de alta calidad que represente el valor principal de la empresa, transmitiendo una sensación de profesionalismo y confianza, un texto breve y conciso que resuma la propuesta de valor de la empresa, utilizando una tipografía grande y llamativa y botón de llamada de acción visible y accesible.
 - Secciones de características y equipo: Diseños visuales en forma de acordeon que representen las características principales de la empresa, utilizando colores y formas que sean fácilmente reconocibles.
@@ -275,7 +279,7 @@ Enlace de Figma: https://www.figma.com/file/97DXUycS74gm7Bu99vor2j/IOT?type=desi
 
 ### 5.4.1. Applications Wireframes
 
-En esta sección, hemos colaborado para crear los wireframes que actúen como una representación visual detallada de la estructura y el diseño de nuestras interfaces de usuario. Trabajando en conjunto, hemos traducido los requisitos funcionales y las especificaciones del proyecto en diagramas gráficos claros y concisos que delinean cómo se organizarán y presentarán los diferentes componentes en la aplicación final. 
+En esta sección, hemos colaborado para crear los wireframes que actúen como una representación visual detallada de la estructura y el diseño de nuestras interfaces de usuario. Trabajando en conjunto, hemos traducido los requisitos funcionales y las especificaciones del proyecto en diagramas gráficos claros y concisos que delinean cómo se organizarán y presentarán los diferentes componentes en la aplicación final.
 
 **Web Application Wireframe**
 
@@ -314,7 +318,7 @@ En esta sección, presentamos los diagramas de flujo de nuestra aplicación web,
 **Pasajero**
 
 - UG01: Registrarse en la aplicación
-  
+
   El pasajero accede a la aplicación y selecciona la opción de registro, completa el formulario de registro proporcionando su información personal, como nombre, correo electrónico y contraseña, luego onfirma la creación de su cuenta al hacer clic en el botón de registro y recibe una notificación de confirmación de registro y es redirigido a la pantalla de inicio de sesión para iniciar sesión con sus nuevas credenciales.
 
 <div align="center">
@@ -323,7 +327,7 @@ En esta sección, presentamos los diagramas de flujo de nuestra aplicación web,
   
 - UG02: Iniciar sesión
 
-  El pasajero abre la aplicación y selecciona la opción de iniciar sesión, ingresa su correo electrónico y contraseña en los campos correspondientes, presiona el botón de inicio de sesión para verificar sus credenciales y si la información ingresada es correcta, el usuario es autenticado y dirigido a la pantalla principal de la aplicación.
+El pasajero abre la aplicación y selecciona la opción de iniciar sesión, ingresa su correo electrónico y contraseña en los campos correspondientes, presiona el botón de inicio de sesión para verificar sus credenciales y si la información ingresada es correcta, el usuario es autenticado y dirigido a la pantalla principal de la aplicación.
 
 <div align="center">
     <img src="../Resources/design/iniciar-sesion-mobile.png">
@@ -331,7 +335,7 @@ En esta sección, presentamos los diagramas de flujo de nuestra aplicación web,
   
 - UG03: Buscar información de una línea de transporte
 
-  Después de iniciar sesión, el pasajero accede a la función de búsqueda en la pantalla principal de la aplicación, ingresa el nombre o número de la línea de transporte que desea buscar y selecciona la línea de transporte deseada de los resultados de búsqueda. Finalmente, visualiza la información detallada de la línea de transporte, como horarios, rutas y paradas disponibles.
+Después de iniciar sesión, el pasajero accede a la función de búsqueda en la pantalla principal de la aplicación, ingresa el nombre o número de la línea de transporte que desea buscar y selecciona la línea de transporte deseada de los resultados de búsqueda. Finalmente, visualiza la información detallada de la línea de transporte, como horarios, rutas y paradas disponibles.
 
 <div align="center">
     <img src="../Resources/design/buscar-info-linea-mobile.png">
@@ -341,17 +345,18 @@ En esta sección, presentamos los diagramas de flujo de nuestra aplicación web,
 
   Mientras revisa la información de una línea de transporte, el pasajero encuentra una ruta que le interesa, selecciona la opción para añadir esa ruta a sus favoritos y la ruta seleccionada se guarda en la lista de favoritos del pasajero para un acceso rápido y fácil en el futuro.
 
-  <div align="center">
-    <img src="../Resources/design/añadir-favorito-mobile.png">
-</div>
-  
+    <div align="center">
+      <img src="../Resources/design/añadir-favorito-mobile.png">
+  </div>
+
+
 - UG05: Ver rutas de líneas de transporte
 
   Desde la pantalla principal de la aplicación, el pasajero accede a la sección de rutas de líneas de transporte, explora la lista de todas las rutas disponibles, organizadas por línea de transporte y selecciona una línea de transporte específica para ver las rutas asociadas y la información detallada de cada una.
 
-  <div align="center">
-    <img src="../Resources/design/ver-rutas-mobile.png">
-</div>
+    <div align="center">
+      <img src="../Resources/design/ver-rutas-mobile.png">
+  </div>
 
 **Encargado de la empresa de transporte**
 
@@ -359,14 +364,15 @@ En esta sección, presentamos los diagramas de flujo de nuestra aplicación web,
 
   El encargado accede a la aplicación web y selecciona la opción de registro, completa el formulario de registro proporcionando la información solicitada, incluyendo los datos de la empresa y de la línea de transporte, adjunta la información requerida y confirma el registro de la empresa y la línea de transporte al hacer clic en el botón de registro. Finalmente, recibe una notificación de confirmación y es redirigido a la pantalla de inicio de sesión para acceder a su cuenta recién creada.
 
-  <div align="center">
-    <img src="../Resources/design/registro-web.png">
-</div>
-  
+    <div align="center">
+      <img src="../Resources/design/registro-web.png">
+  </div>
+
+
 - UG02: Iniciar sesión
 
   El encargado abre la aplicación web y selecciona la opción de iniciar sesión, ingresa su correo electrónico y contraseña en los campos correspondientes, presiona el botón de inicio de sesión para autenticarse.
-Si los datos ingresados son correctos, el administrador es autenticado y dirigido al panel de control (dashboard) de la aplicación.
+  Si los datos ingresados son correctos, el administrador es autenticado y dirigido al panel de control (dashboard) de la aplicación.
 
 <div align="center">
     <img src="../Resources/design/iniciar-sesion-web.png">
@@ -376,49 +382,53 @@ Si los datos ingresados son correctos, el administrador es autenticado y dirigid
 
   Después de iniciar sesión, el encargado accede al panel de control y selecciona la opción de registrar ruta de transporte, completa el formulario de registro proporcionando los detalles de la nueva ruta, como el número de ruta, horarios y paraderos, adjunta la información adicional requerida, como fotos de los paraderos y horarios de inicio y fin, confirma el registro de la nueva ruta al hacer clic en el botón correspondiente. Finalmente, recibe una notificación de confirmación y la nueva ruta se agrega al sistema.
 
-  <div align="center">
-    <img src="../Resources/design/registrar-ruta-web.png">
-</div>
-  
+    <div align="center">
+      <img src="../Resources/design/registrar-ruta-web.png">
+  </div>
+
+
 - UG04: Ver reporte de paraderos con mayor afluencia de pasajeros
 
   Desde el panel de control, el encargado accede a la sección de informes y selecciona el reporte de paraderos con mayor afluencia de pasajeros, visualiza la lista de paraderos ordenados por la cantidad de pasajeros que abordaron en cada uno y puede explorar los detalles de cada paradero, incluyendo la cantidad de pasajeros y el horario de mayor afluencia.
 
-  <div align="center">
-    <img src="../Resources/design/reporte-paraderos-web.png">
-</div>
-  
+    <div align="center">
+      <img src="../Resources/design/reporte-paraderos-web.png">
+  </div>
+
+
 - UG05: Ver reporte de horarios con mayor afluencia de pasajeros
 
   Desde el panel de control, el encargado accede a la sección de informes y elige el reporte de horarios con mayor afluencia de pasajeros, visualiza la lista de horarios de salida ordenados por la cantidad de pasajeros que abordaron en cada uno y puede explora los detalles de cada horario, incluyendo la cantidad de pasajeros y los paraderos asociados.
 
-  <div align="center">
-    <img src="../Resources/design/reporte-horarios-web.png">
-</div>
+    <div align="center">
+      <img src="../Resources/design/reporte-horarios-web.png">
+  </div>
 
 - UG06: Ver cantidad de pasajeros que abordaron en un paradero
 
   Desde el panel de control, el encargado accede a la sección de informes y selecciona la opción de ver la cantidad de pasajeros que abordaron en un paradero específico, selecciona el paradero de interés de una lista desplegable, visualiza la cantidad de pasajeros que abordaron en ese paradero en un período de tiempo determinado.
 
-   <div align="center">
-    <img src="../Resources/design/reporte-cantidad-pasajeros-web.png">
-</div>
-  
+     <div align="center">
+      <img src="../Resources/design/reporte-cantidad-pasajeros-web.png">
+  </div>
+
+
 - UG07: Ver información de flota
 
   Desde el panel de control, el encargado accede a la sección de flota y selecciona la opción de ver información de la flota, visualiza la lista de conductores asociados a la empresa de transporte, junto con sus detalles personales y de contacto y explora la información detallada de cada conductor, incluyendo su historial de trabajo y evaluaciones.
 
-  <div align="center">
-    <img src="../Resources/design/flota-web.png">
-</div>
+    <div align="center">
+      <img src="../Resources/design/flota-web.png">
+  </div>
 
 - UG08: Ver notificaciones de flota
 
   Desde el panel de control, el encargado accede a la sección de notificaciones y selecciona la opción de ver notificaciones de flota, visualiza la lista de notificaciones recibidas relacionadas con la flota de conductores y explora cada notificación para obtener más detalles y tomar las acciones necesarias, como asignar nuevos horarios o realizar seguimientos.
 
-    <div align="center">
-    <img src="../Resources/design/notificaciones-web.png">
-</div>
+      <div align="center">
+      <img src="../Resources/design/notificaciones-web.png">
+
+  </div>
 
 **Enlace Lucidchart: https://lucid.app/lucidchart/461bbd3c-2e35-460e-8052-00e3969a6755/edit?viewport_loc=-4961%2C-4348%2C37337%2C16036%2C0_0&invitationId=inv_2728ed2a-389d-4c05-959e-571d48f86cd5**
 
@@ -449,7 +459,7 @@ En este apartado hemos documentado visualmente el flujo de interacción que los 
 **Pasajero**
 
 - UG01: Registrarse en la aplicación
-  
+
   El pasajero accede a la aplicación y selecciona la opción de registro, completa el formulario de registro proporcionando su información personal, como nombre, correo electrónico y contraseña, luego onfirma la creación de su cuenta al hacer clic en el botón de registro y recibe una notificación de confirmación de registro y es redirigido a la pantalla de inicio de sesión para iniciar sesión con sus nuevas credenciales.
 
 <div align="center">
@@ -458,7 +468,7 @@ En este apartado hemos documentado visualmente el flujo de interacción que los 
   
 - UG02: Iniciar sesión
 
-  El pasajero abre la aplicación y selecciona la opción de iniciar sesión, ingresa su correo electrónico y contraseña en los campos correspondientes, presiona el botón de inicio de sesión para verificar sus credenciales y si la información ingresada es correcta, el usuario es autenticado y dirigido a la pantalla principal de la aplicación.
+El pasajero abre la aplicación y selecciona la opción de iniciar sesión, ingresa su correo electrónico y contraseña en los campos correspondientes, presiona el botón de inicio de sesión para verificar sus credenciales y si la información ingresada es correcta, el usuario es autenticado y dirigido a la pantalla principal de la aplicación.
 
 <div align="center">
     <img src="../Resources/design/pasajero-ug02-user-flow.png">
@@ -466,7 +476,7 @@ En este apartado hemos documentado visualmente el flujo de interacción que los 
   
 - UG03: Buscar información de una línea de transporte
 
-  Después de iniciar sesión, el pasajero accede a la función de búsqueda en la pantalla principal de la aplicación, ingresa el nombre o número de la línea de transporte que desea buscar y selecciona la línea de transporte deseada de los resultados de búsqueda. Finalmente, visualiza la información detallada de la línea de transporte, como horarios, rutas y paradas disponibles.
+Después de iniciar sesión, el pasajero accede a la función de búsqueda en la pantalla principal de la aplicación, ingresa el nombre o número de la línea de transporte que desea buscar y selecciona la línea de transporte deseada de los resultados de búsqueda. Finalmente, visualiza la información detallada de la línea de transporte, como horarios, rutas y paradas disponibles.
 
 <div align="center">
     <img src="../Resources/design/pasajero-ug03-user-flow.png">
@@ -482,7 +492,7 @@ En este apartado hemos documentado visualmente el flujo de interacción que los 
   
 - UG05: Ver rutas de líneas de transporte
 
-  Desde la pantalla principal de la aplicación, el pasajero accede a la sección de rutas de líneas de transporte, explora la lista de todas las rutas disponibles, organizadas por línea de transporte y selecciona una línea de transporte específica para ver las rutas asociadas y la información detallada de cada una.
+Desde la pantalla principal de la aplicación, el pasajero accede a la sección de rutas de líneas de transporte, explora la lista de todas las rutas disponibles, organizadas por línea de transporte y selecciona una línea de transporte específica para ver las rutas asociadas y la información detallada de cada una.
 
 <div align="center">
     <img src="../Resources/design/pasajero-ug05-user-flow.png">
@@ -500,7 +510,7 @@ En este apartado hemos documentado visualmente el flujo de interacción que los 
   
 - UG02: Iniciar sesión
 
-  El encargado abre la aplicación web y selecciona la opción de iniciar sesión, ingresa su correo electrónico y contraseña en los campos correspondientes, presiona el botón de inicio de sesión para autenticarse.
+El encargado abre la aplicación web y selecciona la opción de iniciar sesión, ingresa su correo electrónico y contraseña en los campos correspondientes, presiona el botón de inicio de sesión para autenticarse.
 Si los datos ingresados son correctos, el administrador es autenticado y dirigido al panel de control (dashboard) de la aplicación.
 
 <div align="center">
@@ -517,7 +527,7 @@ Si los datos ingresados son correctos, el administrador es autenticado y dirigid
   
 - UG04: Ver reporte de paraderos con mayor afluencia de pasajeros
 
-  Desde el panel de control, el encargado accede a la sección de informes y selecciona el reporte de paraderos con mayor afluencia de pasajeros, visualiza la lista de paraderos ordenados por la cantidad de pasajeros que abordaron en cada uno y puede explorar los detalles de cada paradero, incluyendo la cantidad de pasajeros y el horario de mayor afluencia.
+Desde el panel de control, el encargado accede a la sección de informes y selecciona el reporte de paraderos con mayor afluencia de pasajeros, visualiza la lista de paraderos ordenados por la cantidad de pasajeros que abordaron en cada uno y puede explorar los detalles de cada paradero, incluyendo la cantidad de pasajeros y el horario de mayor afluencia.
 
 <div align="center">
     <img src="../Resources/design/encargado-ug04-user-flow.svg">
@@ -525,7 +535,7 @@ Si los datos ingresados son correctos, el administrador es autenticado y dirigid
   
 - UG05: Ver reporte de horarios con mayor afluencia de pasajeros
 
-  Desde el panel de control, el encargado accede a la sección de informes y elige el reporte de horarios con mayor afluencia de pasajeros, visualiza la lista de horarios de salida ordenados por la cantidad de pasajeros que abordaron en cada uno y puede explora los detalles de cada horario, incluyendo la cantidad de pasajeros y los paraderos asociados.
+Desde el panel de control, el encargado accede a la sección de informes y elige el reporte de horarios con mayor afluencia de pasajeros, visualiza la lista de horarios de salida ordenados por la cantidad de pasajeros que abordaron en cada uno y puede explora los detalles de cada horario, incluyendo la cantidad de pasajeros y los paraderos asociados.
 
 <div align="center">
     <img src="../Resources/design/encargado-ug05-user-flow.svg">
@@ -541,7 +551,7 @@ Si los datos ingresados son correctos, el administrador es autenticado y dirigid
   
 - UG07: Ver información de flota
 
-  Desde el panel de control, el encargado accede a la sección de flota y selecciona la opción de ver información de la flota, visualiza la lista de conductores asociados a la empresa de transporte, junto con sus detalles personales y de contacto y explora la información detallada de cada conductor, incluyendo su historial de trabajo y evaluaciones.
+Desde el panel de control, el encargado accede a la sección de flota y selecciona la opción de ver información de la flota, visualiza la lista de conductores asociados a la empresa de transporte, junto con sus detalles personales y de contacto y explora la información detallada de cada conductor, incluyendo su historial de trabajo y evaluaciones.
 
 <div align="center">
     <img src="../Resources/design/encargado-ug07-user-flow.png">
@@ -582,13 +592,13 @@ Lo que se desarrolló en base a eso en nuestro diseño fue:
 
 **Web Application**
 
-Se describe el flujo que el encargado de la empresa de transporte hace en nuestra aplicación web. Desde el registro donde debe ingresar sus datos, información verídica de la empresa e información sobre su ruta, hasta el  acceso a la información detallada de sus buses y conductores.
+Se describe el flujo que el encargado de la empresa de transporte hace en nuestra aplicación web. Desde el registro donde debe ingresar sus datos, información verídica de la empresa e información sobre su ruta, hasta el acceso a la información detallada de sus buses y conductores.
 
 <div align="center">
     <img src="../Resources/design/web-prototyping.png">
 </div>
 
-Enlace de video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/ETx1skpbruFLiLz3RD1zm0EByHqYI-5c63HsFg0MuOEHyw?e=U1Xqet
+Enlace de video: https://upcedupe-my.sharepoint.com/%3Av%3A/g/personal/u202115862_upc_edu_pe/ETx1skpbruFLiLz3RD1zm0EByHqYI-5c63HsFg0MuOEHyw?e=U1Xqet
 
 **Mobile Application**
 
@@ -598,4 +608,4 @@ Se describe el flujo que el pasajero realiza en nuestra aplicación móvil, desd
     <img src="../Resources/design/mobile-prototyping.png">
 </div>
 
-Enlace de video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115862_upc_edu_pe/EQs2xh1eya5LuYON8-AIUFABmOJBd3_87TksVqxq6VU7ow?e=QFpv8Q
+Enlace de video: https://upcedupe-my.sharepoint.com/%3Av%3A/g/personal/u202115862_upc_edu_pe/EQs2xh1eya5LuYON8-AIUFABmOJBd3_87TksVqxq6VU7ow?e=QFpv8Q

@@ -1,4 +1,2 @@
-
-
 **Enlace:**
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u20181b530_upc_edu_pe/ESxl_RCRdKFFsSCL-T1TXJsBIbwxzi8ziGCytcVcouG-cQ?e=5B0lum&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+https://upcedupe-my.sharepoint.com/%3Av%3A/g/personal/u20181b530_upc_edu_pe/ESxl_RCRdKFFsSCL-T1TXJsBIbwxzi8ziGCytcVcouG-cQ?e=5B0lum&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
