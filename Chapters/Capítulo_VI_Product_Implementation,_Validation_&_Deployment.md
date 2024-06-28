@@ -494,7 +494,7 @@ Para las convenciones de codificación Java, nos adheriremos a las pautas descri
            <p>Sprint 1 Velocity</p>
         </td>
         <td>
-          <p>30</p>
+          <p>40</p>
         </td>
     </tr>
   <tr>
@@ -502,7 +502,7 @@ Para las convenciones de codificación Java, nos adheriremos a las pautas descri
            <p>Sum of Story Points</p>
         </td>
         <td>
-          <p>30</p>
+          <p>40</p>
         </td>
     </tr>
 </table>
@@ -518,7 +518,7 @@ A continuación, se presenta un screenshot del sprint 1 en desarrollo realizado 
 el equipo:
 
 <div align="center">
-  <img src="../Resources/jira-sprints/JiraSprint1Screenshot.png" alt="Jira Sprint 1 Screenshot">
+  <img src="../Resources/sprint-1/sprint-1-jira.png" alt="Jira Sprint 1 Screenshot">
 </div>
 
 Asimismo, se presenta la tabla de nuestro primer sprint con las respectivas user stories a trabajar:
@@ -527,15 +527,22 @@ Asimismo, se presenta la tabla de nuestro primer sprint con las respectivas user
 | :--------- | :------------------------------------------------------- | :-- | :----------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------- | :------------ | :----- |
 | User Story | Work-Item /Task                                          |     |                                                              |                                                                                                                                                                                                                    |                    |               |        |
 | Id         | Title                                                    | Id  | Title                                                        | Description                                                                                                                                                                                                        | Estimation (Hours) | Assigned To   | Status |
-| US01       | Redirección de la landing Page a tiendas de aplicaciones | 1   | Implementar enlaces de redirección a tiendas de aplicaciones | Configurar los enlaces en la Landing Page para redirigir a las tiendas de aplicaciones correspondientes (App Store y Google Play) según el dispositivo del usuario.                                                | 1                  | Diego Merino  | Done   |
+| US01       | Redirección de la landing Page a tiendas de aplicaciones | 1   | Implementar enlaces de redirección a tiendas de aplicaciones | Configurar los enlaces en la Landing Page para redirigir a las tiendas de aplicaciones correspondientes (App Store y Google Play) según el dispositivo del usuario.                                                | 1                  | Rafael Primo  | Done   |
 | US02       | Redirección de la landing Page a la aplicación web       | 2   | Configurar enlace de redirección a la aplicación web         | Establecer un enlace en la Landing Page que dirija a los usuarios a la aplicación web, garantizando una experiencia fluida y coherente.                                                                            | 1                  | Andrea Alfaro | Done   |
 | US03       | Envío de mensaje a través de un formulario de contacto   | 3   | Implementar formulario de contacto                           | Crear un formulario de contacto funcional en la Landing Page que permita a los usuarios enviar mensajes directamente al equipo de soporte.                                                                         | 3                  | Axel Fiestas  | Done   |
-| US04       | Conocimiento del Equipo desarrollador de la aplicación   | 4   | Crear sección de equipo desarrollador                        | Diseñar y desarrollar una sección informativa en la Landing Page que presente al equipo de desarrollo de la aplicación, incluyendo información relevante sobre cada miembro.                                       | 4                  | Tania Vasquez | Done   |
-| US05       | Sección de Preguntas Frecuentes                          | 5   | Integrar sección de preguntas frecuentes                     | Agregar una sección dedicada a preguntas frecuentes en la Landing Page, que aborde las consultas comunes de los usuarios y proporcione respuestas claras y concisas.                                               | 4                  | Rafael Primo  | Done   |
-| US06       | Navegación y Contenido Informativo en el Footer          | 6   | Mejorar navegación y contenido en el Footer                  | Optimizar la navegación y agregar contenido informativo relevante en el Footer de la Landing Page para mejorar la experiencia del usuario y facilitar el acceso a información importante.                          | 4                  | Diego Merino  | Done   |
-| US07       | Diseño Responsivo de la Landing Page                     | 7   | Implementar diseño responsivo                                | Desarrollar una versión responsiva de la Landing Page que se adapte automáticamente a diferentes tamaños de pantalla y dispositivos, garantizando una experiencia consistente y agradable para todos los usuarios. | 6                  | Andrea Alfaro | Done   |
-| US09       | Sección de Características del producto                  | 8   | Crear sección de características del producto                | Diseñar y desarrollar una sección en la Landing Page que resalte las características y funcionalidades clave del producto, ayudando a los usuarios a comprender mejor su propósito y beneficios.                   | 3                  | Axel Fiestas  | Done   |
-| US10       | Sección de Inicio de la Landing Page                     | 9   | Diseñar sección de inicio                                    | Elaborar el diseño y contenido inicial de la Landing Page, estableciendo la estructura y presentación general del sitio para captar la atención de los visitantes y orientarlos hacia la información relevante.    | 4                  | Tania Vasquez | Done   |
+| US04       | Conocimiento del Equipo desarrollador de la aplicación   | 4   | Crear sección de equipo desarrollador                        | Diseñar y desarrollar una sección informativa en la Landing Page que presente al equipo de desarrollo de la aplicación, incluyendo información relevante sobre cada miembro.                                       | 2                 | Tania Vasquez | Done   |
+| US05       | Sección de Preguntas Frecuentes                          | 5   | Integrar sección de preguntas frecuentes                     | Agregar una sección dedicada a preguntas frecuentes en la Landing Page, que aborde las consultas comunes de los usuarios y proporcione respuestas claras y concisas.                                               | 2                  | Rafael Primo  | Done   |
+| US06       | Navegación y Contenido Informativo en el Footer          | 6   | Mejorar navegación y contenido en el Footer                  | Optimizar la navegación y agregar contenido informativo relevante en el Footer de la Landing Page para mejorar la experiencia del usuario y facilitar el acceso a información importante.                          | 1                  | Tania Vasquez  | Done   |
+| US07       | Diseño Responsivo de la Landing Page                     | 7   | Implementar diseño responsivo                                | Desarrollar una versión responsiva de la Landing Page que se adapte automáticamente a diferentes tamaños de pantalla y dispositivos, garantizando una experiencia consistente y agradable para todos los usuarios. | 2                  | Diego Merino | Done   |
+| US09       | Sección de Características del producto                  | 8   | Crear sección de características del producto                | Diseñar y desarrollar una sección en la Landing Page que resalte las características y funcionalidades clave del producto, ayudando a los usuarios a comprender mejor su propósito y beneficios.                   | 2                  | Andrea Alfaro  | Done   |
+| US10       | Sección de Inicio de la Landing Page                     | 9   | Diseñar sección de inicio                                    | Elaborar el diseño y contenido inicial de la Landing Page, estableciendo la estructura y presentación general del sitio para captar la atención de los visitantes y orientarlos hacia la información relevante.    | 2                  | Diego Merino | Done   |
+| US29       | Creación de Itinerario | 10   | Diseñar sección de la creación de itinerario de una línea de transporte | Elaborar el diseño y contenido inicial de la creación de itinerario, estableciendo la estructura y presentación general del sitio y el consumo de los servicios  | 5 | Rafael Primo | Done |
+| US19       | Registrar empresa de transporte | 11 | Diseñar sección del registro de una empresa de transporte | Elaborar el diseño y contenido inicial del registro de una empresa de transporte, estableciendo la estructura y presentación general del sitio y el consumo de los servicios  | 5 | Tania Vasquez | Done |
+| US20       | Registrar línea de transporte | 12 | Diseñar sección del registro de una línea de transporte | Elaborar el diseño y contenido inicial del registro de una línea de transporte, estableciendo la estructura y presentación general del sitio y el consumo de los servicios  | 3 | Tania Vasquez | Done |
+| US26       | Registro de unidad de bus | 13 | Diseñar sección del registro de una unidad de bus | Elaborar el diseño y contenido inicial del registro de una unidad de bus, estableciendo la estructura y presentación general del sitio y el consumo de los servicios  | 3 | Andrea Alfaro | Done |
+| US27       | Registro de conductor | 14 | Diseñar sección del registro de un conductor | Elaborar el diseño y contenido inicial del registro de un conductor, estableciendo la estructura y presentación general del sitio y el consumo de los servicios  | 2 | Axel Fiestas | Done |
+| US28       | Registro de bus | 15 | Diseñar sección del registro de un bus | Elaborar el diseño y contenido inicial del registro de un bus, estableciendo la estructura y presentación general del sitio y el consumo de los servicios  | 2 | Andrea Alfaro | Done |
+| US30       | Creación de Horarios de salidas | 16 | Diseñar sección de horarios de salidas | Elaborar el diseño y contenido inicial de horarios de salidas, estableciendo la estructura y presentación general del sitio y el consumo de los servicios  | 5 | Diego Merino | Done |
 
 #### 6.2.1.3. Development Evidence for Sprint Review.
 
@@ -550,7 +557,21 @@ Para las suites de pruebas, nos enfocamos en la creación de escenarios de prueb
 | Landing-Page | develop | 924ab59   | Merge branch 'feature/US03' into develop                                | -                   | 01/05/2023         |
 | Landing-Page | develop | b846187   | Merge pull request #9 from TechSolutions-2024-I-IOT/feature/us-4        | -                   | 01/05/2023         |
 | Landing-Page | develop | 30eacc0   | Merge pull request #10 from TechSolutions-2024-I-IOT/feature/i18n       | -                   | 01/05/2023         |
+| Landing-Page | feature/fix-style | abb702d  | fix: .css direction                                           | -                   | 02/05/2023         |
+| Landing-Page | feature/fix-style | 26a6d39f | fix: .js                                         | -                   | 02/05/2023         |
+| Landing-Page | feature/fix-style | 17f39b3 | fix: hero section                                | -                   | 02/05/2023         |
+| Landing-Page | feature/fix-style | 90087c5 | fix: colors                             | -                   | 02/05/2023         |
+| Landing-Page | develop | 0ebae30 | Merge pull request #12 from TechSolutions-2024-I-IOT/feature/fix-style    | -                   | 02/05/2023         |
+| Landing-Page | feature/fix-language | f4d0052 | fix: company home                             | -                   | 02/05/2023         |
+| Landing-Page | feature/fix-language | bf95448 | fix: FAQ section                            | -                   | 02/05/2023         |
+| Landing-Page | feature/fix-language | ebc6654 | fix: footer section                            | -                   | 02/05/2023         |
+| Landing-Page | develop | 0fe600c   | Merge pull request #13 from TechSolutions-2024-I-IOT/feature/fix-language | -                   | 02/05/2023         |
 | Landing-Page | develop | c3dbf7f   | Merge pull request #14 from TechSolutions-2024-I-IOT/feature/fix-doubts | -                   | 03/05/2023         |
+| Frontend     | develop | d3463f5   | feat: ddd planification structure first version      | -                   | 01/05/2023         |
+| Frontend     | develop | 719ff83   | feat: setup of styles      | -                   | 01/05/2023         |
+| Frontend     | develop | f90f9fc   | feat: global styles      | -                   | 01/05/2023         |
+| Frontend     | feature/us-29  | 140a093   | feature: Add first version of itinerary flow      | -                   | 01/05/2023         |
+| Frontend     | feature/us-29  | 177910f   | fix: sidebar bug fixed      | -                   | 01/05/2023         |
 | Frontend     | develop | 5c31484   | Merge pull request #1 from TechSolutions-2024-I-IOT/feature/us-29       | -                   | 02/05/2023         |
 | Frontend     | develop | 7379879   | Merge branch 'feature/us-27' into feature/us-29                         | -                   | 02/05/2023         |
 | Frontend     | develop | 5c31484   | Merge pull request #1 from TechSolutions-2024-I-IOT/feature/us-29       | -                   | 02/05/2023         |
@@ -652,27 +673,33 @@ Para el despliegue de nuestra aplicación web, hemos optado por utilizar Netlify
 
 #### 6.2.1.8. Team Collaboration Insights during Sprint.
 
-- **Contributors**
+- **Landing Page**
 
-<div align="center">
-  <img src="../Resources/sprint-1/contributors-sprint-1.png" width=500 alt="Contributors Sprint 1">
-    <img src="../Resources/sprint-1/contributors-documentation.png" width=500 alt="Contributors Sprint 1">
-</div>
+   *Pulse*
 
-<div align="center">
-  <img src="../Resources/sprint-1/contributors-web.png" width=500 alt="Contributors Sprint 1">
-</div>
-
-- **Pulse**
-
-<div align="center">
-  <img src="../Resources/sprint-1/pulse-sprint-1.png" width=500 alt="Pulse Sprint 1">
+  <div align="center">
   <img src="../Resources/sprint-1/pulse-documentation.png" width=500 alt="Pulse Sprint 1">
-</div>
+  </div>
+  
+  *Contributors*
 
-<div align="center">
-  <img src="../Resources/sprint-1/pulse-web.png" width=500 alt="Pulse Sprint 1">
-</div>
+  <div align="center">
+    <img src="../Resources/sprint-1/contributors-documentation.png" width=500 alt="Contributors Sprint 1">
+  </div>
+
+- **Frontend**
+
+  *Pulse*
+
+  <div align="center">
+    <img src="../Resources/sprint-1/pulse-web.png" width=500 alt="Pulse Sprint 1">
+  </div>
+
+  *Contributors*
+
+  <div align="center">
+    <img src="../Resources/sprint-1/contributors-web.png" width=500 alt="Contributors Sprint 1">
+  </div>
 
 ### 6.2.2. Sprint 2
 
@@ -766,7 +793,7 @@ Para el despliegue de nuestra aplicación web, hemos optado por utilizar Netlify
            <p>Sprint 2 Velocity</p>
         </td>
         <td>
-          <p>61</p>
+          <p>72 (promedio de los dos primeros sprints)</p>
         </td>
     </tr>
   <tr>
@@ -774,7 +801,7 @@ Para el despliegue de nuestra aplicación web, hemos optado por utilizar Netlify
            <p>Sum of Story Points</p>
         </td>
         <td>
-          <p>61</p>
+          <p>104</p>
         </td>
     </tr>
 </table>
@@ -786,7 +813,8 @@ El objetivo principal del sprint 2 es completar el Web Application de nuestro pr
 A continuación, se presenta un screenshot del sprint 2 en desarrollo realizado en Jira por el equipo:
 
 <div align="center">
-  <img src="../Resources/jira-sprints/JiraSprint2Screenshot.png" alt="Jira Sprint 2 Screenshot">
+  <img src="../Resources/sprint-2/sprint-2-jira-1.png" alt="Jira Sprint 2 Screenshot">
+  <img src="../Resources/sprint-2/sprint-2-jira-2.png" alt="Jira Sprint 2 Screenshot">
 </div>
 
 Asimismo, se presenta la tabla de nuestro primer sprint con las respectivas user stories a trabajar:
