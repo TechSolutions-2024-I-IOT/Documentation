@@ -30,6 +30,8 @@ Ciclo: 2024-1
 
 Junio 2024
 
+<div class="page"/>
+
 ### Registro de Versiones del Informe
 
 | Versión | Fecha      | Autor                   | Descripción de modificación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
@@ -39,6 +41,8 @@ Junio 2024
 | 2.0     | 01/05/2024 | Todos los participantes | - Entrega de la Trabajo Práctico (TP) con los siguientes elementos:<br> _ Despliegue de la primera versión del Landing Page y Frontend Web Applications.<br> _ Nuevos capítulos incluidos en el informe: Capítulo V: Solution UI/UX Design, Capítulo VI: Product Implementation, Validation & Deployment, con detalles sobre la implementación y configuración del software, así como del Landing Page y las aplicaciones.<br> _ Detalles sobre la implementación del Sprint 1, incluyendo la planificación, backlog, evidencia de desarrollo, pruebas, ejecución, documentación de servicios y despliegue.<br> _ Insights de colaboración del equipo durante el Sprint 1.<br> \* Actualización de artefactos entregados con la versión corregida y mejorada.                                                            |
 | 3.0     | 08/06/2024 | Todos los participantes | - Entrega de la Trabajo (TB2) con los siguientes elementos:<br> _ Despliegue de la última versión del Landing Page, Frontend Web Applications, Web Services y Mobile Application.<br> _ Detalles sobre la implementación del Sprint 2, incluyendo la planificación, backlog, evidencia de desarrollo, pruebas, ejecución, documentación de servicios y despliegue.<br> _ Insights de colaboración del equipo durante el Sprint 2.<br> _ Actualización de artefactos entregados con la versión corregida y mejorada.                                                                                                                                                                                                                                                                                                      |
 | 4.0     | 27/06/2024 | Todos los participantes | - Entrega de la Trabajo (TF) con los siguientes elementos:<br> _ Despliegue del Landing Page, Frontend Web Applications, Web Services y Mobile Application. Así como ultimas configuraciones a los dispositivos IoT<br> _ Detalles sobre la implementación del Sprint 3, incluyendo la planificación, backlog, evidencia de desarrollo, pruebas, ejecución, documentación de servicios y despliegue.<br> _ Insights de colaboración del equipo durante el Sprint 2.<br> _ Actualización de artefactos entregados con la versión corregida y mejorada.                                                                                                                                                                                                                                                                    |
+
+<div class="page"/>
 
 ### Project Report Collaboration Insights
 
@@ -56,20 +60,29 @@ Evidencias de colaboración y commits - Github:
   <img src="./Resources/project-collaboration/tb1-commits.jpeg" width=80% alt="Execution">   
 </div>
 
+<div class="page"/>
+
 - Commits realizados por integrante
 
   - Andrea Sofia Alfaro Salinas
       <div align="center">
       <img src="./Resources/project-collaboration/tb1-andrea-commits.jpeg" width=80% alt="Execution">   
       </div>
+
   - Axel
       <div align="center">
       <img src="./Resources/project-collaboration/tb1-axel-commits.jpeg" width=80% alt="Execution">   
       </div>
+
+  <div class="page"/>
+
   - Diego Martin Merino Mas
       <div align="center">
       <img src="./Resources/project-collaboration/tb1-diego-commits.jpeg" width=80% alt="Execution">   
       </div>
+
+  <div class="page"/>
+
   - Rafael
       <div align="center">
       <img src="./Resources/project-collaboration/tb1-rafael-commits.jpeg" width=80% alt="Execution">   
@@ -79,6 +92,8 @@ Evidencias de colaboración y commits - Github:
       <img src="./Resources/project-collaboration/tb1-tania-commits.jpeg" width=80% alt="Execution">   
       </div>
 
+<div class="page"/>
+
 - Evidencias de colaboración - otras herramientas
   - Discord: Utilizado como medio de reuniones y para dejar preguntas y comentarios asi como guardar los links
     <div align="center">
@@ -87,6 +102,8 @@ Evidencias de colaboración y commits - Github:
     <div align="center">
     <img src="./Resources/project-collaboration/tb1_discord2.png" width=80% alt="Execution">   
     </div>
+
+<div class="page"/>
 
 #### Entrega TP1
 
@@ -99,23 +116,34 @@ Evidencias de colaboración y commits - Github:
   <img src="./Resources/project-collaboration/tp1-commits.jpeg" width=80% alt="Execution">   
 </div>
 
+<div class="page"/>
+
 - Commits realizados por integrante
 
   - Andrea Sofia Alfaro Salinas
       <div align="center">
-      <img src="./Resources/project-collaboration/tp1-andrea-commits.jpeg" width=80% alt="Execution">   
-      </div>
-      <div align="center">
       <img src="./Resources/project-collaboration/tp1-andrea-commits-2.jpeg" width=80% alt="Execution">   
       </div>
+      <div align="center">
+      <img src="./Resources/project-collaboration/tp1-andrea-commits.jpeg" width=80% alt="Execution">   
+      </div>
+
+  <div class="page"/>
+
   - Axel
       <div align="center">
       <img src="./Resources/project-collaboration/tp1-axel-commits.jpeg" width=80% alt="Execution">   
       </div>
+
+  <div class="page"/>
+
   - Diego Martin Merino Mas
       <div align="center">
       <img src="./Resources/project-collaboration/tp1-diego-commits.jpeg" width=80% alt="Execution">   
       </div>
+
+  <div class="page"/>
+
   - Rafael
       <div align="center">
       <img src="./Resources/project-collaboration/tp1-rafael-commits.jpeg" width=80% alt="Execution">   
@@ -151,6 +179,9 @@ Evidencias de colaboración y commits - Github:
       <div align="center">
       <img src="./Resources/project-collaboration/tb2-andrea-commits.jpeg" width=80% alt="Execution">   
       </div>
+
+  <div class="page"/>
+
   - Diego Martin Merino Mas
       <div align="center">
       <img src="./Resources/project-collaboration/tb2-diego-commits.jpeg" width=80% alt="Execution">   
@@ -170,5 +201,9 @@ Evidencias de colaboración y commits - Github:
     </div>
 
 #### Entrega TF
+
+<div class="page"/>
+
+### Tabla de contenidos
 
 [Tabla de contenidos](./Tabla_de_contenidos.md)
